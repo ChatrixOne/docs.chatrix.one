@@ -1,0 +1,19 @@
+/* .md-grid {
+    max-width: initial;
+  } */
+
+.round {
+    border-radius: 20%;
+}
+
+.shadow {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.img {
+    max-width: 20%;
+}
+
+.width {
+    width: 800;
+}

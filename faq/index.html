@@ -1,0 +1,2213 @@
+
+<!doctype html>
+<html lang="bg" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Български XMPP сървър за свободна комуникация без телеметрия и реклами! Chatrix.One - Skip the Tracking, Keep the Chatting!">
+      
+      
+      
+      
+        <link rel="prev" href="../clients/">
+      
+      
+        <link rel="next" href="../terms/">
+      
+      
+      <link rel="icon" href="../resources/favicon/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.12">
+    
+    
+      
+        <title>ЧЗВ - Chatrix.One | Документация</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e359304.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Към съдържанието
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+              <button class="md-banner__button md-icon" aria-label="Не показвай повече">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+              </button>
+            
+            
+
+  <center><h4>Планирана профилактика: 30.03.2024г. 5:30 - 6:30 EET</h4></center>
+
+
+          </div>
+          
+            <script>var content,el=document.querySelector("[data-md-component=announce]");el&&(content=el.querySelector(".md-typeset"),__md_hash(content.innerHTML)===__md_get("__announce")&&(el.hidden=!0))</script>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Горен колонтитул">
+    <a href=".." title="Chatrix.One | Документация" class="md-header__button md-logo" aria-label="Chatrix.One | Документация" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19 2-5 4.5v11l5-4.5V2M6.5 5C4.55 5 2.45 5.4 1 6.5v14.66c0 .25.25.5.5.5.1 0 .15-.07.25-.07 1.35-.65 3.3-1.09 4.75-1.09 1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.31 4.75 1.06.1.05.15.03.25.03.25 0 .5-.25.5-.5V6.5c-.6-.45-1.25-.75-2-1V19c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V6.5C10.55 5.4 8.45 5 6.5 5Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Chatrix.One | Документация
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              ЧЗВ
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="teal"  aria-label="Тъмна тема"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Тъмна тема" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="teal"  aria-label="Светла тема"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Светла тема" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Избери език">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="bg" class="md-select__link">
+              Български
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../en/faq/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Търси" placeholder="Търси" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Търси">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Сподели" aria-label="Сподели" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Изчисти" aria-label="Изчисти" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализирано търсене
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Табове" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Начало
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../account/registration/" class="md-tabs__link">
+          
+  
+  Профил
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../clients/" class="md-tabs__link">
+        
+  
+    
+  
+  Клиенти
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  ЧЗВ
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../terms/" class="md-tabs__link">
+        
+  
+    
+  
+  Условия
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../privacy/" class="md-tabs__link">
+        
+  
+    
+  
+  Поверителност
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../status/" class="md-tabs__link">
+        
+  
+    
+  
+  Статус
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../blog/" class="md-tabs__link">
+        
+  
+    
+  
+  Блог
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../about/" class="md-tabs__link">
+        
+  
+    
+  
+  За Мен
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Chatrix.One | Документация" class="md-nav__button md-logo" aria-label="Chatrix.One | Документация" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19 2-5 4.5v11l5-4.5V2M6.5 5C4.55 5 2.45 5.4 1 6.5v14.66c0 .25.25.5.5.5.1 0 .15-.07.25-.07 1.35-.65 3.3-1.09 4.75-1.09 1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.31 4.75 1.06.1.05.15.03.25.03.25 0 .5-.25.5-.5V6.5c-.6-.45-1.25-.75-2-1V19c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V6.5C10.55 5.4 8.45 5 6.5 5Z"/></svg>
+
+    </a>
+    Chatrix.One | Документация
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Начало
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Профил
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Профил
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account/registration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Регистрация
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account/registration-form/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Форма за регистрация
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account/change-password/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Смяна на парола
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account/delete-account/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Дерегистрация
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../clients/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Клиенти
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    ЧЗВ
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    ЧЗВ
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Съдържание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Съдържание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Какво представлява услугата?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#xmpp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Какво представлява XMPP?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#xmpp_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      От колко време съществува XMPP?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#xmpp_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Кой използва XMPP?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#omemo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Какво представлява OMEMO?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Как мога да регистрирам профил?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Има ли публикуван шаблон на имейл за регистрация?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#xmpp_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Има ли публикуван шаблон на XMPP съобщение за регистрация?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Кой клиент препоръчвате?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Защо да избирам платена версия, след като има безплатна?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      От къде мога да сваля клиент за моята операционна система?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Мога ли да имам няколко профила, регистрирани на различни сървъри?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#omemo_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Кои клиенти поддържат OMEMO?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#omemo_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Как мога да разбера дали използвам OMEMO?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Мога ли да използвам друг метод на криптиране?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#otr" class="md-nav__link">
+    <span class="md-ellipsis">
+      Мога ли да използвам OTR криптиране?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Криптирана ли е гласовата комуникация?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Криптирана ли е видео комуникацията?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      Как да възстановя забравена парола?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      Как да променя паролата?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      Поддържа ли се двуфакторно удостоверяване?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      Мога ли да изтрия профил?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      Има ли правила, които трябва да спазвам?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      Длъжен ли съм да пиша само на кирилица?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      На колко устройства мога да използвам услугата?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blind-trust" class="md-nav__link">
+    <span class="md-ellipsis">
+      Какво означава "Сляпо доверяване" или "Blind Trust"?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ще знам ли дали отсреща са получили съобщението?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ще мога ли да коригирам грешно изпратени съобщения?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ще виждам ли дали от отсрещната страна ми пишат в момента?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      Мога ли да блокирам известяването за това дали пиша или не?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ще знаят ли останалите дали съм на линия?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ако кача грешен файл или картинка мога ли да ги изтрия?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      Мога ли да създавам стаи?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shared-rooster-group" class="md-nav__link">
+    <span class="md-ellipsis">
+      Мога ли да създавам споделена група от типа Shared Rooster Group?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      Защо не получавам известия (нотификации) на мобилното устройство?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      Защо получавам съобщение за грешка при опит за регистрация?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ssltls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Защо получавам съобщение за невалиден SSL/TLS сертификат?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gadjim" class="md-nav__link">
+    <span class="md-ellipsis">
+      Защо не мога да провеждам аудио и видео комуникация с Gadjim?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      Как да изключа архивирането на съобщенията?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      Какви данни съхранявате на сървъра?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#push-notifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Какви данни се пренасят за осъществяване на Push Notifications?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      Криптирани ли са снимките които качвам?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_31" class="md-nav__link">
+    <span class="md-ellipsis">
+      Как би изглеждала снимка, която се съхранява на сървъра в криптиран вид?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_32" class="md-nav__link">
+    <span class="md-ellipsis">
+      След като имате достъп до сървъра, можете ли да декриптирате съобщенията и файлове на потребителите?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#x" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ще бъде ли достъпна услугата след "X" години?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_33" class="md-nav__link">
+    <span class="md-ellipsis">
+      Какви разходи поражда такъв вид услуга?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_34" class="md-nav__link">
+    <span class="md-ellipsis">
+      Защо въобще предлагате такава услуга?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_35" class="md-nav__link">
+    <span class="md-ellipsis">
+      Защо е безплатна услугата?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_36" class="md-nav__link">
+    <span class="md-ellipsis">
+      Колко е сигурна услугата?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_37" class="md-nav__link">
+    <span class="md-ellipsis">
+      Колко е стабилна услугата?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#xmpp_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      В крак ли сте с последните новости в областта на XMPP?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_38" class="md-nav__link">
+    <span class="md-ellipsis">
+      Каква база данни използвате?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_39" class="md-nav__link">
+    <span class="md-ellipsis">
+      В четим вид ли се съхраняват паролите?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chatrixone" class="md-nav__link">
+    <span class="md-ellipsis">
+      Защо се казва Chatrix.One?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_40" class="md-nav__link">
+    <span class="md-ellipsis">
+      Колко хора се занимават с администрацията?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_41" class="md-nav__link">
+    <span class="md-ellipsis">
+      Колко ток харчи?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejabberd-prosody" class="md-nav__link">
+    <span class="md-ellipsis">
+      Защо Ejabberd, а не Prosody?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_42" class="md-nav__link">
+    <span class="md-ellipsis">
+      Предлагате ли други безплатни услуги?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#matrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      Планирате ли наличието на безплатен Matrix сървър с публичен достъп?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_43" class="md-nav__link">
+    <span class="md-ellipsis">
+      Планирате ли наличието на безплатна електронна поща с публичен достъп?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_44" class="md-nav__link">
+    <span class="md-ellipsis">
+      Планирате ли наличието на безплатен облак за съхранение на файлове с публичен достъп?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_45" class="md-nav__link">
+    <span class="md-ellipsis">
+      Има ли условия за ползване на услугата?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_46" class="md-nav__link">
+    <span class="md-ellipsis">
+      Мога ли да подам сигнал за нарушение на правилата за ползване на услугата?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_47" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ще разберете ли, ако услугата стане недостъпна?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_48" class="md-nav__link">
+    <span class="md-ellipsis">
+      Достъпна ли е услугата извън България?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_49" class="md-nav__link">
+    <span class="md-ellipsis">
+      Къде мога да следя за настъпили инциденти?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_50" class="md-nav__link">
+    <span class="md-ellipsis">
+      Налична ли е техническа информация за услугата?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_51" class="md-nav__link">
+    <span class="md-ellipsis">
+      Как мога да се свържа с вас?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../terms/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Условия
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../privacy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Поверителност
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../status/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Статус
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Блог
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    За Мен
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="_1">Често Задавани Въпроси<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<figure>
+<p><img alt="Често задавани въпроси" src="../resources/img/faq.jpeg" width="800" />
+  </p>
+<figcaption>Често задавани въпроси при използване на <b>Chatrix.One</b></figcaption>
+</figure>
+<p>При наличие на технически проблеми, както и при нужда от помощ във връзка с използването на <strong>Chatrix.One</strong>, можете да изпратите запитване под формата на имейл или <strong>XMPP</strong> съобщение до администратор. Моля, преди това да проверите дали вече не е отговорено на Вашия въпрос в редовете по-долу. Благодаря!</p>
+<div class="admonition info">
+<p class="admonition-title">Информация</p>
+<p>За работа с търсачката <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7l126.6 126.7c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></span> можете да използвате следните бързи клавиши:</p>
+<ul>
+<li><span class="keys"><kbd class="key-slash">/</kbd></span> <span class="keys"><kbd class="key-f">F</kbd></span> <span class="keys"><kbd class="key-s">S</kbd></span> - активират режим търсене</li>
+<li><kbd>↓</kbd> <kbd>↑</kbd> - следващ, предишен резултат</li>
+<li><span class="keys"><kbd class="key-enter">Enter</kbd></span> - избор на резултат</li>
+<li><span class="keys"><kbd class="key-escape">Esc</kbd></span> - деактивира режим търсене</li>
+</ul>
+</div>
+<h2 id="_2">Какво представлява услугата?<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p><strong>Chatrix.One</strong> е сървър предлагащ комуникация, базирана на <strong>XMPP</strong> протокол. Можете да изпращате съобщения, емотикони, снимки, гласови и видео съобщения, местоположение и файлове. На разположение са още гласова и видео връзка.</p>
+<hr />
+<h2 id="xmpp">Какво представлява <strong>XMPP</strong>?<a class="headerlink" href="#xmpp" title="Permanent link">&para;</a></h2>
+<div class="admonition info">
+<p class="admonition-title">Информация</p>
+<p><strong>XMPP</strong> - <strong>Ex</strong>tensible <strong>M</strong>essaging and <strong>P</strong>resence <strong>P</strong>rotocol</p>
+</div>
+<p>Най-лесният начин да обясня принципа и предимствата на <strong>XMPP</strong>, е да го сравня с електронната поща. Ако искате да си създадете Ваш собствен имейл адрес, достатъчно е да изберете доставчик (сървър) и да регистрирате профил (акаунт). Например в <em>abv.bg</em>, <em>gmail.com</em>, <em>mail.bg</em> или друг. Името на избрания от Вас профил заедно с адреса на доставчика, свързани посредством символа <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M256 64C150 64 64 150 64 256s86 192 192 192c17.7 0 32 14.3 32 32s-14.3 32-32 32C114.6 512 0 397.4 0 256S114.6 0 256 0s256 114.6 256 256v32c0 53-43 96-96 96-29.3 0-55.6-13.2-73.2-33.9-22.8 21-53.3 33.9-86.8 33.9-70.7 0-128-57.3-128-128s57.3-128 128-128c27.9 0 53.7 8.9 74.7 24.1 5.7-5 13.1-8.1 21.3-8.1 17.7 0 32 14.3 32 32v112c0 17.7 14.3 32 32 32s32-14.3 32-32v-32c0-106-86-192-192-192zm64 192a64 64 0 1 0-128 0 64 64 0 1 0 128 0z"/></svg></span>, образуват Вашия имейл адрес. Например <em>pesho@dostavchik.com</em>. От този момент, вече можете да обменяте имейли с потребители регистрирани на различни сървъри без проблем. Потребител на <em>abv.bg</em>, може да напише имейл до потребител на <em>gmail.com</em> или който и да било друг доставчик. Това е възможно, тъй като доставчиците обменят съобщения помежду си, без потребителят да е ангажиран по някакъв начин с това. Предимствата са очевидни. Потребителите могат свободно да избират своя доставчик и все пак всеки може да общува с всеки. За изпращането на съобщения не се изисква нищо друго освен профил за електронна поща, при който и да е доставчик и адрес на получателя. На подобен принцип работи и <strong>XMPP</strong>. Избирате сървър и получавате свобода да комуникирате с потребители от други сървъри. Освен, че можете да създавате няколко профила при един доставчик, е възможно да създавате и множество профили при различни доставчици. Дали има смисъл от това е друг въпрос. Възможно е <strong>XMPP</strong> услугата да бъде ограничена само в рамките на вътрешната мрежа на дадена организация. Директен достъп през Интернет до такъв сървър не е възможен. Комуникацията се извършва само сред служителите и то ако са свързани към вътрешната мрежа, директно или чрез <a href="https://en.wikipedia.org/wiki/Virtual_private_network"><strong>VPN</strong></a>.</p>
+<p>На графиката по-долу е представен принципът на на работа на <strong>XMPP</strong> комуникацията.</p>
+<pre class="mermaid"><code>flowchart RL
+    subgraph ИНТЕРНЕТ
+        subgraph Потребители на Chatrix.One
+        CHATRIX[(&lt;b&gt;XMPP&lt;/b&gt; Сървър &lt;br&gt;&lt;br&gt; &lt;b&gt;chatrix.one&lt;/b&gt;)]
+        a((Потребител A)) &lt;-.-&gt; |5222| CHATRIX
+        b((Потребител B)) &lt;-.-&gt; |5222| CHATRIX
+        c((Потребител C)) &lt;-.-&gt; |5222| CHATRIX
+        end
+
+        subgraph Потребители на abc.tld
+        ABC[(&lt;b&gt;XMPP&lt;/b&gt; Сървър &lt;br&gt;fa:fa-server&lt;br&gt; &lt;b&gt;abc.tld&lt;/b&gt;)]
+        d((Потребител D)) &lt;-..-&gt; |port&lt;br&gt;5222| ABC
+        e((Потребител E)) &lt;-..-&gt; |5222| ABC
+        f((Потребител F)) &lt;-..-&gt; |5222| ABC
+        end
+
+        CHATRIX &lt;====&gt; |5269| ABC
+
+        subgraph Потребители с повече от един профил
+        g((Потребител G)) &lt;-..-&gt; |5222| CHATRIX &amp; ABC
+        h((Потребител H)) &lt;-..-&gt; |5222| CHATRIX &amp; ABC
+        end
+    end
+
+    subgraph ВЪТРЕШНА МРЕЖА
+    LOCAL[(&lt;b&gt;XMPP&lt;/b&gt; Сървър &lt;br&gt;&lt;br&gt; &lt;b&gt;local.net&lt;/b&gt;)]
+    i((Потребител I)) &lt;-.-&gt; |5222| LOCAL
+    j((Потребител J)) &lt;-.-&gt; |5222| LOCAL
+    k((Потребител K)) &lt;-.-&gt; |5222| LOCAL
+    l((Потребител L)) &lt;-.-&gt; |5222| LOCAL
+    m((Потребител M)) &lt;-.-&gt; |5222| LOCAL
+    end</code></pre>
+<div class="admonition quote">
+<p><strong>Фиг.1</strong> Модел на <strong>XMPP</strong> комуникация.</p>
+<ul>
+<li>Комуникацията в локална мрежа е изолирана от сървърите с публичен достъп в Интернет пространството;<br></li>
+<li>Комуникацията клиент-сървър (<strong>c2s</strong>) се осъществява на порт 5222;<br></li>
+<li>Комуникацията сървър-сървър (<strong>s2s</strong>) се осъществява на порт 5269;<br></li>
+<li>Абонатите могат да притежават повече от един профил, както при един, така и при няколко <strong>XMPP</strong> доставчика.</li>
+</ul>
+</div>
+<p>Списък с безплатни <strong>XMPP</strong> сървъри, можете да намерите на страниците на <a href="https://compliance.conversations.im/"><strong>XMPP Compliance Tester</strong></a> и <a href="https://list.jabber.at/"><strong>Jabber.at</strong></a>. Повече информация за <strong>XMPP</strong> протокола можете да прочетете и в <a href="https://bg.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol"><strong>Wikipedia</strong></a>.</p>
+<hr />
+<h2 id="xmpp_1">От колко време съществува XMPP?<a class="headerlink" href="#xmpp_1" title="Permanent link">&para;</a></h2>
+<p>Протоколът се заражда през 1998г., но реално като платформа започва да функционира през 1999г. Хронологията е достъпна на официалната страница на <a href="https://xmpp.org/about/history/"><strong>XMPP</strong></a>.</p>
+<hr />
+<h2 id="xmpp_2">Кой използва <strong>XMPP</strong>?<a class="headerlink" href="#xmpp_2" title="Permanent link">&para;</a></h2>
+<p>Протоколът се появява на бял свят още през далечната 1999г. За четвърт век история може спокойно да се каже, че е издържал теста на времето. Днес <strong>XMPP</strong> се използва от голям брой корпорации, което е породено от неговата стабилност и надеждност.
+По-известни организациите използващи ежедневно <strong>XMPP</strong> са:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Организация</th>
+<th style="text-align: center;">Активни потребители дневно</th>
+<th style="text-align: center;">Съобщения в секунда</th>
+<th style="text-align: center;">Съобщения дневно</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/></svg></span> Google</td>
+<td style="text-align: center;">~ 2 000 000 000</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg></span> Apple</td>
+<td style="text-align: center;">~ 500 000 000</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg></span> WhatsApp</td>
+<td style="text-align: center;">~ 2 000 000 000</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">~ 100 000 000 000</td>
+</tr>
+<tr>
+<td style="text-align: center;">Nintendo</td>
+<td style="text-align: center;">~ 34 000 000</td>
+<td style="text-align: center;">~ 600</td>
+<td style="text-align: center;">~ 2 000 000 000</td>
+</tr>
+<tr>
+<td style="text-align: center;">League Of Legends</td>
+<td style="text-align: center;">~ 27 000 000</td>
+<td style="text-align: center;">~ 11 000</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">FORTNITE</td>
+<td style="text-align: center;">~ 300 000 000</td>
+<td style="text-align: center;">~ 400 000</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">ZOOM</td>
+<td style="text-align: center;">~ 200 000 000</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span> GitHub</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256c0 120 82.7 220.8 194.2 248.5V334.2h-52.8V256h52.8v-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287v175.9C413.8 494.8 512 386.9 512 256z"/></svg></span> Facebook</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">GMX</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">Orange</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+</tr>
+</tbody>
+</table>
+<p>За повече детайли вижте страницата на <a href="https://www.rst.software/blog/22-companies-using-xmpp-and-ejabberd-to-build-instant-messaging-services"><strong>RST Software</strong></a>.</p>
+<hr />
+<h2 id="omemo">Какво представлява <strong>OMEMO</strong>?<a class="headerlink" href="#omemo" title="Permanent link">&para;</a></h2>
+<p><strong>OMEMO</strong> представлява метод за двойно криптиране на комуникацията от край до край. Ключовете за криптиране автоматично се генерират за всяко едно съобщение, което прави комуникацията още по-сигурна. Иначе казано, дори да бъде компрометирано едно съобщение, останалата комуникация остава незасегната. Допълнителна информация за метода можете да намерите в <a href="https://en.wikipedia.org/wiki/OMEMO"><strong>Wikipedia</strong></a> и на интернет страницата на <strong>Conversations</strong> в раздела <a href="https://conversations.im/omemo/"><strong>OMEMO</strong></a>.</p>
+<hr />
+<h2 id="_3">Как мога да регистрирам профил?<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<p>Пълна информация относно регистрирането на профил в <strong>Chatrix.One</strong> е налична в раздела <a href="https://docs.chatrix.one/account/registration/">Регистрация</a>.</p>
+<hr />
+<h2 id="_4">Има ли публикуван шаблон на имейл за регистрация?<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p>Шаблон на примерен имейл за регистрация е наличен в раздела <a href="https://docs.chatrix.one/account/registration/#_3">Регистрация</a>.</p>
+<hr />
+<h2 id="xmpp_3">Има ли публикуван шаблон на <strong>XMPP</strong> съобщение за регистрация?<a class="headerlink" href="#xmpp_3" title="Permanent link">&para;</a></h2>
+<p>Шаблон на примерно <strong>XMPP</strong> съобщение за регистрация е налично в раздела <a href="https://docs.chatrix.one/account/registration/#_3">Регистрация</a>.</p>
+<hr />
+<h2 id="_5">Кой клиент препоръчвате?<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<p>Използвам <strong>Gajim</strong> под <strong>Windows</strong> и <strong>Linux</strong>. За <strong>Android</strong> използвам <strong>Conversations</strong> - платена версия. И двата клиента са със 100% <strong>OMEMO</strong> съвместимост и са с отворен код. За <strong>iOS</strong> не мога да дам мнение, тъй като никога не съм разполагал с устройство работещо под тази операционна система.</p>
+<hr />
+<h2 id="_6">Защо да избирам платена версия, след като има безплатна?<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<p>Аз лично, съм избрал платената версия на <strong>Conversations</strong>, защото по този начин подпомагам разработчика на приложението <a href="https://gultsch.de/"><strong>Daniel Gultsch</strong></a>, който допринесе изключително много за развитието на <strong>XMPP</strong> през последните години. Също негова е заслугата за внедряването на <strong>OMEMO</strong>, като стандарт в <strong>XMPP</strong> комуникацията. В крайна сметка изборът е изцяло Ваш.</p>
+<hr />
+<h2 id="_7">От къде мога да сваля клиент за моята операционна система?<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
+<p>Подробна информация относно наличните клиенти за работа с <strong>Chatrix.One</strong>, в зависимост от операционната система която използвате, можете да намерите в раздел <a href="https://docs.chatrix.one/clients/">Клиенти</a>. За Ваше удобство връзките за сваляне са публикувани и в редовете по-долу.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:7"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><input id="__tabbed_1_5" name="__tabbed_1" type="radio" /><input id="__tabbed_1_6" name="__tabbed_1" type="radio" /><input id="__tabbed_1_7" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="m0 93.7 183.6-25.3v177.4H0V93.7zm0 324.6 183.6 25.3V268.4H0v149.9zm203.8 28L448 480V268.4H203.8v177.9zm0-380.6v180.1H448V32L203.8 65.7z"/></svg></span> Windows</label><label for="__tabbed_1_2"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M220.8 123.3c1 .5 1.8 1.7 3 1.7 1.1 0 2.8-.4 2.9-1.5.2-1.4-1.9-2.3-3.2-2.9-1.7-.7-3.9-1-5.5-.1-.4.2-.8.7-.6 1.1.3 1.3 2.3 1.1 3.4 1.7zm-21.9 1.7c1.2 0 2-1.2 3-1.7 1.1-.6 3.1-.4 3.5-1.6.2-.4-.2-.9-.6-1.1-1.6-.9-3.8-.6-5.5.1-1.3.6-3.4 1.5-3.2 2.9.1 1 1.8 1.5 2.8 1.4zM420 403.8c-3.6-4-5.3-11.6-7.2-19.7-1.8-8.1-3.9-16.8-10.5-22.4-1.3-1.1-2.6-2.1-4-2.9-1.3-.8-2.7-1.5-4.1-2 9.2-27.3 5.6-54.5-3.7-79.1-11.4-30.1-31.3-56.4-46.5-74.4-17.1-21.5-33.7-41.9-33.4-72C311.1 85.4 315.7.1 234.8 0 132.4-.2 158 103.4 156.9 135.2c-1.7 23.4-6.4 41.8-22.5 64.7-18.9 22.5-45.5 58.8-58.1 96.7-6 17.9-8.8 36.1-6.2 53.3-6.5 5.8-11.4 14.7-16.6 20.2-4.2 4.3-10.3 5.9-17 8.3s-14 6-18.5 14.5c-2.1 3.9-2.8 8.1-2.8 12.4 0 3.9.6 7.9 1.2 11.8 1.2 8.1 2.5 15.7.8 20.8-5.2 14.4-5.9 24.4-2.2 31.7 3.8 7.3 11.4 10.5 20.1 12.3 17.3 3.6 40.8 2.7 59.3 12.5 19.8 10.4 39.9 14.1 55.9 10.4 11.6-2.6 21.1-9.6 25.9-20.2 12.5-.1 26.3-5.4 48.3-6.6 14.9-1.2 33.6 5.3 55.1 4.1.6 2.3 1.4 4.6 2.5 6.7v.1c8.3 16.7 23.8 24.3 40.3 23 16.6-1.3 34.1-11 48.3-27.9 13.6-16.4 36-23.2 50.9-32.2 7.4-4.5 13.4-10.1 13.9-18.3.4-8.2-4.4-17.3-15.5-29.7zM223.7 87.3c9.8-22.2 34.2-21.8 44-.4 6.5 14.2 3.6 30.9-4.3 40.4-1.6-.8-5.9-2.6-12.6-4.9 1.1-1.2 3.1-2.7 3.9-4.6 4.8-11.8-.2-27-9.1-27.3-7.3-.5-13.9 10.8-11.8 23-4.1-2-9.4-3.5-13-4.4-1-6.9-.3-14.6 2.9-21.8zM183 75.8c10.1 0 20.8 14.2 19.1 33.5-3.5 1-7.1 2.5-10.2 4.6 1.2-8.9-3.3-20.1-9.6-19.6-8.4.7-9.8 21.2-1.8 28.1 1 .8 1.9-.2-5.9 5.5-15.6-14.6-10.5-52.1 8.4-52.1zm-13.6 60.7c6.2-4.6 13.6-10 14.1-10.5 4.7-4.4 13.5-14.2 27.9-14.2 7.1 0 15.6 2.3 25.9 8.9 6.3 4.1 11.3 4.4 22.6 9.3 8.4 3.5 13.7 9.7 10.5 18.2-2.6 7.1-11 14.4-22.7 18.1-11.1 3.6-19.8 16-38.2 14.9-3.9-.2-7-1-9.6-2.1-8-3.5-12.2-10.4-20-15-8.6-4.8-13.2-10.4-14.7-15.3-1.4-4.9 0-9 4.2-12.3zm3.3 334c-2.7 35.1-43.9 34.4-75.3 18-29.9-15.8-68.6-6.5-76.5-21.9-2.4-4.7-2.4-12.7 2.6-26.4v-.2c2.4-7.6.6-16-.6-23.9-1.2-7.8-1.8-15 .9-20 3.5-6.7 8.5-9.1 14.8-11.3 10.3-3.7 11.8-3.4 19.6-9.9 5.5-5.7 9.5-12.9 14.3-18 5.1-5.5 10-8.1 17.7-6.9 8.1 1.2 15.1 6.8 21.9 16l19.6 35.6c9.5 19.9 43.1 48.4 41 68.9zm-1.4-25.9c-4.1-6.6-9.6-13.6-14.4-19.6 7.1 0 14.2-2.2 16.7-8.9 2.3-6.2 0-14.9-7.4-24.9-13.5-18.2-38.3-32.5-38.3-32.5-13.5-8.4-21.1-18.7-24.6-29.9s-3-23.3-.3-35.2c5.2-22.9 18.6-45.2 27.2-59.2 2.3-1.7.8 3.2-8.7 20.8-8.5 16.1-24.4 53.3-2.6 82.4.6-20.7 5.5-41.8 13.8-61.5 12-27.4 37.3-74.9 39.3-112.7 1.1.8 4.6 3.2 6.2 4.1 4.6 2.7 8.1 6.7 12.6 10.3 12.4 10 28.5 9.2 42.4 1.2 6.2-3.5 11.2-7.5 15.9-9 9.9-3.1 17.8-8.6 22.3-15 7.7 30.4 25.7 74.3 37.2 95.7 6.1 11.4 18.3 35.5 23.6 64.6 3.3-.1 7 .4 10.9 1.4 13.8-35.7-11.7-74.2-23.3-84.9-4.7-4.6-4.9-6.6-2.6-6.5 12.6 11.2 29.2 33.7 35.2 59 2.8 11.6 3.3 23.7.4 35.7 16.4 6.8 35.9 17.9 30.7 34.8-2.2-.1-3.2 0-4.2 0 3.2-10.1-3.9-17.6-22.8-26.1-19.6-8.6-36-8.6-38.3 12.5-12.1 4.2-18.3 14.7-21.4 27.3-2.8 11.2-3.6 24.7-4.4 39.9-.5 7.7-3.6 18-6.8 29-32.1 22.9-76.7 32.9-114.3 7.2zm257.4-11.5c-.9 16.8-41.2 19.9-63.2 46.5-13.2 15.7-29.4 24.4-43.6 25.5s-26.5-4.8-33.7-19.3c-4.7-11.1-2.4-23.1 1.1-36.3 3.7-14.2 9.2-28.8 9.9-40.6.8-15.2 1.7-28.5 4.2-38.7 2.6-10.3 6.6-17.2 13.7-21.1.3-.2.7-.3 1-.5.8 13.2 7.3 26.6 18.8 29.5 12.6 3.3 30.7-7.5 38.4-16.3 9-.3 15.7-.9 22.6 5.1 9.9 8.5 7.1 30.3 17.1 41.6 10.6 11.6 14 19.5 13.7 24.6zM173.3 148.7c2 1.9 4.7 4.5 8 7.1 6.6 5.2 15.8 10.6 27.3 10.6 11.6 0 22.5-5.9 31.8-10.8 4.9-2.6 10.9-7 14.8-10.4s5.9-6.3 3.1-6.6-2.6 2.6-6 5.1c-4.4 3.2-9.7 7.4-13.9 9.8-7.4 4.2-19.5 10.2-29.9 10.2s-18.7-4.8-24.9-9.7c-3.1-2.5-5.7-5-7.7-6.9-1.5-1.4-1.9-4.6-4.3-4.9-1.4-.1-1.8 3.7 1.7 6.5z"/></svg></span> Linux</label><label for="__tabbed_1_3"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg></span> macOS</label><label for="__tabbed_1_4"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M325.3 234.3 104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/></svg></span> Android</label><label for="__tabbed_1_5"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg></span> iOS</label><label for="__tabbed_1_6"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M503.52 241.48c-.12-1.56-.24-3.12-.24-4.68v-.12l-.36-4.68v-.12a245.86 245.86 0 0 0-7.32-41.15c0-.12 0-.12-.12-.24l-1.08-4c-.12-.24-.12-.48-.24-.6-.36-1.2-.72-2.52-1.08-3.72-.12-.24-.12-.6-.24-.84-.36-1.2-.72-2.4-1.08-3.48-.12-.36-.24-.6-.36-1-.36-1.2-.72-2.28-1.2-3.48l-.36-1.08c-.36-1.08-.84-2.28-1.2-3.36a8.27 8.27 0 0 0-.36-1c-.48-1.08-.84-2.28-1.32-3.36-.12-.24-.24-.6-.36-.84-.48-1.2-1-2.28-1.44-3.48 0-.12-.12-.24-.12-.36-1.56-3.84-3.24-7.68-5-11.4l-.36-.72c-.48-1-.84-1.8-1.32-2.64-.24-.48-.48-1.08-.72-1.56-.36-.84-.84-1.56-1.2-2.4-.36-.6-.6-1.2-1-1.8s-.84-1.44-1.2-2.28c-.36-.6-.72-1.32-1.08-1.92s-.84-1.44-1.2-2.16a18.07 18.07 0 0 0-1.2-2c-.36-.72-.84-1.32-1.2-2s-.84-1.32-1.2-2-.84-1.32-1.2-1.92-.84-1.44-1.32-2.16a15.63 15.63 0 0 0-1.2-1.8L463.2 119a15.63 15.63 0 0 0-1.2-1.8c-.48-.72-1.08-1.56-1.56-2.28-.36-.48-.72-1.08-1.08-1.56l-1.8-2.52c-.36-.48-.6-.84-1-1.32-1-1.32-1.8-2.52-2.76-3.72a248.76 248.76 0 0 0-23.51-26.64A186.82 186.82 0 0 0 412 62.46c-4-3.48-8.16-6.72-12.48-9.84a162.49 162.49 0 0 0-24.6-15.12c-2.4-1.32-4.8-2.52-7.2-3.72a254 254 0 0 0-55.43-19.56c-1.92-.36-3.84-.84-5.64-1.2h-.12c-1-.12-1.8-.36-2.76-.48a236.35 236.35 0 0 0-38-4h-10.63a234.62 234.62 0 0 0-45.48 5c-33.59 7.08-63.23 21.24-82.91 39-1.08 1-1.92 1.68-2.4 2.16l-.48.48h.13l-.12.12.12-.12a.12.12 0 0 0 .12-.12l-.12.12a.42.42 0 0 1 .24-.12c14.64-8.76 34.92-16 49.44-19.56l5.88-1.44c.36-.12.84-.12 1.2-.24 1.68-.36 3.36-.72 5.16-1.08.24 0 .6-.12.84-.12C250.94 20.94 319.34 40.14 367 85.61a171.49 171.49 0 0 1 26.88 32.76c30.36 49.2 27.48 111.11 3.84 147.59-34.44 53-111.35 71.27-159 24.84a84.19 84.19 0 0 1-25.56-59 74.05 74.05 0 0 1 6.24-31c1.68-3.84 13.08-25.67 18.24-24.59-13.08-2.76-37.55 2.64-54.71 28.19-15.36 22.92-14.52 58.2-5 83.28a132.85 132.85 0 0 1-12.12-39.24c-12.24-82.55 43.31-153 94.31-170.51-27.48-24-96.47-22.31-147.71 15.36-29.88 22-51.23 53.16-62.51 90.36 1.68-20.88 9.6-52.08 25.8-83.88-17.16 8.88-39 37-49.8 62.88-15.6 37.43-21 82.19-16.08 124.79.36 3.24.72 6.36 1.08 9.6 19.92 117.11 122 206.38 244.78 206.38C392.77 503.42 504 392.19 504 255c-.12-4.52-.24-9.08-.48-13.52Z"/></svg></span> Web</label><label for="__tabbed_1_7"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M9.4 86.6c-12.5-12.5-12.5-32.7 0-45.2s32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L178.7 256 9.4 86.6zM256 416h288c17.7 0 32 14.3 32 32s-14.3 32-32 32H256c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg></span> CLI</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Клиент</th>
+<th style="text-align: center;">Безплатен</th>
+<th style="text-align: center;">Отворен код</th>
+<th style="text-align: center;">Линк</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Gajim</strong></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg></span></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg></span></td>
+<td style="text-align: center;"><a href="https://gajim.org/download"><strong>Gajim.org</strong></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Клиент</th>
+<th style="text-align: center;">Безплатен</th>
+<th style="text-align: center;">Отворен код</th>
+<th style="text-align: center;">Линк</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Gajim</strong></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg></span></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg></span></td>
+<td style="text-align: center;"><a href="https://gajim.org/download"><strong>Gajim.org</strong></a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Dino</strong></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg></span></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg></span></td>
+<td style="text-align: center;"><a href="https://dino.im/#download"><strong>Dino.im</strong></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Клиент</th>
+<th style="text-align: center;">Безплатен</th>
+<th style="text-align: center;">Отворен код</th>
+<th style="text-align: right;">Линк</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Gajim</strong></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg></span></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg></span></td>
+<td style="text-align: right;"><a href="https://dev.gajim.org/gajim/gajim/-/wikis/help/Gajim-on-macOS"><strong>Gajim.org</strong></a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Beagle IM</strong></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg></span></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg></span></td>
+<td style="text-align: right;"><a href="https://apps.apple.com/us/app/beagleim-by-tigase-inc/id1445349494"><strong>Mac App Store</strong></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Клиент</th>
+<th style="text-align: center;">Безплатен</th>
+<th style="text-align: center;">Отворен код</th>
+<th style="text-align: center;">Линк</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Conversations</strong></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg></span></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg></span></td>
+<td style="text-align: center;"><a href="https://f-droid.org/packages/eu.siacs.conversations/"><strong>F-droid</strong></a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Conversations</strong></td>
+<td style="text-align: center;"><strong>7.79лв</strong></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg></span></td>
+<td style="text-align: center;"><a href="https://play.google.com/store/apps/details?id=eu.siacs.conversations"><strong>Google Play</strong></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Клиент</th>
+<th style="text-align: center;">Безплатен</th>
+<th style="text-align: center;">Отворен код</th>
+<th style="text-align: center;">Линк</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Monal</strong></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg></span></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg></span></td>
+<td style="text-align: center;"><a href="https://apps.apple.com/us/app/monal-xmpp-chat/id317711500"><strong>App Store</strong></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Клиент</th>
+<th style="text-align: center;">Безплатен</th>
+<th style="text-align: center;">Отворен код</th>
+<th style="text-align: center;">Линк</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Converse.js</strong></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg></span></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg></span></td>
+<td style="text-align: center;"><a href="https://conversejs.org/fullscreen.html"><strong>Conversejs.org</strong></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Клиент</th>
+<th style="text-align: center;">Безплатен</th>
+<th style="text-align: center;">Отворен код</th>
+<th style="text-align: center;">Линк</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Profanity</strong></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg></span></td>
+<td style="text-align: center;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg></span></td>
+<td style="text-align: center;"><a href="https://profanity-im.github.io/"><strong>Profanity-IM</strong></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr />
+<h2 id="_8">Мога ли да имам няколко профила, регистрирани на различни сървъри?<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
+<p>Можете да имате колкото профила пожелаете, както на един, така и на на различни сървъри. Възможно е дори да ги управлявате от едно и също устройство. Единствено ще трябва да се впишете с всеки отделен профил поотделно в настройките на софтуера, който използвате.</p>
+<hr />
+<h2 id="omemo_1">Кои клиенти поддържат <strong>OMEMO</strong>?<a class="headerlink" href="#omemo_1" title="Permanent link">&para;</a></h2>
+<p>Клиенти със 100% OMEMO съвместимост:</p>
+<ul>
+<li><strong>Conversations</strong>;</li>
+<li><strong>Converse.js</strong>;</li>
+<li><strong>Dino</strong>;</li>
+<li><strong>Gajim</strong>;</li>
+<li><strong>Monal</strong>;</li>
+<li><strong>Chat Secure</strong>;</li>
+<li><strong>Profanity</strong>.</li>
+</ul>
+<p>Изброените по-горе са тествани с изключение на <strong>Monal</strong> и <strong>Chat Secure</strong>. Подробен списък с клиенти и тяхната съвместимост е наличен на сайта <a href="https://omemo.top/"><strong>Are We OMEMO Yet?</strong></a>.</p>
+<hr />
+<h2 id="omemo_2">Как мога да разбера дали използвам <strong>OMEMO</strong>?<a class="headerlink" href="#omemo_2" title="Permanent link">&para;</a></h2>
+<p>Ако съобщенията  в <strong>Conversations</strong> са придружени с индикатор <em>"щит с отметка"</em> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m10 17-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9m-6-8L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4Z"/></svg></span> това е сигурен знак, че използвате <strong>OMEMO</strong>. В <strong>Gajim</strong> проверете за наличието на зелено оцветен символ <em>"щит"</em> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4Z"/></svg></span> до датата и часа на съобщенията. Той ще бъде изцяло оцветен, когато сте се доверили на устройството. В случай, че не сте добавили устройството към списъка с доверени устройства, символът "щит" ще бъде наполовина оцветен в зелено. За всички останалите приложения ситуацията е аналогична.</p>
+<div class="admonition warning">
+<p class="admonition-title">Внимание</p>
+<p>В случай, че съобщенията не са криптирани в <strong>Conversations</strong> ще бъдат изписани на червен фон. В <strong>Gajim</strong> ще виждате отключен катинар с оранжев символ <code>!</code> върху него. Намира се отдясно на лентата в която пишете.</p>
+</div>
+<hr />
+<h2 id="_9">Мога ли да използвам друг метод на криптиране?<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
+<p>Можете да използвате и <strong>OpenPGP</strong>, но Ви препоръчвам преди това да се запознаете с възможните проблеми със сигурността на този метод. За повече информация вижте страницата на модула - <a href="https://xmpp.org/extensions/xep-0027.html"><strong>XEP-0027: Current Jabber OpenPGP Usage</strong></a> и по-точно частта <a href="https://xmpp.org/extensions/xep-0027.html#security"><strong>Security Considerations</strong></a>.</p>
+<hr />
+<h2 id="otr">Мога ли да използвам <strong>OTR</strong> криптиране?<a class="headerlink" href="#otr" title="Permanent link">&para;</a></h2>
+<p>Поддръжката на <strong>OTR</strong> методът на криптиране е преустановена, поради неговата уязвимост към атаки от типа <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack"><strong>Man-In-The-Middle</strong></a>. За повече информация вижте страницата на модула - <a href="https://xmpp.org/extensions/xep-0364.html"><strong>XEP-0364: Current Off-the-Record Messaging Usage</strong></a> и по-точно частта <a href="https://xmpp.org/extensions/xep-0364.html#security"><strong>Security Considerations</strong></a>.</p>
+<hr />
+<h2 id="_10">Криптирана ли е гласовата комуникация?<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h2>
+<p>В случай, че сте активирали метод на криптиране (<strong>OMEMO</strong> или <strong>OpenPGP</strong>) аудио комуникацията също ще бъде криптирана. В приложението <strong>Conversations</strong> това ще бъде отбелязано със зелено оцветен символ <em>"щит с отметка"</em> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m10 17-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9m-6-8L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4Z"/></svg></span> в горния ляв ъгъл на екрана.</p>
+<hr />
+<h2 id="_11">Криптирана ли е видео комуникацията?<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h2>
+<p>В случай, че сте активирали метод на криптиране (<strong>OMEMO</strong> или <strong>OpenPGP</strong>) видео комуникацията също ще бъде криптирана. В приложението <strong>Conversations</strong> това ще бъде отбелязано със зелено оцветен символ <em>"щит с отметка"</em> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m10 17-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9m-6-8L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4Z"/></svg></span> в горния ляв ъгъл на екрана.</p>
+<hr />
+<h2 id="_12">Как да възстановя забравена парола?<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h2>
+<p>Ако не Ви познавам лично, ще се наложи да си я спомните. В противен случай, регистрирайте нов профил. Паролата е единственият начин да удостоверите, че точно Вие сте собственикът на профила.</p>
+<div class="admonition tip">
+<p class="admonition-title">Съвет</p>
+<p>Следващият път използвайте софтуер за управление на пароли (<strong>Password Manager</strong>). Бих препоръчал <a href="https://bitwarden.com/"><strong>Bitwarden</strong></a>.</p>
+</div>
+<hr />
+<h2 id="_13">Как да променя паролата?<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h2>
+<p>Проверете в секцията за настройки на профил в приложението което използвате. Например:</p>
+<ul>
+<li><strong>Gajim</strong></li>
+</ul>
+<p><code>Avatar Picture</code> → <code>General</code> → <code>Login</code> → <code>Change Password</code></p>
+<ul>
+<li><strong>Conversations</strong></li>
+</ul>
+<p><code>Основен екран</code> → <code>Меню с трите точки</code> → <code>Управление на акаунти</code> → <code>Избираме акаунт</code> → <code>Трите точки</code> → <code>Смяна на парола</code></p>
+<p>За останалите клиенти процедурата е аналогична.</p>
+<p>Можете да смените паролата и чрез онлайн формата за смяна на парола <a href="https://docs.chatrix.one/account/change-password/">тук</a>.</p>
+<hr />
+<h2 id="_14">Поддържа ли се двуфакторно удостоверяване?<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h2>
+<p>Метод за удостоверяване от типа <a href="https://en.wikipedia.org/wiki/Multi-factor_authentication"><strong>Second Factor Authentication</strong></a>, познат още като <strong>Multi Factor Authentication</strong> (<strong>2FA</strong>, <strong>MFA</strong>), към момента не е интегриран в <strong>XMPP</strong> услугата предлагана от <strong>Chatrix.One</strong>. Удостоверяването става само с потребителско име и парола. Именно поради тази причина Ви съветвам да проявите разум в избора на парола. Съвети относно избора на парола, ще намерите в раздел <a href="https://docs.chatrix.one/account/registration/">Регистрация</a>.</p>
+<hr />
+<h2 id="_15">Мога ли да изтрия профил?<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h2>
+<p>Да. Стъпките са подобни на тези при смяната на парола. В секцията за настройка на акаунт имате опция за изтриването му. За мобилни приложения докоснете и задръжте върху самия профил. Ще видите опция изтриване.
+Можете да изтриете Вашия профил и чрез онлайн формата <a href="https://docs.chatrix.one/account/delete-account/">тук</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Предупреждение</p>
+<p>Не всички приложения изтриват профила от сървъра! При някои, като <strong>Conversations</strong>, профилът се премахва само от приложението, но остава на сървъра. Съветвам Ви да се поинтересувате в инструкциите на самия софтуер.</p>
+</div>
+<hr />
+<h2 id="_16">Има ли правила, които трябва да спазвам?<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h2>
+<p>Разбира се. Такива има има и те са задължителни за всички. Моля, да се запознаете с тях в раздела <a href="https://docs.chatrix.one/terms/">Условия</a>.</p>
+<hr />
+<h2 id="_17">Длъжен ли съм да пиша само на кирилица?<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h2>
+<p>Можете да пишете на какъвто език пожелаете, стига да спазвате <a href="https://docs.chatrix.one/terms/">правилата</a> за ползване на услугата.</p>
+<hr />
+<h2 id="_18">На колко устройства мога да използвам услугата?<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h2>
+<p>На практика нямате ограничения. Само имайте предвид, че добавянето на всяко ново устройство води до отпадане на доверието във Вашите кореспонденти. Иначе казано, ще трябва да Ви се доверят отново, било то чрез "сляпо доверяване" или чрез сканиране на <a href="https://bg.wikipedia.org/wiki/QR_код"><strong>QR</strong></a> код от екрана на някое от Вашите активни устройства.</p>
+<hr />
+<h2 id="blind-trust">Какво означава "Сляпо доверяване" или "<strong>Blind Trust</strong>"?<a class="headerlink" href="#blind-trust" title="Permanent link">&para;</a></h2>
+<p>Накратко, това е начин да се доверите на устройство притежавано от човека с когото комуникирате, без да сте 100% сигурни, че от отсрещната страна действително стои той. Най-сигурният начин за извършване на доверяване е, като сканирате <strong>QR</strong> кода от екрана на устройство, собственост на Вашия кореспондент. Достатъчно е да сканирате само едно от  устройствата. Ще забележете, че колкото повече устройства притежавате, толкова по-сложен става <strong>QR</strong> кодът. Това е така, защото в него се съдържат идентификаторите на всички устройства от Вашия профил. Подробна информация можете да намерите в публикацията <a href="https://gultsch.de/trust.html"><strong>Blind Trust Before Verification</strong></a> на <strong>Daniel Gultsch</strong>.</p>
+<hr />
+<h2 id="_19">Ще знам ли дали отсреща са получили съобщението?<a class="headerlink" href="#_19" title="Permanent link">&para;</a></h2>
+<p>Да, ако потребителят е сред доверените Ви контакти. Под съобщението ще се появи символ <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59 21 7Z"/></svg></span>.</p>
+<hr />
+<h2 id="_20">Ще мога ли да коригирам грешно изпратени съобщения?<a class="headerlink" href="#_20" title="Permanent link">&para;</a></h2>
+<p>Да, ще можете да поправяте последното изпратено съобщение, като това ще бъде отразено с появата на символ <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg></span> до датата и часа на съответното съобщение.</p>
+<hr />
+<h2 id="_21">Ще виждам ли дали от отсрещната страна ми пишат в момента?<a class="headerlink" href="#_21" title="Permanent link">&para;</a></h2>
+<p>Да. Ще виждате съобщение от типа <em>"Pesho is typing..."</em> или <em>"Пешо пише в момента..."</em>. Съответно има и съобщение, ако бъде преустановено писането.</p>
+<hr />
+<h2 id="_22">Мога ли да блокирам известяването за това дали пиша или не?<a class="headerlink" href="#_22" title="Permanent link">&para;</a></h2>
+<p>Да. Вижте в настройките на приложението, раздел <strong>Privacy</strong>.</p>
+<hr />
+<h2 id="_23">Ще знаят ли останалите дали съм на линия?<a class="headerlink" href="#_23" title="Permanent link">&para;</a></h2>
+<p>Да. Проверете дали сте разрешили тази опция. Обикновено това става от настройките на Вашето приложението, раздел <strong>Privacy</strong>.</p>
+<hr />
+<h2 id="_24">Ако кача грешен файл или картинка мога ли да ги изтрия?<a class="headerlink" href="#_24" title="Permanent link">&para;</a></h2>
+<p>Можете, но само от Вашето устройство. От сървъра и устройствата на други потребители това е невъзможно.</p>
+<hr />
+<h2 id="_25">Мога ли да създавам стаи?<a class="headerlink" href="#_25" title="Permanent link">&para;</a></h2>
+<p>Да. Можете да създавате стаи и да каните приятели в общ чат.</p>
+<hr />
+<h2 id="shared-rooster-group">Мога ли да създавам споделена група от типа <strong>Shared Rooster Group</strong>?<a class="headerlink" href="#shared-rooster-group" title="Permanent link">&para;</a></h2>
+<p>Не, но ако се свържете с мен мога да създам такава. По този начин няма да има нужда да търсите ръчно всички членове по отделно. Контактите от групата ще бъде видима веднага в приложението на всички включени в нея. За връзка най-добре изпратете <strong>XMPP</strong> съобщение до администратор.</p>
+<hr />
+<h2 id="_26">Защо не получавам известия (нотификации) на мобилното устройство?<a class="headerlink" href="#_26" title="Permanent link">&para;</a></h2>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M420.55 301.93a24 24 0 1 1 24-24 24 24 0 0 1-24 24m-265.1 0a24 24 0 1 1 24-24 24 24 0 0 1-24 24m273.7-144.48 47.94-83a10 10 0 1 0-17.27-10l-48.54 84.07a301.25 301.25 0 0 0-246.56 0l-48.54-84.07a10 10 0 1 0-17.27 10l47.94 83C64.53 202.22 8.24 285.55 0 384h576c-8.24-98.45-64.54-181.78-146.85-226.55"/></svg></span> Android</label><label for="__tabbed_2_2"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg></span> iOS</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Вероятно използвате телефон без <strong>Google Play Services</strong> или <strong>Google Cloud Messaging</strong>.</p>
+<div class="admonition success">
+<p class="admonition-title">Решение</p>
+<p>Настройте приложението да работи в преден план.</p>
+</div>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>Вероятно използвате приложението <strong>ChatSecure</strong> и не сте разрешили опцията "<strong>Push</strong>" в настройките.</li>
+</ul>
+<div class="admonition success">
+<p class="admonition-title">Решение</p>
+<p>Проверете настройките на приложението. Също така, вижте и настройките на операционната система, по-точно частта касаеща статус на известяванията във фонов режим. Ако все още няма резултат пробвайте приложението <strong>Monal</strong>.</p>
+</div>
+<ul>
+<li>Батерията е изтощена или сте активирали режим за пестене на батерията.</li>
+</ul>
+<div class="admonition success">
+<p class="admonition-title">Решение</p>
+<p>Заредете батерията и изключете режима за пестене на батерията.</p>
+</div>
+</div>
+</div>
+</div>
+<hr />
+<h2 id="_27">Защо получавам съобщение за грешка при опит за регистрация?<a class="headerlink" href="#_27" title="Permanent link">&para;</a></h2>
+<p>С цел предпазване на услугата от ботове и злоупотреби, са въведени следните ограничения:</p>
+<ul>
+<li>Възможно е към момента регистрацията да е временно забранена. Моля, проверете <a href="https://docs.chatrix.one/status/#_2">статуса</a>. В частта "Регистрация на профил" трябва да е обозначена като <strong>ОТВОРЕНА</strong>;</li>
+<li>Допуска се само една регистрация на час през формата за онлайн регистрация независимо от <strong>IP</strong> адреса;</li>
+<li>Допуска се само една регистрация през приложенията в рамките на един час от един и същ <strong>IP</strong> адрес;</li>
+<li>При голям брой заявки за генериране на <strong>CAPTCHA</strong> кодове, страницата блокира достъпа за около минута. Това предпазва услугата от <strong>CAPTCHA DoS</strong> атака;</li>
+<li>При множество опити за неправомерен достъп до услугата, <strong>IP</strong> адресът е блокиран за шест часа.</li>
+</ul>
+<p>Ако статусът на регистрациите е обозначен като <strong>ЗАТВОРЕНА</strong>, ще се наложи да използвате някой от другите възможни методи за регистриране на профил, описани в раздел "Регистрация" и по точно частта <a href="https://docs.chatrix.one/account/registration/#_2">Начини за регистриране на профил</a>. За всички останали случаи, решението е да опитате отново по-късно.</p>
+<hr />
+<h2 id="ssltls">Защо получавам съобщение за невалиден <strong>SSL/TLS</strong> сертификат?<a class="headerlink" href="#ssltls" title="Permanent link">&para;</a></h2>
+<p>Вероятно използвате устройство с остаряла операционна система (<strong>Android</strong> 6 или 7). Можете ръчно да приемете сертификата.</p>
+<div class="admonition warning">
+<p class="admonition-title">Внимание</p>
+<p>Преди да приемете ръчно сертификат, <strong>задължително</strong> обърнете внимание и се уверете, че е регистриран за следните домейни: <code>chatrix.one</code>, <code>conference.chatrix.one</code>, <code>pubsub.chatrix.one</code>, <code>proxy.chatrix.one</code> и <code>upload.chatrix.one</code>. В противен случай, може да се окажете жертва на хакерска атака от типа <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack"><strong>Man-In-The-Middle</strong></a>.</p>
+</div>
+<hr />
+<h2 id="gadjim">Защо не мога да провеждам аудио и видео комуникация с <strong>Gadjim</strong>?<a class="headerlink" href="#gadjim" title="Permanent link">&para;</a></h2>
+<p>Вероятно използвате <strong>Windows</strong> като операционна система. Към момента, <strong>Gajim</strong> поддържа аудио и видео комуникация само под <strong>Linux</strong>.</p>
+<hr />
+<h2 id="_28">Как да изключа архивирането на съобщенията?<a class="headerlink" href="#_28" title="Permanent link">&para;</a></h2>
+<p>Ако не желаете съобщенията да се съхраняват за определения период, имате възможност да изключите архивирането.</p>
+<ul>
+<li><strong>Conversations</strong></li>
+</ul>
+<p><code>Управление на акаунти</code> → <code>Избирате акаунт</code> → <code>Трите точки</code> → <code>Опции за архивиране</code> → <code>Никога</code></p>
+<ul>
+<li><strong>Gajim</strong></li>
+</ul>
+<p><code>Avatar Picture</code> → <code>Privacy</code> → <code>Keep Chat History</code> → <code>Until Gajim is Closed</code></p>
+<p>За останалите клиенти процедурата е аналогична.</p>
+<hr />
+<h2 id="_29">Какви данни съхранявате на сървъра?<a class="headerlink" href="#_29" title="Permanent link">&para;</a></h2>
+<p>Подробна информация ще намерите в статията за <a href="https://docs.chatrix.one/privacy/#_4">Поверителност</a>.</p>
+<hr />
+<h2 id="push-notifications">Какви данни се пренасят за осъществяване на <strong>Push Notifications</strong>?<a class="headerlink" href="#push-notifications" title="Permanent link">&para;</a></h2>
+<p>Подробно описание може да прочетете на <strong>Github</strong> страницата на приложението <a href="https://github.com/iNPUTmice/p2/blob/master/README.md#conversations-push-proxy"><strong>Conversations</strong></a>.</p>
+<hr />
+<h2 id="_30">Криптирани ли са снимките които качвам?<a class="headerlink" href="#_30" title="Permanent link">&para;</a></h2>
+<p>Да, но само и единствено, ако сте активирали криптиране от край до край, например <strong>OMEMO</strong>.</p>
+<hr />
+<h2 id="_31">Как би изглеждала снимка, която се съхранява на сървъра в криптиран вид?<a class="headerlink" href="#_31" title="Permanent link">&para;</a></h2>
+<p>Ако бъде свалена от сървъра и се направи опит да бъде разгледана на компютър или друго устройство, ще видите само и единствено чисто черен екран.</p>
+<hr />
+<h2 id="_32">След като имате достъп до сървъра, можете ли да декриптирате съобщенията и файлове на потребителите?<a class="headerlink" href="#_32" title="Permanent link">&para;</a></h2>
+<p>За декриптиране на комуникацията и файловете, съхранявани на сървъра, не е достатъчен само администраторски достъп. Нужни са още и ключовете с които е извършено криптирането, а те се се съхраняват на устройствата на потребителите. Следователно, не съм в състояние да осъществя достъп до комуникацията в четим вид.</p>
+<div class="admonition info">
+<p class="admonition-title">Информация</p>
+<p>Едно от нещата към които се отнасям изключително отговорно е личната комуникация да остане наистина лична. За повече информация вижте раздела <a href="https://docs.chatrix.one/privacy/">Поверителност</a>.</p>
+</div>
+<hr />
+<h2 id="x">Ще бъде ли достъпна услугата след "<strong>X</strong>" години?<a class="headerlink" href="#x" title="Permanent link">&para;</a></h2>
+<p>Понастоящем не се предвижда тази услуга да бъде закрита. Докато не изпадна във финансови затруднения или се появят други сериозни причини, ще предлагам <strong>XMPP</strong> услугата. Прекратяването, разбира се, ще бъде обявено своевременно.</p>
+<div class="admonition info">
+<p class="admonition-title">Информация</p>
+<p>Ако желаете да подсигурите дългосрочното функциониране на <strong>Chatrix.One</strong>, можете да участвате във финансирането. При нужда от повече информация моля, свържете се с администратор.</p>
+</div>
+<hr />
+<h2 id="_33">Какви разходи поражда такъв вид услуга?<a class="headerlink" href="#_33" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Закупуване на домейн, както и ежегодна такса;</li>
+<li>Ежемесечен наем за сървър - облачен или физически;</li>
+<li>Разходи за Интернет - генериран трафик;</li>
+<li>Разходи за електричество;</li>
+<li>Втори сървър - за съхраняване на резервни копия на критичната информация;</li>
+<li>Хардуер;</li>
+<li>Лично време.</li>
+</ul>
+<hr />
+<h2 id="_34">Защо въобще предлагате такава услуга?<a class="headerlink" href="#_34" title="Permanent link">&para;</a></h2>
+<p>Защото имам желание, възможност и време, но преди всичко това ми доставя огромно удоволствие и не на последно място - обичам да контролирам собствените си данни, когато това е възможно.</p>
+<hr />
+<h2 id="_35">Защо е безплатна услугата?<a class="headerlink" href="#_35" title="Permanent link">&para;</a></h2>
+<p>Защото към момента мога да си го позволя.</p>
+<hr />
+<h2 id="_36">Колко е сигурна услугата?<a class="headerlink" href="#_36" title="Permanent link">&para;</a></h2>
+<p>Настоящите стандарти на <strong>XMPP</strong> позволяват много сигурен обмен на съобщения - просто трябва да ги използвате! Постоянно използвам най-новите методи за криптиране на сървъра и блокирам установяването на връзка по несигурни канали. Във връзка с намаляване полето за изява от страна на хакери съм забранил <strong>SSH</strong> достъпа, както и уеб базираната администрация на сървъра. Защитната стена (<a href="https://bg.wikipedia.org/wiki/Защитна_стена"><strong>Firewall</strong></a>) е настроена по-възможно най-ограничаващ начин. Комуникацията е подсигурена чрез <strong>TLS</strong> сертификат от <a href="https://zerossl.com/"><strong>ZeroSSL</strong></a> и <a href="https://letsencrypt.org/"><strong>Let's Encrypt</strong></a>. Обмяната на ключове е посредством <a href="https://bg.wikipedia.org/wiki/Дифи-Хелман"><strong>Diffie-Hellman</strong></a>.</p>
+<hr />
+<h2 id="_37">Колко е стабилна услугата?<a class="headerlink" href="#_37" title="Permanent link">&para;</a></h2>
+<p>Наблюденията ми върху <strong>XMPP</strong> базирана услуга от 2018г. до днес показват, че услугата е изключително стабилна. Към момента системата разполага с достатъчно <a href="https://bg.wikipedia.org/wiki/Памет_с_произволен_достъп"><strong>RAM</strong></a> памет, така че може да поеме няколко хиляди активни потребители по едно и също време.</p>
+<hr />
+<h2 id="xmpp_4">В крак ли сте с последните новости в областта на <strong>XMPP</strong>?<a class="headerlink" href="#xmpp_4" title="Permanent link">&para;</a></h2>
+<p>Веднага щом това стане технически възможно и разумно, на този сървър ще бъдат внедрени нови разширения на <strong>XMPP</strong> и най-добри практики. За мен е важна пълната съвместимост с водещия проект <strong>Conversations</strong>, който несъмнено помогна на <strong>XMPP</strong> да достигне нов блясък през последните години. Резултатът от теста на <strong>Chatrix.One</strong> можете да видите в онлайн <a href="https://compliance.conversations.im/server/chatrix.one/">доклада за съответствие с <strong>XMPP</strong></a>).</p>
+<hr />
+<h2 id="_38">Каква база данни използвате?<a class="headerlink" href="#_38" title="Permanent link">&para;</a></h2>
+<p>Използвам <a href="https://www.postgresql.org/"><strong>PostgreSQL</strong></a>.</p>
+<hr />
+<h2 id="_39">В четим вид ли се съхраняват паролите?<a class="headerlink" href="#_39" title="Permanent link">&para;</a></h2>
+<p>Не. Паролите са криптирани посредством <a href="https://wiki.xmpp.org/web/SASL_Authentication_and_SCRAM#SCRAM-SHA-1(-PLUS)"><strong>SCRAM-SHA1</strong></a> механизъм.</p>
+<hr />
+<h2 id="chatrixone">Защо се казва <strong>Chatrix.One</strong>?<a class="headerlink" href="#chatrixone" title="Permanent link">&para;</a></h2>
+<p>Защото е преди всичко <strong>Chat</strong>. Първоначалният замисъл беше да се използва само сред роднини <strong>R</strong>elatives, хостваше се на <strong>I</strong>ntel NUC  и е базирана на <strong>X</strong>MPP. Окончанието  <strong>One</strong> - защото е единственият метод за такъв тип комуникация, от който се нуждая към момента. И не на последно място, защото домейнът беше свободен.</p>
+<pre class="mermaid"><code>flowchart BT
+    A[&lt;b&gt;Chat&lt;/b&gt;] ---&gt; |Chat| R(&lt;b&gt;Chatrix.One&lt;/b&gt;)
+    B[&lt;b&gt;R&lt;/b&gt;elatives] ---&gt; |r| R
+    C[&lt;b&gt;I&lt;/b&gt;ntel NUC] ---&gt; |i| R
+    D[&lt;b&gt;X&lt;/b&gt;MPP] ---&gt; |x| R
+    E[&lt;b&gt;One&lt;/b&gt;] ---&gt; |One| R</code></pre>
+<hr />
+<h2 id="_40">Колко хора се занимават с администрацията?<a class="headerlink" href="#_40" title="Permanent link">&para;</a></h2>
+<p>Към момента съм единствен човек, което си има предимства и недостатъци.</p>
+<div class="admonition warning">
+<p class="admonition-title">Внимание!</p>
+<p>Основен недостатък: <a href="https://bg.wikipedia.org/wiki/Bus_factor"><strong>Bus Factor</strong></a> = 1</p>
+</div>
+<hr />
+<h2 id="_41">Колко ток харчи?<a class="headerlink" href="#_41" title="Permanent link">&para;</a></h2>
+<p>С цел минимална консумация на електричество, използвам процесор базиран на <strong>ARM</strong> архитектура. При 100% натоварване на всичките четири ядра, консумацията достига 10.4W. През по-голямата част от времето сървърът е натоварен под 10%.</p>
+<hr />
+<h2 id="ejabberd-prosody">Защо <strong>Ejabberd</strong>, а не <strong>Prosody</strong>?<a class="headerlink" href="#ejabberd-prosody" title="Permanent link">&para;</a></h2>
+<p>Има много причини за решението ми да избера <strong>Ejabberd</strong>. Повечето от тях се основават на недостатъците, които намирам в <strong>Prosody</strong>, а те вероятно няма да бъдат отстранени скоро:</p>
+<ul>
+<li><strong>Prosody</strong> изразходва повече системна памет. Положението се подобри малко с <code>mod_external_upload</code> и новите версии на кода за свързване с <strong>PostgreSQL</strong>, но все още има какво да се желае;</li>
+<li><strong>Prosody</strong> използва само едно ядро на процесора;</li>
+<li>Не може да бъде надграждан в клъстър;</li>
+<li>В бъдеще, ако има нужда не бих могъл да предоставя услуга от типа <strong>High Availability</strong>;</li>
+<li>Понякога не е в крак с новите <strong>XMPP</strong> стандарти, изисквани от приложението <strong>Conversations</strong> за <strong>Android</strong>;</li>
+<li>За гласова и видео връзка изисква инсталиране на допълнителен <a href="https://en.wikipedia.org/wiki/STUN"><strong>STUN</strong></a>/<a href="https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT"><strong>TURN</strong></a> сървър.</li>
+</ul>
+<p><strong>Ejabberd</strong> има някои предимства пред <strong>Prosody</strong>:</p>
+<ul>
+<li>Разработчиците имат дългогодишен опит с <strong>XMPP</strong> - <strong>Ejabberd</strong> е много зряла платформа;</li>
+<li>Езикът <a href="https://bg.wikipedia.org/wiki/Erlang"><strong>Erlang</strong></a>, на който е написан <strong>Ejabberd</strong>, е създаден точно за този вид приложения и е известен с високата си производителност;</li>
+<li><strong>Ejabberd</strong> използва всички налични ядра на процесора;</li>
+<li>Може да се интегрира в клъстър;</li>
+<li>Използва се дългогодишно от големи <a href="https://www.rst.software/blog/22-companies-using-xmpp-and-ejabberd-to-build-instant-messaging-services">корпорации</a>, което потвърждава стабилността му;</li>
+<li>Поддържа се от компанията <a href="https://www.process-one.net/">ProcessOne</a>, която има ясен механизъм за финансиране;</li>
+<li><strong>Conversation.im</strong> използва <strong>Ejabberd</strong> и при разработката доставчикът се позовава на него вместо на <strong>Prosody</strong>.</li>
+</ul>
+<p>Не ме разбирайте погрешно. Все още виждам в <strong>Prosody</strong> една прекрасна възможност за създаване на <strong>XMPP</strong> сървър. Дори все още поддържам и използвам един такъв. Безспорен факт е, че с него се работи изключително лесно.</p>
+<hr />
+<h2 id="_42">Предлагате ли други безплатни услуги?<a class="headerlink" href="#_42" title="Permanent link">&para;</a></h2>
+<p>Към момента на този домейн функционират услугите:</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>XMPP</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> <strong>DNS</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Електронна поща</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> <strong>Matrix</strong> сървър</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> <strong>Nextcloud</strong> сървър</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Информация</p>
+<p>Само <strong>XMPP</strong> е публично достъпна услуга. Останалите, за сега са в експериментална фаза. Ако все пак някоя от тях получи публичен достъп, това ще бъде анонсирано на уеб страницата. Също така ще забележете промяната в цвета на символа <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464a256 256 0 1 0 0-512 256 256 0 1 0 0 512zm113-303c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"/></svg></span> пред съответната услуга от сив в зелен цвят.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Съвет</p>
+<p>Моля, не изпращайте имейли или съобщения със запитвания относно дати и крайни срокове за публичен достъп до услуги различни от <strong>XMPP</strong>. На запитвания от този род <strong>няма</strong> да получите отговор.</p>
+</div>
+<h2 id="matrix">Планирате ли наличието на безплатен <strong>Matrix</strong> сървър с публичен достъп?<a class="headerlink" href="#matrix" title="Permanent link">&para;</a></h2>
+<p>Към момента <a href="https://en.wikipedia.org/wiki/Matrix_(protocol)"><strong>Matrix</strong></a> функционира, но не е с публичен достъп. Поддръжката на тази платформа е доста по-сложна и трудоемка, съответно коства повече лично време. Също така изисква по-голям хардуерен и финансов ресурс. При всички случаи ще имам нужда от поне още един доброволец, с опит в <strong>Linux</strong> системната администрация, желаещ да инвестира <strong>безвъзмездно</strong> част от свободното си време в името на каузата.</p>
+<hr />
+<h2 id="_43">Планирате ли наличието на безплатна електронна поща с публичен достъп?<a class="headerlink" href="#_43" title="Permanent link">&para;</a></h2>
+<p>Към момента електронна поща функционира, но не е с публичен достъп. Поддръжката на такъв тип услуга е свързана със значително по-голяма отговорност към крайния потребител. От изключителна важност е денонощният мониторинг на системата с цел предотвратяване на инциденти свързани със сигурността. Сложна е за интеграция, но поддръжката е още по-сложна и трудоемка, съответно коства много повече лично време. Изисква голям хардуерен и финансов ресурс. При всички случаи ще имам нужда от поне още един или двама доброволци, с опит в <strong>Linux</strong> системната администрация, желаещи да инвестират <strong>безвъзмездно</strong> част от свободното си време в името на каузата.</p>
+<hr />
+<h2 id="_44">Планирате ли наличието на безплатен облак за съхранение на файлове с публичен достъп?<a class="headerlink" href="#_44" title="Permanent link">&para;</a></h2>
+<p>Към момента облак за съхранение на файлове функционира, но не е с публичен достъп. Поддръжката на такъв тип услуга е свързана с осигуряване на масив за съхранение на значителен обем данни. Отговорност към крайния потребител е сериозна част от това занимание. От изключителна важност е денонощният мониторинг на системата с цел предотвратяване на инциденти свързани със сигурността. Поддръжката е трудоемка, съответно коства много повече лично време. Изисква сериозна инвестиция в хардуер. При всички случаи ще имам нужда от поне още един или двама доброволци, с опит в <strong>Linux</strong> системната администрация, желаещи да инвестират <strong>безвъзмездно</strong> част от свободното си време в името на каузата.</p>
+<hr />
+<h2 id="_45">Има ли условия за ползване на услугата?<a class="headerlink" href="#_45" title="Permanent link">&para;</a></h2>
+<p>Има. Моля, да се запознаете с тях в раздела <a href="https://docs.chatrix.one/terms/">Условия</a>.</p>
+<hr />
+<h2 id="_46">Мога ли да подам сигнал за нарушение на правилата за ползване на услугата?<a class="headerlink" href="#_46" title="Permanent link">&para;</a></h2>
+<p>Вижте раздел <a href="https://docs.chatrix.one/terms/">Условия</a> и по-точно частта <a href="https://docs.chatrix.one/terms/#_5">Подаване на сигнал</a>.</p>
+<hr />
+<h2 id="_47">Ще разберете ли, ако услугата стане недостъпна?<a class="headerlink" href="#_47" title="Permanent link">&para;</a></h2>
+<p>Услугата се мониторира денонощно по множество различни показатели. Освен това, лично аз я използвам ежедневно. В случай на проблем ще бъда известен в рамките на секунди. Следователно, не би трябвало да Ви се налага да се свързвате с мен за да ме уведомите, че нещо не е наред. Ще се погрижа проблемът да бъде отстранен възможно най-скоро.</p>
+<div class="admonition info">
+<p class="admonition-title">Информация</p>
+<p>Отнасям се изключително сериозно към <strong>непрекъснатостта на услугата</strong>, но все пак имайте предвид, че имам семейство и лични ангажименти. Следователно, няма да ми бъде от полза, изпращането на куп съобщения или имейли с въпроси от типа: <em>Кога ще отстраните проблема?</em></p>
+</div>
+<hr />
+<h2 id="_48">Достъпна ли е услугата извън България?<a class="headerlink" href="#_48" title="Permanent link">&para;</a></h2>
+<p>Можете да използвате <strong>Chatrix.One</strong> от всяка точка на света. Към момента няма приложени <a href="https://en.wikipedia.org/wiki/Geo-blocking"><strong>GeoIP</strong></a> правила за блокиране на трафика.</p>
+<hr />
+<h2 id="_49">Къде мога да следя за настъпили инциденти?<a class="headerlink" href="#_49" title="Permanent link">&para;</a></h2>
+<p>Информация за настъпили инциденти, прекъсвания в услугата и предстоящи профилактики ще бъдат публикувани в раздел <a href="https://docs.chatrix.one/status/">Статус</a>.</p>
+<hr />
+<h2 id="_50">Налична ли е техническа информация за услугата?<a class="headerlink" href="#_50" title="Permanent link">&para;</a></h2>
+<p>Проверете в раздел <a href="https://docs.chatrix.one/status/#_2">Статус</a>.</p>
+<hr />
+<h2 id="_51">Как мога да се свържа с вас?<a class="headerlink" href="#_51" title="Permanent link">&para;</a></h2>
+<p>Контактите са достъпни в долната част на страницата, както и в раздела <a href="https://docs.chatrix.one/about/#_2">За Мен</a>. Ако използвате мобилно устройство моля, проверете в менюто <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg></span>.</p>
+
+
+
+
+
+
+
+  
+    
+  
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Последна промяна">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">5 март 2024 г.</span>
+  </span>
+
+    
+    
+    
+    
+  </aside>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Върни се в началото
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Долен колонтитул" >
+        
+          
+          <a href="../clients/" class="md-footer__link md-footer__link--prev" aria-label="Предишна: Клиенти">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Предишна
+              </span>
+              <div class="md-ellipsis">
+                Клиенти
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../terms/" class="md-footer__link md-footer__link--next" aria-label="Следваща: Условия">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Следваща
+              </span>
+              <div class="md-ellipsis">
+                Условия
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2018 - <script>document.write(new Date().getFullYear())</script> <a href="https://github.com/ChatrixOne"  target="_blank" rel="noopener"><b>Chatrix.One </b></a>This website does not use any cookies or tracking mechanisms and is made with ❤ in Sofia.
+    </div>
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://chatrix.one" target="_blank" rel="noopener" title="chatrix.one" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="m57.7 193 9.4 16.4c8.3 14.5 21.9 25.2 38 29.8l57.9 16.5c17.2 4.9 29 20.6 29 38.5v39.9c0 11 6.2 21 16 25.9s16 14.9 16 25.9v39c0 15.6 14.9 26.9 29.9 22.6 16.1-4.6 28.6-17.5 32.7-33.8l2.8-11.2c4.2-16.9 15.2-31.4 30.3-40l8.1-4.6c15-8.5 24.2-24.5 24.2-41.7v-8.3c0-12.7-5.1-24.9-14.1-33.9l-3.9-3.9c-9-9-21.2-14.1-33.9-14.1H257c-11.1 0-22.1-2.9-31.8-8.4l-34.5-19.7c-4.3-2.5-7.6-6.5-9.2-11.2-3.2-9.6 1.1-20 10.2-24.5l5.9-3c6.6-3.3 14.3-3.9 21.3-1.5l23.2 7.7c8.2 2.7 17.2-.4 21.9-7.5 4.7-7 4.2-16.3-1.2-22.8l-13.6-16.3c-10-12-9.9-29.5.3-41.3l15.7-18.3c8.8-10.3 10.2-25 3.5-36.7l-2.4-4.2c-3.5-.2-6.9-.3-10.4-.3-92.8 0-171.5 60.9-198.2 145zM464 256c0-36.8-9.6-71.4-26.4-101.5L412 164.8c-15.7 6.3-23.8 23.8-18.5 39.8l16.9 50.7c3.5 10.4 12 18.3 22.6 20.9l29.1 7.3c1.2-9 1.8-18.2 1.8-27.5zM0 256a256 256 0 1 1 512 0 256 256 0 1 1-512 0z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/ChatrixOne" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="xmpp:admin@chatrix.one" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M256 448c141.4 0 256-93.1 256-208S397.4 32 256 32 0 125.1 0 240c0 45.1 17.7 86.8 47.7 120.9-1.9 24.5-11.4 46.3-21.4 62.9-5.5 9.2-11.1 16.6-15.2 21.6-2.1 2.5-3.7 4.4-4.9 5.7-.6.6-1 1.1-1.3 1.4l-.3.3c-4.6 4.6-5.9 11.4-3.4 17.4 2.5 6 8.3 9.9 14.8 9.9 28.7 0 57.6-8.9 81.6-19.3 22.9-10 42.4-21.9 54.3-30.6 31.8 11.5 67 17.9 104.1 17.9zM128 208a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm128 0a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm96 32a32 32 0 1 1 64 0 32 32 0 1 1-64 0z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="mailto:admin@chatrix.one" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l217.6 163.2c11.4 8.5 27 8.5 38.4 0l217.6-163.2c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48H48zM0 176v208c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V176L294.4 339.2a63.9 63.9 0 0 1-76.8 0L0 176z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.footer", "toc.integrate", "navigation.top", "content.tabs.link", "content.code.annotate", "content.code.copy", "search.highlight", "search.share", "search.suggest", "announce.dismiss"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u041a\u043e\u043f\u0438\u0440\u0430\u043d\u043e", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u0430\u0439", "search.result.more.one": "\u043e\u0449\u0435 1 \u043d\u0430 \u0442\u0430\u0437\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430", "search.result.more.other": "\u043e\u0449\u0435 # \u043d\u0430 \u0442\u0430\u0437\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430", "search.result.none": "\u041d\u044f\u043c\u0430 \u0440\u0435\u0437\u0443\u043b\u0442\u0430\u0442\u0438", "search.result.one": "1 \u0440\u0435\u0437\u0443\u043b\u0442\u0430\u0442", "search.result.other": "# \u0440\u0435\u0437\u0443\u043b\u0442\u0430\u0442\u0430", "search.result.placeholder": "\u0417\u0430\u043f\u043e\u0447\u043d\u0435\u0442\u0435 \u0434\u0430 \u043f\u0438\u0448\u0435\u0442\u0435, \u0437\u0430 \u0434\u0430 \u0442\u044a\u0440\u0441\u0438\u0442\u0435", "search.result.term.missing": "\u041b\u0438\u043f\u0441\u0432\u0430\u0449\u043e", "select.version": "\u0418\u0437\u0431\u0435\u0440\u0438 \u0432\u0435\u0440\u0441\u0438\u044f"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c8d2eff1.min.js"></script>
+      
+    
+  </body>
+</html>
