@@ -186,4 +186,4 @@ plugins:
 
 # Footer Copyright
 copyright: |
-  &copy; 2018 - <script>document.write(new Date().getFullYear())</script> <a href="https://github.com/ChatrixOne"  target="_blank" rel="noopener"><b>Chatrix.One </b></a>This website does not use any cookies or tracking mechanisms and is made with ❤️ in <a href="https://en.wikipedia.org/wiki/Sofia"  target="_blank" rel="noopener"><b>Sofia</b></a>.
+  &copy; 2018 - <script>document.write(new Date().getFullYear())</script> <a href="https://chatrix.one"  target="_blank" rel="noopener"><b>Chatrix.One </b></a>This website does not use any cookies or tracking mechanisms and is made with ❤️ in <a href="https://en.wikipedia.org/wiki/Sofia"  target="_blank" rel="noopener"><b>Sofia</b></a>.
