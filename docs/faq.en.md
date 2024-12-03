@@ -226,7 +226,7 @@ You can have as many accounts as you want, both on one and on different servers.
 
 ## Which clients support **OMEMO**?
 
-Customers with 100% OMEMO compatibility:
+Clients with 100% OMEMO compatibility:
 
 - **Conversations**;
 - **Converse.js**;
