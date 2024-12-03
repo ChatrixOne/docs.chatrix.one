@@ -6,7 +6,9 @@
 *[c2s]: Client-to-Server
 *[CAPTCHA]: Challenge–response Test
 *[CLI]: Command-line interface
+*[DANE]: DNS-based Authentication of Named Entities
 *[DNS]: Domain Name System
+*[DNSSEC]: Domain Name System Security Extensions
 *[DoS]: Denial-of-service
 *[DTLS]: Datagram Transport Layer Security
 *[GeoIP]: Restrict access, based on geographical location
