@@ -31,6 +31,13 @@
 | **IM Observatory**      | <a href='https://xmpp.net/result.php?domain=chatrix.one&type=client'><img src='https://chatrix.one/badge.svg'></a> |
 |**SRV** Records / Access | <a href='https://xmpp.love/servers/chatrix.one/results'><img src='https://xmpp.love/servers/chatrix.one/badge' width='201px' height= '18px' alt='xmpp.love score'></a> |
 
+## Security and Cryptography
+
+| Test            | Result    |
+|:----------------|:---------:|
+| DNSSEC and DANE | <a href='https://www.huque.com/bin/danecheck?domain=chatrix.one&port=5223&starttls=None&namecheck=on'><img src='https://img.shields.io/badge/DNSSEC%2BDANE_Check-A-4da050?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIHdpZHRoPSIyNHB4IiBmaWxsPSIjZThlYWVkIj48cGF0aCBkPSJNNDIwLTM0MGgxMjB2LTEwMGgxMDB2LTEyMEg1NDB2LTEwMEg0MjB2MTAwSDMyMHYxMjBoMTAwdjEwMFptNjAgMjYwcS0xMzktMzUtMjI5LjUtMTU5LjVUMTYwLTUxNnYtMjQ0bDMyMC0xMjAgMzIwIDEyMHYyNDRxMCAxNTItOTAuNSAyNzYuNVQ0ODAtODBabTAtODRxMTA0LTMzIDE3Mi0xMzJ0NjgtMjIwdi0xODlsLTI0MC05MC0yNDAgOTB2MTg5cTAgMTIxIDY4IDIyMHQxNzIgMTMyWm0wLTMxNloiLz48L3N2Zz4='></a> |
+| CryptCheck | <a href='https://cryptcheck.fr/xmpp/chatrix.one'><img src='https://img.shields.io/badge/CryptCheck-A%2B-4da050?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIHdpZHRoPSIyNHB4IiBmaWxsPSIjZThlYWVkIj48cGF0aCBkPSJNNDIwLTM2MGgxMjBsLTIzLTEyOXEyMC0xMCAzMS41LTI5dDExLjUtNDJxMC0zMy0yMy41LTU2LjVUNDgwLTY0MHEtMzMgMC01Ni41IDIzLjVUNDAwLTU2MHEwIDIzIDExLjUgNDJ0MzEuNSAyOWwtMjMgMTI5Wm02MCAyODBxLTEzOS0zNS0yMjkuNS0xNTkuNVQxNjAtNTE2di0yNDRsMzIwLTEyMCAzMjAgMTIwdjI0NHEwIDE1Mi05MC41IDI3Ni41VDQ4MC04MFptMC04NHExMDQtMzMgMTcyLTEzMnQ2OC0yMjB2LTE4OWwtMjQwLTkwLTI0MCA5MHYxODlxMCAxMjEgNjggMjIwdDE3MiAxMzJabTAtMzE2WiIvPjwvc3ZnPg=='></a> |
+
 ## Availability - Websites
 
 ### [Documentation](https://docs.chatrix.one)
