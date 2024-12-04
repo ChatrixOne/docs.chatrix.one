@@ -118,7 +118,7 @@
 
 | Limit                     | Value    |
 |:--------------------------|:--------:|
-| Single file upload        | 100 MB   |
+| Single file upload        | 256 MB   |
 | Total volume - soft limit | 950 MB   |
 | Total volume - hard limit | 1000 MB  |
 | Storage period            | 28 days  |
