@@ -357,7 +357,7 @@ In the newer versions of the client software, the following indications are avai
 
 - :material-check: - The message was successfully sent by the sender's server;
 - :material-check-all: - The message was successfully received by the recipient's server or **MUC**;
-- :material-check-all:{ .green} - The message was successfully received by the recipient.
+- :material-check-all:{ .green} - The message was successfully received by the recipient and has been read.
 
 * * *
 
@@ -628,7 +628,7 @@ Because at the moment I can afford it.
 
 ## How secure is the service?
 
-The current **XMPP** standards allow very secure messaging - you just have to use them! I always use the latest encryption methods on the server and block connection establishment through insecure channels. In order to reduce the scope for hackers, I have disabled **SSH** access as well as web-based server administration. The firewall is set as restrictive as possible. Communication is secured by **TLS** certificate from [ZeroSSL](https://zerossl.com/) and [Let's Encrypt](https://letsencrypt.org/). Key exchange is via [Diffie-Hellman](https://en.wikipedia.org/wiki/Diffie-Hellman).
+The current **XMPP** standards allow very secure messaging - you just have to use them! I constantly monitor and implement the latest encryption methods. I also block connections over insecure channels. In order to reduce the scope for hackers, I have disabled **SSH** access as well as web-based server administration. The firewall is set as restrictive as possible. Communication is secured by **TLS** certificate from [ZeroSSL](https://zerossl.com/) and [Let's Encrypt](https://letsencrypt.org/). Key exchange is via [Diffie-Hellman](https://en.wikipedia.org/wiki/Diffie-Hellman).
 
 * * *
 
@@ -719,6 +719,7 @@ At the moment, the following services are functioning on this domain:
 
 - [x] **XMPP** - `chatrix.one`
 - [x] **NTP Server** - `time.chatrix.one`
+- [x] **Website** - `https://chatrix.one`
 - [x] **Online Documentation** - `https://docs.chatrix.one`
 - [x] **Blog** - `https://blog.chatrix.one`
 - [ ] **DNS**
@@ -728,7 +729,7 @@ At the moment, the following services are functioning on this domain:
 
 !!! info "Information"
 
-     Only **XMPP** and **NTP** are publicly available services. The rest are in the experimental phase. If any of them do become publicly accessible, this will be announced on the web page. You will also notice the change in color of the *circle with a checkmark* symbol, in front of the corresponding service from gray :material-checkbox-marked-circle:{ .gray } to green :material-checkbox-marked-circle:{ .green }. The URL address will be written next to the relevant service.
+     Only **XMPP**, **NTP** and the websites are publicly available services. The rest are in the experimental phase. If any of them do become publicly accessible, this will be announced on the web page. You will also notice the change in color of the *circle with a checkmark* symbol, in front of the corresponding service from gray :material-checkbox-marked-circle:{ .gray } to green :material-checkbox-marked-circle:{ .green }. The URL address will be written next to the relevant service.
 
 !!! tip "Tip"
 
