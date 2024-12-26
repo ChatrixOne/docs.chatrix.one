@@ -149,9 +149,20 @@
 
 ## Update history
 
-### 27-11-2024
+### 26.12.2024
+
+#### Update Ejabberd to version [24.12](https://github.com/processone/ejabberd/releases/tag/24.12)
+
+- Improvements and bug fixes;
+- [XEP-0484: Fast Authentication Streamlining Tokens](https://github.com/processone/ejabberd/releases/tag/24.12#484) - Reduces authentication time, providing faster startup for mobile clients;
+- [Commands API v3](https://github.com/processone/ejabberd/releases#apiv3).
+
+### 27.11.2024
 
 #### New Logo Design
+
+![Chatrix.One Logo](resources/img/chatrix-logo-white.png#only-dark){ width="200" }
+![Chatrix.One Logo](resources/img/chatrix-logo-blue.png#only-light){ width="200" }
 
 ### 30.10.2024
 
