@@ -150,6 +150,14 @@
 
 ## История на актуализациите
 
+### 06.03.2025
+
+#### Обновяване на Ejabberd до версия [25.03](https://github.com/processone/ejabberd/releases/tag/25.03)
+
+- Matrix Gateway вече поддържа стаи;
+- Едновременна поддръжка на няколко типа пароли;
+- Изпълнявайте API команди с помощта на XMPP клиент.
+
 ### 26.12.2024
 
 #### Обновяване на Ejabberd до версия [24.12](https://github.com/processone/ejabberd/releases/tag/24.12)

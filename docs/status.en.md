@@ -150,6 +150,14 @@
 
 ## Update history
 
+### 06.03.2025
+
+#### Update Ejabberd to version [25.03](https://github.com/processone/ejabberd/releases/tag/25.03)
+
+- Matrix Gateway Gets Room Support;
+- Multiple Simultaneous Password Types;
+- Execute API Commands Using XMPP Client.
+
 ### 26.12.2024
 
 #### Update Ejabberd to version [24.12](https://github.com/processone/ejabberd/releases/tag/24.12)
