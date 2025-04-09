@@ -69,7 +69,7 @@
 | Disk Space       | 64GB                           |
 | File System      | ext4                           |
 | Operating System | Ubuntu 22.04 (Jammy Jellyfish) |
-| Ejabberd version | 24.7.0                         |
+| Ejabberd version | 25.3.0                         |
 | Backup           | Weekly                         |
 | Location         | Switzerland                    |
 | Powered with     | 100% Renewable energy          |
