@@ -69,7 +69,7 @@
 | Disk Space       | 64GB                           |
 | File System      | ext4                           |
 | Operating System | Ubuntu 22.04 (Jammy Jellyfish) |
-| Ejabberd version | 25.3.0                         |
+| Ejabberd version | 25.4.0                         |
 | Backup           | Weekly                         |
 | Location         | Switzerland                    |
 | Powered with     | 100% Renewable energy          |
@@ -149,6 +149,14 @@
      There are currently no documented incidents.
 
 ## Update history
+
+### 17.04.2025
+
+#### Update Ejabberd to version [25.04](https://github.com/processone/ejabberd/releases/tag/25.04)
+
+- Аn important security fix and several bug fixes;
+- Fix handling multiple occupant-id;
+- New API command.
 
 ### 06.03.2025
 
