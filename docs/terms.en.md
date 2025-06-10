@@ -23,7 +23,7 @@ In general, I am far from the thought of imposing any restrictions. However, pra
 - The publication of advertising articles and materials without the approval of an administrator;
 - Sending [Spam](https://en.wikipedia.org/wiki/Spam) messages;
 - Registration of more than one profile for one individual, without permission from an administrator;
-- Registering an account whose name resembles an administrator account;
+- Registering an account whose name resembles an administrator account or contains the phrase **chatrix.one** in the name;
 - Publication of pornographic content - especially that involving minors[^1];
 - Publication of Internet links to articles and photo material containing scenes of child pornography and violence[^1];
 - Use of the service for organizing and carrying out activities prohibited by the law.
