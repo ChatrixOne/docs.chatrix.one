@@ -17,6 +17,7 @@
 *[EET]: Eastern European Time
 *[Elixir]: Dynamic, functional language for building scalable and maintainable applications that runs on the Erlang VM
 *[Email]: Electronic mail
+*[GDPR]: General Data Protection Regulation
 *[IM]: Instant messaging
 *[IP]:  Internet Protocol
 *[JID]: Jabber Identity, Username or Account name used to access a Jabber service
@@ -54,5 +55,6 @@
 *[XEPs]: XMPP Extension Protocols
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[ZFS]: File system with volume management capabilities
+*[ОРЗД]: Общ регламент относно защитата на данните
 *[Спонсор]: Всеки потребител направил поне едно дарение
 *[ЧЗВ]: Често Задавни Въпроси
