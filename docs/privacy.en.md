@@ -68,3 +68,7 @@ You can delete your personal profile at any time from the [**Delete Profile**](h
 For all other types of personal data stored by **Chatrix.One** please contact the representative posted in the [**Contacts**](https://docs.chatrix.one/en/about/#contacts) section.
 
 To obtain information about the data processed and stored by other **XMPP** servers with which you have interacted, it is necessary to contact their respective representative.
+
+## GDPR Compliance
+
+As a user of the XMPP service offered by **Chatrix.One**, you own your data and can delete your account at any time. This is possible through most modern XMPP clients. Upon your request, I will do my best to remove the data associated with the user profile, as far as this is in accordance with GDPR standards.
