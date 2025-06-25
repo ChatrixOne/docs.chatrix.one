@@ -28,7 +28,7 @@
 |:---------------------|--------------------------------------------------------------------------:|
 | **XMPP** Съответствие  | <a href='https://compliance.conversations.im/server/chatrix.one'><img src='https://compliance.conversations.im/badge/chatrix.one'></a> |
 |**XMPP Providers**      | <a href="https://providers.xmpp.net/provider/chatrix.one/"><img alt="chatrix.one badge" src="https://data.xmpp.net/providers/v2/badges/chatrix.one.svg"></a> |
-| **XMPP Network Graph** | [Вижте в реално време](https://xmppnetwork.goodbytes.im/?focus=chatrix.one)|
+|**XMPP Network Graph** | <a href="https://xmppnetwork.goodbytes.im/?focus=chatrix.one"><img alt="chatrix.one badge" src="https://xmppnetwork.goodbytes.im/badge/chatrix.one.svg"></a> |
 
 ## Сигутност и криптография
 
