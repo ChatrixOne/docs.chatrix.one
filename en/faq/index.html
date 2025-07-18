@@ -1055,6 +1055,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#why-is-the-captcha-displayed-barely-visible" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why is the CAPTCHA displayed barely visible?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#why-do-i-get-an-invalid-ssltls-certificate-message" class="md-nav__link">
     <span class="md-ellipsis">
       Why do I get an invalid SSL/TLS certificate message?
@@ -1217,9 +1226,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#are-you-up-to-date-with-the-latest-developments" class="md-nav__link">
+  <a href="#are-you-up-to-date-with-the-latest-developments-in-xmpp" class="md-nav__link">
     <span class="md-ellipsis">
-      Are you up to date with the latest developments
+      Are you up to date with the latest developments in XMPP?
     </span>
   </a>
   
@@ -2118,11 +2127,14 @@ In the newer versions of the client software, the following indications are avai
 <h2 id="why-captcha-is-only-partially-rendered">Why <strong><abbr title="Challenge–response Test">CAPTCHA</abbr></strong> is only partially rendered?<a class="headerlink" href="#why-captcha-is-only-partially-rendered" title="Permanent link">&para;</a></h2>
 <p>The server has detected attempts for <strong><abbr title="Abbreviation of robot - software application that runs automated tasks (scripts) on the Internet, usually with the intent to imitate human activity, such as messaging, on a large scale">Bot</abbr></strong> registrations. Please try again later or contact an administrator for assistance.</p>
 <hr />
+<h2 id="why-is-the-captcha-displayed-barely-visible">Why is the <strong><abbr title="Challenge–response Test">CAPTCHA</abbr></strong> displayed barely visible?<a class="headerlink" href="#why-is-the-captcha-displayed-barely-visible" title="Permanent link">&para;</a></h2>
+<p>The more accounts are registered within 24 hours, the fainter the code becomes. This is done to limit the number of <strong>SPAM</strong> registrations. Please try again later or contact the administrator for assistance.</p>
+<hr />
 <h2 id="why-do-i-get-an-invalid-ssltls-certificate-message">Why do I get an invalid <strong><abbr title="Secure Sockets Layer">SSL</abbr>/<abbr title="Transport Layer Security">TLS</abbr></strong> certificate message?<a class="headerlink" href="#why-do-i-get-an-invalid-ssltls-certificate-message" title="Permanent link">&para;</a></h2>
 <p>You are probably using a device with an outdated operating system (<strong>Android</strong> 6 or 7). You can manually accept the certificate.</p>
 <div class="admonition warning">
 <p class="admonition-title">Caution</p>
-<p>Before manually accepting a certificate, you <strong>must</strong> pay attention and make sure it is registered for the following domains: <code>chatrix.one</code>, <code>conference.chatrix.one</code>, <code>pubsub.chatrix.one</code>, <code>proxy.chatrix .one</code> and <code>upload.chatrix.one</code>. Otherwise, you may become a victim of the so-called <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">Man-In-The-Middle</a> hacking attack.</p>
+<p>Before manually accepting a certificate, you <strong>must</strong> pay attention and make sure it is registered for the following domains: <code>chatrix.one</code>, <code>conference.chatrix.one</code>, <code>pubsub.chatrix.one</code>, <code>proxy.chatrix.one</code> and <code>upload.chatrix.one</code>. Otherwise, you may become a victim of the so-called <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">Man-In-The-Middle</a> hacking attack.</p>
 </div>
 <hr />
 <h2 id="why-cant-i-have-audio-and-video-communication-with-gadjim">Why can't I have audio and video communication with <strong>Gadjim</strong>?<a class="headerlink" href="#why-cant-i-have-audio-and-video-communication-with-gadjim" title="Permanent link">&para;</a></h2>
@@ -2138,7 +2150,7 @@ In the newer versions of the client software, the following indications are avai
 <li><strong>Gajim</strong></li>
 </ul>
 <p><code>Avatar Picture</code> → <code>Privacy</code> → <code>Keep Chat History</code> → <code>Until Gajim is Closed</code></p>
-<p>For other customers, the procedure is similar.</p>
+<p>For other clients, the procedure is similar.</p>
 <hr />
 <h2 id="what-data-do-you-store-on-the-server">What data do you store on the server?<a class="headerlink" href="#what-data-do-you-store-on-the-server" title="Permanent link">&para;</a></h2>
 <p>Detailed information can be found in the <a href="https://docs.chatrix.one/en/privacy/#view-stored-data">Privacy</a> article.</p>
@@ -2205,10 +2217,9 @@ In the newer versions of the client software, the following indications are avai
 <p>The current <strong><abbr title="Extensible Messaging and Presence Protocol">XMPP</abbr></strong> standards allow very secure messaging - you just have to use them! I constantly monitor and implement the latest encryption methods. I also block connections over insecure channels. In order to reduce the scope for hackers, I have disabled <strong><abbr title="Secure Shell">SSH</abbr></strong> access as well as web-based server administration. The firewall is set as restrictive as possible. Communication is secured by <strong><abbr title="Transport Layer Security">TLS</abbr></strong> certificate from <a href="https://zerossl.com/">ZeroSSL</a> and <a href="https://letsencrypt.org/">Let's Encrypt</a>. Key exchange is via <a href="https://en.wikipedia.org/wiki/Diffie-Hellman">Diffie-Hellman</a>.</p>
 <hr />
 <h2 id="how-stable-is-the-service">How stable is the service?<a class="headerlink" href="#how-stable-is-the-service" title="Permanent link">&para;</a></h2>
-<p>My observations on <strong><abbr title="Extensible Messaging and Presence Protocol">XMPP</abbr></strong> based service since 2018. to date show that the service is extremely stable. At the moment, the system has enough <a href="https://en.wikipedia.org/wiki/Random-access_memory"><abbr title="Random-access memory">RAM</abbr></a> memory, so that it can accommodate several thousand active users at the same time.</p>
+<p>My observations on <strong><abbr title="Extensible Messaging and Presence Protocol">XMPP</abbr></strong> based service since 2018 to date show that the service is extremely stable. At the moment, the server has enough <a href="https://en.wikipedia.org/wiki/Random-access_memory"><abbr title="Random-access memory">RAM</abbr></a>, so that it can accommodate several thousand active users at the same time.</p>
 <hr />
-<h2 id="are-you-up-to-date-with-the-latest-developments">Are you up to date with the latest developments<a class="headerlink" href="#are-you-up-to-date-with-the-latest-developments" title="Permanent link">&para;</a></h2>
-<p>in <strong><abbr title="Extensible Messaging and Presence Protocol">XMPP</abbr></strong>?</p>
+<h2 id="are-you-up-to-date-with-the-latest-developments-in-xmpp">Are you up to date with the latest developments in <strong><abbr title="Extensible Messaging and Presence Protocol">XMPP</abbr></strong>?<a class="headerlink" href="#are-you-up-to-date-with-the-latest-developments-in-xmpp" title="Permanent link">&para;</a></h2>
 <p>As soon as it is technically possible and reasonable, new <strong><abbr title="Extensible Messaging and Presence Protocol">XMPP</abbr></strong> extensions and best practices will be implemented on this server. For me, full compatibility with the flagship <strong>Conversations</strong> project, which has undoubtedly helped <strong><abbr title="Extensible Messaging and Presence Protocol">XMPP</abbr></strong> reach new heights in recent years, is important. <strong>Chatrix.One</strong> test result can be seen online <a href="https://compliance.conversations.im/server/chatrix.one/"><abbr title="Extensible Messaging and Presence Protocol">XMPP</abbr> Compliance Report</a>.</p>
 <hr />
 <h2 id="what-database-are-you-using">What database are you using?<a class="headerlink" href="#what-database-are-you-using" title="Permanent link">&para;</a></h2>
@@ -2218,7 +2229,7 @@ In the newer versions of the client software, the following indications are avai
 <p>No. Passwords are encrypted using the <a href="https://wiki.xmpp.org/web/SASL_Authentication_and_SCRAM#SCRAM-SHA-1(-PLUS)"><abbr title="Salted Challenge Response Authentication Mechanism encrypted with Secure Hash Algorithm 1">SCRAM-SHA-1</abbr></a> mechanism.</p>
 <hr />
 <h2 id="why-is-it-called-chatrixone">Why is it called <strong>Chatrix.One</strong>?<a class="headerlink" href="#why-is-it-called-chatrixone" title="Permanent link">&para;</a></h2>
-<p>Because it's primarily a <strong>Chat</strong>. Originally intended to be used only among relative <strong>R</strong>elatives, it was hosted on an <strong>I</strong>ntel NUC and based on <strong>X</strong>MPP. The ending <strong>One</strong> - because it is the only method of this type of communication that I need at the moment. And last but not least, because the domain was free.</p>
+<p>Because it's primarily a <strong>Chat</strong>. Originally intended to be used only among <strong>R</strong>elatives, it was hosted on an <strong>I</strong>ntel NUC and based on <strong>X</strong>MPP. The ending <strong>One</strong> - because it is the only method of this type of communication that I need at the moment. And last but not least, because the domain was free.</p>
 <pre class="mermaid"><code>flowchart BT
      A[&lt;b&gt;Chat&lt;/b&gt;] ---&gt; |Chat| R(&lt;b&gt;Chatrix.One&lt;/b&gt;)
      B[&lt;b&gt;R&lt;/b&gt;elatives] ---&gt; |r| R
@@ -2289,7 +2300,7 @@ In the newer versions of the client software, the following indications are avai
 <p>Currently, cloud file storage is operational, but not publicly accessible. The maintenance of this type of service is related to the provision of an array to store a significant amount of data. Responsibility to the end user is a serious part of this business. Of utmost importance is the round-the-clock monitoring of the system in order to prevent security-related incidents. Maintenance is labor-intensive, and therefore costs much more personal time. It requires a serious investment in hardware. In any case, I will need at least one or two more volunteers, experienced in <strong>Linux</strong> system administration, willing to invest <strong>for free</strong> some of their free time and a lot of <span class="twemoji heart red"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 20.408c-.492.308-.903.546-1.192.709-.153.086-.308.17-.463.252h-.002a.75.75 0 0 1-.686 0 16.709 16.709 0 0 1-.465-.252 31.147 31.147 0 0 1-4.803-3.34C3.8 15.572 1 12.331 1 8.513 1 5.052 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262A31.146 31.146 0 0 1 14 20.408Z"/></svg></span> in the name of the cause.</p>
 <hr />
 <h2 id="are-there-terms-and-conditions-for-using-the-service">Are there terms and conditions for using the service?<a class="headerlink" href="#are-there-terms-and-conditions-for-using-the-service" title="Permanent link">&para;</a></h2>
-<p>The rules for using the service are published in the <a href="https://docs.chatrix.one/en/terms/">Terms</a> section.</p>
+<p>The rules for using the service can be found in the <a href="https://docs.chatrix.one/en/terms/">Terms</a> section.</p>
 <hr />
 <h2 id="can-i-report-a-violation-of-the-terms-of-service">Can I report a violation of the terms of service?<a class="headerlink" href="#can-i-report-a-violation-of-the-terms-of-service" title="Permanent link">&para;</a></h2>
 <p>See the <a href="https://docs.chatrix.one/en/terms/">Terms</a> section and specifically the <a href="https://docs.chatrix.one/en/terms/#reporting-a-violation">Reporting a violation</a> section.</p>
@@ -2301,7 +2312,7 @@ In the newer versions of the client software, the following indications are avai
 <p>No such option exists. Once deleted, the profile cannot be recovered. Read the <a href="https://docs.chatrix.one/terms/">Terms</a> section and more specifically the <a href="https://docs.chatrix.one/en/terms/#additional">Additional</a>.</p>
 <hr />
 <h2 id="will-you-know-if-the-service-becomes-unavailable">Will you know if the service becomes unavailable?<a class="headerlink" href="#will-you-know-if-the-service-becomes-unavailable" title="Permanent link">&para;</a></h2>
-<p>The service is monitored around the clock on many different indicators. Besides, I personally use it daily. In case of a problem I will be known within seconds. Therefore, you should not have to contact me to let me know that something is wrong. I will make sure that the problem is fixed as soon as possible.</p>
+<p>The service is monitored 24/7 across various indicators. I also use it daily, so if any issues arise, I will be notified within seconds. Therefore, you don’t need to contact me to report a problem; I will ensure that it is addressed promptly.</p>
 <div class="admonition info">
 <p class="admonition-title">Information</p>
 <p>I take <strong>continuity of service</strong> extremely seriously, but keep in mind that I have a family and personal commitments. Therefore, sending a bunch of messages or emails asking questions like: <em>When are you going to fix the problem?</em> won't do me any good.</p>
@@ -2351,7 +2362,7 @@ In the newer versions of the client software, the following indications are avai
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-12-14T15:27:51+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-12-14</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2025-07-18T15:34:53+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2025-07-18</span>
   </span>
 
     
