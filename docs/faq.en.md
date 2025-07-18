@@ -497,6 +497,12 @@ The server has detected attempts for **Bot** registrations. Please try again lat
 
 * * *
 
+## Why is the **CAPTCHA** displayed barely visible?
+
+The more accounts are registered within 24 hours, the fainter the code becomes. This is done to limit the number of **SPAM** registrations. Please try again later or contact the administrator for assistance.
+
+* * *
+
 ## Why do I get an invalid **SSL/TLS** certificate message?
 
 You are probably using a device with an outdated operating system (**Android** 6 or 7). You can manually accept the certificate.
