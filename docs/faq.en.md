@@ -503,7 +503,7 @@ You are probably using a device with an outdated operating system (**Android** 6
 
 !!! warning "Caution"
 
-     Before manually accepting a certificate, you **must** pay attention and make sure it is registered for the following domains: `chatrix.one`, `conference.chatrix.one`, `pubsub.chatrix.one`, `proxy.chatrix .one` and `upload.chatrix.one`. Otherwise, you may become a victim of the so-called [Man-In-The-Middle](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) hacking attack.
+     Before manually accepting a certificate, you **must** pay attention and make sure it is registered for the following domains: `chatrix.one`, `conference.chatrix.one`, `pubsub.chatrix.one`, `proxy.chatrix.one` and `upload.chatrix.one`. Otherwise, you may become a victim of the so-called [Man-In-The-Middle](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) hacking attack.
 
 * * *
 
@@ -525,7 +525,7 @@ If you do not want the messages to be stored for the specified period, you have 
 
 `Avatar Picture` → `Privacy` → `Keep Chat History` → `Until Gajim is Closed`
 
-For other customers, the procedure is similar.
+For other clients, the procedure is similar.
 
 * * *
 
@@ -634,12 +634,11 @@ The current **XMPP** standards allow very secure messaging - you just have to us
 
 ## How stable is the service?
 
-My observations on **XMPP** based service since 2018. to date show that the service is extremely stable. At the moment, the system has enough [RAM](https://en.wikipedia.org/wiki/Random-access_memory) memory, so that it can accommodate several thousand active users at the same time.
+My observations on **XMPP** based service since 2018 to date show that the service is extremely stable. At the moment, the server has enough [RAM](https://en.wikipedia.org/wiki/Random-access_memory), so that it can accommodate several thousand active users at the same time.
 
 * * *
 
-## Are you up to date with the latest developments 
-in **XMPP**?
+## Are you up to date with the latest developments in **XMPP**?
 
 As soon as it is technically possible and reasonable, new **XMPP** extensions and best practices will be implemented on this server. For me, full compatibility with the flagship **Conversations** project, which has undoubtedly helped **XMPP** reach new heights in recent years, is important. **Chatrix.One** test result can be seen online [XMPP Compliance Report](https://compliance.conversations.im/server/chatrix.one/).
 
@@ -659,7 +658,7 @@ No. Passwords are encrypted using the [SCRAM-SHA-1](https://wiki.xmpp.org/web/SA
 
 ## Why is it called **Chatrix.One**?
 
-Because it's primarily a **Chat**. Originally intended to be used only among relative **R**elatives, it was hosted on an **I**ntel NUC and based on **X**MPP. The ending **One** - because it is the only method of this type of communication that I need at the moment. And last but not least, because the domain was free.
+Because it's primarily a **Chat**. Originally intended to be used only among **R**elatives, it was hosted on an **I**ntel NUC and based on **X**MPP. The ending **One** - because it is the only method of this type of communication that I need at the moment. And last but not least, because the domain was free.
 
 ```mermaid
 flowchart BT
@@ -755,7 +754,7 @@ Currently, cloud file storage is operational, but not publicly accessible. The m
 
 ## Are there terms and conditions for using the service?
 
-The rules for using the service are published in the [Terms](https://docs.chatrix.one/en/terms/) section.
+The rules for using the service can be found in the [Terms](https://docs.chatrix.one/en/terms/) section.
 
 * * *
 
@@ -779,7 +778,7 @@ No such option exists. Once deleted, the profile cannot be recovered. Read the [
 
 ## Will you know if the service becomes unavailable?
 
-The service is monitored around the clock on many different indicators. Besides, I personally use it daily. In case of a problem I will be known within seconds. Therefore, you should not have to contact me to let me know that something is wrong. I will make sure that the problem is fixed as soon as possible.
+The service is monitored 24/7 across various indicators. I also use it daily, so if any issues arise, I will be notified within seconds. Therefore, you don’t need to contact me to report a problem; I will ensure that it is addressed promptly.
 
 !!! info "Information"
 
