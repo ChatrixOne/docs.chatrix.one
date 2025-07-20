@@ -113,6 +113,7 @@
 | XEP-0444: Message Reactions                | :material-check-bold:{ .green} |
 | XEP-0480: SASL Upgrade Tasks               | :material-check-bold:{ .green} |
 | XEP-0484: Fast Authentication Streamlining Tokens | :material-check-bold:{ .green} |
+| XEP-0485: PubSub Server Information        | :material-check-bold:{ .green} |
 
 #### File upload limits
 
