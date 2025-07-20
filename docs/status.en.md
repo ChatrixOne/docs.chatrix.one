@@ -68,7 +68,7 @@
 | Disk Space       | 64GB                           |
 | File System      | ext4                           |
 | Operating System | Ubuntu 22.04 (Jammy Jellyfish) |
-| Ejabberd version | 25.4.0                         |
+| Ejabberd version | 25.7.0                         |
 | Backup           | Weekly                         |
 | Location         | Switzerland                    |
 | Powered with     | 100% Renewable energy          |
@@ -148,6 +148,14 @@
      There are currently no documented incidents.
 
 ## Update history
+
+### 20.07.2025
+
+#### Update Ejabberd to version [25.07](https://github.com/processone/ejabberd/releases/tag/25.07)
+
+- Spam filter with block lists support;
+- Support for XEP-0485: PubSub Server Information;
+- Support for older Matrix rooms in ejabberd XMPP <-> Matrix Gateway;
 
 ### 17.04.2025
 
