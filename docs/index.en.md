@@ -47,7 +47,7 @@ Hello and welcome to **Chatrix.One**! A Bulgarian **XMPP** server for free, end-
 
 [^2]: Chatrix.One does **NOT** analyze your messages, photos and files and does **NOT** trade with your communication and personal data.
 
-[^3]: *"I agree to the terms and conditions of use "* is [the biggest lie on the Internet](https://www.biggestlieonline.com/)!
+[^3]: *"I agree to the terms and conditions of use"* is [the biggest lie on the Internet](https://www.biggestlieonline.com/)!
 
 [^4]: [The Source Code](https://en.wikipedia.org/wiki/Source_code) is publicly available on [Github](https://github.com/processone/ejabberd).
 
