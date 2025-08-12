@@ -30,7 +30,7 @@ Hello and welcome to **Chatrix.One**! A Bulgarian **XMPP** server for free, end-
 
 ## Why **Chatrix.One?**
 
-- [x] Uses proven [XMPP](https://xmpp.org/about/technology-overview/) technology;
+- [x] Uses proven [**XMPP**](https://xmpp.org/about/technology-overview/) protocol with over 25 years of history;
 - [x] Provides End-to-end encryption with **OMEMO** or **OpenPGP**;[^1]
 - [x] Encrypted audio and video calls (**DTLS-SRTP**);
 - [x] **RESPECTS** your privacy;[^2]

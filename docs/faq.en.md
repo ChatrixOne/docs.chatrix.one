@@ -819,3 +819,9 @@ Contacts are available at the bottom of the page, as well as in the [About](http
 ## Why don't you answer my question?
 
 I've probably already answered your question in the lines above.
+
+* * *
+
+## Where can I find public rooms to join?
+
+A list of public rooms with free access can be found on the [Search Jabber Network](https://search.jabber.network) page
