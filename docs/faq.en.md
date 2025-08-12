@@ -18,7 +18,7 @@ In case of technical problems, as well as if you need help in connection with th
 
 ## Would you describe the service?
 
-**Chatrix.One** is a Bulgarian server offering free communication based on the **XMPP**. You can send messages, emoticons, photos, voice and video messages, location and files. Voice and video connection are also available.
+**Chatrix.One** is a Bulgarian server offering free communication based on the **XMPP** protocol. You can send messages, emoticons, photos, voice and video messages, location and files. Voice and video connection are also available.
 
 * * *
 
@@ -28,7 +28,7 @@ In case of technical problems, as well as if you need help in connection with th
 
      **XMPP** - **Ex**tensible **M**essaging and **P**resence **P**rotocol
 
-The easiest way to explain the principle and advantages of the **XMPP**, is to compare it to email. If you want to create your own email address, it is enough to choose a provider (server) and register a profile (account). For example, in *yahoo.com*, *gmail.com*, *hotmail.com* or another. The name of your chosen profile together with the address of the provider connected by the symbol :fontawesome-solid-at: forms your email address. For example *james@yahoo.com*. From now on, you can now exchange emails with users registered on different servers without a problem. A user of *yahoo.com* can write an email to a user of *gmail.com* or any other provider. This is possible because providers exchange messages with each other without the user being involved in any way. The advantages are obvious. Users are free to choose their provider and yet anyone can communicate with anyone. Sending messages requires nothing more than an email account with any provider and a recipient address. **XMPP** also works on a similar principle. You choose a server and get the freedom to communicate with users from other servers. In addition to being able to create multiple accounts with one provider, it is also possible to create multiple accounts with different providers. Whether it makes sense is another matter. It is possible for the **XMPP** service to be limited only within an organization's internal network. Direct access via the Internet to such a server is not possible. Communication takes place only between employees and if they are connected to the internal network, either directly or via [VPN](https://en.wikipedia.org/wiki/Virtual_private_network).
+The easiest way to explain the principle and advantages of the **XMPP** protocol, is to compare it to email as a service. If you want to create your own email address, it is enough to choose a provider (server) and register a profile (account). For example, in *yahoo.com*, *gmail.com*, *hotmail.com* or another. The name of your chosen profile together with the address of the provider connected by the symbol :fontawesome-solid-at: forms your email address. For example *james@yahoo.com*. From now on, you can exchange emails with users registered on different servers without a problem. A user of *yahoo.com* can write an email to user(s) of *gmail.com* or any other provider. This is possible because providers exchange messages with each other without the user being involved in any way. The advantages are obvious. Users are free to choose their provider and yet anyone can communicate with anyone. Sending messages requires nothing more than an email account with any provider and a recipient address. **XMPP** also works on a similar principle. You choose a server and get the freedom to communicate with users from other servers. In addition to being able to create multiple accounts with one provider, it is also possible to create multiple accounts with different providers. Whether it makes sense is another matter. It is possible for the **XMPP** service to be limited only within an organization's internal network. Direct access via the Internet to such a server is not possible. Communication takes place only between employees and if they are connected to the internal network, either directly or via [VPN](https://en.wikipedia.org/wiki/Virtual_private_network).
 
 The diagram below shows the working principle of **XMPP** communication.
 
@@ -83,7 +83,7 @@ flowchart RL
 | **MUC, Room, Chatroom, Conference** | Group chat, Channel or Multi-user Chat                 |
 | **Occupant**                        | Participant                                            |
 | **JID**                             | Address or XMPP address                                |
-| **Roste**r                          | Contact list                                           |
+| **Roster**                          | Contact list                                           |
 | **Avatar**                          | Profile picture                                        |
 
 ### More information about the **XMPP** protocol
@@ -102,6 +102,12 @@ flowchart RL
 
 * * *
 
+## Where can I find public rooms to join?
+
+A list of public rooms with free access can be found on the [Search Jabber Network](https://search.jabber.network) page.
+
+* * *
+
 ## How long has **XMPP** been around?
 
 The protocol was born in 1998, but it actually started functioning as a platform in 1999. The history is available on the official page of [XMPP](https://xmpp.org/about/history/).
@@ -114,7 +120,7 @@ The protocol appeared in the world back in 1999. For a quarter of a century of h
 More prominent organizations using **XMPP** on a daily basis are:
 
 | Organization | Daily Active Users | Messages per second | Messages Daily |
-|:----------------------------:|:---------------- ----------:|:-------------------:|:-------------- --:|
+|:----------------------------:|:---------------- ----------:|:-------------------:|:-----------------:|
 | :fontawesome-brands-google: Google | ~ 2,000,000,000 | - | - |
 | :fontawesome-brands-apple: Apple | ~ 500,000,000 | - | - |
 | :fontawesome-brands-whatsapp: WhatsApp | ~ 2,000,000,000 | - | ~ 100,000,000,000 |
@@ -819,9 +825,3 @@ Contacts are available at the bottom of the page, as well as in the [About](http
 ## Why don't you answer my question?
 
 I've probably already answered your question in the lines above.
-
-* * *
-
-## Where can I find public rooms to join?
-
-A list of public rooms with free access can be found on the [Search Jabber Network](https://search.jabber.network) page.
