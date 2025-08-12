@@ -104,7 +104,7 @@ Hello and welcome to **Chatrix.One**! A Bulgarian **XMPP** server for free, end-
 
     ---
 
-    For problems related to the use of the **XMPP** service offered by **Chatrix.One**.
+    For questions, not answered in the [FAQ](https://docs.chatrix.one/en/faq/) and problems related to the **XMPP** service offered by **Chatrix.One**.
 
     [:octicons-arrow-right-24: Contacts](https://docs.chatrix.one/en/about/#contacts)
 

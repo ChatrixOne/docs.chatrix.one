@@ -104,7 +104,7 @@
 
     ---
 
-    При проблеми, свързани с използване на **XMPP** услугата предлагана от **Chatrix.One**.
+    За въпроси, на които не е отговорено в [ЧЗВ](https://docs.chatrix.one/faq/) и проблеми свързани с използване на **XMPP** услугата предлагана от **Chatrix.One**.
 
     [:octicons-arrow-right-24: Контакти](https://docs.chatrix.one/about/#%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B8)
 
