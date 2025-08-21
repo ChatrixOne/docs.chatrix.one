@@ -27,6 +27,9 @@ In general, I am far from the thought of imposing any restrictions. However, pra
 - Registering a profile whose name contains the word **chatrix**;
 - Publication of pornographic content - especially that involving minors[^1];
 - Publication of Internet links to articles and photo material containing scenes of child pornography and violence[^1];
+- Disseminating propaganda aimed at inciting violence, hatred or discrimination;
+- Disseminating misinformation;
+- Using the service to coordinate violence, including calls for violence, threats or organizing harmful actions directed against people, animals or groups of people and/or animals;
 - Use of the service for organizing and carrying out activities prohibited by the law.
 
 [^1]: Upon reporting a violation accompanied by proof, the account distributing the content will be closed **without** warning!
