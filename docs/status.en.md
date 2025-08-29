@@ -150,6 +150,19 @@
 
 ## Update history
 
+### 29.08.2025
+
+#### Update Ejabberd to version [25.08](https://github.com/processone/ejabberd/releases/tag/25.08)
+
+- Improvements in Matrix gateway;
+- Fixed ACME in Erlang/OTP 28.0.2;
+- New `mod_providers` to serve XMPP Providers file;
+- Improved Unicode support in configuration;
+- New option `conversejs_plugins` to enable OMEMO;
+- Easier erlang node name change with `mnesia_change`;
+- Colorized interactive log;
+- Document API tags in modules.
+
 ### 20.07.2025
 
 #### Update Ejabberd to version [25.07](https://github.com/processone/ejabberd/releases/tag/25.07)

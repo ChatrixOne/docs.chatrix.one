@@ -150,13 +150,26 @@
 
 ## История на актуализациите
 
+### 29.08.2025
+
+#### Обновяване на Ejabberd до версия [25.08](https://github.com/processone/ejabberd/releases/tag/25.08)
+
+- Подобрения в **Matrix gateway**;
+- Поправен е **ACME** в **Erlang/OTP** 28.0.2;
+- Нов модул - `mod_providers` за обслужване на **XMPP Providers file**;
+- Подобрена поддръжка на **Unicode** в конфигурацията;
+- Нова опция `conversejs_plugins` за активиране на **OMEMO**;
+- По-лесна промяна на името на нода в **Erlang** с `mnesia_change`;
+- Оцветен интерактивен лог;
+- API тагове за документи в модули.
+
 ### 20.07.2025
 
 #### Обновяване на Ejabberd до версия [25.07](https://github.com/processone/ejabberd/releases/tag/25.07)
 
 - Филтър за спам с поддръжка на блокирани списъци;
 - Поддръжка за **XEP-0485: PubSub Server Information**;
-- Поддръжка за по-стари Matrix стаи в **ejabberd XMPP <-> Matrix Gateway**;
+- Поддръжка за по-стари Matrix стаи в **ejabberd XMPP <-> Matrix Gateway**.
 
 ### 17.04.2025
 
