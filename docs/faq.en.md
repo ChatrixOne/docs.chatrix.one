@@ -90,7 +90,7 @@ flowchart RL
 
 - [**XMPP** - Communicate freely!](https://blog.chatrix.one/posts/XMPP-communication/)[^1]
 - [**XMPP Providers**](https://providers.xmpp.net/about/)
-- [**Wikipedia**](https://bg.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol)
+- [**Wikipedia**](https://en.wikipedia.org/wiki/XMPP)
 
 [^1]: The article is only available in Bulgarian language.
 
