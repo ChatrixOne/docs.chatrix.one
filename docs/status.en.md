@@ -139,7 +139,7 @@
 | RAM              | 64GB                 |
 | Disk Space       | 5TB                  |
 | File System      | ZFS (RAIDZ-1)        |
-| Operating System | Debian 12 (Bookworm) |
+| Operating System | Debian 13 (Trixie)   |
 | Location         | Bulgaria             |
 
 ## Information about occurred incidents
