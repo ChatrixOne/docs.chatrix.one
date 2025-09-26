@@ -14,6 +14,7 @@
 *[GeoIP]: Restrict access, based on geographical location
 *[HTTP]: Hypertext Transfer Protocol
 *[HTTPS]: Hypertext Transfer Protocol Secure
+*[ECC]: Elliptic-curve cryptography
 *[EET]: Eastern European Time
 *[Elixir]: Dynamic, functional language for building scalable and maintainable applications that runs on the Erlang VM
 *[Email]: Electronic mail
