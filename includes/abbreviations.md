@@ -38,6 +38,7 @@
 *[RAIDZ-1]: Similar to RAID 5, allows one disk to fail
 *[RAM]: Random-access memory
 *[Rebar3]: Erlang tool that makes it easy to create, develop, and release Erlang libraries, applications, and systems in a repeatable manner
+*[RSA]: Rivest Shamir Adleman cryptosystem
 *[s2s]: Server-to-Server
 *[SASL]: Simple Authentication and Security Layer
 *[SCRAM-SHA-1]: Salted Challenge Response Authentication Mechanism encrypted with Secure Hash Algorithm 1
