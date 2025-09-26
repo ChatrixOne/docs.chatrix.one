@@ -154,7 +154,7 @@
 
 #### Промени при генерирането на **TLS** сертификати
 
-- Променен е издателя на **[TLS](https://bg.wikipedia.org/wiki/TLS)** сертификати от **[ZeroSSL](https://zerossl.com/)** на **[Let's Encrypt**](https://letsencrypt.org/);
+- Променен е издателя на **[TLS](https://bg.wikipedia.org/wiki/TLS)** сертификати от **[ZeroSSL](https://zerossl.com/)** на **[Let's Encrypt](https://letsencrypt.org/)**;
 - Променен е алгоритъмът за генериране на **TLS** сертификатите, като досегашният **[RSA 2048](https://bg.wikipedia.org/wiki/RSA)**, е заменен със **[ECC-384](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography)**.
 
 ### 29.08.2025
