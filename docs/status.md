@@ -150,6 +150,13 @@
 
 ## История на актуализациите
 
+### 25.09.2025
+
+#### Промени при генерирането на **TLS** сертификати
+
+- Променен е издателя на **[TLS](https://bg.wikipedia.org/wiki/TLS)** сертификати от **[ZeroSSL](https://zerossl.com/)** на **[Let's Encrypt**](https://letsencrypt.org/);
+- Променен е алгоритъмът за генериране на **TLS** сертификатите, като досегашният **[RSA 2048](https://bg.wikipedia.org/wiki/RSA)**, е заменен със **[ECC-384](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography)**.
+
 ### 29.08.2025
 
 #### Обновяване на Ejabberd до версия [25.08](https://github.com/processone/ejabberd/releases/tag/25.08)

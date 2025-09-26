@@ -149,6 +149,12 @@
      There are currently no documented incidents.
 
 ## Update history
+### 25.09.2025
+
+#### Changes in the generation of **TLS** certificates
+
+- The issuer of **[TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)** certificates has been changed from **[ZeroSSL](https://zerossl.com/)** to **[Let's Encrypt**](https://letsencrypt.org/);
+- The algorithm for generating **TLS** certificates has been changed, with the previous **[RSA 2048](https://en.wikipedia.org/wiki/RSA_cryptosystem)** being replaced with **[ECC-384](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography)**.
 
 ### 29.08.2025
 
