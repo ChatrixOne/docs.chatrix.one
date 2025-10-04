@@ -24,7 +24,7 @@ In general, I am far from the thought of imposing any restrictions. However, pra
 - Sending [Spam](https://en.wikipedia.org/wiki/Spam) messages;
 - Registration of more than one profile for one individual, without permission from an administrator;
 - Registering a profile whose name resembles an **administrator** or **moderator** profile;
-- Registering a profile whose name contains the word **chatrix**;
+- Registering a profile whose name contains or resembles the word **chatrix**;
 - Publication of pornographic content - especially that involving minors[^1];
 - Publication of Internet links to articles and photo material containing scenes of child pornography and violence[^1];
 - Disseminating propaganda aimed at inciting violence, hatred or discrimination;
