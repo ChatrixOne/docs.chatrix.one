@@ -40,12 +40,12 @@ Your account will be marked for deletion if any of the following events occur:
 
 - Only registered and not used for more than 7 days;
 - After registration, you have not answered the **Bot or Not** test;
-- It was last used more than 365 days ago;
+- It was last used more than 90 days ago;
 - Violation warning received.
 
 !!! info "Information"
 
-     In the event that your profile is marked for deletion, you will receive a system message warning you of the upcoming event. You will be given an opportunity to take action if you wish to have the deletion canceled.
+     In the event that your profile is marked for deletion, you will receive a system message warning you of the upcoming event. You will be given an opportunity to take action within 24 hours, if you wish to have the deletion canceled.
 
 !!! danger "Warning!"
 
