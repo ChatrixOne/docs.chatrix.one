@@ -53,7 +53,7 @@ Your account will be marked for deletion if any of the following events occur:
 
 ## Reporting a violation
 
-In case you wish to report a violation, please send an email or **XMPP** message to an administrator. The report must be accompanied by proof in the form of a screenshot - [Screenshot](https://en.wikipedia.org/wiki/Screenshot), which unequivocally shows the violation you described.
+In case you wish to report a violation, please send an email or **XMPP** message to an administrator. The report must be accompanied by proof in the form of a [screenshot](https://en.wikipedia.org/wiki/Screenshot), which unequivocally shows the violation you described.
 
 !!! warning "Caution"
 
