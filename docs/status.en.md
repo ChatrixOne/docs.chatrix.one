@@ -149,6 +149,14 @@
      There are currently no documented incidents.
 
 ## Update history
+
+### 30.10.2025
+
+#### Update Ejabberd to version [25.10](https://github.com/processone/ejabberd/releases/tag/25.10)
+
+- Added more Ad-Hoc Commands from XEP-0133;
+- Updated support for XEP-0317 Hats.
+
 ### 25.09.2025
 
 #### Changes in the generation of **TLS** certificates
