@@ -7,6 +7,10 @@
 
 ## Последно от блога
 
+### 2025
+
+- 04.11.2025г. - [Нови предизвикателства за цифровия суверенитет в Европа](https://blog.chatrix.one/posts/New-Challenges-For-Digital-Sovereignty-In-Europe/)
+
 ### 2024
 
 - 22.07.2024г. - [Chatrix.One - доставчик категория A](https://blog.chatrix.one/posts/CharixOne-Category-A-XMPP-Provider/)

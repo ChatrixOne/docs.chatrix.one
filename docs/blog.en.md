@@ -11,6 +11,10 @@
 
     Unfortunately English version of this blog is not available at the moment.
 
+### 2025
+
+- 04.11.2025 - [New Challenges For Digital Sovereignty In Europe](https://blog.chatrix.one/posts/New-Challenges-For-Digital-Sovereignty-In-Europe/)
+
 ### 2024
 
 - 22.07.2024 - [Chatrix.One - Provider Category A](https://blog.chatrix.one/posts/CharixOne-Category-A-XMPP-Provider/)
