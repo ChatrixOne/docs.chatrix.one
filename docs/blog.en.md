@@ -9,7 +9,7 @@
 
 !!! info "Information"
 
-    Unfortunately English version of this blog is not available at the moment.
+    Unfortunately, the English version of this blog is not available at the moment. However, most modern browsers, such as Firefox, Brave, Google Chrome or Microsoft Edge, offer automatic translation features.
 
 ### 2025
 
