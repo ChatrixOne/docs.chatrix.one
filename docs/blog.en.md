@@ -13,7 +13,7 @@
 
 ### 2025
 
-- 04.11.2025 - [New Challenges For Digital Sovereignty In Europe](https://blog.chatrix.one/posts/New-Challenges-For-Digital-Sovereignty-In-Europe/)
+- 04.11.2025 - [Chat Control - The Security Trade-Off](https://blog.chatrix.one/posts/Chat-Control/)
 
 ### 2024
 

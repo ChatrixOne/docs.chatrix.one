@@ -9,7 +9,7 @@
 
 ### 2025
 
-- 04.11.2025г. - [Нови предизвикателства за цифровия суверенитет в Европа](https://blog.chatrix.one/posts/New-Challenges-For-Digital-Sovereignty-In-Europe/)
+- 04.11.2025г. - [Chat Control - Цената на сигурността](https://blog.chatrix.one/posts/Chat-Control/)
 
 ### 2024
 
