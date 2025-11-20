@@ -59,6 +59,10 @@ In case you wish to report a violation, please send an email or **XMPP** message
 
      Submitting a false report may result in your account being deleted **without** warning!
 
+## Automatic Profile Deletion
+
+Profiles registered from IP addresses that, according to [Scamalytics](https://scamalytics.com/), have a high Fraud Risk or are associated with data centers will be deleted automatically without prior notice.
+
 ## No warranty
 
 The Service is offered as is, without liability to you. Despite my best efforts, I cannot guarantee reliability, availability, continuity or quality. You agree that you assume all risks related to the use of the service!
