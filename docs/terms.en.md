@@ -51,6 +51,10 @@ Your account will be marked for deletion if any of the following events occur:
 
      The action of automated profile deletion is **irreversible**! There is no undo mechanism. The only thing you can do is create a new registration and start over.
 
+## Automatic Profile Deletion
+
+Profiles registered from IP addresses that, according to [Scamalytics](https://scamalytics.com/), have a high Fraud Risk or are associated with data centers will be deleted automatically without prior notice.
+
 ## Reporting a violation
 
 In case you wish to report a violation, please send an email or **XMPP** message to an administrator. The report must be accompanied by proof in the form of a [screenshot](https://en.wikipedia.org/wiki/Screenshot), which unequivocally shows the violation you described.
@@ -58,10 +62,6 @@ In case you wish to report a violation, please send an email or **XMPP** message
 !!! warning "Caution"
 
      Submitting a false report may result in your account being deleted **without** warning!
-
-## Automatic Profile Deletion
-
-Profiles registered from IP addresses that, according to [Scamalytics](https://scamalytics.com/), have a high Fraud Risk or are associated with data centers will be deleted automatically without prior notice.
 
 ## No warranty
 
