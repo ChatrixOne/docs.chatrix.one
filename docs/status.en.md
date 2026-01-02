@@ -39,10 +39,19 @@
 
 ## Availability - Websites
 
+### [Website](https://chatrix.one)
+
+| Indicator                          | Value                                                                      |
+|:-----------------------------------|:-----------------------------------:|
+| Average ping for the last 24 hours |![Ping Average](https://uptime.tinyserver.eu/api/badge/227/ping)            |
+| Uptime for the last 24 hours       |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/227/uptime/24?label=)  |
+| Uptime for the last 7 days         |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/227/uptime/168?label=) |
+| Uptime for the last 30 days        |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/227/uptime/720?label=) |
+
 ### [Documentation](https://docs.chatrix.one)
 
 | Indicator                          | Value                                                                      |
-|:-----------------------------------|:--------------------------------------------------------------------------:|
+|:------------------------------------------------------------------------:|
 | Average ping for the last 24 hours |![Ping Average](https://uptime.tinyserver.eu/api/badge/135/ping)            |
 | Uptime for the last 24 hours       |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/135/uptime/24?label=)  |
 | Uptime for the last 7 days         |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/135/uptime/168?label=) |
@@ -51,11 +60,20 @@
 ### [Blog](https://blog.chatrix.one)
 
 | Indicator                          |Value                                                                           |
-|:-----------------------------------|:------------------------------------------------------------------------------:|
+|:-----------------------------------------------------------------------------:|
 | Average ping for the last 24 hours | ![Ping Average](https://uptime.tinyserver.eu/api/badge/124/ping?label=)        |
 | Uptime for the last 24 hours       | ![Uptime 24h](https://uptime.tinyserver.eu/api/badge/124/uptime/24?label=)     |
 | Uptime for the last 7 days         | ![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/124/uptime/168?label=) |
 | Uptime for the last 7 days         | ![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/124/uptime/720?label=) |
+
+### [Web Chat](https://webchat.chatrix.one)
+
+| Indicator                          | Value                                                                      |
+|:-----------------------------------|:-----------------------------------:|
+| Average ping for the last 24  hours |![Ping Average](https://uptime.tinyserver.eu/api/badge/226/ping)            |
+| Uptime for the last 24 hours       |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/226/uptime/24?label=)  |
+| Uptime for the last 7 days         |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/226/uptime/168?label=) |
+| Uptime for the last 30 days        |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/226/uptime/720?label=) |
 
 ## Technical data
 
@@ -149,6 +167,12 @@
      There are currently no documented incidents.
 
 ## Update history
+
+### 02.01.2026
+
+#### Introduced Self-Hosted Web Chat Client
+
+- Integrated Converse.js version 12.0.0. A web-based chat client, accessible at [https://webchat.chatrix.one](https://webchat.chatrix.one).
 
 ### 30.10.2025
 

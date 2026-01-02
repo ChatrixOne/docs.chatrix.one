@@ -214,7 +214,7 @@ Detailed information about the clients available for working with **Chatrix.One*
 
      | Client | Free | Open Source | Link |
      |:--------------|:------------------:|:------------------:|:---------------------------------------- ---------------------:|
-     |**Converse.js** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Conversejs.org](https://conversejs.org/fullscreen.html) |
+     |**Converse.js** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Web Chat](https://webchat.chatrix.one) |
 
 === ":fontawesome-solid-terminal: CLI"
 

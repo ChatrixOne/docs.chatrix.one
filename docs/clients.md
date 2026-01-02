@@ -58,7 +58,7 @@
 
 | Клиент         | Безплатен          |  Отворен код       | Линк                                                         |
 |:---------------|:------------------:|:------------------:|:------------------------------------------------------------:|
-|**Converse.js** | :fontawesome-solid-check: | :fontawesome-solid-check: | [**Conversejs.org**](https://conversejs.org/fullscreen.html) |
+|**Converse.js** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Уеб чат](https://webchat.chatrix.one) |
 
 !!! info "Информация"
 

@@ -57,8 +57,8 @@ Client is the application (software) through which we use the service. It is imp
 ### :fontawesome-brands-firefox: Web based
 
 | Client | Free | Open Source | Link |
-|:--------------|:------------------:|:---------- --------:|:---------------------------------------- ---------------------:|
-|**Converse.js** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Conversejs.org](https://conversejs.org/fullscreen.html) |
+|:--------------|:------------------:|:------------------:|:-------------------------------------------------------------:|
+|**Converse.js** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Web Chat](https://webchat.chatrix.one) |
 
 !!! info "Information"
 

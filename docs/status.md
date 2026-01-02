@@ -39,6 +39,15 @@
 
 ## Достъпност - Интернет страници
 
+### [Уебсайт](https://chatrix.one)
+
+| Показател                  |Стойност                                             |
+|:---------------------------|:---------------------------------------------------:|
+| Среден пинг за последните 24 часа|![Ping Average](https://uptime.tinyserver.eu/api/badge/227/ping?label=) |
+| Достъпност за последните 24 часа |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/227/uptime/24?label=)|
+| Достъпност за последните 7 дни  |![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/227/uptime/168?label=)|
+| Достъпност за последните 30 дни  |![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/227/uptime/720?label=)|
+
 ### [Документация](https://docs.chatrix.one)
 
 | Показател                  |Стойност                                             |
@@ -56,6 +65,15 @@
 | Достъпност за последните 24 часа |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/124/uptime/24?label=)|
 | Достъпност за последните 7 дни  |![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/124/uptime/168?label=)|
 | Достъпност за последните 30 дни  |![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/124/uptime/720?label=)|
+
+### [Уеб чат](https://webchat.chatrix.one)
+
+| Показател                  |Стойност                                             |
+|:---------------------------|:---------------------------------------------------:|
+| Среден пинг за последните 24 часа|![Ping Average](https://uptime.tinyserver.eu/api/badge/226/ping?label=) |
+| Достъпност за последните 24 часа |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/226/uptime/24?label=)|
+| Достъпност за последните 7 дни  |![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/226/uptime/168?label=)|
+| Достъпност за последните 30 дни  |![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/226/uptime/720?label=)|
 
 ## Технически данни
 
@@ -149,6 +167,12 @@
     Към момента няма документирани инциденти.
 
 ## История на актуализациите
+
+### 02.01.2026
+
+#### Внедрен уеб чат клиент, хостван на място
+
+- Интегриран Converse.js версия 12.0.0. Уеб базиран чат клиент, достъпен на адрес [https://webchat.chatrix.one](https://webchat.chatrix.one).
 
 ### 30.10.2025
 
