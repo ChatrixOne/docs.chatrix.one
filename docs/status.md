@@ -172,7 +172,7 @@
 
 #### Внедрен уеб чат клиент, хостван на място
 
-- Интегриран Converse.js версия 12.0.0. Уеб базиран чат клиент, достъпен на адрес [https://webchat.chatrix.one](https://webchat.chatrix.one).
+- Интегриран **Converse.js** версия 12.0.0. Уеб базиран чат клиент, достъпен на адрес [https://webchat.chatrix.one](https://webchat.chatrix.one).
 
 ### 30.10.2025
 
