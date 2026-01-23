@@ -51,6 +51,7 @@
 *[STUN]: Session Traversal Utilities for NAT
 *[TLS]: Transport Layer Security
 *[TURN]: Traversal Using Relays around NAT
+*[URL]: Uniform Resource Locator
 *[vCard]: VCF (Virtual Contact File)
 *[VPN]: Virtual private network
 *[XEP]: XMPP Extension Protocol
