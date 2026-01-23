@@ -34,6 +34,8 @@ To test the strength of your password, you can use online tools such as [How Sec
 
 ## Ways to register an account
 
+- :material-qrcode-scan: - By scanning an invitation in the form of a **QR** code;
+- :material-link-variant: - By opening an invitation in the form of a **URL** address;
 - :material-pencil: - On your own by completing the online [registration form](https://docs.chatrix.one/en/account/registration-form/);
 - :material-apps: - Through your installed application - client;
 - :material-email-check: - By sending an email to the address located at the the bottom of this website. Contacts are also available in the [About](https://docs.chatrix.one/en/about/#contacts) section. If you are using a mobile device, please check the menu :material-menu:;

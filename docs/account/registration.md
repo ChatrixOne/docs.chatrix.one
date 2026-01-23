@@ -34,6 +34,8 @@ icon: material/account-plus
 
 ## Начини за регистриране на профил
 
+- :material-qrcode-scan: - Като сканирате покана под формата на **QR** код;
+- :material-link-variant: - Като отворите покана под формата на **URL** адрес;
 - :material-pencil: - Самостоятелно, като попълните онлайн [формата за регистрация](https://docs.chatrix.one/account/registration-form/);
 - :material-apps: - През инсталираното от Вас приложение - клиент;
 - :material-email-check: - Като изпратите имейл на адреса от полето контакти в най-долната част на този уеб сайт. Контактите са достъпни и в раздела [За Мен](https://docs.chatrix.one/about/#%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B8). Ако използвате мобилно устройство моля проверете в менюто :material-menu:;
