@@ -203,7 +203,7 @@ Detailed information about the clients available for working with **Chatrix.One*
      | Client | Free | Open Source | Link |
      |:-----------------|:------------------:|:------------------:|:-------------------------------------- ------------------------------:|
      |**Conversations** | :fontawesome-solid-check: | :fontawesome-solid-check: | [F-droid](https://f-droid.org/packages/eu.siacs.conversations/) |
-     |**Conversations** | **€ 3.59 ** | :fontawesome-solid-check: | [Google Play](https://play.google.com/store/apps/details?id=eu.siacs.conversations) |
+     |**Conversations** | **€ 3.59** | :fontawesome-solid-check: | [Google Play](https://play.google.com/store/apps/details?id=eu.siacs.conversations) |
 
 === ":fontawesome-brands-apple: iOS"
 
@@ -730,6 +730,7 @@ Do not get me wrong. I still see in **Prosody** a wonderful opportunity to creat
 At the moment, the following services are functioning on this domain:
 
 - [x] **XMPP** - `chatrix.one`
+- [x] **Web Chat** - `https://webchat.chatrix.one` 
 - [x] **NTP Server** - `time.chatrix.one`
 - [x] **Website** - `https://chatrix.one`
 - [x] **Online Documentation** - `https://docs.chatrix.one`
