@@ -5,7 +5,7 @@
    <figcaption>Chatrix.One is powered by 100% renewable energy!</figcaption>
 </figure>
 
-Over the years, the service has migrated multiple times across different hardware. The aim has always been minimal power consumption and maximum service stability.
+For me, *Linux system administration* is a hobby! Over the years, the XMPP service, offered for free by **Chatrix.One**, has migrated many times through different software and hardware. The goal has always been minimal power consumption and maximum communication stability.
 
 | Year | Event | Hardware | Platform |
 |:--------------|:-----------------|:------------ ------------|:----------|
@@ -18,7 +18,7 @@ Over the years, the service has migrated multiple times across different hardwar
 
 In the period 2015 - 2018, due to hardware limitations, the service was used as a test platform only in a local network. Another reason is the lack at that time of mature and full-fledged software for implementing **XMPP** communication.
 
-After the transition from **ARM** to **x86** architecture in 2018, **Chatrix.One** becomes publicly available. Thanks to the **Conversations** project, the **OMEMO** encryption method appears, and **XMPP** undergoes numerous improvements.
+After the transition from ARM to x86 architecture in 2018, **Chatrix.One** became publicly available. Thanks to the **Conversations** project and the emergence of **OMEMO**, as an encryption method, **XMPP** has undergone numerous improvements.
 
 The most significant transition to date took place in 2022, when the service migrated from **Prosody** to **Ejabberd** in a cloud virtual private server located in **ORACLE**'s Swiss Data Center. The result is significantly higher reliability and service continuity.
 
