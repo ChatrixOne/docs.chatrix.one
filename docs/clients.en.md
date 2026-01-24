@@ -29,9 +29,10 @@ Client is the application (software) through which we use the service. It is imp
 ### :fontawesome-brands-apple: macOS
 
 | Client | Free | Open Source | Link |
-|:---------|:------------------:|:---------------- --:|:------------------------------------------------ ----------------------------------:|
+|:---------|:------------------:|:------------------:|:----------------------------------------------------------------------------------:|
+|**Monal**| :fontawesome-solid-check: | :fontawesome-solid-check: | [App Store for Mac](https://apps.apple.com/us/app/monal-xmpp-chatting/id1637078500?mt=12) |
 |**Gajim** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Gajim.org](https://dev.gajim.org/gajim/gajim/-/wikis/help/Gajim-on-macOS) |
-|**Beagle IM** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Mac App Store](https://apps.apple.com/us/app/beagleim-by-tigase-inc/id1445349494)|
+|**Beagle IM** | :fontawesome-solid-check: | :fontawesome-solid-check: | [App Store for Mac](https://apps.apple.com/us/app/beagleim-by-tigase-inc/id1445349494)|
 
 !!! warning "Caution"
 
@@ -42,7 +43,7 @@ Client is the application (software) through which we use the service. It is imp
 | Client | Free | Open Source | Link |
 |:-----------------|:------------------:|:-------- ----------:|:-------------------------------------- ------------------------------:|
 |**Conversations** | :fontawesome-solid-check: | :fontawesome-solid-check: | [F-droid](https://f-droid.org/packages/eu.siacs.conversations/) |
-|**Conversations** | **9.79 BGN** | :fontawesome-solid-check: | [Google Play](https://play.google.com/store/apps/details?id=eu.siacs.conversations) |
+|**Conversations** | **€ 3.59** | :fontawesome-solid-check: | [Google Play](https://play.google.com/store/apps/details?id=eu.siacs.conversations) |
 
 !!! tip "Tip"
 
