@@ -35,7 +35,7 @@ Personal data is **not** required to register an account in **Chatrix.One**. You
 
      Avoid using one password for everything! Use a password managing software (Password Manager). This way, you will be able to easily generate different passwords for each account or application. The most important thing is that you will not need to remember them. I would recommend [**Bitwarden**](https://bitwarden.com/).
 
-Registration by invitation allows you to choose your own username. The password, depending on the installed client, can be generated automatically, or you will have to choose one.
+Registration by invitation is the preferred way to register a **Chatrix.One** account. In this way, you will be able to choose the username yourself. The password will be generated automatically, and of course you can edit it. In case the password field is empty, you will have to fill it manually.
 
 In case you choose to register an account by email using a temporary email service such as [**10 Minute mail**](https://10minutemail.com/) or [**Temp Mail**](https://temp-mail.org/), keep in mind that I cannot always respond immediately. For this reason, it would be more practical to use a real email address. It will not be stored in a database, nor will it be used for advertising campaigns or any other purposes. **Chatrix.One does not** sell or **does not** provide information to third parties! You will only receive an email with a password for the username you have chosen.
 
