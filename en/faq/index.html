@@ -875,6 +875,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#can-i-communicate-with-contacts-outside-of-chatrixone" class="md-nav__link">
+    <span class="md-ellipsis">
+      Can I communicate with contacts outside of Chatrix.One?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#how-to-recover-a-forgotten-password" class="md-nav__link">
     <span class="md-ellipsis">
       How to recover a forgotten password?
@@ -1274,6 +1283,15 @@
   <a href="#how-many-people-deal-with-the-administration" class="md-nav__link">
     <span class="md-ellipsis">
       How many people deal with the administration?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ако-утре-решите-да-спрете-проекта-какво-би-означавало-това-за-нас---потребителите" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ако утре решите да спрете проекта какво би означавало това за нас - потребителите?
     </span>
   </a>
   
@@ -1977,6 +1995,9 @@ More prominent organizations using <strong><abbr title="Extensible Messaging and
 <h2 id="is-the-video-communication-encrypted">Is the video communication encrypted?<a class="headerlink" href="#is-the-video-communication-encrypted" title="Permanent link">&para;</a></h2>
 <p>In case you have enabled an encryption method (<strong><abbr title="Multi-End Message and Object Encryption">OMEMO</abbr></strong> or <strong><abbr title="Open Pretty Good Privacy">OpenPGP</abbr></strong>) the video communication will also be encrypted. In the <strong>Conversations</strong> app, this will be marked with green <em>shield with a checkmark</em> <span class="twemoji green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m10 17-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9m-6-8L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4Z"/></svg></span> symbol in the upper left corner of the screen.</p>
 <hr />
+<h2 id="can-i-communicate-with-contacts-outside-of-chatrixone">Can I communicate with contacts outside of <strong>Chatrix.One</strong>?<a class="headerlink" href="#can-i-communicate-with-contacts-outside-of-chatrixone" title="Permanent link">&para;</a></h2>
+<p>Of course! I respect the freedom of users and in no way want to keep them locked up.</p>
+<hr />
 <h2 id="how-to-recover-a-forgotten-password">How to recover a forgotten password?<a class="headerlink" href="#how-to-recover-a-forgotten-password" title="Permanent link">&para;</a></h2>
 <p>If I don't know you personally, you will have to remember it. Otherwise, register a new account. The password is the only way to verify that you are the owner of the account.</p>
 <div class="admonition tip">
@@ -2262,6 +2283,9 @@ In the newer versions of the client software, the following indications are avai
 <p>Main Drawback: <a href="https://en.wikipedia.org/wiki/Bus_factor">Bus Factor</a> = 1</p>
 </div>
 <hr />
+<h2 id="ако-утре-решите-да-спрете-проекта-какво-би-означавало-това-за-нас---потребителите">Ако утре решите да спрете проекта какво би означавало това за нас - потребителите?<a class="headerlink" href="#ако-утре-решите-да-спрете-проекта-какво-би-означавало-това-за-нас---потребителите" title="Permanent link">&para;</a></h2>
+<p>Добрата новина е, че <strong><abbr title="Extensible Messaging and Presence Protocol">XMPP</abbr></strong> мрежата не е собственост на едно лице или компания. Мрежата е разпределена сред хиляди. Всичко, което трябва да направите, е да създадете акаунт при друг доставчик, да прехвърлите списъка си с контакти и можете да продължите да общувате с когото пожелаете.</p>
+<hr />
 <h2 id="how-much-electricity-does-it-use">How much electricity does it use?<a class="headerlink" href="#how-much-electricity-does-it-use" title="Permanent link">&para;</a></h2>
 <p>In order to minimize electricity consumption, I use a processor based on the <strong><abbr title="Formerly Advanced RISC Machines and originally Acorn RISC Machine">ARM</abbr></strong> architecture. At 100% load on all four cores, consumption reaches 10.4W. Most of the time the server is under 10% load.</p>
 <hr />
@@ -2269,7 +2293,7 @@ In the newer versions of the client software, the following indications are avai
 <p>There are many reasons for my decision to choose <strong>Ejabberd</strong>. Most of them are based on the flaws I find in <strong>Prosody</strong>, and they probably won't be fixed anytime soon:</p>
 <ul>
 <li><strong>Prosody</strong> consumes more system memory. The situation has improved a bit with <code>mod_external_upload</code> and the new versions of the <strong>PostgreSQL</strong> binding code, but there is still a lot to be desired;</li>
-<li><strong>Prosody</strong> uses only one CPU core;</li>
+<li><strong>Prosody</strong> uses only one <abbr title="Central Processing Unit, or just Processor">CPU</abbr> core;</li>
 <li>Cannot be upgraded in a cluster;</li>
 <li>In the future, if there is a need, I would not be able to provide a service of the <a href="https://en.wikipedia.org/wiki/High_availability"><strong>High Availability</strong></a> type;</li>
 <li>Sometimes not keeping up with the new <strong><abbr title="Extensible Messaging and Presence Protocol">XMPP</abbr></strong> standards required by the <strong>Conversations</strong> app for <strong>Android</strong>;</li>
@@ -2279,7 +2303,7 @@ In the newer versions of the client software, the following indications are avai
 <ul>
 <li>Developers have many years of experience with <strong><abbr title="Extensible Messaging and Presence Protocol">XMPP</abbr></strong> - <strong>Ejabberd</strong> is a very mature platform;</li>
 <li>The <a href="https://en.wikipedia.org/wiki/Erlang_(programming_language)">Erlang</a> language, in which <strong>Ejabberd</strong> is written, was created exactly for this kind of applications and is known for its high performance;</li>
-<li><strong>Ejabberd</strong> uses all available CPU cores;</li>
+<li><strong>Ejabberd</strong> uses all available <abbr title="Central Processing Unit, or just Processor">CPU</abbr> cores;</li>
 <li>Can be integrated into a cluster;</li>
 <li>It has been used for many years by large <a href="https://www.rst.software/blog/22-companies-using-xmpp-and-ejabberd-to-build-instant-messaging-services">corporations</a>, which confirms its stability;</li>
 <li>Supported by the company <a href="https://www.process-one.net/">ProcessOne</a> which has a clear funding mechanism;</li>
@@ -2381,7 +2405,7 @@ In the newer versions of the client software, the following indications are avai
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2026-01-24T17:17:25+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2026-01-24</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2026-01-25T08:24:04+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2026-01-25</span>
   </span>
 
     
