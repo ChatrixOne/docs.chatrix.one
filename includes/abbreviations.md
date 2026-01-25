@@ -3,9 +3,11 @@
 *[ARM]: Formerly Advanced RISC Machines and originally Acorn RISC Machine
 *[Bind]: Berkeley Internet Name Domain
 *[Bot]: Abbreviation of robot - software application that runs automated tasks (scripts) on the Internet, usually with the intent to imitate human activity, such as messaging, on a large scale
+*[Bots]: Abbreviation of robot - software application that runs automated tasks (scripts) on the Internet, usually with the intent to imitate human activity, such as messaging, on a large scale
 *[c2s]: Client-to-Server
 *[CAPTCHA]: Challenge–response Test
 *[CLI]: Command-line interface
+*[CPU]: Central Processing Unit, or just Processor
 *[DANE]: DNS-based Authentication of Named Entities
 *[DNS]: Domain Name System
 *[DNSSEC]: Domain Name System Security Extensions
