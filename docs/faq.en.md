@@ -700,9 +700,9 @@ At the moment I am the only person, which has its advantages and disadvantages.
 
 * * *
 
-## Ако утре решите да спрете проекта какво би означавало това за нас - потребителите?
+## If you decided to stop the project tomorrow, what would that mean for us - the users?
 
-Добрата новина е, че **XMPP** мрежата не е собственост на едно лице или компания. Мрежата е разпределена сред хиляди. Всичко, което трябва да направите, е да създадете акаунт при друг доставчик, да прехвърлите списъка си с контакти и можете да продължите да общувате с когото пожелаете.
+The good news is that the **XMPP** network is not owned by a single person or company. The network is distributed among thousands. All you have to do is create an account with another provider, transfer your contact list, and you can continue communicating with whoever you want.
 
 * * *
 
