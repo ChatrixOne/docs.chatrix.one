@@ -137,6 +137,12 @@ For more details, see [RST Software](https://www.rst.software/blog/22-companies-
 
 * * *
 
+## What does the **XMPP**network look like?
+
+An example visualization of the **XMPP** network is available on the [XMPP Network Graph](https://xmppnetwork.goodbytes.im/) page.
+
+* * *
+
 ## What is **OMEMO**?
 
 **OMEMO** is a method of double encryption of end-to-end communication. Encryption keys are automatically generated for each message, making communication even more secure. In other words, even if one message is compromised, the rest of the communication remains unaffected. Additional information about the method can be found on [Wikipedia](https://en.wikipedia.org/wiki/OMEMO) and on the **Conversations** website under the [OMEMO]( https://conversations.im/omemo/). The audit results of the protocol, by [**Radically Open Security BV**](https://www.radicallyopensecurity.com/), is available on the page of [**Conversations.im**](https://conversations.im/omemo/audit.pdf).
