@@ -288,6 +288,12 @@ In case you have enabled an encryption method (**OMEMO** or **OpenPGP**) the vid
 
 * * *
 
+## Can I communicate with contacts outside of **Chatrix.One**?
+
+Of course! I respect the freedom of users and in no way want to keep them locked up.
+
+* * *
+
 ## How to recover a forgotten password?
 
 If I don't know you personally, you will have to remember it. Otherwise, register a new account. The password is the only way to verify that you are the owner of the account.
@@ -691,6 +697,12 @@ At the moment I am the only person, which has its advantages and disadvantages.
 !!! warning "Caution!"
 
      Main Drawback: [Bus Factor](https://en.wikipedia.org/wiki/Bus_factor) = 1
+
+* * *
+
+## Ако утре решите да спрете проекта какво би означавало това за нас - потребителите?
+
+Добрата новина е, че **XMPP** мрежата не е собственост на едно лице или компания. Мрежата е разпределена сред хиляди. Всичко, което трябва да направите, е да създадете акаунт при друг доставчик, да прехвърлите списъка си с контакти и можете да продължите да общувате с когото пожелаете.
 
 * * *
 

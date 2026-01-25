@@ -286,6 +286,12 @@ flowchart RL
 
 * * *
 
+## Мога ли да комуникирам с контакти извън **Chatrix.One**?
+
+Разбира се! Уважавам свободата на потребителите и в никакъв случай не целия да ги държа заключени.
+
+* * *
+
 ## Как да възстановя забравена парола?
 
 Ако не Ви познавам лично, ще се наложи да си я спомните. В противен случай, регистрирайте нов профил. Паролата е единственият начин да удостоверите, че точно Вие сте собственикът на профила.
@@ -689,6 +695,12 @@ flowchart BT
 !!! warning "Внимание!"
 
     Основен недостатък: [**Bus Factor**](https://bg.wikipedia.org/wiki/Bus_factor) = 1
+
+* * *
+
+## If you decided to stop the project tomorrow, what would that mean for us - the users?
+
+The good news is that the **XMPP** network is not owned by a single person or company. The network is distributed among thousands. All you have to do is create an account with another provider, transfer your contact list, and you can continue communicating with whoever you want.
 
 * * *
 
