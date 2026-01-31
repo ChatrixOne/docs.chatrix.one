@@ -20,6 +20,7 @@ In general, I am far from the thought of imposing any restrictions. However, pra
 
 - Illegal access to the service;
 - Messages containing offensive and obscene phrases, racist or other similar definitions, leading to harassment of other users of the service;
+- Using the service for automated communication with end users, including, but not limited to, as part of chatbots, virtual assistants, live chat systems, helpdesk platforms or "Contact Us" type functionalities;
 - The publication of advertising articles and materials without the approval of an administrator;
 - Sending [Spam](https://en.wikipedia.org/wiki/Spam) messages;
 - Registration of more than one profile for one individual, without permission from an administrator;
