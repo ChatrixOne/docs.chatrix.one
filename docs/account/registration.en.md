@@ -12,10 +12,6 @@ icon: material/account-plus
 
 Personal data is **not** required to register an account in **Chatrix.One**. You do not need to provide a phone number, credit/debit card details, photo or address. It is enough to choose one of the methods listed below, according to your personal preferences.
 
-!!! warning "Important"
-
-     From 01.02.2026, the preferred way to register a profile in **Chatrix.One** is by using an invitation. There are two options. In the form of a URL address or by scanning a QR code.
-
 ## Ways to register an account
 
 - :material-qrcode-scan: - Scan an invitation in the form of QR code;
@@ -27,15 +23,16 @@ Personal data is **not** required to register an account in **Chatrix.One**. You
 - :material-phone-check: - A phone call, if you have a phone number to contact an administrator. It will not be published on the website;
 - :material-eye-check-outline: - A face-to-face meeting.
 
+
+!!! warning "Important"
+
+     From 01.02.2026, profile registration will be done via an invitation provided as a URL link or QR code.
+
 !!! failure "Important"
 
      Currently, profile registration via the registration form and applications is **suspended**! This is done to protect the service from Bots and malicious users creating multiple invalid spam profiles. The preferred method of registration is by using invitations.
 
-!!! tip "Tip"
-
-     Avoid using one password for everything! Use a password managing software (Password Manager). This way, you will be able to easily generate different passwords for each account or application. The most important thing is that you will not need to remember them. I would recommend [**Bitwarden**](https://bitwarden.com/).
-
-Registration by invitation is the preferred way to register a **Chatrix.One** account. In this way, you will be able to choose the username yourself. The password will be generated automatically, and of course you can edit it. In case the password field is empty, you will have to fill it manually.
+Registration by invitation is the preferred way to register a **Chatrix.One** account. In this way, you will be able to choose the username yourself. The password will be generated automatically, and of course you can edit it. In case the password field is empty, you will have to fill it manually. To receive an invitation, you need to contact an administrator.
 
 In case you choose to register an account by email using a temporary email service such as [**10 Minute mail**](https://10minutemail.com/) or [**Temp Mail**](https://temp-mail.org/), keep in mind that I cannot always respond immediately. For this reason, it would be more practical to use a real email address. It will not be stored in a database, nor will it be used for advertising campaigns or any other purposes. **Chatrix.One does not** sell or **does not** provide information to third parties! You will only receive an email with a password for the username you have chosen.
 
@@ -47,6 +44,7 @@ After a successful initial login to the system, I recommend that you change the 
 
 !!! tip "Tip"
 
+     Avoid using one password for everything! Use a password managing software (Password Manager). This way, you will be able to easily generate different passwords for each account or application. The most important thing is that you will not need to remember them. I would recommend [**Bitwarden**](https://bitwarden.com/).
      Create easy to remember, but hard to crack passwords. For example: `1Favorite-Phrase-From-A-Favorite-Poem` or `Keep-Expectations-2Low`. Avoid hard to remember, but easy to crack passwords! For example: `Sq@-!@#!`. Such a password is cracked in **minutes** or **hours**!
 
 To test the security of your password, online tools such as [**How ​​Secure Is My Password?**](https://www.security.org/how-secure-is-my-password/) and [**Have i been pwned?**](https://haveibeenpwned.com/) are available. They are useful in case you want to find out how long it will take for your chosen password to be cracked, as well as to check whether it has already been compromised in a previous hacker attack.
