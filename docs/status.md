@@ -10,6 +10,7 @@
 
 | Тип               | Ограничения                               |Статус                     |
 |:------------------|:-----------------------------------------:|:-------------------------:|
+| Покана            |До една регистрация на час                 |![Registration Status](https://uptime.tinyserver.eu/api/badge/125/status?label=&upLabel=ОТВОРЕНА&downLabel=ЗАТВОРЕНА) |
 | Онлайн форма      |До една регистрация на час                 |![Registration Status](https://uptime.tinyserver.eu/api/badge/141/status?label=&upLabel=ОТВОРЕНА&downLabel=ЗАТВОРЕНА) |
 | Инсталиран клиент |До една регистрация на час от **IP** адрес |![Registration Status](https://uptime.tinyserver.eu/api/badge/141/status?label=&upLabel=ОТВОРЕНА&downLabel=ЗАТВОРЕНА) |
 
