@@ -68,9 +68,10 @@ To get registered in **Chatrix.One**, you do not have to use any of the listed t
         ```
         Hello!
 
-        I would like to get registered in Chatrix.One.
-        The username I want to use is: [james@chatrix.one].
-        Please, I will be included in the Shared Roster Group: [Group Name]
+        I would like to receive an invitation for registration in Chatrix.One,
+        as registration of accounts through the website and applications is currently not active.
+        I am aware that if I want the username to be included in the Shared Roster Group,
+        I will need to contact an administrator via an XMPP message.
 
         Thank you.
         ```
@@ -86,8 +87,10 @@ To get registered in **Chatrix.One**, you do not have to use any of the listed t
 
         ```
         I would like to register my [friend/acquaintance/relative/colleague] in Chatrix.One.
-        The username he wants to use is: [james@chatrix.one].
-        Please include him in the Shared Roster Group: [Group Name]
+        ```
+        
+        ```
+        Could you please send me an invitation for registration?
         ```
 
         ```
