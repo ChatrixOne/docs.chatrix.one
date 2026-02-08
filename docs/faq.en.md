@@ -167,6 +167,12 @@ A sample **XMPP** registration message template is available in the [Registratio
 
 * * *
 
+## Why haven't I received the registration link email?
+
+Please check your Spam folder.
+
+* * *
+
 ## Which client do you recommend?
 
 I use **Gajim** under **Windows** and **Linux**. For **Android** I use **Conversations** - paid version. Both clients are 100% **OMEMO** compatible and open source. I can't comment on **iOS** as I've never had a device running this operating system.
