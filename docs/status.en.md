@@ -85,7 +85,7 @@
 | Disk Space       | 64GB                           |
 | File System      | ext4                           |
 | Operating System | Ubuntu 22.04 (Jammy Jellyfish) |
-| Ejabberd version | 26.01                          |
+| Ejabberd version | 26.02                          |
 | Backup           | Weekly                         |
 | Location         | Switzerland                    |
 | Powered with     | 100% Renewable energy          |
@@ -166,6 +166,22 @@
      There are currently no documented incidents.
 
 ## Update history
+
+### 11.02.2026
+
+#### Update Ejabberd to version [26.02](https://github.com/processone/ejabberd/releases/tag/26.02)
+
+- Fixes issue with adding `hats` data in presences send by group chats;
+- Removes `mod_muc_occupantid` modules, and integrates its functionality directly into `mod_muc`;
+- Fixes issue with reset `occupant-id` values after restart of Eejabberd;
+- Improves handling of mediated group chat invitations in `mod_block_stranger`;
+- Properly install `mod_invites` templates in `make install` call;
+- Better errors in `mod_invites`;
+- Accessibility improvements in `mod_invites`;
+- Improves handling of request with invalid URL encoded values in request handled by `ejabberd_http`;
+- Improves handling of invalid responses to disco queries in `mod_pubsub_serverinfo`;
+- Fixes conversion of MUC room configs from EJabberd older than 21.12;
+- Fixes to autologin in WebAdmin.
 
 ### 23.01.2026
 
