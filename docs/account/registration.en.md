@@ -26,7 +26,7 @@ Personal data is **not** required to register an account in **Chatrix.One**. You
 
 !!! warning "Important"
 
-     From 01.02.2026, profile registration will be done via an invitation provided as a URL link or QR code.
+     As of February 1, 2026, profile registration will be exclusively available by invitation, delivered as a URL link or QR code.
 
 !!! failure "Important"
 
