@@ -53,9 +53,9 @@ To test the security of your password, online tools such as [**How ​​Secure 
 
      After successful registration, you will receive a system message welcoming you to the **Chatrix.One** server. In cases where there is a suspicion that the account is of the **Bot** type, you will receive a new system message prompting you to answer a question. This is done to protect the service.
 
-## Example templates for account registration
+## Example templates for invitation requests
 
-To get registered in **Chatrix.One**, you do not have to use any of the listed templates. It is enough to send a free text request to the administrator. The important thing is to write the username you would like to use and whether you would like to be included in a so called **Shared Roster Group**. For your convenience, two templates are available. One for email and one for XMPP messages.
+To get registered in **Chatrix.One**, you do not have to use any of the listed templates. It is enough to send a free text request to the administrator. The important thing is to write the reason why you want to register on this server. For your convenience, two templates are available. One for email and one for XMPP messages.
 
 !!! example "Example"
 
