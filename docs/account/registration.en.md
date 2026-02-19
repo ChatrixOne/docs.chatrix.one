@@ -68,7 +68,7 @@ To get registered in **Chatrix.One**, you do not have to use any of the listed t
         ```
         Hello,
         
-        I would like to request an invitation to register an account on **Chatrix.One**, as public registration through the website and applications is currently not available.
+        I would like to request an invitation to register an account on Chatrix.One, as public registration through the website and applications is currently not available.
         I am interested in joining this server because:
         [Briefly describe your reason here]
         I understand that if I would like my username to be included in a Shared Roster Group, I will need to contact an administrator via XMPP message after registration.
