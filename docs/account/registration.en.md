@@ -62,18 +62,22 @@ To get registered in **Chatrix.One**, you do not have to use any of the listed t
     === "Email"
 
         * **To:** admin[@]chatrix.one
-        * **Regards:** Account Registration
-        * **Content:**
+        * **Subject:** Request for Invitation
+        * **Message:**
 
         ```
-        Hello!
+        Hello,
+        
+        I would like to request an invitation to register an account on **Chatrix.One**, as public registration through the website and applications is currently not available.
+        I am interested in joining this server because:
+        [Briefly describe your reason here]
+        I understand that if I would like my username to be included in a Shared Roster Group, I will need to contact an administrator via XMPP message after registration.
 
-        I would like to receive an invitation for registration in Chatrix.One,
-        as registration of accounts through the website and applications is currently not active.
-        I am aware that if I want the username to be included in the Shared Roster Group,
-        I will need to contact an administrator via an XMPP message.
-
-        Thank you.
+        Thank you for your time and consideration.
+        
+        Best regards,
+        
+        [Your Name]
         ```
 
     === "**XMPP** messages"
