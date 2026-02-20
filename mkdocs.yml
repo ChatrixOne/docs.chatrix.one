@@ -177,7 +177,7 @@ plugins:
             ЧЗВ: FAQ
   - git-revision-date-localized:
       type: timeago
-      enable_creation_date: true
+      enable_creation_date: false
   - git-committers:
       repository: ChatrixOne/docs.chatrix.one
       branch: main
