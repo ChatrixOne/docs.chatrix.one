@@ -34,7 +34,7 @@ Personal data is **not** required to register an account in **Chatrix.One**. You
 
 Registration by invitation is the preferred way to register a **Chatrix.One** account. In this way, you will be able to choose the username yourself. The password will be generated automatically, and of course you can edit it. In case the password field is empty, you will have to fill it manually. To receive an invitation, you need to contact an administrator.
 
-When contacting me by email, using a temporary email service of the type [**10 Minute mail**](https://10minutemail.com/) or [**Temp Mail**](https://temp-mail.org/), keep in mind that I cannot always respond immediately. For this reason, it would be more practical to use a real email address. It will not be stored in a database, nor will it be used for advertising campaigns or any other purposes. **Chatrix.One does not** sell or **does not** provide information to third parties! You will only receive an email with a password for the username you have chosen.
+When contacting me by email, using a temporary email service of the type [**10 Minute mail**](https://10minutemail.com/) or [**Temp Mail**](https://temp-mail.org/), keep in mind that I cannot always respond immediately. For this reason, it would be more practical to use a real email address. It will not be stored in a database, nor will it be used for advertising campaigns or any other purposes. **Chatrix.One does not sell or does not provide information to third parties!** You will only receive an email containing the invitation to register an account.
 
 !!! info "Information"
 
