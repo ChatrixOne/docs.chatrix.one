@@ -82,7 +82,7 @@
 |:-----------------|:------------------------------:|
 | Processor        | ARM Ampere                     |
 | RAM              | 12GB                           |
-| Disk Space       | 64GB                           |
+| Disk Space       | 64GB (Encrypted)               |
 | File System      | ext4                           |
 | Operating System | Ubuntu 22.04 (Jammy Jellyfish) |
 | Ejabberd version | 26.02                          |
