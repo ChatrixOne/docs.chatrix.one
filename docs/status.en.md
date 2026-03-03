@@ -86,7 +86,7 @@
 | File System      | ext4                           |
 | Operating System | Ubuntu 22.04 (Jammy Jellyfish) |
 | Ejabberd version | 26.02                          |
-| Backup           | Weekly                         |
+| Backup           | Daily                          |
 | Location         | Switzerland                    |
 | Powered with     | 100% Renewable energy          |
 
