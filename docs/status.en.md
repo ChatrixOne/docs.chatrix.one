@@ -80,7 +80,7 @@
 
 | Parameter        | Value                          |
 |:-----------------|:------------------------------:|
-| Processor        | ARM Ampere                     |
+| Processor        | ARM Neoverse-N1                |
 | RAM              | 12GB                           |
 | Disk Space       | 64GB (Encrypted)               |
 | File System      | ext4                           |
