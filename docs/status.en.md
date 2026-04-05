@@ -167,6 +167,22 @@
 
 ## Update history
 
+### 05.04.2026
+
+#### Update Ejabberd to version [26.03](https://github.com/processone/ejabberd/releases/tag/26.03)
+
+- Fix MySQL authentication for TLS connections that required auth plugin switch;
+- Improve handling of scram 'wanted to use channel-bindings but was not offered one' flag;
+- Add ability for `mod_options` values to depend on other options;
+- Don't fail to classify stand-alone chat states;
+- Fix some warnings compiling with Erlang/OTP 29;
+- Document how to set empty lists in `ejabberdctl` and WebAdmin;
+- Add handling of Etag and If-Modified-Since headers to files served by `ejabberd_http` and `mod_http_upload`;
+- Ignore whitespaces at end of host header in `ejabberd_http`;
+- Add ability to mark that column can be null in `e_sql_schema`;
+- Add tests for SASL2;
+- Make table cleanup in test more robust;
+
 ### 11.02.2026
 
 #### Update Ejabberd to version [26.02](https://github.com/processone/ejabberd/releases/tag/26.02)
