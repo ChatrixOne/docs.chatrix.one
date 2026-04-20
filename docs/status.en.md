@@ -85,7 +85,7 @@
 | Disk Space       | 64GB (Encrypted)               |
 | File System      | ext4                           |
 | Operating System | Ubuntu 22.04 (Jammy Jellyfish) |
-| Ejabberd version | 26.02                          |
+| Ejabberd version | 26.04                          |
 | Backup           | Daily                          |
 | Location         | Switzerland                    |
 | Powered with     | 100% Renewable energy          |
@@ -166,6 +166,12 @@
      There are currently no documented incidents.
 
 ## Update history
+
+### 20.04.2026
+
+#### Update Ejabberd to version [26.04](https://github.com/processone/ejabberd/releases/tag/26.04)
+
+- Security release - Limits max memory used by XML parser used to process XMPP payloads, to prevent potential DoS attack.
 
 ### 05.04.2026
 
