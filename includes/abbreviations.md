@@ -58,6 +58,7 @@
 *[VPN]: Virtual private network
 *[XEP]: XMPP Extension Protocol
 *[XEPs]: XMPP Extension Protocols
+*[XML]: Extensible Markup Language and file format for storing, transmitting, and reconstructing data
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[ZFS]: File system with volume management capabilities
 *[ОРЗД]: Общ регламент относно защитата на данните
