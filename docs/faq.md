@@ -44,7 +44,7 @@ flowchart RL
 
         subgraph Потребители на abc.tld
         ABC[(<b>XMPP</b> Сървър <br>fa:fa-server<br> <b>abc.tld</b>)]
-        d((Потребител D)) <-..-> |port<br>5222| ABC
+        d((Потребител D)) <-..-> |5222| ABC
         e((Потребител E)) <-..-> |5222| ABC
         f((Потребител F)) <-..-> |5222| ABC
         end
