@@ -54,4 +54,4 @@ In order to protect against bots, you need to enter a six-digit code. You will s
 
      In case you don't see a **CAPTCHA** code, you may have a browser extension installed that is blocking the preview. In this case, temporarily disable the extension or use a different web browser.
 
-[Account Registration](https://chatrix.one/user/new/){ .md-button }
+[Account Registration](https://chatrix.one/join/){ .md-button }

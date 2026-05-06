@@ -16,8 +16,8 @@ Personal data is **not** required to register an account in **Chatrix.One**. You
 
 - :material-qrcode-scan: - Scan an invitation in the form of QR code;
 - :material-link-variant: - Open an invitation in the form of URL address;
-- :material-pencil: - ~~Independently, by filling out the online [registration form](https://docs.chatrix.one/en/account/registration-form/)~~;
-- :material-apps: - ~~Through your installed application - client~~;
+- :material-pencil: - Independently, by filling out the online [registration form](https://docs.chatrix.one/en/account/registration-form/);
+- :material-apps: - Through your installed application - client;
 - :material-email-check: - By sending an email to the address in the contacts field at the bottom of this website. Contacts are also available in the [About Me](https://docs.chatrix.one/en/about/) section. If you are using a mobile device, please check the menu :material-menu:;
 - :material-message-check: - By sending an XMPP message to an administrator. An active XMPP account is required, and the server you are sending from is irrelevant. For an up-to-date administrator address, please see the [About Me](https://docs.chatrix.one/en/about/#contacts) section;
 - :material-phone-check: - A phone call, if you have a phone number to contact an administrator. It will not be published on the website;
