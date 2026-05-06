@@ -15,7 +15,7 @@ theme:
   name: material
   language: bg
   favicon: resources/favicon/favicon.png
-  custom_dir: overrides
+  # custom_dir: overrides
   font: false
   logo: assets/logo.png
   annotation: material/plus-circle
