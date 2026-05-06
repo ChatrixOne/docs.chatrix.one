@@ -1,0 +1,47 @@
+/* .md-grid {
+    max-width: initial;
+  } */
+
+.round {
+    border-radius: 20%;
+}
+
+.shadow {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.img {
+    max-width: 20%;
+}
+
+.width {
+    width: 800;
+}
+
+.green {
+    color: hsl(121, 79%, 53%);
+  }
+
+.red {
+    color: hsl(0, 89%, 46%);
+  }
+
+  .rose {
+    color: hsl(0, 100%, 71%);
+  }
+
+.gray {
+    color: hsla(0, 0%, 59%, 0.842);
+  }
+
+  @keyframes heart {
+    0%, 40%, 80%, 100% {
+      transform: scale(1);
+    }
+    20%, 60% {
+      transform: scale(1.15);
+    }
+  }
+  .heart {
+    animation: heart 1000ms infinite;
+  }
