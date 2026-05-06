@@ -24,15 +24,15 @@ Personal data is **not** required to register an account in **Chatrix.One**. You
 - :material-eye-check-outline: - A face-to-face meeting.
 
 
-!!! warning "Important"
+<!-- !!! warning "Important"
 
      As of February 1, 2026, profile registration will be exclusively available by invitation, delivered as a URL link or QR code.
 
 !!! failure "Important"
 
-     Currently, profile registration via the registration form and applications is **suspended**! This is done to protect the service from Bots and malicious users creating multiple invalid spam profiles. The preferred method of registration is by using invitations.
+     Currently, profile registration via the registration form and applications is **suspended**! This is done to protect the service from Bots and malicious users creating multiple invalid spam profiles. The preferred method of registration is by using invitations. -->
 
-Registration by invitation is the preferred way to register a **Chatrix.One** account. In this way, you will be able to choose the username yourself. The password will be generated automatically, and of course you can edit it. In case the password field is empty, you will have to fill it manually. To receive an invitation, you need to contact an administrator.
+<!-- Registration by invitation is the preferred way to register a **Chatrix.One** account. In this way, you will be able to choose the username yourself. The password will be generated automatically, and of course you can edit it. In case the password field is empty, you will have to fill it manually. To receive an invitation, you need to contact an administrator. -->
 
 When contacting me by email, using a temporary email service of the type [**10 Minute mail**](https://10minutemail.com/) or [**Temp Mail**](https://temp-mail.org/), keep in mind that I cannot always respond immediately. For this reason, it would be more practical to use a real email address. It will not be stored in a database, nor will it be used for advertising campaigns or any other purposes. **Chatrix.One does not sell or does not provide information to third parties!** You will only receive an email containing the invitation to register an account.
 
