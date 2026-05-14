@@ -167,6 +167,19 @@
 
 ## Update history
 
+### 14.05.2026
+
+#### Complete Redesign of the Documentation Website
+
+The theme has been completely redesigned to visually align with the updated main website [Chatrix.One](https://chatrix.one).
+
+### 10.05.2026
+
+#### New Logo
+
+![Chatrix.One Logo](../assets/logo-dark.svg#only-dark){ width="200" }
+![Chatrix.One Logo](../assets/logo-light.svg#only-light){ width="200" }
+
 ### 20.04.2026
 
 #### Update Ejabberd to version [26.04](https://github.com/processone/ejabberd/releases/tag/26.04)
