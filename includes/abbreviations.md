@@ -63,4 +63,38 @@
 *[ZFS]: File system with volume management capabilities
 *[ОРЗД]: Общ регламент относно защитата на данните
 *[Спонсор]: Всеки потребител направил поне едно дарение
-*[ЧЗВ]: Често Задавни Въпроси
+*[ЧЗВ]: Често Задавни Въпроси*[DoH]: DNS over HTTPS — encrypts DNS queries to prevent snooping
+*[DoT]: DNS over TLS — encrypts DNS queries using TLS
+*[TOFU]: Trust On First Use — automatically trusting a new key on first contact
+*[E2EE]: End-to-End Encryption
+*[FCM]: Firebase Cloud Messaging — Google's push notification service
+*[APNs]: Apple Push Notification service
+*[FLOSS]: Free/Libre and Open Source Software
+*[OTP]: One-Time Password
+*[FOSS]: Free and Open Source Software
+*[GCM]: Google Cloud Messaging — predecessor to FCM
+*[MitM]: Man-in-the-Middle attack
+*[MITM]: Man-in-the-Middle attack
+*[HA]: High Availability
+*[CI]: Continuous Integration
+*[CD]: Continuous Deployment
+*[OS]: Operating System
+*[GUI]: Graphical User Interface
+*[UI]: User Interface
+*[UX]: User Experience
+*[RFC]: Request for Comments — official internet standards documents
+*[IETF]: Internet Engineering Task Force — develops internet standards
+*[W3C]: World Wide Web Consortium
+*[CSP]: Content Security Policy
+*[HSTS]: HTTP Strict Transport Security
+*[OCSP]: Online Certificate Status Protocol
+*[CAA]: Certification Authority Authorization
+*[ACL]: Access Control List
+*[NAT]: Network Address Translation
+*[UDP]: User Datagram Protocol
+*[TCP]: Transmission Control Protocol
+*[IPv4]: Internet Protocol version 4
+*[IPv6]: Internet Protocol version 6
+*[SIP]: Session Initiation Protocol
+*[WebRTC]: Web Real-Time Communication
+*[LDAP]: Lightweight Directory Access Protocol

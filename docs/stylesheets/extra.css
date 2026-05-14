@@ -1,47 +1,1278 @@
-/* .md-grid {
-    max-width: initial;
-  } */
+/* =============================================================
+   Chatrix.One — MkDocs Material Theme
+   Source: chatrix/static/styles.css (Hugo main site)
 
-.round {
-    border-radius: 20%;
+   DARK   accent #00c896 · bg #0a0e14 · surface #0f1520 · card #141c2e
+   LIGHT  accent #00a87a · bg #f0f4f8 · surface #f7f9fc · card #ffffff
+   Font   IBM Plex Sans + IBM Plex Mono
+   ============================================================= */
+
+/* ── IBM Plex fonts ─────────────────────────────────────────── */
+
+/* ─────────────────────────────────────────────────────────────
+   DARK SCHEME  (slate)
+   --md-primary-bg-color MUST be #ffffff so Material renders its
+   header icons in white (it uses currentColor against that bg).
+   We then force the actual header bg with !important.
+   ───────────────────────────────────────────────────────────── */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:               #00c896;
+  --md-primary-fg-color--light:        #33d4a8;
+  --md-primary-fg-color--dark:         #00a87a;
+  --md-primary-bg-color:               #ffffff;   /* keeps icons white */
+  --md-primary-bg-color--light:        rgba(255,255,255,0.7);
+
+  --md-accent-fg-color:                #00c896;
+  --md-accent-fg-color--transparent:   rgba(0,200,150,0.14);
+  --md-accent-bg-color:                #0a0e14;
+
+  --md-default-bg-color:               #0a0e14;
+  --md-default-bg-color--light:        rgba(10,14,20,0.54);
+  --md-default-bg-color--lighter:      rgba(10,14,20,0.26);
+  --md-default-bg-color--lightest:     rgba(10,14,20,0.07);
+
+  --md-default-fg-color:               #e2e8f0;
+  --md-default-fg-color--light:        #8892a4;
+  --md-default-fg-color--lighter:      rgba(136,146,164,0.54);
+  --md-default-fg-color--lightest:     rgba(136,146,164,0.12);
+
+  --md-code-bg-color:                  #0f1520;
+  --md-code-fg-color:                  #7ee8c8;
+  --md-code-hl-color:                  rgba(0,200,150,0.1);
+
+  --md-typeset-a-color:                #00c896;
+  --md-typeset-color:                  #e2e8f0;
+  --md-typeset-table-color:            rgba(0,200,150,0.05);
+
+  --md-footer-bg-color:                #0f1520;
+  --md-footer-bg-color--dark:          #070a0f;
+  --md-footer-fg-color:                #8892a4;
+  --md-footer-fg-color--light:         rgba(136,146,164,0.7);
+  --md-footer-fg-color--lighter:       rgba(136,146,164,0.4);
 }
 
-.shadow {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+/* ─────────────────────────────────────────────────────────────
+   LIGHT SCHEME  (default)
+   --md-primary-bg-color = #ffffff so icons on green CTA stay white.
+   Header bg overridden to #f0f4f8 below with !important.
+   ───────────────────────────────────────────────────────────── */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:               #00a87a;
+  --md-primary-fg-color--light:        #00c896;
+  --md-primary-fg-color--dark:         #007a58;
+  --md-primary-bg-color:               #ffffff;
+  --md-primary-bg-color--light:        rgba(255,255,255,0.7);
+
+  --md-accent-fg-color:                #00a87a;
+  --md-accent-fg-color--transparent:   rgba(0,168,122,0.14);
+  --md-accent-bg-color:                #ffffff;
+
+  --md-default-bg-color:               #f0f4f8;
+  --md-default-fg-color:               #0f1824;
+  --md-default-fg-color--light:        #3d4e63;
+  --md-default-fg-color--lighter:      rgba(61,78,99,0.54);
+  --md-default-fg-color--lightest:     rgba(61,78,99,0.12);
+
+  --md-code-bg-color:                  #f7f9fc;
+  --md-code-fg-color:                  #007a58;
+
+  --md-typeset-a-color:                #00a87a;
+  --md-typeset-color:                  #0f1824;
+
+  --md-footer-bg-color:                #0f1824;
+  --md-footer-bg-color--dark:          #070a0f;
+  --md-footer-fg-color:                #8892a4;
+  --md-footer-fg-color--light:         rgba(136,146,164,0.7);
+  --md-footer-fg-color--lighter:       rgba(136,146,164,0.4);
 }
 
-.img {
-    max-width: 20%;
+/* ── Fonts ───────────────────────────────────────────────────── */
+body, .md-typeset, .md-nav, .md-header__title,
+.md-search__input, .md-search__suggest {
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
-.width {
-    width: 800;
+/* Subtle readability improvements — line height and letter spacing only */
+.md-typeset {
+  line-height: 1.63;
+  letter-spacing: 0.004em;
+}
+code, kbd, pre, .md-typeset code, .md-typeset pre {
+  font-family: 'IBM Plex Mono', 'SFMono-Regular', monospace !important;
 }
 
-.green {
-    color: hsl(121, 79%, 53%);
-  }
+/* ═══════════════════════════════════════════════════════════════
+   HEADER
+   !important needed: Material injects background via the primary
+   colour token directly on .md-header as an inline style or
+   high-specificity rule.
+   ═══════════════════════════════════════════════════════════════ */
 
-.red {
-    color: hsl(0, 89%, 46%);
-  }
+/* Dark */
+[data-md-color-scheme="slate"] .md-header {
+  background-color: #0f1520 !important;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+  box-shadow: 0 1px 20px rgba(0,0,0,0.7);
+}
 
-  .rose {
-    color: hsl(0, 100%, 71%);
-  }
+/* Light — matches main site header (#f0f4f8 with scroll border) */
+[data-md-color-scheme="default"] .md-header {
+  background-color: #f0f4f8 !important;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+}
 
-.gray {
-    color: hsla(0, 0%, 59%, 0.842);
-  }
+/* Site title */
+[data-md-color-scheme="default"] .md-header__title,
+[data-md-color-scheme="default"] .md-header__topic {
+  color: #0f1824;
+}
+[data-md-color-scheme="slate"] .md-header__title,
+[data-md-color-scheme="slate"] .md-header__topic {
+  color: #e2e8f0;
+}
 
-  @keyframes heart {
-    0%, 40%, 80%, 100% {
-      transform: scale(1);
-    }
-    20%, 60% {
-      transform: scale(1.15);
-    }
-  }
-  .heart {
-    animation: heart 1000ms infinite;
-  }
+/* Logo */
+.md-header__button.md-logo img {
+  height: 1.65rem;
+  width: auto;
+}
+
+/* ── Header icon buttons (palette toggle, language, search, menu)
+   Material colours these via --md-primary-bg-color (white → icons
+   appear white/visible). But on light theme the header bg is also
+   near-white, so we darken the icons explicitly.                  */
+[data-md-color-scheme="slate"] .md-header__button {
+  color: rgba(255,255,255,0.7) !important;
+}
+[data-md-color-scheme="slate"] .md-header__button:hover,
+[data-md-color-scheme="slate"] .md-header__button:focus {
+  color: #ffffff !important;
+}
+
+[data-md-color-scheme="default"] .md-header__button {
+  color: #3d4e63 !important;
+}
+[data-md-color-scheme="default"] .md-header__button:hover,
+[data-md-color-scheme="default"] .md-header__button:focus {
+  color: #0f1824 !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   NAV TABS (the row below the header on wide screens)
+   ═══════════════════════════════════════════════════════════════ */
+[data-md-color-scheme="slate"] .md-tabs {
+  background-color: #0f1520 !important;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+[data-md-color-scheme="default"] .md-tabs {
+  background-color: #f0f4f8 !important;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+[data-md-color-scheme="slate"] .md-tabs__link {
+  color: #8892a4;
+  opacity: 1;
+}
+[data-md-color-scheme="slate"] .md-tabs__link--active,
+[data-md-color-scheme="slate"] .md-tabs__link:hover {
+  color: #00c896;
+}
+
+[data-md-color-scheme="default"] .md-tabs__link {
+  color: #3d4e63;
+  opacity: 1;
+}
+[data-md-color-scheme="default"] .md-tabs__link--active,
+[data-md-color-scheme="default"] .md-tabs__link:hover {
+  color: #00a87a;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   SEARCH
+   ═══════════════════════════════════════════════════════════════ */
+/* Dark */
+[data-md-color-scheme="slate"] .md-search__form {
+  background-color: #141c2e !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  border-radius: 8px;
+}
+[data-md-color-scheme="slate"] .md-search__form:hover,
+[data-md-color-scheme="slate"] .md-search__form:focus-within {
+  background-color: #1a2438 !important;
+  border-color: #00c896 !important;
+  box-shadow: 0 0 0 3px rgba(0,200,150,0.15) !important;
+}
+[data-md-color-scheme="slate"] .md-search__input {
+  background-color: transparent !important;
+  color: #e2e8f0 !important;
+}
+[data-md-color-scheme="slate"] .md-search__input::placeholder {
+  color: #4a5568 !important;
+}
+[data-md-color-scheme="slate"] .md-search__icon {
+  color: #8892a4 !important;
+}
+
+/* Light */
+[data-md-color-scheme="default"] .md-search__form {
+  background-color: #ffffff !important;
+  border: 1px solid rgba(0,0,0,0.1) !important;
+  border-radius: 8px;
+}
+[data-md-color-scheme="default"] .md-search__form:hover,
+[data-md-color-scheme="default"] .md-search__form:focus-within {
+  background-color: #ffffff !important;
+  border-color: #00a87a !important;
+  box-shadow: 0 0 0 3px rgba(0,168,122,0.15) !important;
+}
+[data-md-color-scheme="default"] .md-search__input {
+  background-color: transparent !important;
+  color: #0f1824 !important;
+}
+[data-md-color-scheme="default"] .md-search__input::placeholder {
+  color: #7a8fa8 !important;
+}
+[data-md-color-scheme="default"] .md-search__icon {
+  color: #7a8fa8 !important;
+}
+
+/* Search results */
+[data-md-color-scheme="slate"] .md-search-result {
+  background-color: #0f1520;
+  border: 1px solid rgba(255,255,255,0.07);
+}
+[data-md-color-scheme="slate"] .md-search-result__meta {
+  background-color: #141c2e;
+  color: #8892a4;
+}
+[data-md-color-scheme="slate"] .md-search-result mark {
+  color: #00c896;
+  background-color: transparent;
+}
+[data-md-color-scheme="slate"] .md-search-result__item {
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+[data-md-color-scheme="slate"] .md-search-result__scrollwrap,
+[data-md-color-scheme="slate"] .md-search-result__list,
+[data-md-color-scheme="slate"] .md-search-result__item,
+[data-md-color-scheme="slate"] .md-search-result__link,
+[data-md-color-scheme="slate"] .md-search-result__article {
+  background-color: #0f1520 !important;
+  color: #c9d1e0 !important;
+}
+[data-md-color-scheme="slate"] .md-search-result__title {
+  color: #e2e8f0 !important;
+}
+[data-md-color-scheme="slate"] .md-search-result__teaser {
+  color: #8892a4 !important;
+}
+[data-md-color-scheme="slate"] .md-search-result__link:hover,
+[data-md-color-scheme="slate"] .md-search-result__link:focus {
+  background-color: #141c2e !important;
+}
+
+/* The search result article has class md-typeset, which triggers heading/link
+   rules from the typeset block above. Undo those overrides here. */
+.md-search-result__article.md-typeset h1 {
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+  font-weight: 500 !important;
+  letter-spacing: normal !important;
+  font-size: 0.8rem !important;
+  color: inherit !important;
+}
+.md-search-result__article.md-typeset p {
+  color: inherit !important;
+}
+.md-search-result__article.md-typeset a,
+.md-search-result__link {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+/* Search output — prevent overflow beyond viewport right edge.
+   The output is position:absolute inside .md-search (position:relative).
+   We anchor it to the RIGHT edge of the search form instead of the left,
+   so it opens leftward and stays within the viewport. */
+.md-search__output {
+  right: 0 !important;
+  left: auto !important;
+  width: clamp(280px, 100vw - 2rem, 640px) !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   SIDEBAR / NAVIGATION
+   ═══════════════════════════════════════════════════════════════ */
+[data-md-color-scheme="slate"] .md-sidebar {
+  background-color: #0f1520;
+}
+[data-md-color-scheme="default"] .md-sidebar {
+  background-color: #f7f9fc;
+}
+
+/* Nav links */
+[data-md-color-scheme="slate"] .md-nav__link {
+  color: #8892a4;
+}
+[data-md-color-scheme="slate"] .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-nav__item--active > .md-nav__link {
+  color: #00c896 !important;
+  font-weight: 600;
+}
+[data-md-color-scheme="slate"] .md-nav__link:hover {
+  color: #33d4a8;
+}
+
+[data-md-color-scheme="default"] .md-nav__link {
+  color: #3d4e63;
+}
+[data-md-color-scheme="default"] .md-nav__link--active {
+  color: #00a87a !important;
+  font-weight: 600;
+}
+[data-md-color-scheme="default"] .md-nav__link:hover {
+  color: #00a87a;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   MAIN CONTENT AREA
+   ═══════════════════════════════════════════════════════════════ */
+[data-md-color-scheme="slate"] .md-main,
+[data-md-color-scheme="slate"] .md-content {
+  background-color: #0a0e14;
+}
+
+/* ── Typography — dark ───────────────────────────────────────── */
+[data-md-color-scheme="slate"] .md-typeset {
+  color: #e2e8f0;
+}
+[data-md-color-scheme="slate"] .md-typeset h1 {
+  color: #f1f5f9;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  border-bottom: 2px solid #00c896;
+  padding-bottom: 0.4em;
+}
+[data-md-color-scheme="slate"] .md-typeset h2 {
+  color: #f1f5f9;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+  padding-bottom: 0.25em;
+}
+[data-md-color-scheme="slate"] .md-typeset h3,
+[data-md-color-scheme="slate"] .md-typeset h4,
+[data-md-color-scheme="slate"] .md-typeset h5,
+[data-md-color-scheme="slate"] .md-typeset h6 {
+  color: #f1f5f9;
+}
+[data-md-color-scheme="slate"] .md-typeset a {
+  color: #00c896;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+[data-md-color-scheme="slate"] .md-typeset a:hover {
+  color: #33d4a8;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ── Typography — light ──────────────────────────────────────── */
+[data-md-color-scheme="default"] .md-typeset {
+  color: #0f1824;
+}
+[data-md-color-scheme="default"] .md-typeset h1,
+[data-md-color-scheme="default"] .md-typeset h2,
+[data-md-color-scheme="default"] .md-typeset h3,
+[data-md-color-scheme="default"] .md-typeset h4 {
+  color: #0f1824;
+}
+[data-md-color-scheme="default"] .md-typeset a {
+  color: #00a87a;
+}
+[data-md-color-scheme="default"] .md-typeset a:hover {
+  color: #007a58;
+}
+
+/* Selection */
+[data-md-color-scheme="slate"] ::selection { background: #00c896; color: #0a0e14; }
+[data-md-color-scheme="default"] ::selection { background: #00a87a; color: #ffffff; }
+
+/* ── Code ────────────────────────────────────────────────────── */
+[data-md-color-scheme="slate"] .md-typeset :not(pre) > code {
+  background-color: #141c2e;
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 5px;
+  color: #00c896;
+  padding: 0.1em 0.4em;
+}
+[data-md-color-scheme="slate"] .md-typeset pre {
+  background-color: #0f1520;
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 12px;
+}
+[data-md-color-scheme="slate"] .md-typeset pre > code {
+  background-color: transparent;
+  border: none;
+  color: #e2e8f0;
+}
+[data-md-color-scheme="default"] .md-typeset :not(pre) > code {
+  background-color: #f0fdf4;
+  border: 1px solid rgba(0,168,122,0.2);
+  color: #007a58;
+  border-radius: 5px;
+}
+
+/* ── Admonitions ─────────────────────────────────────────────── */
+[data-md-color-scheme="slate"] .md-typeset .admonition,
+[data-md-color-scheme="slate"] .md-typeset details {
+  background-color: #141c2e;
+  border: 1px solid rgba(255,255,255,0.07);
+  border-left-width: 4px;
+  border-radius: 8px;
+  box-shadow: none;
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition-title,
+[data-md-color-scheme="slate"] .md-typeset summary {
+  background-color: rgba(15,21,32,0.8);
+}
+[data-md-color-scheme="slate"] .md-typeset .note,
+[data-md-color-scheme="slate"] .md-typeset .info    { border-left-color: #00c896; }
+[data-md-color-scheme="slate"] .md-typeset .tip,
+[data-md-color-scheme="slate"] .md-typeset .success,
+[data-md-color-scheme="slate"] .md-typeset .hint    { border-left-color: #00c896; }
+[data-md-color-scheme="slate"] .md-typeset .warning,
+[data-md-color-scheme="slate"] .md-typeset .caution { border-left-color: #f59e0b; }
+[data-md-color-scheme="slate"] .md-typeset .danger,
+[data-md-color-scheme="slate"] .md-typeset .error   { border-left-color: #ef4444; }
+
+[data-md-color-scheme="slate"] .md-typeset .note > .admonition-title,
+[data-md-color-scheme="slate"] .md-typeset .info > .admonition-title,
+[data-md-color-scheme="slate"] .md-typeset .tip > .admonition-title,
+[data-md-color-scheme="slate"] .md-typeset .success > .admonition-title { color: #00c896; }
+
+/* ── Tables ──────────────────────────────────────────────────── */
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) {
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 8px;
+  overflow: hidden;
+}
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) th {
+  background-color: #141c2e;
+  color: #e2e8f0;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) td {
+  border-color: rgba(255,255,255,0.07);
+}
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) tr:hover {
+  background-color: rgba(0,200,150,0.04);
+}
+
+/* Footer — see FOOTER NAVIGATION BAND section below */
+
+/* ── Back-to-top ─────────────────────────────────────────────── */
+[data-md-color-scheme="slate"] .md-top {
+  background-color: #00c896;
+  color: #0a0e14;
+  border-radius: 999px;
+  box-shadow: 0 4px 16px rgba(0,200,150,0.4);
+}
+[data-md-color-scheme="default"] .md-top {
+  background-color: #00a87a;
+  color: #ffffff;
+}
+
+/* ── Scrollbar ───────────────────────────────────────────────── */
+[data-md-color-scheme="slate"] * {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.1) #0a0e14;
+}
+[data-md-color-scheme="slate"] ::-webkit-scrollbar { width: 6px; height: 6px; }
+[data-md-color-scheme="slate"] ::-webkit-scrollbar-track { background: #0a0e14; }
+[data-md-color-scheme="slate"] ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.12); border-radius: 3px; }
+[data-md-color-scheme="slate"] ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.22); }
+
+/* ── Utility classes ─────────────────────────────────────────── */
+.round  { border-radius: 20%; }
+.shadow { box-shadow: rgba(149,157,165,0.2) 0 8px 24px; }
+.img    { max-width: 20%; }
+.green  { color: #00c896; }
+.red    { color: hsl(0,89%,46%); }
+.rose   { color: hsl(0,100%,71%); }
+.gray   { color: hsla(0,0%,59%,0.842); }
+
+@keyframes heart {
+  0%, 40%, 80%, 100% { transform: scale(1); }
+  20%, 60%           { transform: scale(1.15); }
+}
+.heart { animation: heart 1000ms infinite; }
+
+/* ═══════════════════════════════════════════════════════════════
+   LANGUAGE PILL SWITCHER  — exact match to chatrix.one .lang-switch
+   Source values: padding 3px container, 6px 12px buttons,
+   active = var(--ink) bg + var(--bg) text
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Wrapper — strip Material's default option padding/margin */
+.md-header__option {
+  padding: 0;
+  margin-left: 12px;  /* gap from palette toggle */
+}
+
+.cx-lang-switch {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 3px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+/* Dark */
+[data-md-color-scheme="slate"] .cx-lang-switch {
+  background: #141c2e;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+/* Light — bg-card = #ffffff, line = rgba(0,0,0,0.08) */
+[data-md-color-scheme="default"] .cx-lang-switch {
+  background: #ffffff;
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+/* Buttons — 6px 12px matches Hugo source exactly */
+.cx-lang-btn {
+  padding: 6px 12px;
+  border-radius: 999px;
+  text-decoration: none !important;
+  transition: all .25s ease;
+  line-height: 1;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+/* Dark inactive: ink-mute */
+[data-md-color-scheme="slate"] .cx-lang-btn {
+  color: #4a5568;
+}
+[data-md-color-scheme="slate"] .cx-lang-btn:hover {
+  color: #8892a4;
+}
+/* Dark active: bg = var(--ink) = #e2e8f0, color = var(--bg) = #0a0e14 */
+[data-md-color-scheme="slate"] .cx-lang-btn--active {
+  background: #e2e8f0;
+  color: #0a0e14 !important;
+}
+[data-md-color-scheme="slate"] .cx-lang-btn--active:hover {
+  background: #f1f5f9;
+  color: #0a0e14 !important;
+}
+
+/* Light inactive: ink-mute */
+[data-md-color-scheme="default"] .cx-lang-btn {
+  color: #7a8fa8;
+}
+[data-md-color-scheme="default"] .cx-lang-btn:hover {
+  color: #3d4e63;
+}
+/* Light active: bg = var(--ink) = #0f1824, color = var(--bg) = #f0f4f8 */
+[data-md-color-scheme="default"] .cx-lang-btn--active {
+  background: #0f1824;
+  color: #f0f4f8 !important;
+}
+[data-md-color-scheme="default"] .cx-lang-btn--active:hover {
+  background: #1a2535;
+  color: #f0f4f8 !important;
+}
+
+/* ── Gap between lang switcher and search bar ─────────────────
+   Material stacks these elements directly — add breathing room  */
+/* ═══════════════════════════════════════════════════════════════
+   THEME TOGGLE
+   Material shows the label after the CHECKED radio via:
+     .md-option:checked + label:not([hidden]) { display: block }
+   We override that display:block with our circle styles.
+   The palette.html is NOT overridden — JS hidden-toggling intact.
+   ═══════════════════════════════════════════════════════════════ */
+
+/* The visible label (after checked radio, not hidden by JS) */
+[data-md-component="palette"] .md-header__button.md-icon:not([hidden]) {
+  width: 36px !important;
+  height: 36px !important;
+  border-radius: 50% !important;
+  display: grid !important;        /* override Material's display:block */
+  place-items: center !important;
+  overflow: hidden !important;
+  transition: border-color .2s, color .2s, transform .3s ease !important;
+  flex-shrink: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  opacity: 1 !important;
+  vertical-align: middle !important;
+}
+
+[data-md-color-scheme="slate"] [data-md-component="palette"] .md-header__button.md-icon:not([hidden]) {
+  background: #141c2e !important;
+  border: 1px solid rgba(255,255,255,0.12) !important;
+  color: #8892a4 !important;
+}
+[data-md-color-scheme="default"] [data-md-component="palette"] .md-header__button.md-icon:not([hidden]) {
+  background: #ffffff !important;
+  border: 1px solid rgba(0,0,0,0.1) !important;
+  color: #7a8fa8 !important;
+}
+
+[data-md-component="palette"] .md-header__button.md-icon:not([hidden]):hover {
+  border-color: #00c896 !important;
+  color: #00c896 !important;
+  transform: rotate(20deg) !important;
+  opacity: 1 !important;
+}
+[data-md-color-scheme="default"] [data-md-component="palette"] .md-header__button.md-icon:not([hidden]):hover {
+  border-color: #00a87a !important;
+  color: #00a87a !important;
+}
+
+[data-md-component="palette"] .md-header__button.md-icon svg {
+  width: 18px !important;
+  height: 18px !important;
+}
+
+/* ── Header spacing ──────────────────────────────────────────── */
+.md-header__inner {
+  gap: 8px !important;
+}
+
+[data-md-component="palette"] {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.md-header__option:not([data-md-component="palette"]) {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   LOGO — theme-aware colour switching
+   logo-light.svg has dark fill (#111) — visible on light bg
+   logo-dark.svg  has white fill (#fff) — visible on dark bg
+   We swap the src via content trick using a sibling-hidden img,
+   or simply invert the SVG fills with CSS filters.
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Dark scheme: logo needs white mark — invert the dark SVG */
+[data-md-color-scheme="slate"] .md-header__button.md-logo img,
+[data-md-color-scheme="slate"] .md-header__button.md-logo svg {
+  filter: invert(1);
+}
+
+/* Light scheme: logo-light.svg already has dark mark — no filter */
+[data-md-color-scheme="default"] .md-header__button.md-logo img,
+[data-md-color-scheme="default"] .md-header__button.md-logo svg {
+  filter: none;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 1.8rem;
+  width: auto;
+}
+
+/* ── Page hero mockup wrapper ───────────────────────────────── */
+.cx-page-hero {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 2.5rem;
+}
+
+/* ── Feature grid (index page) ───────────────────────────────── */
+.cx-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.cx-feature-card {
+  padding: 1.1rem 1.2rem;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.07);
+}
+
+[data-md-color-scheme="slate"] .cx-feature-card {
+  background: #141c2e;
+}
+[data-md-color-scheme="default"] .cx-feature-card {
+  background: #ffffff;
+  border-color: rgba(0,0,0,0.08);
+}
+
+.cx-feature-card p { margin: 0.35rem 0 0; font-size: .88rem; }
+.cx-feature-card strong { color: var(--md-typeset-color); }
+
+/* ═══════════════════════════════════════════════════════════════
+   MONERO DONATION WIDGET — matches chatrix.one styles.css
+   ═══════════════════════════════════════════════════════════════ */
+.xmr-donate-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 6px 0 8px;
+}
+
+.xmr-donate-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--md-footer-fg-color--light, #8892a4);
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  transition: color .2s, border-color .2s;
+  user-select: none;
+}
+.xmr-donate-trigger:hover {
+  color: var(--md-footer-fg-color, #e2e8f0);
+  border-color: rgba(255,255,255,0.1);
+}
+.xmr-monero-symbol {
+  font-size: 13px;
+  font-style: italic;
+  line-height: 1;
+}
+
+/* Popup balloon */
+.xmr-donate-popup {
+  position: fixed;
+  width: min(280px, calc(100vw - 24px));
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .25s ease, transform .25s cubic-bezier(.34,1.56,.64,1);
+  transform: translateY(8px) scale(0.96);
+  z-index: 9999;
+}
+.xmr-donate-popup.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+.xmr-popup-inner {
+  background: var(--md-default-bg-color, #141c2e);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 18px;
+  padding: 18px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5), 0 0 0 1px rgba(246,102,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.xmr-popup-top-line {
+  position: absolute;
+  top: 0; left: 20px; right: 20px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #f60, transparent);
+  border-radius: 0 0 2px 2px;
+}
+
+.xmr-qr-wrap {
+  background: #000;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.xmr-qr-wrap img {
+  display: block;
+  border-radius: 6px;
+}
+
+.xmr-popup-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #f60;
+}
+
+.xmr-popup-note {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 12px;
+  color: var(--md-default-fg-color--light, #8892a4);
+  text-align: center;
+  line-height: 1.4;
+}
+
+.xmr-address-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 8px;
+  padding: 7px 8px;
+}
+
+.xmr-address {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px;
+  color: var(--md-default-fg-color--light, #8892a4);
+  word-break: break-all;
+  flex: 1;
+  line-height: 1.4;
+  user-select: all;
+  background: transparent;
+  border: none;
+  padding: 0;
+  box-shadow: none;
+}
+
+.xmr-copy-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+  background: none;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 6px;
+  padding: 4px 7px;
+  font-size: 10px;
+  font-family: 'IBM Plex Mono', monospace;
+  color: var(--md-default-fg-color--light, #8892a4);
+  cursor: pointer;
+  transition: color .2s, border-color .2s;
+  white-space: nowrap;
+}
+.xmr-copy-btn:hover { color: #f60; border-color: rgba(246,102,0,0.4); }
+.xmr-copy-btn.copied { color: #00c896; border-color: #00c896; }
+
+.xmr-popup-arrow {
+  width: 14px; height: 8px;
+  position: absolute;
+  bottom: -8px; left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+.xmr-popup-arrow::before {
+  content: '';
+  position: absolute;
+  width: 12px; height: 12px;
+  background: var(--md-default-bg-color, #141c2e);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 2px;
+  transform: rotate(45deg);
+  top: -6px; left: 1px;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   FOOTER NAVIGATION BAND — prev/next links
+   Unified across both themes: same colour as footer, no contrast jump
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Dark — gradual lightening: page #0a0e14 → nav #0f1520 → meta #141c2e → donation #141c2e */
+[data-md-color-scheme="slate"] .md-footer {
+  background-color: #0f1520 !important;
+  border-top: 1px solid rgba(255,255,255,0.07);
+}
+[data-md-color-scheme="slate"] .md-footer__inner {
+  background-color: #0f1520 !important;
+}
+[data-md-color-scheme="slate"] .md-footer-meta {
+  background-color: #141c2e !important;
+  border-top: 1px solid rgba(255,255,255,0.05);
+  border-bottom: none !important;
+}
+[data-md-color-scheme="slate"] .md-footer-nav__link {
+  color: rgba(136,146,164,0.7) !important;
+}
+[data-md-color-scheme="slate"] .md-footer-nav__link:hover {
+  color: #00c896 !important;
+}
+[data-md-color-scheme="slate"] .md-footer-nav__title {
+  color: #8892a4 !important;
+}
+
+/* Light — footer blends with page background #f0f4f8 */
+[data-md-color-scheme="default"] .md-footer,
+[data-md-color-scheme="default"] .md-footer__inner {
+  background-color: #e8edf3 !important;
+  border-top: 1px solid rgba(0,0,0,0.06);
+}
+[data-md-color-scheme="default"] .md-footer-meta {
+  background-color: #e2e8f0 !important;
+  border-top: 1px solid rgba(0,0,0,0.05);
+}
+[data-md-color-scheme="default"] .md-footer-nav__link {
+  color: #4a5568 !important;
+}
+[data-md-color-scheme="default"] .md-footer-nav__link:hover {
+  color: #00a87a !important;
+}
+[data-md-color-scheme="default"] .md-footer-nav__title {
+  color: #94a3b8 !important;
+}
+[data-md-color-scheme="default"] .md-footer__title {
+  color: #1e293b !important;
+  font-weight: 600;
+}
+[data-md-color-scheme="default"] .md-footer-meta__inner {
+  color: #64748b;
+}
+[data-md-color-scheme="default"] .md-footer-meta__inner a {
+  color: #64748b !important;
+}
+[data-md-color-scheme="default"] .md-footer-meta__inner a:hover {
+  color: #00a87a !important;
+}
+[data-md-color-scheme="default"] .md-copyright,
+[data-md-color-scheme="default"] .md-copyright__highlight {
+  color: #64748b !important;
+}
+[data-md-color-scheme="default"] .md-copyright a {
+  color: #1e293b !important;
+  font-weight: 600;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   LIGHT THEME — complete surface & typography pass
+   bg #f0f4f8 · card #ffffff · accent #00a87a · ink #0f1824
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Page & main area */
+[data-md-color-scheme="default"] body,
+[data-md-color-scheme="default"] .md-main,
+[data-md-color-scheme="default"] .md-content {
+  background-color: #f0f4f8;
+}
+
+/* Content — white card */
+[data-md-color-scheme="default"] .md-content__inner {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 2rem 2.4rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
+  border: 1px solid rgba(0,0,0,0.06);
+  margin-bottom: 1.5rem;
+}
+
+/* Sidebar bg — see sidebar section below */
+
+
+
+/* Active nav item */
+[data-md-color-scheme="default"] .md-nav__item--active > .md-nav__link {
+  background-color: rgba(0,168,122,0.08);
+  border-radius: 6px;
+  padding-left: 0.6rem;
+}
+[data-md-color-scheme="default"] .md-nav__link:hover {
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 6px;
+}
+
+/* ── Typography ── */
+[data-md-color-scheme="default"] .md-typeset h1 {
+  color: #0f1824;
+  font-weight: 700;
+  border-bottom: 2px solid #00a87a;
+  padding-bottom: 0.4em;
+}
+[data-md-color-scheme="default"] .md-typeset h2 {
+  color: #0f1824;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  padding-bottom: 0.25em;
+}
+[data-md-color-scheme="default"] .md-typeset h3,
+[data-md-color-scheme="default"] .md-typeset h4 {
+  color: #0f1824;
+}
+
+/* ── Code ── */
+[data-md-color-scheme="default"] .md-typeset pre {
+  background-color: #f1f5f9;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+/* ── Tables ── */
+[data-md-color-scheme="default"] .md-typeset table:not([class]) {
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+[data-md-color-scheme="default"] .md-typeset table:not([class]) th {
+  background-color: #f1f5f9;
+  color: #0f1824;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+[data-md-color-scheme="default"] .md-typeset table:not([class]) tr:hover {
+  background-color: rgba(0,168,122,0.04);
+}
+[data-md-color-scheme="default"] .md-typeset table:not([class]) td {
+  border-color: rgba(0,0,0,0.06);
+}
+
+/* ── Admonitions ── */
+[data-md-color-scheme="default"] .md-typeset .admonition,
+[data-md-color-scheme="default"] .md-typeset details {
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  border-left-width: 4px;
+}
+[data-md-color-scheme="default"] .md-typeset .note,
+[data-md-color-scheme="default"] .md-typeset .info    { border-left-color: #00a87a; }
+[data-md-color-scheme="default"] .md-typeset .tip,
+[data-md-color-scheme="default"] .md-typeset .success { border-left-color: #00a87a; }
+[data-md-color-scheme="default"] .md-typeset .warning { border-left-color: #f59e0b; }
+[data-md-color-scheme="default"] .md-typeset .danger  { border-left-color: #ef4444; }
+
+/* ── Cards ── */
+[data-md-color-scheme="default"] .cx-feature-card {
+  background: #ffffff;
+  border: 1px solid rgba(0,0,0,0.07);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+[data-md-color-scheme="default"] .md-typeset .grid.cards > ul > li,
+[data-md-color-scheme="default"] .md-typeset .grid.cards > ol > li {
+  background-color: #ffffff;
+  border: 1px solid rgba(0,0,0,0.07) !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  border-radius: 10px;
+}
+[data-md-color-scheme="default"] .md-typeset .grid.cards > ul > li:hover,
+[data-md-color-scheme="default"] .md-typeset .grid.cards > ol > li:hover {
+  box-shadow: 0 4px 12px rgba(0,168,122,0.12);
+  border-color: rgba(0,168,122,0.25) !important;
+}
+
+/* ── Search results ── */
+[data-md-color-scheme="default"] .md-search-result {
+  background-color: #ffffff;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 8px;
+}
+[data-md-color-scheme="default"] .md-search-result__meta {
+  background-color: #f1f5f9;
+  color: #64748b;
+}
+[data-md-color-scheme="default"] .md-search-result mark {
+  color: #00a87a;
+  background-color: transparent;
+  font-weight: 600;
+}
+[data-md-color-scheme="default"] .md-search-result__item {
+  border-top: 1px solid rgba(0,0,0,0.06);
+}
+[data-md-color-scheme="default"] .md-search-result__scrollwrap,
+[data-md-color-scheme="default"] .md-search-result__list,
+[data-md-color-scheme="default"] .md-search-result__item,
+[data-md-color-scheme="default"] .md-search-result__link,
+[data-md-color-scheme="default"] .md-search-result__article {
+  background-color: #ffffff !important;
+  color: #334155 !important;
+}
+[data-md-color-scheme="default"] .md-search-result__title {
+  color: #1e293b !important;
+}
+[data-md-color-scheme="default"] .md-search-result__teaser {
+  color: #64748b !important;
+}
+[data-md-color-scheme="default"] .md-search-result__link:hover,
+[data-md-color-scheme="default"] .md-search-result__link:focus {
+  background-color: #f1f5f9 !important;
+}
+
+/* ── Scrollbar ── */
+[data-md-color-scheme="default"] * {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0,0,0,0.15) #f0f4f8;
+}
+[data-md-color-scheme="default"] ::-webkit-scrollbar { width: 6px; height: 6px; }
+[data-md-color-scheme="default"] ::-webkit-scrollbar-track { background: #f0f4f8; }
+[data-md-color-scheme="default"] ::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.15); border-radius: 3px; }
+[data-md-color-scheme="default"] ::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.25); }
+
+
+
+/* ── Dark theme paper card effect ──────────────────────────────
+   Matches the light theme's raised content card — content sits
+   on a #141c2e card lifted above the #0a0e14 page background.   */
+
+[data-md-color-scheme="slate"] .md-content__inner {
+  background-color: #141c2e;
+  border-radius: 12px;
+  padding: 2rem 2.4rem;
+  border: 1px solid rgba(255,255,255,0.06);
+  box-shadow:
+    0 1px 3px rgba(0,0,0,0.4),
+    0 4px 16px rgba(0,0,0,0.3);
+  margin-bottom: 1.5rem;
+}
+
+/* ── Sticky nav title — definitive fix ─────────────────────────
+   Material uses shorthand `background:` (not background-color)
+   AND a spread box-shadow in the same colour to mask scroll.
+   Must override BOTH with the sidebar surface colour.
+   The `toc.integrate` feature merges left+right sidebars so
+   both --primary and --secondary need identical treatment.       */
+
+[data-md-color-scheme="slate"] .md-nav--primary .md-nav__title,
+[data-md-color-scheme="slate"] .md-nav--secondary .md-nav__title,
+[data-md-color-scheme="slate"] .md-sidebar .md-nav__title {
+  background: #0f1520 !important;
+  background-color: #0f1520 !important;
+  box-shadow: 0 0 .4rem .4rem #0f1520 !important;
+  padding-left: .6rem !important;
+}
+
+[data-md-color-scheme="default"] .md-nav--primary .md-nav__title,
+[data-md-color-scheme="default"] .md-nav--secondary .md-nav__title,
+[data-md-color-scheme="default"] .md-sidebar .md-nav__title {
+  background: #f0f4f8 !important;
+  background-color: #f0f4f8 !important;
+  box-shadow: 0 0 .4rem .4rem #f0f4f8 !important;
+  padding-left: .6rem !important;
+}
+
+/* ── Nav list & active link background — match sidebar surface ──
+   Material sets these to --md-default-bg-color (page bg).
+   Override to match sidebar surface so there's no gap/contrast.  */
+
+[data-md-color-scheme="slate"] .md-nav--primary .md-nav__title ~ .md-nav__list {
+  background-color: #0f1520 !important;
+  box-shadow: none !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link {
+  background: #0f1520 !important;
+  box-shadow: 0 0 .4rem .4rem #0f1520 !important;
+}
+
+[data-md-color-scheme="slate"] .md-sidebar--primary {
+  background-color: #0f1520 !important;
+}
+
+[data-md-color-scheme="slate"] .md-sidebar--primary .md-sidebar__scrollwrap {
+  background-color: #0f1520 !important;
+}
+
+/* Light theme equivalents */
+[data-md-color-scheme="default"] .md-nav--primary .md-nav__title ~ .md-nav__list {
+  background-color: #f0f4f8 !important;
+  box-shadow: none !important;
+}
+
+[data-md-color-scheme="default"] .md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link {
+  background: #f0f4f8 !important;
+  box-shadow: 0 0 .4rem .4rem #f0f4f8 !important;
+}
+
+[data-md-color-scheme="default"] .md-sidebar--primary {
+  background-color: #f0f4f8 !important;
+}
+
+[data-md-color-scheme="default"] .md-sidebar--primary .md-sidebar__scrollwrap {
+  background-color: #f0f4f8 !important;
+}
+
+/* ── Sidebar inner padding & scrollbar alignment ────────────────
+   Material's .md-sidebar__inner has padding-right:calc(100%-11.5rem)
+   which pushes the scrollbar outside the coloured area.
+   Also align the nav title padding with the nav items.           */
+
+[data-md-color-scheme="slate"] .md-sidebar__inner,
+[data-md-color-scheme="default"] .md-sidebar__inner {
+  padding-right: 0 !important;
+}
+
+[data-md-color-scheme="slate"] .md-sidebar__scrollwrap,
+[data-md-color-scheme="default"] .md-sidebar__scrollwrap {
+  margin: 0 !important;
+}
+
+
+
+/* Donation trigger — light theme adjustment */
+[data-md-color-scheme="default"] .xmr-donate-trigger {
+  color: #64748b;
+}
+[data-md-color-scheme="default"] .xmr-donate-trigger:hover {
+  color: #00a87a;
+  border-color: rgba(0,168,122,0.3);
+}
+
+/* Donation wrapper — seamless footer integration */
+[data-md-color-scheme="default"] .xmr-donate-wrap {
+  background-color: #e2e8f0;
+  padding: 6px 0 8px;
+  margin: 0;
+}
+
+[data-md-color-scheme="slate"] .xmr-donate-wrap {
+  background-color: #141c2e;
+  padding: 6px 0 8px;
+  margin: 0;
+  border-top: none;
+}
+
+/* ── Brand green heart in footer ───────────────────────────────
+   Emoji can't be coloured with CSS — using a ♥ character in a
+   span instead, coloured with the primary accent.               */
+.cx-heart {
+  color: #00c896;
+  font-style: normal;
+}
+
+/* External badges rendered as-is — colours controlled server-side */
+
+/* ── Buttons ─────────────────────────────────────────────────── */
+.md-typeset .md-button {
+  border-color: #00c896 !important;
+  color: #00c896 !important;
+}
+.md-typeset .md-button:hover {
+  background-color: #00c896 !important;
+  border-color: #00c896 !important;
+  color: #0a0e14 !important;
+}
+.md-typeset .md-button--primary {
+  background-color: #00c896 !important;
+  border-color: #00c896 !important;
+  color: #0a0e14 !important;
+}
+.md-typeset .md-button--primary:hover {
+  background-color: #00a87a !important;
+  border-color: #00a87a !important;
+  color: #0a0e14 !important;
+}
+[data-md-color-scheme="default"] .md-typeset .md-button {
+  border-color: #00a87a !important;
+  color: #00a87a !important;
+}
+[data-md-color-scheme="default"] .md-typeset .md-button:hover {
+  background-color: #00a87a !important;
+  color: #ffffff !important;
+}
+[data-md-color-scheme="default"] .md-typeset .md-button--primary {
+  background-color: #00a87a !important;
+  border-color: #00a87a !important;
+  color: #ffffff !important;
+}

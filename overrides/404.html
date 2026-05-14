@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script>
+    // If the visitor hit the bare root (/), send them to /en/.
+    // For any other 404 (e.g. /en/nonexistent), stay on the 404 page
+    // so they can see it rather than being silently swallowed by a redirect.
+    if (window.location.pathname === '/' || window.location.pathname === '') {
+      window.location.replace('/en/');
+    }
+  </script>
+  <title>404 – Page not found</title>
+</head>
+<body>
+  <p>Page not found. Go to <a href="/en/">English documentation</a> or <a href="/">home</a>.</p>
+</body>
+</html>

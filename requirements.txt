@@ -1,9 +1,8 @@
-# Cloudflare Pages
-
-mkdocs==1.6.0
-mkdocs-material==9.2.8
+# Exact versions for reproducible builds and supply-chain auditability.
+# To update: run `pip install -U mkdocs mkdocs-material mkdocs-static-i18n`
+# then `pip freeze | grep -E "mkdocs|babel|jinja|markdown|pymdown|regex|requests"` and update below.
+# Do NOT upgrade to MkDocs 2.0 — breaking changes:
+# https://squidfunk.github.io/mkdocs-material/blog/2026/02/18/mkdocs-2.0/
+mkdocs==1.6.1
+mkdocs-material==9.5.50
 mkdocs-static-i18n==1.2.3
-mkdocs-git-revision-date-localized-plugin==1.2.0
-mkdocs-git-revision-date-localized-plugin==1.2.6
-mkdocs-git-committers-plugin-2--2.3.0
-

@@ -1,32 +1,24 @@
-# Project Name
-site_name: "Chatrix.One | Документация"
+site_name: Chatrix.One | Документация
+site_url: https://docs.chatrix.one/
 site_description: >-
-  Български XMPP сървър за свободна комуникация без телеметрия и реклами!
-  Незабавни съобщения, аудио и видео разговори.
-  Chatrix.One - Keep the Chatting, Skip the Tracking!
+  Документация за Chatrix.One — Privacy-friendly XMPP сървър.
+  Без телеметрия, без реклами. Безплатно и с отворен код.
 
-# Repository
-# repo_url: https://github.com/ChatrixOne/docs.chatrix.one
-# repo_name: ChatrixOne/docs.chatrix.one
-# edit_uri: 'docs/'
-
-# Theme Configuration
+# Theme
 theme:
   name: material
+  custom_dir: overrides
   language: bg
-  favicon: resources/favicon/favicon.png
-  # custom_dir: overrides
+  favicon: assets/favicon.svg
+  logo: assets/logo-light.svg
   font: false
-  logo: assets/logo.png
-  annotation: material/plus-circle
-  admonition:
-    danger: octicons/alert-16
+
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.footer
-    - toc.integrate
     - navigation.top
+    - toc.integrate
     - content.tabs.link
     - content.code.annotate
     - content.code.copy
@@ -34,70 +26,71 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
-    - announce.dismiss
-  # - content.action.edit
-  # - content.action.view
+
   palette:
-    - scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Тъмна тема
-      primary: blue grey
-      accent: teal
     - scheme: slate
       toggle:
-        icon: material/brightness-4
+        icon: material/brightness-7
         name: Светла тема
-      primary: blue grey
-      accent: teal
+      primary: custom
+      accent: custom
+    - scheme: default
+      toggle:
+        icon: material/brightness-4
+        name: Тъмна тема
+      primary: custom
+      accent: custom
+
+  icon:
+    admonition:
+      danger: octicons/alert-16
+    annotation: material/plus-circle
+
+# Extra CSS
+extra_css:
+  - stylesheets/fonts.css
+  - stylesheets/extra.css
+
+# Extra JavaScript
+# Mermaid is self-hosted to avoid unpkg.com requests on FAQ pages.
+# Run ./fetch-mermaid.sh once after cloning to download the file.
+# Material detects this entry and skips its own unpkg injection automatically.
+extra_javascript:
+  - assets/javascripts/mermaid.min.js
 
 # Customization
 extra:
+  generator: false
+  alternate:
+    - name: БГ
+      link: /
+      lang: bg
+    - name: EN
+      link: /en/
+      lang: en
   social:
     - icon: fontawesome/solid/earth-americas
       link: https://chatrix.one
+      name: Уебсайт
     - icon: fontawesome/brands/github
       link: https://github.com/ChatrixOne
-    - icon: fontawesome/solid/comment-dots
-      link: xmpp:admin@chatrix.one
+      name: GitHub
     - icon: fontawesome/solid/envelope
       link: mailto:admin@chatrix.one
-  # consent:
-  #   title: Съгласие за използване на бисквитки
-  #   description: >-
-  #     Използваме "бисквитки", за да разпознаваме повторните Ви посещения и предпочитания, както и
-  #     за измерване на ефективността на нашата документация и дали потребителите намират това,
-  #     което търсят. С Вашето съгласие ни помагате да направим документацията си по-добра.
-  #   cookies:
-  #     analytics:
-  #       name: Google Analytics
-  #       checked: false
-  #   actions:
-  #    - accept
-  #     - manage
-  #     - reject
-  generator: false
+      name: Имейл
 
-# When the glossary file is updated, the project is automatically reloaded on `mkdocs serve`
-watch:
-  - includes
-
-# Extra CSS code
-extra_css:
-  - stylesheets/extra.css
-
-# Theme Extensions
+# Markdown extensions
 markdown_extensions:
   - admonition
   - footnotes
   - def_list
   - abbr
-  - attr_list
-  - md_in_html
-  - pymdownx.inlinehilite
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
+  - attr_list
+  - md_in_html
+  - pymdownx.inlinehilite
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
@@ -115,8 +108,6 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.arithmatex:
-      generic: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -126,27 +117,26 @@ markdown_extensions:
         kwds:
           case: lower
 
-# Page tree
+# Navigation
 nav:
-  - Начало: 'index.md'
+  - Начало: bg/index.md
   - Профил:
-    - Регистрация: 'account/registration.md'
-    - Форма за регистрация: 'account/registration-form.md'
-    - Смяна на парола: 'account/change-password.md'
-    - Дерегистрация: 'account/delete-account.md'
-  - Клиенти: 'clients.md'
-  - ЧЗВ: 'faq.md'
-  - Условия: 'terms.md'
-  - Поверителност: 'privacy.md'
-  - Статус: 'status.md'
-  - Блог: 'blog.md'
-  - За Мен: 'about.md'
+    - Регистрация: bg/account/registration.md
+    - Онлайн форма: bg/account/registration-form.md
+    - Смяна на парола: bg/account/change-password.md
+    - Изтриване на профил: bg/account/delete-account.md
+  - Клиенти: bg/clients.md
+  - ЧЗВ: bg/faq.md
+  - Условия: bg/terms.md
+  - Поверителност: bg/privacy.md
+  - Статус: bg/status.md
+  - За нас: bg/about.md
 
 # Plugins
 plugins:
   - search
   - i18n:
-      docs_structure: suffix
+      docs_structure: folder
       fallback_to_default: true
       reconfigure_material: true
       reconfigure_search: false
@@ -160,30 +150,22 @@ plugins:
           name: 🇬🇧 English
           build: true
           site_name: "Chatrix.One | Documentation"
-          default: false
           nav_translations:
-            Дерегистрация: Unregister Account
-            За Мен: About
-            Клиенти: Clients
             Начало: Home
-            Поверителност: Privacy
             Профил: Account
-            Регистрация: Account Registration
+            Регистрация: Registration
+            Онлайн форма: Online Form
             Смяна на парола: Change Password
-            Статус: Status
-            Блог: Blog
-            Условия: Terms
-            Форма за регистрация: Registration Form
+            Изтриване на профил: Delete Account
+            Клиенти: Clients
             ЧЗВ: FAQ
-  - git-revision-date-localized:
-      type: timeago
-      enable_creation_date: false
-  - git-committers:
-      repository: ChatrixOne/docs.chatrix.one
-      branch: main
-# - glightbox
-# - tags
+            Условия: Terms
+            Поверителност: Privacy
+            Статус: Status
+            За нас: About
 
-# Footer Copyright
-copyright: |
-  &copy; 2018 - <script>document.write(new Date().getFullYear())</script> <a href="https://chatrix.one"  target="_blank" rel="noopener"><b>Chatrix.One </b></a>This website does not use any cookies or tracking mechanisms and is made with ❤️ in <a href="https://en.wikipedia.org/wiki/Sofia"  target="_blank" rel="noopener"><b>Sofia</b></a>.
+# Footer
+copyright: >-
+  &copy; 2018–2026 <a href="https://chatrix.one" target="_blank" rel="noopener"><strong>Chatrix.One</strong></a>
+  &nbsp;·&nbsp; Без бисквитки, без проследяване &nbsp;·&nbsp; Направено с <svg style="display:inline-block;vertical-align:middle;margin:0 1px" width="14" height="14" viewBox="0 0 24 24" fill="#00c896" xmlns="http://www.w3.org/2000/svg" aria-label="love"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> в
+  <a href="https://en.wikipedia.org/wiki/Sofia" target="_blank" rel="noopener"><strong>София</strong></a>

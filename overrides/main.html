@@ -1,11 +1,89 @@
-<!-- {% extends "base.html" %}
+{% extends "base.html" %}
 
-{% block announce %}
-{% if config.theme.language == 'bg' %}
-  <center><h4>Регистрацията на профил е възможна единствено с покана.</h4></center>
-{% elif config.theme.language == 'en' %}
-  <center><h4>Account registration is exclusively available by invitation.</h4></center>
-{% else %}
-  <center><h4>Регистрацията на профил е възможна единствено с покана.</h4></center>
-{% endif %}
-{% endblock %} -->
+{% block scripts %}
+{{ super() }}
+<script>
+/* Monero donation popup */
+document.addEventListener('DOMContentLoaded', function () {
+  var trigger = document.getElementById('xmrTrigger');
+  var popup   = document.getElementById('xmrPopup');
+  var copyBtn = document.getElementById('xmrCopy');
+  var copyLbl = document.getElementById('xmrCopyLabel');
+  var address = document.getElementById('xmrAddress');
+  if (!trigger || !popup) return;
+
+  function positionPopup() {
+    var r = trigger.getBoundingClientRect();
+    var left = Math.max(8, Math.min(r.left + r.width / 2 - 140, window.innerWidth - 288));
+    popup.style.left   = left + 'px';
+    popup.style.bottom = (window.innerHeight - r.top + 12) + 'px';
+    popup.style.top    = 'auto';
+  }
+
+  trigger.addEventListener('click', function (e) {
+    e.stopPropagation();
+    var open = popup.classList.toggle('is-visible');
+    trigger.setAttribute('aria-expanded', open);
+    popup.setAttribute('aria-hidden', !open);
+    if (open) positionPopup();
+  });
+  trigger.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); trigger.click(); }
+  });
+  document.addEventListener('click', function (e) {
+    if (!popup.contains(e.target) && e.target !== trigger) {
+      popup.classList.remove('is-visible');
+      popup.setAttribute('aria-hidden', 'true');
+      trigger.setAttribute('aria-expanded', 'false');
+    }
+  });
+  if (copyBtn && address) {
+    copyBtn.addEventListener('click', function () {
+      navigator.clipboard.writeText(address.textContent.trim()).then(function () {
+        copyBtn.classList.add('copied');
+        copyLbl.textContent = copyLbl.dataset.copied;
+        setTimeout(function () {
+          copyBtn.classList.remove('copied');
+          copyLbl.textContent = copyLbl.dataset.copy;
+        }, 2000);
+      });
+    });
+  }
+});
+</script>
+{% endblock %}
+
+{% block footer %}
+{{ super() }}
+<div class="xmr-donate-wrap">
+  <span class="xmr-donate-trigger" id="xmrTrigger" tabindex="0" role="button" aria-expanded="false"
+        aria-label="{% if config.theme.language == 'bg' %}Дарение с Monero{% else %}Donate with Monero{% endif %}">
+    {% if config.theme.language == "bg" %}Дарение с Monero{% else %}Donate with Monero{% endif %}
+  </span>
+  <div class="xmr-donate-popup" id="xmrPopup" aria-hidden="true">
+    <div class="xmr-popup-inner">
+      <div class="xmr-popup-top-line"></div>
+      <div class="xmr-qr-wrap">
+        <img src="{{ 'assets/xmr-qr.png' | url }}" alt="Monero QR code" width="160" height="160" loading="lazy">
+      </div>
+      <div class="xmr-popup-label">Monero (XMR)</div>
+      <div class="xmr-popup-note">
+        {% if config.theme.language == "bg" %}Анонимно. Без комисиона. Без трета страна.
+        {% else %}Anonymous. No fees. No third party.{% endif %}
+      </div>
+      <div class="xmr-address-wrap">
+        <code class="xmr-address" id="xmrAddress">49r9YTbTKNP1ekK8EffAhvVCxEGo9dZqDYtGccGLS1GZNYsK1Wy2AQxB7k1gGhRNuHTTsAf9A8gWYej9ConhkteA72fSmJD</code>
+        <button type="button" class="xmr-copy-btn" id="xmrCopy">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+          <span id="xmrCopyLabel"
+            data-copy="{% if config.theme.language == 'bg' %}Копирай{% else %}Copy{% endif %}"
+            data-copied="{% if config.theme.language == 'bg' %}Копирано!{% else %}Copied!{% endif %}">
+            {% if config.theme.language == "bg" %}Копирай{% else %}Copy{% endif %}
+          </span>
+        </button>
+      </div>
+    </div>
+    <div class="xmr-popup-arrow"></div>
+  </div>
+</div>
+{% endblock %}

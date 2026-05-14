@@ -1,0 +1,42 @@
+name: Deploy Docs to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+  # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+# Minimal permissions — only what gh-deploy actually needs.
+# contents:write lets mkdocs push the built site to the gh-pages branch.
+# Everything else is explicitly denied by omission.
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        # actions/checkout v4.2.2 — pin to SHA to prevent supply-chain attacks
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 0   # full history needed for git-revision-date plugins
+
+      - name: Set up Python
+        # actions/setup-python v5.3.0
+        uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch self-hosted Mermaid JS
+        run: ./fetch-mermaid.sh
+
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force

@@ -1,0 +1,14 @@
+{#- Pill-style language switcher — preserves current page path when switching -#}
+<div class="md-header__option">
+  <nav class="cx-lang-switch" aria-label="Language">
+    {% for alt in config.extra.alternate %}
+      <a
+        href="{{ alt.link | url }}"
+        hreflang="{{ alt.lang }}"
+        class="cx-lang-btn{% if alt.lang == config.theme.language %} cx-lang-btn--active{% endif %}"
+        title="{{ alt.name }}"
+        data-lang="{{ alt.lang }}"
+      >{{ alt.lang | upper }}</a>
+    {% endfor %}
+  </nav>
+</div>
