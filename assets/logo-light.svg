@@ -1,0 +1,5 @@
+<svg width="32" height="35" viewBox="0 0 120 130" xmlns="http://www.w3.org/2000/svg">
+  <path d="M16 6 Q6 6 6 16 L6 84 Q6 94 16 94 L72 94 L88 114 L88 94 L104 94 Q114 94 114 84 L114 16 Q114 6 104 6 Z" fill="#111111"/>
+  <text x="52" y="60" text-anchor="middle" font-size="38" font-weight="700" font-family="Arial Black,Arial,sans-serif" fill="#ffffff" letter-spacing="-1">CX</text>
+  <text x="83" y="32" font-size="22" font-weight="700" font-family="Arial Black,Arial,sans-serif" fill="#ffffff">1</text>
+</svg>

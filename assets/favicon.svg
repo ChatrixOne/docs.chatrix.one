@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 130">
+  <style>
+    .b { fill: #111111; }
+    .t { fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .b { fill: #ffffff; }
+      .t { fill: #111111; }
+    }
+  </style>
+  <path class="b" d="M16 6 Q6 6 6 16 L6 84 Q6 94 16 94 L72 94 L88 114 L88 94 L104 94 Q114 94 114 84 L114 16 Q114 6 104 6 Z"/>
+  <text class="t" x="52" y="62" text-anchor="middle"
+        font-size="40" font-weight="700"
+        font-family="Arial Black,Arial,sans-serif"
+        letter-spacing="-2">CX</text>
+  <text class="t" x="85" y="33"
+        font-size="24" font-weight="700"
+        font-family="Arial Black,Arial,sans-serif">1</text>
+</svg>

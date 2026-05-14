@@ -6,9 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Български XMPP сървър за свободна комуникация без телеметрия и реклами! Незабавни съобщения, аудио и видео разговори. Chatrix.One - Keep the Chatting, Skip the Tracking!">
+        <meta name="description" content="Документация за Chatrix.One — Privacy-friendly XMPP сървър. Без телеметрия, без реклами. Безплатно и с отворен код.">
       
       
+      
+        <link rel="canonical" href="https://docs.chatrix.one/en/account/change-password/">
       
       
         <link rel="prev" href="../registration-form/">
@@ -17,15 +19,8 @@
         <link rel="next" href="../delete-account/">
       
       
-        
-          <link rel="alternate" href="../../../account/change-password/" hreflang="bg">
-        
-          <link rel="alternate" href="./" hreflang="en">
-        
-      
-      
-      <link rel="icon" href="../../../resources/favicon/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <link rel="icon" href="../../../assets/favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
     
     
       
@@ -33,12 +28,26 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.a40c8224.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
+  
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0M9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/></svg>');}</style>
+
+
+  
+  
+  
+  
+  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 13h-4v4h-2v-4H7v-2h4V7h2v4h4m-5-9A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg>');}</style>
 
 
     
@@ -49,9 +58,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../css/timeago.css">
-    
-      <link rel="stylesheet" href="../../../css/timeago.css">
+      <link rel="stylesheet" href="../../../stylesheets/fonts.css">
     
       <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
@@ -59,6 +66,7 @@
     
       
 
+    
     
     
   </head>
@@ -71,7 +79,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="teal">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -96,7 +104,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../../" title="Chatrix.One | Documentation" class="md-header__button md-logo" aria-label="Chatrix.One | Documentation" data-md-component="logo">
       
-  <img src="../../../assets/logo.png" alt="logo">
+  <img src="../../../assets/logo-light.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -126,9 +134,9 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="teal"  aria-label="Тъмна тема"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Светла тема"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" title="Тъмна тема" for="__palette_1" hidden>
+      <label class="md-header__button md-icon" title="Светла тема" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
       </label>
     
@@ -136,9 +144,9 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="teal"  aria-label="Светла тема"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Тъмна тема"  type="radio" name="__palette" id="__palette_1">
     
-      <label class="md-header__button md-icon" title="Светла тема" for="__palette_0" hidden>
+      <label class="md-header__button md-icon" title="Тъмна тема" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
       </label>
     
@@ -151,39 +159,33 @@
     
     
       <div class="md-header__option">
-  <div class="md-select">
+  <nav class="cx-lang-switch" aria-label="Language">
     
-    <button class="md-header__button md-icon" aria-label="Select language">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
-    </button>
-    <div class="md-select__inner">
-      <ul class="md-select__list">
-        
-          <li class="md-select__item">
-            <a href="../../../account/change-password/" hreflang="bg" class="md-select__link">
-              🇧🇬 Български
-            </a>
-          </li>
-        
-          <li class="md-select__item">
-            <a href="./" hreflang="en" class="md-select__link">
-              🇬🇧 English
-            </a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
+      <a
+        href="../../../account/change-password/"
+        hreflang="bg"
+        class="cx-lang-btn"
+        title="БГ"
+        data-lang="bg"
+      >BG</a>
+    
+      <a
+        href="./"
+        hreflang="en"
+        class="cx-lang-btn cx-lang-btn--active"
+        title="EN"
+        data-lang="en"
+      >EN</a>
+    
+  </nav>
 </div>
     
     
-      
-      
-        <label class="md-header__button md-icon" for="__search">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-        </label>
-        <div class="md-search" data-md-component="search" role="dialog">
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
@@ -222,7 +224,6 @@
     </div>
   </div>
 </div>
-      
     
     
   </nav>
@@ -243,11 +244,9 @@
   
   
   
-  
     <li class="md-tabs__item">
       <a href="../../" class="md-tabs__link">
         
-  
   
     
   
@@ -261,7 +260,6 @@
         
   
   
-  
     
   
   
@@ -270,7 +268,6 @@
       <li class="md-tabs__item md-tabs__item--active">
         <a href="../registration/" class="md-tabs__link">
           
-  
   
   Account
 
@@ -284,11 +281,9 @@
   
   
   
-  
     <li class="md-tabs__item">
       <a href="../../clients/" class="md-tabs__link">
         
-  
   
     
   
@@ -303,11 +298,9 @@
   
   
   
-  
     <li class="md-tabs__item">
       <a href="../../faq/" class="md-tabs__link">
         
-  
   
     
   
@@ -322,11 +315,9 @@
   
   
   
-  
     <li class="md-tabs__item">
       <a href="../../terms/" class="md-tabs__link">
         
-  
   
     
   
@@ -341,11 +332,9 @@
   
   
   
-  
     <li class="md-tabs__item">
       <a href="../../privacy/" class="md-tabs__link">
         
-  
   
     
   
@@ -360,11 +349,9 @@
   
   
   
-  
     <li class="md-tabs__item">
       <a href="../../status/" class="md-tabs__link">
         
-  
   
     
   
@@ -379,30 +366,9 @@
   
   
   
-  
-    <li class="md-tabs__item">
-      <a href="../../blog/" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Blog
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
     <li class="md-tabs__item">
       <a href="../../about/" class="md-tabs__link">
         
-  
   
     
   
@@ -439,7 +405,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="../../" title="Chatrix.One | Documentation" class="md-nav__button md-logo" aria-label="Chatrix.One | Documentation" data-md-component="logo">
       
-  <img src="../../../assets/logo.png" alt="logo">
+  <img src="../../../assets/logo-light.svg" alt="logo">
 
     </a>
     Chatrix.One | Documentation
@@ -457,16 +423,9 @@
       <a href="../../" class="md-nav__link">
         
   
-  
   <span class="md-ellipsis">
-    
-  
     Home
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -482,7 +441,6 @@
   
   
   
-    
     
     
     
@@ -505,16 +463,9 @@
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
-  
   <span class="md-ellipsis">
-    
-  
     Account
-  
-
-    
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -523,11 +474,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Account
-  
-
+            Account
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -541,18 +488,11 @@
       <a href="../registration/" class="md-nav__link">
         
   
-  
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 14c-2.67 0-8 1.33-8 4v2h16v-2c0-2.67-5.33-4-8-4m-9-4V7H4v3H1v2h3v3h2v-3h3v-2m6 2a4 4 0 0 0 4-4 4 4 0 0 0-4-4 4 4 0 0 0-4 4 4 4 0 0 0 4 4"/></svg>
   
   <span class="md-ellipsis">
-    
-  
-    Account Registration
-  
-
-    
+    Registration
   </span>
-  
   
 
       </a>
@@ -571,18 +511,11 @@
       <a href="../registration-form/" class="md-nav__link">
         
   
-  
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2c-1.11 0-2 .89-2 2v16a2 2 0 0 0 2 2h4v-1.91L12.09 18H6v-2h8.09l2-2H6v-2h12.09L20 10.09V8l-6-6zm7 1.5L18.5 9H13zm7.15 9.5a.55.55 0 0 0-.4.16l-1.02 1.02 2.09 2.08 1.02-1.01c.21-.22.21-.58 0-.79l-1.3-1.3a.54.54 0 0 0-.39-.16m-2.01 1.77L12 20.92V23h2.08l6.15-6.15z"/></svg>
   
   <span class="md-ellipsis">
-    
-  
-    Registration Form
-  
-
-    
+    Online Form
   </span>
-  
   
 
       </a>
@@ -610,18 +543,11 @@
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
-  
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.5 2c2 0 3.6 1.2 4.2 3H21v3h-3v3h-3V8h-3.3c-.6 1.8-2.3 3-4.2 3C5 11 3 9 3 6.5S5 2 7.5 2m0 3C6.7 5 6 5.7 6 6.5S6.7 8 7.5 8 9 7.3 9 6.5 8.3 5 7.5 5m0 8c2 0 3.6 1.2 4.2 3H21v3h-1v3h-2v-3h-2v3h-3v-3h-1.3c-.6 1.8-2.3 3-4.2 3C5 22 3 20 3 17.5S5 13 7.5 13m0 3c-.8 0-1.5.7-1.5 1.5S6.7 19 7.5 19 9 18.3 9 17.5 8.3 16 7.5 16"/></svg>
   
   <span class="md-ellipsis">
-    
-  
     Change Password
-  
-
-    
   </span>
-  
   
 
           <span class="md-nav__icon md-icon"></span>
@@ -630,18 +556,11 @@
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
-  
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.5 2c2 0 3.6 1.2 4.2 3H21v3h-3v3h-3V8h-3.3c-.6 1.8-2.3 3-4.2 3C5 11 3 9 3 6.5S5 2 7.5 2m0 3C6.7 5 6 5.7 6 6.5S6.7 8 7.5 8 9 7.3 9 6.5 8.3 5 7.5 5m0 8c2 0 3.6 1.2 4.2 3H21v3h-1v3h-2v-3h-2v3h-3v-3h-1.3c-.6 1.8-2.3 3-4.2 3C5 22 3 20 3 17.5S5 13 7.5 13m0 3c-.8 0-1.5.7-1.5 1.5S6.7 19 7.5 19 9 18.3 9 17.5 8.3 16 7.5 16"/></svg>
   
   <span class="md-ellipsis">
-    
-  
     Change Password
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -664,9 +583,7 @@
         <li class="md-nav__item">
   <a href="#username" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Username
-      
+      Username
     </span>
   </a>
   
@@ -675,9 +592,7 @@
         <li class="md-nav__item">
   <a href="#server" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Server
-      
+      Server
     </span>
   </a>
   
@@ -686,9 +601,7 @@
         <li class="md-nav__item">
   <a href="#old-password" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Old password
-      
+      Old password
     </span>
   </a>
   
@@ -697,9 +610,7 @@
         <li class="md-nav__item">
   <a href="#new-password" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        New password
-      
+      New password
     </span>
   </a>
   
@@ -708,9 +619,7 @@
         <li class="md-nav__item">
   <a href="#password-verification" class="md-nav__link">
     <span class="md-ellipsis">
-      
-        Password verification
-      
+      Password verification
     </span>
   </a>
   
@@ -735,18 +644,11 @@
       <a href="../delete-account/" class="md-nav__link">
         
   
-  
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 4h-3.5l-1-1h-5l-1 1H5v2h14M6 19a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7H6z"/></svg>
   
   <span class="md-ellipsis">
-    
-  
-    Unregister Account
-  
-
-    
+    Delete Account
   </span>
-  
   
 
       </a>
@@ -772,16 +674,9 @@
       <a href="../../clients/" class="md-nav__link">
         
   
-  
   <span class="md-ellipsis">
-    
-  
     Clients
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -799,16 +694,9 @@
       <a href="../../faq/" class="md-nav__link">
         
   
-  
   <span class="md-ellipsis">
-    
-  
     FAQ
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -826,16 +714,9 @@
       <a href="../../terms/" class="md-nav__link">
         
   
-  
   <span class="md-ellipsis">
-    
-  
     Terms
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -853,16 +734,9 @@
       <a href="../../privacy/" class="md-nav__link">
         
   
-  
   <span class="md-ellipsis">
-    
-  
     Privacy
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -880,43 +754,9 @@
       <a href="../../status/" class="md-nav__link">
         
   
-  
   <span class="md-ellipsis">
-    
-  
     Status
-  
-
-    
   </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../blog/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Blog
-  
-
-    
-  </span>
-  
   
 
       </a>
@@ -934,16 +774,9 @@
       <a href="../../about/" class="md-nav__link">
         
   
-  
   <span class="md-ellipsis">
-    
-  
     About
-  
-
-    
   </span>
-  
   
 
       </a>
@@ -961,19 +794,12 @@
           
           
             <div class="md-content" data-md-component="content">
-              
               <article class="md-content__inner md-typeset">
                 
                   
 
 
-
 <h1 id="change-password">Change password<a class="headerlink" href="#change-password" title="Permanent link">&para;</a></h1>
-<figure>
-<p><img alt="Registration" src="../../../resources/img/change.svg" width="800" />
-   </p>
-<figcaption>Change Password in <b>Chatrix.One</b></figcaption>
-</figure>
 <p>This page allows you to change the password of an existing account. Please read the instructions carefully to fill in the fields correctly.</p>
 <h2 id="username">Username<a class="headerlink" href="#username" title="Permanent link">&para;</a></h2>
 <p>Only the username is entered, without the server part. For example: If the user is <code>john@chatrix.one</code> you enter just <code>john</code>.</p>
@@ -994,26 +820,8 @@
 
 
   
-    
-  
   
 
-
-  <aside class="md-source-file">
-    
-      
-  <span class="md-source-file__fact">
-    <span class="md-icon" title="Last update">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
-    </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="May 11, 2026 03:02:17 UTC"><span class="timeago" datetime="2026-05-11T03:02:17+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="May 11, 2026 03:02:17 UTC">2026-05-11</span>
-  </span>
-
-    
-    
-    
-    
-  </aside>
 
 
 
@@ -1037,6 +845,7 @@
         
       </main>
       
+
         <footer class="md-footer">
   
     
@@ -1044,7 +853,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../registration-form/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Registration Form">
+          <a href="../registration-form/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Online Form">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1054,20 +863,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Registration Form
+                Online Form
               </div>
             </div>
           </a>
         
         
           
-          <a href="../delete-account/" class="md-footer__link md-footer__link--next" aria-label="Next: Unregister Account">
+          <a href="../delete-account/" class="md-footer__link md-footer__link--next" aria-label="Next: Delete Account">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Unregister Account
+                Delete Account
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -1084,51 +893,36 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      &copy; 2018 - <script>document.write(new Date().getFullYear())</script> <a href="https://chatrix.one"  target="_blank" rel="noopener"><b>Chatrix.One </b></a>This website does not use any cookies or tracking mechanisms and is made with ❤️ in <a href="https://en.wikipedia.org/wiki/Sofia"  target="_blank" rel="noopener"><b>Sofia</b></a>.
+      &copy; 2018–2026 <a href="https://chatrix.one" target="_blank" rel="noopener"><strong>Chatrix.One</strong></a> &nbsp;·&nbsp; Без бисквитки, без проследяване &nbsp;·&nbsp; Направено с <svg style="display:inline-block;vertical-align:middle;margin:0 1px" width="14" height="14" viewBox="0 0 24 24" fill="#00c896" xmlns="http://www.w3.org/2000/svg" aria-label="love"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> в <a href="https://en.wikipedia.org/wiki/Sofia" target="_blank" rel="noopener"><strong>София</strong></a>
     </div>
   
   
 </div>
       
-        
-<div class="md-social">
+        <div class="md-social">
   
     
     
     
     
-      
-      
-    
-    <a href="https://chatrix.one" target="_blank" rel="noopener" title="chatrix.one" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="m55.7 199.7 30.9 30.9c6 6 14.1 9.4 22.6 9.4h21.5c8.5 0 16.6 3.4 22.6 9.4l29.3 29.3c6 6 9.4 14.1 9.4 22.6v37.5c0 8.5 3.4 16.6 9.4 22.6l13.3 13.3c6 6 9.4 14.1 9.4 22.6V416c0 17.7 14.3 32 32 32s32-14.3 32-32v-2.7c0-8.5 3.4-16.6 9.4-22.6l45.3-45.3c6-6 9.4-14.1 9.4-22.6v-34.7c0-17.7-14.3-32-32-32h-82.7c-8.5 0-16.6-3.4-22.6-9.4l-16-16c-4.2-4.2-6.6-10-6.6-16 0-12.5 10.1-22.6 22.6-22.6h34.7c12.5 0 22.6-10.1 22.6-22.6 0-6-2.4-11.8-6.6-16l-19.7-19.7c-3.9-3.8-5.9-8.7-5.9-13.8s2-10 5.7-13.7L263 89c5.8-5.8 9.1-13.7 9.1-21.9 0-7.2-2.4-13.7-6.4-18.9-3.2-.1-6.4-.2-9.6-.2-95.4 0-175.7 64.2-200.3 151.7zM464 256c0-34.6-8.4-67.2-23.4-95.8-6.4.9-12.7 3.9-17.9 9.1l-13.4 13.4c-6 6-9.4 14.1-9.4 22.6V240c0 17.7 14.3 32 32 32H456c2.5 0 5-.3 7.3-.8.4-5 .5-10.1.5-15.2zM0 256a256 256 0 1 1 512 0 256 256 0 1 1-512 0"/></svg>
+    <a href="https://chatrix.one" target="_blank" rel="noopener" title="Уебсайт" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="m57.7 193 9.4 16.4c8.3 14.5 21.9 25.2 38 29.8l57.9 16.5c17.2 4.9 29 20.6 29 38.5v39.9c0 11 6.2 21 16 25.9s16 14.9 16 25.9v39c0 15.6 14.9 26.9 29.9 22.6 16.1-4.6 28.6-17.5 32.7-33.8l2.8-11.2c4.2-16.9 15.2-31.4 30.3-40l8.1-4.6c15-8.5 24.2-24.5 24.2-41.7v-8.3c0-12.7-5.1-24.9-14.1-33.9l-3.9-3.9c-9-9-21.2-14.1-33.9-14.1H257c-11.1 0-22.1-2.9-31.8-8.4l-34.5-19.7c-4.3-2.5-7.6-6.5-9.2-11.2-3.2-9.6 1.1-20 10.2-24.5l5.9-3c6.6-3.3 14.3-3.9 21.3-1.5l23.2 7.7c8.2 2.7 17.2-.4 21.9-7.5 4.7-7 4.2-16.3-1.2-22.8l-13.6-16.3c-10-12-9.9-29.5.3-41.3l15.7-18.3c8.8-10.3 10.2-25 3.5-36.7l-2.4-4.2c-3.5-.2-6.9-.3-10.4-.3-92.8 0-171.5 60.9-198.2 145M464 256c0-36.8-9.6-71.4-26.4-101.5L412 164.8c-15.7 6.3-23.8 23.8-18.5 39.8l16.9 50.7c3.5 10.4 12 18.3 22.6 20.9l29.1 7.3c1.2-9 1.8-18.2 1.8-27.5zM0 256a256 256 0 1 1 512 0 256 256 0 1 1-512 0"/></svg>
     </a>
   
     
     
     
     
-      
-      
-    
-    <a href="https://github.com/ChatrixOne" target="_blank" rel="noopener" title="github.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <a href="https://github.com/ChatrixOne" target="_blank" rel="noopener" title="GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
     </a>
   
     
     
     
     
-    <a href="xmpp:admin@chatrix.one" target="_blank" rel="noopener" title="" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M256 480c141.4 0 256-107.5 256-240S397.4 0 256 0 0 107.5 0 240c0 54.3 19.2 104.3 51.6 144.5L2.8 476.8c-4.8 9-3.3 20 3.6 27.5s17.8 9.8 27.1 5.8l118.4-50.7c31.8 13.2 67 20.6 104.1 20.6M128 208a32 32 0 1 1 0 64 32 32 0 1 1 0-64m128 0a32 32 0 1 1 0 64 32 32 0 1 1 0-64m96 32a32 32 0 1 1 64 0 32 32 0 1 1-64 0"/></svg>
-    </a>
-  
-    
-    
-    
-    
-    <a href="mailto:admin@chatrix.one" target="_blank" rel="noopener" title="" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l208 156a48 48 0 0 0 57.6 0l208-156c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48zM0 196v188c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V196L313.6 344.8c-34.1 25.6-81.1 25.6-115.2 0z"/></svg>
+    <a href="mailto:admin@chatrix.one" target="_blank" rel="noopener" title="Имейл" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l217.6 163.2c11.4 8.5 27 8.5 38.4 0l217.6-163.2c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48zM0 176v208c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V176L294.4 339.2a63.9 63.9 0 0 1-76.8 0z"/></svg>
     </a>
   
 </div>
@@ -1137,28 +931,101 @@
   </div>
 </footer>
       
+<div class="xmr-donate-wrap">
+  <span class="xmr-donate-trigger" id="xmrTrigger" tabindex="0" role="button" aria-expanded="false"
+        aria-label="Donate with Monero">
+    Donate with Monero
+  </span>
+  <div class="xmr-donate-popup" id="xmrPopup" aria-hidden="true">
+    <div class="xmr-popup-inner">
+      <div class="xmr-popup-top-line"></div>
+      <div class="xmr-qr-wrap">
+        <img src="../../../assets/xmr-qr.png" alt="Monero QR code" width="160" height="160" loading="lazy">
+      </div>
+      <div class="xmr-popup-label">Monero (XMR)</div>
+      <div class="xmr-popup-note">
+        Anonymous. No fees. No third party.
+      </div>
+      <div class="xmr-address-wrap">
+        <code class="xmr-address" id="xmrAddress">49r9YTbTKNP1ekK8EffAhvVCxEGo9dZqDYtGccGLS1GZNYsK1Wy2AQxB7k1gGhRNuHTTsAf9A8gWYej9ConhkteA72fSmJD</code>
+        <button type="button" class="xmr-copy-btn" id="xmrCopy">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+          <span id="xmrCopyLabel"
+            data-copy="Copy"
+            data-copied="Copied!">
+            Copy
+          </span>
+        </button>
+      </div>
+    </div>
+    <div class="xmr-popup-arrow"></div>
+  </div>
+</div>
+
     </div>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
     
-    
-      
-      
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.footer", "toc.integrate", "navigation.top", "content.tabs.link", "content.code.annotate", "content.code.copy", "content.tooltips", "search.highlight", "search.share", "search.suggest", "announce.dismiss"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.footer", "navigation.top", "toc.integrate", "content.tabs.link", "content.code.annotate", "content.code.copy", "content.tooltips", "search.highlight", "search.share", "search.suggest"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+
+      <script src="../../../assets/javascripts/bundle.60a45f97.min.js"></script>
       
-        <script src="../../../js/timeago.min.js"></script>
-      
-        <script src="../../../js/timeago_mkdocs_material.js"></script>
-      
-        <script src="../../../js/timeago.min.js"></script>
-      
-        <script src="../../../js/timeago_mkdocs_material.js"></script>
+        <script src="../../../assets/javascripts/mermaid.min.js"></script>
       
     
+<script>
+/* Monero donation popup */
+document.addEventListener('DOMContentLoaded', function () {
+  var trigger = document.getElementById('xmrTrigger');
+  var popup   = document.getElementById('xmrPopup');
+  var copyBtn = document.getElementById('xmrCopy');
+  var copyLbl = document.getElementById('xmrCopyLabel');
+  var address = document.getElementById('xmrAddress');
+  if (!trigger || !popup) return;
+
+  function positionPopup() {
+    var r = trigger.getBoundingClientRect();
+    var left = Math.max(8, Math.min(r.left + r.width / 2 - 140, window.innerWidth - 288));
+    popup.style.left   = left + 'px';
+    popup.style.bottom = (window.innerHeight - r.top + 12) + 'px';
+    popup.style.top    = 'auto';
+  }
+
+  trigger.addEventListener('click', function (e) {
+    e.stopPropagation();
+    var open = popup.classList.toggle('is-visible');
+    trigger.setAttribute('aria-expanded', open);
+    popup.setAttribute('aria-hidden', !open);
+    if (open) positionPopup();
+  });
+  trigger.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); trigger.click(); }
+  });
+  document.addEventListener('click', function (e) {
+    if (!popup.contains(e.target) && e.target !== trigger) {
+      popup.classList.remove('is-visible');
+      popup.setAttribute('aria-hidden', 'true');
+      trigger.setAttribute('aria-expanded', 'false');
+    }
+  });
+  if (copyBtn && address) {
+    copyBtn.addEventListener('click', function () {
+      navigator.clipboard.writeText(address.textContent.trim()).then(function () {
+        copyBtn.classList.add('copied');
+        copyLbl.textContent = copyLbl.dataset.copied;
+        setTimeout(function () {
+          copyBtn.classList.remove('copied');
+          copyLbl.textContent = copyLbl.dataset.copy;
+        }, 2000);
+      });
+    });
+  }
+});
+</script>
+
   </body>
 </html>
