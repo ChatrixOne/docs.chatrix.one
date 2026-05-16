@@ -584,7 +584,7 @@ OMEMO представлява метод за двойно криптиране
 
 За да дарите анонимно, можете да преведете средства към нашия **Monero** портфейл:
 
-`49r9YTbTKNP1ekK8EffAhvVCxEGo9dZqDYtGccGLS1GZNYsK1Wy2AQxB7k1gGhRNuHTTsAf9A8gWYej9ConhkteA72fSmJD`, 
+`49r9YTbTKNP1ekK8EffAhvVCxEGo9dZqDYtGccGLS1GZNYsK1Wy2AQxB7k1gGhRNuHTTsAf9A8gWYej9ConhkteA72fSmJD` 
 
 Можете също да намерите номера като QR код най-долу в този сайт.
 
