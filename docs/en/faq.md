@@ -582,6 +582,13 @@ Of course! Each sponsor receives:
 
 Only if you insist on it.
 
+## Can I donate anonymously?
+
+To donate anonymously, you can transfer funds to our Monero wallet:
+
+`49r9YTbTKNP1ekK8EffAhvVCxEGo9dZqDYtGccGLS1GZNYsK1Wy2AQxB7k1gGhRNuHTTsAf9A8gWYej9ConhkteA72fSmJD`
+
+You can also find the number as a QR code at the bottom of this site.
 
 ## Why do you even offer such a service?
 
