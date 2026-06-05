@@ -36,7 +36,9 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Fetch self-hosted Mermaid JS
-        run: ./fetch-mermaid.sh
+        run: |
+          chmod +x ./fetch-mermaid.sh
+          bash ./fetch-mermaid.sh
 
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force
