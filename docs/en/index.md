@@ -1,8 +1,6 @@
 # Welcome
 
-
 Hello and welcome to **Chatrix.One**! A Bulgarian **XMPP** server for free, end-to-end encrypted communication, without telemetry and no ads. Freely send messages, emojis, pictures, files and locations. Enjoy quality voice and video calls in real time. Wishing you pleasant moments with your family, friends and loved ones!
-
 
 ## Features
 
@@ -16,7 +14,6 @@ Hello and welcome to **Chatrix.One**! A Bulgarian **XMPP** server for free, end-
 - [x] Photos (Avatars) for your contacts;
 - [x] Synchronization with desktop;
 - [x] Compatibility with the most used operating systems.
-
 
 ## Why **Chatrix.One?**
 
@@ -40,7 +37,6 @@ Hello and welcome to **Chatrix.One**! A Bulgarian **XMPP** server for free, end-
 [^3]: *"I agree to the terms and conditions of use"* is [the biggest lie on the Internet](https://www.biggestlieonline.com/)!
 
 [^4]: [The Source Code](https://en.wikipedia.org/wiki/Source_code) is publicly available on [Github](https://github.com/processone/ejabberd).
-
 
 ## How do I use **Chatrix.One**?
 
@@ -77,7 +73,6 @@ Hello and welcome to **Chatrix.One**! A Bulgarian **XMPP** server for free, end-
     Privacy policy, what you should keep in mind, what data is stored and for how long.
 
     [:octicons-arrow-right-24: Privacy](/en/privacy)
-
 
 -   :material-head-question:{ .lg .middle } __Frequently Asked Questions__
 

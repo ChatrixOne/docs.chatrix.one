@@ -659,22 +659,17 @@ code, kbd, pre, .md-typeset code, .md-typeset pre {
 
 /* ═══════════════════════════════════════════════════════════════
    LOGO — theme-aware colour switching
-   logo-light.svg has dark fill (#111) — visible on light bg
-   logo-dark.svg  has white fill (#fff) — visible on dark bg
-   We swap the src via content trick using a sibling-hidden img,
-   or simply invert the SVG fills with CSS filters.
+   logo-light.svg #00a87a — light theme
+   logo-dark.svg  #00c896 — dark theme
+   Swap via CSS content: url() trick on the img element.
    ═══════════════════════════════════════════════════════════════ */
 
-/* Dark scheme: logo needs white mark — invert the dark SVG */
-[data-md-color-scheme="slate"] .md-header__button.md-logo img,
-[data-md-color-scheme="slate"] .md-header__button.md-logo svg {
-  filter: invert(1);
+[data-md-color-scheme="slate"] .md-header__button.md-logo img {
+  content: url('../assets/logo-dark.svg');
 }
 
-/* Light scheme: logo-light.svg already has dark mark — no filter */
-[data-md-color-scheme="default"] .md-header__button.md-logo img,
-[data-md-color-scheme="default"] .md-header__button.md-logo svg {
-  filter: none;
+[data-md-color-scheme="default"] .md-header__button.md-logo img {
+  content: url('../assets/logo-light.svg');
 }
 
 .md-header__button.md-logo img,
@@ -973,8 +968,6 @@ code, kbd, pre, .md-typeset code, .md-typeset pre {
 
 /* Sidebar bg — see sidebar section below */
 
-
-
 /* Active nav item */
 [data-md-color-scheme="default"] .md-nav__item--active > .md-nav__link {
   background-color: rgba(0,168,122,0.08);
@@ -1110,8 +1103,6 @@ code, kbd, pre, .md-typeset code, .md-typeset pre {
 [data-md-color-scheme="default"] ::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.15); border-radius: 3px; }
 [data-md-color-scheme="default"] ::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.25); }
 
-
-
 /* ── Dark theme paper card effect ──────────────────────────────
    Matches the light theme's raised content card — content sits
    on a #141c2e card lifted above the #0a0e14 page background.   */
@@ -1207,8 +1198,6 @@ code, kbd, pre, .md-typeset code, .md-typeset pre {
 [data-md-color-scheme="default"] .md-sidebar__scrollwrap {
   margin: 0 !important;
 }
-
-
 
 /* Donation trigger — light theme adjustment */
 [data-md-color-scheme="default"] .xmr-donate-trigger {

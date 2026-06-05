@@ -5,7 +5,6 @@ icon: material/delete
 
 # Unregister Account
 
-
 This page allows you to **irreversibly** delete your account and the information associated with it. Please read the instructions carefully to fill in the fields correctly.
 
 !!! danger "Warning!"

@@ -5,7 +5,6 @@ icon: material/key-change
 
 # Change password
 
-
 This page allows you to change the password of an existing account. Please read the instructions carefully to fill in the fields correctly.
 
 ## Username
