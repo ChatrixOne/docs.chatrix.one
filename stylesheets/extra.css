@@ -134,9 +134,13 @@ code, kbd, pre, .md-typeset code, .md-typeset pre {
 }
 
 /* Logo */
-.md-header__button.md-logo img {
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
   height: 1.65rem;
   width: auto;
+  color: unset !important;
+  fill: unset !important;
+  filter: none !important;
 }
 
 /* ── Header icon buttons (palette toggle, language, search, menu)
