@@ -5,18 +5,20 @@ icon: material/account-plus
 
 # Registration
 
+
 Personal data is **not** required to register an account in **Chatrix.One**. You do not need to provide a phone number, credit/debit card details, photo or address. It is enough to choose one of the methods listed below, according to your personal preferences.
 
 ## Ways to register an account
 
 - :material-qrcode-scan: - By scanning a QR code;
 - :material-link-variant: - Open an invitation in the form of URL address;
-- :material-pencil: - Independently, by filling out the online [registration form](registration-form);
+- :material-pencil: - Independently, by filling out the online [registration form](/en/account/registration-form);
 - :material-apps: - Through your installed application - client;
 - :material-email-check: - By sending an email to the address in the contacts field at the bottom of this website. Contacts are also available in the [About](/en/about#contacts) section. If you are using a mobile device, please check the menu :material-menu:;
 - :material-message-check: - By sending an XMPP message to an administrator. An active XMPP account is required, and the server you are sending from is irrelevant. For an up-to-date administrator address, please see the [About](/en/about#contacts) section;
 - :material-phone-check: - A phone call, if you have a phone number to contact an administrator. It will not be published on the website;
 - :material-eye-check-outline: - A face-to-face meeting.
+
 
 <!-- !!! warning "Important"
 

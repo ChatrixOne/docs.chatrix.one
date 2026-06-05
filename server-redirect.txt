@@ -3,6 +3,7 @@
 # Choose the config for your web server.
 # ================================================================
 
+
 # ── nginx ────────────────────────────────────────────────────────
 # Add inside your server { } block:
 
@@ -13,20 +14,24 @@
 # Or permanent (301) if you're sure you'll never change it:
 #   return 301 /en/;
 
+
 # ── Apache (.htaccess) ───────────────────────────────────────────
 # Place in the root .htaccess of the docs site:
 
     RewriteEngine On
     RewriteRule ^$ /en/ [R=302,L]
 
+
 # ── Caddy (Caddyfile) ────────────────────────────────────────────
 
     redir / /en/ 302
+
 
 # ── Netlify (_redirects file in site root) ───────────────────────
 # Create a file called  _redirects  with this single line:
 
     /  /en/  302
+
 
 # ── GitHub Pages / any static host (custom 404.html trick) ───────
 # MkDocs generates a 404.html — override it with overrides/404.html

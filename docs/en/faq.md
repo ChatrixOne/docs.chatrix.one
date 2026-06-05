@@ -1,5 +1,6 @@
 # Frequently Asked Questions
 
+
 In case of technical problems, as well as if you need help in connection with the use of **Chatrix.One**, you can send an inquiry in the form of an email or **XMPP** message to an administrator. Please first check if your question has not already been answered in the lines below. Thanks!
 
 !!! info "Information"
@@ -14,6 +15,7 @@ In case of technical problems, as well as if you need help in connection with th
 ## Would you describe the service?
 
 **Chatrix.One** is a Bulgarian server offering free communication based on the **XMPP** protocol. You can send messages, emoticons, photos, voice and video messages, location and files. Voice and video connection are also available.
+
 
 ## What is **XMPP**?
 
@@ -93,13 +95,16 @@ flowchart RL
 - [**Jabber.at**](https://list.jabber.at/)
 - [**XMPP Providers**](https://providers.xmpp.net/#category-a)
 
+
 ## Where can I find public rooms to join?
 
 A list of public rooms with free access can be found on the [Search Jabber Network](https://search.jabber.network) page.
 
+
 ## How long has **XMPP** been around?
 
 The protocol was born in 1998, but it actually started functioning as a platform in 1999. The history is available on the official page of [XMPP](https://xmpp.org/about/history/).
+
 
 ## Who uses **XMPP**?
 
@@ -122,37 +127,46 @@ More prominent organizations using **XMPP** on a daily basis are:
 
 For more details, see [RST Software](https://www.rst.software/blog/22-companies-using-xmpp-and-ejabberd-to-build-instant-messaging-services) page.
 
+
 ## What does the **XMPP**network look like?
 
 An example visualization of the **XMPP** network is available on the [XMPP Network Graph](https://xmppnetwork.goodbytes.im/) page.
+
 
 ## What is **OMEMO**?
 
 **OMEMO** is a method of double encryption of end-to-end communication. Encryption keys are automatically generated for each message, making communication even more secure. In other words, even if one message is compromised, the rest of the communication remains unaffected. Additional information about the method can be found on [Wikipedia](https://en.wikipedia.org/wiki/OMEMO) and on the **Conversations** website under the [OMEMO](https://conversations.im/omemo/). The audit results of the protocol, by [**Radically Open Security BV**](https://www.radicallyopensecurity.com/), is available on the page of [**Conversations.im**](https://conversations.im/omemo/audit.pdf).
 
+
 ## How can I register an account?
 
 Full information about registering a **Chatrix.One** account is available in the [Registration](/en/account/registration) section.
+
 
 ## Is there a registration email template posted?
 
 A sample registration email template is available in the [Registration](/en/account/registration#__tabbed_1_1) tab.
 
+
 ## Is there a **XMPP** registration message template published?
 
 A sample **XMPP** registration message template is available in the [Registration](/en/account/registration#__tabbed_1_2) tab.
+
 
 ## Why haven't I received the registration link email?
 
 Please check your Spam folder.
 
+
 ## Which client do you recommend?
 
 I use **Gajim** under **Windows** and **Linux**. For **Android** I use **Conversations** - paid version. Both clients are 100% **OMEMO** compatible and open source. I can't comment on **iOS** as I've never had a device running this operating system.
 
+
 ## Why choose a paid version when there is a free one?
 
 Personally, I have chosen the paid version of **Conversations** because in this way I support the developer of the application [Daniel Gultsch](https://gultsch.de/) who contributed a lot to the development of **XMPP** in recent years. He is also credited with implementing **OMEMO** as a standard in **XMPP** communication. Ultimately, the choice is entirely yours.
+
 
 ## Where can I download a client for my operating system?
 
@@ -204,9 +218,11 @@ Detailed information about the clients available for working with **Chatrix.One*
      |:-------------|:------------------:|:------------------:|:-------------------------------------------------- ----------:|
      |**Profanity** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Profanity-IM](https://profanity-im.github.io/) |
 
+
 ## Can I have multiple accounts registered on different servers?
 
 You can have as many accounts as you want, both on one and on different servers. It is even possible to control them from the same device. You will only have to log in with each individual account separately in the settings of the software you are using. Please note that registration of more than one account per user in **Chatrix.One**is not allowed. For more information, please read the rules in the [Terms](/en/terms#they-are-forbidden) section.
+
 
 ## Which clients support **OMEMO**?
 
@@ -221,6 +237,7 @@ Clients with 100% OMEMO compatibility:
 - **Profanity**.
 
 The ones listed above have been tested with the exception of **Monal** and **Chat Secure**. A detailed list of clients and their compatibility is available at [Are We OMEMO Yet?](https://omemo.top/).
+
 
 ## How do I know if I'm using  **OMEMO**?
 
@@ -237,25 +254,31 @@ The situation is similar for all other applications.
 
      In case the messages are **not** encrypted in **Conversations** they will be written on a red background. In **Gajim** you will see an unlocked padlock with an orange `!` symbol on it. It is located to the right of the ribbon in which you are typing.
 
+
 ## Can I use another encryption method?
 
 You can also use **OpenPGP**, but I recommend that you familiarize yourself with the possible security issues of this method first. For more information see the module page - [XEP-0027: Current Jabber OpenPGP Usage](https://xmpp.org/extensions/xep-0027.html) and specifically the [Security Considerations](https://xmpp.org/extensions/xep-0027.html#security).
+
 
 ## Can I use **OTR** encryption?
 
 Support for the **OTR** encryption method has been discontinued due to its vulnerability to [Man-In-The-Middle](https://en.wikipedia.org/wiki/Man-in- the-middle_attack). For more information see the module page - [XEP-0364: Current Off-the-Record Messaging Usage](https://xmpp.org/extensions/xep-0364.html) and specifically the part [Security Considerations](https://xmpp.org/extensions/xep-0364.html#security).
 
+
 ## Is the voice communication encrypted?
 
 In case you have enabled an encryption method (**OMEMO** or **OpenPGP**) the audio communication will also be encrypted. In the **Conversations** app, this will be marked with green *shield with a checkmark* :material-shield-check:{ .green} symbol in the upper left corner of the screen.
+
 
 ## Is the video communication encrypted?
 
 In case you have enabled an encryption method (**OMEMO** or **OpenPGP**) the video communication will also be encrypted. In the **Conversations** app, this will be marked with green *shield with a checkmark* :material-shield-check:{ .green} symbol in the upper left corner of the screen.
 
+
 ## Can I communicate with contacts outside of **Chatrix.One**?
 
 Of course! I respect the freedom of users and in no way want to keep them locked up.
+
 
 ## How to recover a forgotten password?
 
@@ -264,6 +287,7 @@ If I don't know you personally, you will have to remember it. Otherwise, registe
 !!! tip "Tip"
 
       Next time, use password management software (**Password Manager**). I would recommend [Bitwarden](https://bitwarden.com/).
+
 
 ## How do I change the password?
 
@@ -281,9 +305,11 @@ For other customers, the procedure is similar.
 
 You can also change your password using the online password change form [here](/en/account/change-password).
 
+
 ## Is two-factor authentication supported?
 
 [Second Factor Authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication), also known as **Multi Factor Authentication** (**2FA**, **MFA**), is currently not integrated into the **XMPP** service offered by **Chatrix.One**. Authentication is done with username and password only. It is for this reason that I advise you to be judicious in choosing a password. Advice on choosing a password can be found in the [Registration](/en/account/registration) section.
+
 
 ## Can I delete a profile?
 
@@ -294,21 +320,26 @@ You can also delete your account using the online form [here](/en/account/delete
 
      Not all applications delete the profile from the server! For some, like **Conversations**, the profile is only removed from the app, but remains on the server. I advise you to check the instructions of the software itself.
 
+
 ## Are there any rules I need to follow?
 
 Of course. There are rules and they are mandatory for everyone. Please familiarize yourself with them in the [Terms](/en/terms) section.
+
 
 ## Do I have to write only in Cyrillic?
 
 You can write in any language you want, as long as you follow the [Terms](/en/terms) for using the service.
 
+
 ## On how many devices can I use the service?
 
 You have virtually no limits. Just keep in mind that adding each new device leads to a loss of trust in your correspondents. In other words, they will have to trust you again, either by "blind trust" or by scanning a [QR](https://en.wikipedia.org/wiki/QR_code) code from the screen of one of your active devices.
 
+
 ## What does **Blind Trust** mean?
 
 In short, it's a way to trust a device owned by the person you're communicating with, without being 100% sure that it's really them on the other end. The most secure way to trust is by scanning the **QR** code from the screen of a device owned by your correspondent. It is enough to scan only one of the devices. You'll notice that the more devices you own, the more complex the **QR** code becomes. This is because it contains the IDs of all the devices on your account. Detailed information can be found in the publication [Blind Trust Before Verification](https://gultsch.de/trust.html) by **Daniel Gultsch**.
+
 
 ## Will I know if the other side got the message?
 
@@ -319,29 +350,36 @@ In the newer versions of the client software, the following indications are avai
 - :material-check-all: - The message was successfully received by the recipient's server or **MUC**;
 - :material-check-all:{ .green} - The message was successfully received by the recipient and has been read.
 
+
 ## Will I be able to correct wrongly sent messages?
 
 Yes, you will be able to correct the last message sent, which will be reflected by the appearance of a :material-pencil: symbol next to the date and time of the relevant message.
+
 
 ## Will I see if the other party is writing to me right now?
 
 Yes. You will see a message like *"John is typing..."*. Accordingly, there is also a message if writing is suspended.
 
+
 ## Can I block notification of whether I'm writing or not?
 
 Yes. Look in the application settings, section **Privacy**.
+
 
 ## Will others know if I'm online?
 
 Yes. Check if you have enabled this option. This is usually done from your app settings, **Privacy** section.
 
+
 ## If I upload the wrong file or image, can I delete them?
 
 You can, but only from your device. From the server and devices of other users, this is impossible.
 
+
 ## Can I create rooms?
 
 Yes. You can create rooms and invite friends to a shared chat.
+
 
 ## What is **Shared Roster Group**?
 
@@ -358,9 +396,11 @@ In short, it is a list of shared contacts. They can be useful in different situa
 - User **IM** services;
 - Wherever it is important to build and manage small communities of users.
 
+
 ## Can I create a **Shared Roster Group**?
 
 No, but if you contact me I can create one. This way, there will be no need to invite all the members separately. The group will be immediately visible in the application to everyone included in it. For connection, it is best to send an **XMPP** message to an administrator.
+
 
 ## Why am I not receiving notifications on my mobile device?
 
@@ -385,6 +425,7 @@ No, but if you contact me I can create one. This way, there will be no need to i
     !!! success "Solution"
 
         Charge the battery and turn off the battery saver mode.
+
 
 ## Why can't I send messages?
 
@@ -415,6 +456,7 @@ In the event that you cannot send any messages, the reasons may be as follows:
 
          Wait for the problem to be fixed. You can monitor the availability of the service in the [Status](/status/) section and more precisely in the [Availability - XMPP](/en/status#accessibility-xmpp).
 
+
 ## Why do I get an error message when trying to register?
 
 In order to protect the service from bots and abuse, the following restrictions have been introduced:
@@ -427,13 +469,16 @@ In order to protect the service from bots and abuse, the following restrictions 
 
 If the status of the registrations is marked as ++"CLOSED"++, you will need to use one of the other possible methods of registering an account described in the section "Registration" and precisely the part [Ways to register an account](/en/account/registration#ways-to-register-an-account). For all other cases, the solution is to try again later.
 
+
 ## Why **CAPTCHA** is only partially rendered?
 
 The server has detected attempts for **Bot** registrations. Please try again later or contact an administrator for assistance.
 
+
 ## Why is the **CAPTCHA** displayed barely visible?
 
 The more accounts are registered within 24 hours, the fainter the code becomes. This is done to limit the number of **SPAM** registrations. Please try again later or contact the administrator for assistance.
+
 
 ## Why do I get an invalid **SSL/TLS** certificate message?
 
@@ -443,9 +488,11 @@ You are probably using a device with an outdated operating system (**Android** 6
 
      Before manually accepting a certificate, you **must** pay attention and make sure it is registered for the following domains: `chatrix.one`, `conference.chatrix.one`, `pubsub.chatrix.one`, `proxy.chatrix.one` and `upload.chatrix.one`. Otherwise, you may become a victim of the so-called [Man-In-The-Middle](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) hacking attack.
 
+
 ## Why can't I have audio and video communication with **Gadjim**?
 
 You are probably using **Windows** as your operating system. Currently, **Gajim** supports audio and video communication only under **Linux**.
+
 
 ## How do I turn off message archiving?
 
@@ -461,21 +508,26 @@ If you do not want the messages to be stored for the specified period, you have 
 
 For other clients, the procedure is similar.
 
+
 ## What data do you store on the server?
 
 Detailed information can be found in the [Privacy](/en/privacy#view-stored-data) article.
+
 
 ## What data is transferred to enable **Push Notifications**?
 
 You can read a detailed description on the **Github** application page [Conversations](https://github.com/iNPUTmice/p2/blob/master/README.md#conversations-push-proxy).
 
+
 ## Are the photos I upload encrypted?
 
 Yes, but only if you have enabled end-to-end encryption, for example **OMEMO**.
 
+
 ## What would a photo that is stored on the server in encrypted form look like?
 
 If it is downloaded from the server and an attempt is made to view it on a computer or other device, all you will see is a pure black screen.
+
 
 ## Once you have access to the server, can you decrypt users' messages and files?
 
@@ -485,6 +537,7 @@ Administrator access alone is not sufficient to decrypt communication and files 
 
      One of the things that I am extremely responsible for is that personal communication remains truly personal. For more information, see the [Privacy](/en/privacy) section.
 
+
 ## Will the service be available after "**X**" years?
 
 This service is not currently scheduled to be discontinued. Until I run into financial difficulties or other serious reasons arise, I will offer the **XMPP** service. Termination will of course be announced in due course.
@@ -492,6 +545,7 @@ This service is not currently scheduled to be discontinued. Until I run into fin
 !!! info "Information"
 
      If you want to ensure the long-term functioning of **Chatrix.One**, you can participate in the financing. If you need more information, please contact an administrator.
+
 
 ## What costs does this type of service generate?
 
@@ -503,13 +557,16 @@ This service is not currently scheduled to be discontinued. Until I run into fin
 - Hardware - upgrades and replacement of defective parts;
 - Personal time - daily.
 
+
 ## How can I become a sponsor?
 
 It is enough to help pay one monthly bill, for any of the specified costs listed in [What costs does this type of service generate?](/en/faq#what-costs-does-this-type-of-service-generate).
 
+
 ## Can I help pay more than one monthly bill?
 
 Yes. Any kind of help is always welcome.
+
 
 ## Are there perks for sponsors?
 
@@ -520,37 +577,53 @@ Of course! Each sponsor receives:
 - Larger file storage volume;
 - Advantage over other users if they need customer support.
 
+
 ## Will my name be listed on this website if I am a sponsor?
 
 Only if you insist on it.
+
+## Can I donate anonymously?
+
+To donate anonymously, you can transfer funds to our Monero wallet:
+
+`49r9YTbTKNP1ekK8EffAhvVCxEGo9dZqDYtGccGLS1GZNYsK1Wy2AQxB7k1gGhRNuHTTsAf9A8gWYej9ConhkteA72fSmJD`
+
+You can also find the number as a QR code at the bottom of this site.
 
 ## Why do you even offer such a service?
 
 Because I have the desire, opportunity and time, but above all it gives me great pleasure and last but not least - I like to control my own data whenever possible.
 
+
 ## Why is the service free?
 
 Because at the moment I can afford it.
+
 
 ## How secure is the service?
 
 The current **XMPP** standards allow very secure messaging - you just have to use them! I constantly monitor and implement the latest encryption methods. I also block connections over insecure channels. In order to reduce the scope for hackers, I have disabled **SSH** access as well as web-based server administration. The firewall is set as restrictive as possible. Communication is secured by **TLS** certificate from [ZeroSSL](https://zerossl.com/) and [Let's Encrypt](https://letsencrypt.org/). Key exchange is via [Diffie-Hellman](https://en.wikipedia.org/wiki/Diffie-Hellman).
 
+
 ## How stable is the service?
 
 My observations on **XMPP** based service since 2018 to date show that the service is extremely stable. At the moment, the server has enough [RAM](https://en.wikipedia.org/wiki/Random-access_memory), so that it can accommodate several thousand active users at the same time.
+
 
 ## Are you up to date with the latest developments in **XMPP**?
 
 As soon as it is technically possible and reasonable, new **XMPP** extensions and best practices will be implemented on this server. For me, full compatibility with the flagship **Conversations** project, which has undoubtedly helped **XMPP** reach new heights in recent years, is important. **Chatrix.One** test result can be seen online [XMPP Compliance Report](https://compliance.conversations.im/server/chatrix.one/).
 
+
 ## What database are you using?
 
 I am using [PostgreSQL](https://www.postgresql.org/).
 
+
 ## Are passwords stored in readable form?
 
 No. Passwords are encrypted using the [SCRAM-SHA-1](https://wiki.xmpp.org/web/SASL_Authentication_and_SCRAM#SCRAM-SHA-1(-PLUS)) mechanism.
+
 
 ## Why is it called **Chatrix.One**?
 
@@ -565,6 +638,7 @@ flowchart BT
      E[<b>One</b>] ---> |One| R
 ```
 
+
 ## How many people deal with the administration?
 
 At the moment I am the only person, which has its advantages and disadvantages.
@@ -573,13 +647,16 @@ At the moment I am the only person, which has its advantages and disadvantages.
 
      Main Drawback: [Bus Factor](https://en.wikipedia.org/wiki/Bus_factor) = 1
 
+
 ## If you decided to stop the project tomorrow, what would that mean for us - the users?
 
 The good news is that the **XMPP** network is not owned by a single person or company. The network is distributed among thousands. All you have to do is create an account with another provider, transfer your contact list, and you can continue communicating with whoever you want.
 
+
 ## How much electricity does it use?
 
 In order to minimize electricity consumption, I use a processor based on the **ARM** architecture. At 100% load on all four cores, consumption reaches 10.4W. Most of the time the server is under 10% load.
+
 
 ## Why **Ejabberd** and not **Prosody**?
 
@@ -603,6 +680,7 @@ There are many reasons for my decision to choose **Ejabberd**. Most of them are 
 - **Conversation.im** uses **Ejabberd** and in development the vendor refers to it instead of **Prosody**.
 
 Do not get me wrong. I still see in **Prosody** a wonderful opportunity to create an **XMPP** server. I even still maintain and use one. It is an indisputable fact that it is extremely easy to work with.
+
 
 ## Do you offer other free services?
 
@@ -631,29 +709,36 @@ At the moment, the following services are functioning on this domain:
 
 Currently [Matrix](https://en.wikipedia.org/wiki/Matrix_(protocol)) is functional but not publicly accessible. The maintenance of this platform is much more complex and time-consuming, and therefore costs more personal time. It also requires more hardware and financial resources. In any case, I will need at least one more volunteer, experienced in **Linux** system administration, willing to invest **for free** some of their free time and a lot of :octicons-heart-fill-24:{ .heart .red } in the name of the cause.
 
+
 ## Are you planning to have a free, publicly accessible email service?
 
 Email is currently functional but not publicly accessible. The maintenance of this type of service is associated with a significantly greater responsibility to the end user. Of utmost importance is the round-the-clock monitoring of the system in order to prevent security-related incidents. It is complex to integrate, but maintenance is even more complex and time-consuming, and therefore costs much more personal time. It requires a large hardware and financial resource. In any case, I will need at least one or two more volunteers, experienced in **Linux** system administration, willing to invest **for free** some of their free time and a lot of :octicons-heart-fill-24:{ .heart .red } in the name of the cause.
+
 
 ## Are you planning to have a free publicly accessible file storage cloud?
 
 Currently, cloud file storage is operational, but not publicly accessible. The maintenance of this type of service is related to the provision of an array to store a significant amount of data. Responsibility to the end user is a serious part of this business. Of utmost importance is the round-the-clock monitoring of the system in order to prevent security-related incidents. Maintenance is labor-intensive, and therefore costs much more personal time. It requires a serious investment in hardware. In any case, I will need at least one or two more volunteers, experienced in **Linux** system administration, willing to invest **for free** some of their free time and a lot of :octicons-heart-fill-24:{ .heart .red } in the name of the cause.
 
+
 ## Are there terms and conditions for using the service?
 
 The rules for using the service can be found in the [Terms](/en/terms) section.
+
 
 ## Can I report a violation of the terms of service?
 
 See the [Terms](/en/terms) section and specifically the [Reporting a violation](/en/terms#reporting-a-violation) section.
 
+
 ## Why was my account deleted?
 
 Read the [Terms](/en/terms) section and more specifically the [Additional](/en/terms#additional) part.
 
+
 ## How to restore a deleted profile?
 
 No such option exists. Once deleted, the profile cannot be recovered. Read the [Terms](/terms/) section and more specifically the [Additional](/en/terms#additional).
+
 
 ## Will you know if the service becomes unavailable?
 
@@ -663,9 +748,11 @@ The service is monitored 24/7 across various indicators. I also use it daily, so
 
      I take **continuity of service** extremely seriously, but keep in mind that I have a family and personal commitments. Therefore, sending a bunch of messages or emails asking questions like: *When are you going to fix the problem?* won't do me any good.
 
+
 ## Is the service available outside Bulgaria?
 
 You can use **Chatrix.One** from anywhere in the world. There are currently no [GeoIP](https://en.wikipedia.org/wiki/Geo-blocking) traffic blocking rules applied.
+
 
 ## Where can I track incidents?
 
@@ -686,13 +773,17 @@ Chatrix.One is built entirely on open source software.
 | [Docker](https://www.docker.com/) | Container runtime |
 | [Git](https://git-scm.com/) | Version control |
 
+
+
 ## Is technical information available for the service?
 
 Check in the [Status](/en/status) and more specifically in the [Technical data](/en/status#technical-data) section.
 
+
 ## How can I contact you?
 
 Contacts are available at the bottom of the page, as well as in the [About](/en/about#contacts) tab. If you are using a mobile device please check the :material-menu: menu.
+
 
 ## Why don't you answer my question?
 

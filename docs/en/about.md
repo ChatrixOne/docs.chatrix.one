@@ -1,5 +1,6 @@
 # About
 
+
 For me, *Linux system administration* is a hobby! Over the years, the XMPP service, offered for free by **Chatrix.One**, has migrated many times through different software and hardware. The goal has always been minimal power consumption and maximum communication stability.
 
 | Year | Event | Hardware | Platform |

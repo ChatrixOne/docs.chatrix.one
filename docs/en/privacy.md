@@ -1,5 +1,6 @@
 # Privacy
 
+
 ## Data Privacy
 
 As an operator of service representing an alternative to the available methods of Internet communication, I strive to:
