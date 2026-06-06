@@ -83,11 +83,9 @@ flowchart RL
 
 ### More information about the **XMPP** protocol
 
-- [**XMPP** - Communicate freely!](https://blog.chatrix.one/posts/XMPP-communication/)[^1]
+- [**XMPP** - Communicate freely!](https://blog.chatrix.one/en/posts/xmpp-communication/)
 - [**XMPP Providers**](https://providers.xmpp.net/about/)
 - [**Wikipedia**](https://en.wikipedia.org/wiki/XMPP)
-
-[^1]: The article is only available in Bulgarian language.
 
 ### Lists of free **XMPP** servers
 
