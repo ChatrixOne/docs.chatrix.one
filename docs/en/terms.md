@@ -1,5 +1,6 @@
+# Terms
 
-In general, I am far from the thought of imposing any restrictions. However, practice has shown that in order for a community to exist and function, the presence and observance of certain rules is mandatory. The **XMPP** service offered by **Chatrix.One** is no exception. Precisely for this reason, I recommend that you familiarize yourself with the rules that **every** user, moderator or administrator must follow.
+Please, familiarize yourself with the rules that **every** user, moderator or administrator must follow.
 
 ## [TL;DR](https://bg.wikipedia.org/wiki/TL;DR)
 
