@@ -778,6 +778,11 @@ Chatrix.One is built entirely on open source software.
 Check in the [Status](/en/status) and more specifically in the [Technical data](/en/status#technical-data) section.
 
 
+## Why is the category **B** in **XMPP Providers**, and not **A** as before?
+
+Because registration via an installed application is now prohibited. This is done to protect the service from bot registrations. All other functionalities remain unchanged.
+
+
 ## How can I contact you?
 
 Contacts are available at the bottom of the page, as well as in the [About](/en/about#contacts) tab. If you are using a mobile device please check the :material-menu: menu.
