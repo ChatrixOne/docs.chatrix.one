@@ -1,9 +1,10 @@
 # Chatrix.One - Documentation
+<p align="center">
+  <img src="docs/assets/logo-light.svg#gh-light-mode-only" alt="Chatrix.One Logo" width="25%">
+  <img src="docs/assets/logo-dark.svg#gh-dark-mode-only" alt="Chatrix.One Logo" width="25%">
+</p>
 
-![Chatrix.One](docs/assets/logo-light.svg#gh-light-mode-only)
-![Chatrix.One](docs/assets/logo-dark.svg#gh-dark-mode-only)
-
-Documentation Site For [**Chatrix.One**](https://chatrix.one) - *Keep the Chatting, Skip the Tracking!*
+Documentation Site For [**Chatrix.One**](https://chatrix.one) - *Free Private XMPP Chat Server!*
 
 ### 🌐 Supported Languages
 
