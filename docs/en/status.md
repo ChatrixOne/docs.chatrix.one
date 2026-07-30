@@ -4,7 +4,7 @@
 
      | Date        | Time interval    | Note                                        |
      |:------------|:----------------:|:-------------------------------------------:|
-     | 25.07.2026  |05:30 - 6:30 EET  | **XMPP** service interruptions are possible |
+     | 29.08.2026  |05:30 - 6:30 EET  | **XMPP** service interruptions are possible |
 
 ## Account Registrations
 
@@ -81,7 +81,7 @@
 | Parameter        | Value                          |
 |:-----------------|:------------------------------:|
 | Processor        | ARM Ampere<sup>&reg;</sup>Altra<sup>&trade;</sup> |
-| RAM              | 12GB                           |
+| RAM              | 8GB                            |
 | Disk Space       | 64GB (Encrypted)               |
 | File System      | ext4                           |
 | Operating System | Ubuntu 22.04 (Jammy Jellyfish) |
@@ -166,6 +166,12 @@
      There are currently no documented incidents.
 
 ## Update history
+
+### 07/30/2026
+
+#### Server Downgrade
+
+Due to the drastic increase in hosting costs (thanks to the AI ​​rampocalypse), the available RAM has been reduced by 33% – from 12GB to 8GB.
 
 ### 14.05.2026
 
