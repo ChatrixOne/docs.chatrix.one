@@ -169,6 +169,14 @@
 
 ### 30.07.2026
 
+#### Update Ejabberd to version [26.07](https://github.com/processone/ejabberd/releases/tag/26.07)
+
+- Primarily security and reliability fixes addressing multiple vulnerabilities across authentication, OAuth, PubSub, WebAdmin, file uploads, and web modules;
+- Better invite management through new user and admin interfaces;
+- Support for ConverseJS 14.
+
+### 25.07.2026
+
 #### Server Downgrade
 
 Due to the drastic increase in hosting costs (thanks to the AI ​​rampocalypse), the available RAM has been reduced from 12GB to 8GB.
