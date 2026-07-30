@@ -167,11 +167,11 @@
 
 ## Update history
 
-### 07/30/2026
+### 30.07.2026
 
 #### Server Downgrade
 
-Due to the drastic increase in hosting costs (thanks to the AI ​​rampocalypse), the available RAM has been reduced by 33% – from 12GB to 8GB.
+Due to the drastic increase in hosting costs (thanks to the AI ​​rampocalypse), the available RAM has been reduced from 12GB to 8GB.
 
 ### 14.05.2026
 
