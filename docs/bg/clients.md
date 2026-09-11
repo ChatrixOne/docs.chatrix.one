@@ -27,12 +27,8 @@
 | Клиент   | Безплатен          |  Отворен код       | Линк                                                                           |
 |:---------|:------------------:|:------------------:|:------------------------------------------------------------------------------:|
 |Monal| :fontawesome-solid-check: | :fontawesome-solid-check: | [**App Store for Mac**](https://apps.apple.com/us/app/monal-xmpp-chatting/id1637078500?mt=12) |
-|Gajim | :fontawesome-solid-check: | :fontawesome-solid-check: | [**Gajim.org**](https://dev.gajim.org/gajim/gajim/-/wikis/help/Gajim-on-macOS) |
+|Gajim | :fontawesome-solid-check: | :fontawesome-solid-check: | [**Gajim.org**](https://gajim.org/download) |
 |**Beagle IM** | :fontawesome-solid-check: | :fontawesome-solid-check: | [**App Store for Mac**](https://apps.apple.com/us/app/beagleim-by-tigase-inc/id1445349494)|
-
-!!! warning "Внимание"
-
-    Все още няма наличен инсталационен пакет на  Gajim за **macOS**. Посочената инструкция е предназначена за потребители, притежаващи умения за работа в терминален режим.
 
 ### :fontawesome-brands-android: Android
 

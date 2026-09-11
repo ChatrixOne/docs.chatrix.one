@@ -27,12 +27,8 @@ Client is the application (software) through which we use the service. It is imp
 | Client | Free | Open Source | Link |
 |:---------|:------------------:|:------------------:|:----------------------------------------------------------------------------------:|
 |**Monal**| :fontawesome-solid-check: | :fontawesome-solid-check: | [App Store for Mac](https://apps.apple.com/us/app/monal-xmpp-chatting/id1637078500?mt=12) |
-|**Gajim** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Gajim.org](https://dev.gajim.org/gajim/gajim/-/wikis/help/Gajim-on-macOS) |
+|**Gajim** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Gajim.org](https://gajim.org/download) |
 |**Beagle IM** | :fontawesome-solid-check: | :fontawesome-solid-check: | [App Store for Mac](https://apps.apple.com/us/app/beagleim-by-tigase-inc/id1445349494)|
-
-!!! warning "Caution"
-
-     There is no **Gajim** installer package available for **macOS** yet. This instruction is intended for users with basic terminal skills.
 
 ### :fontawesome-brands-android: Android
 
