@@ -188,7 +188,7 @@ Detailed information about the clients available for working with **Chatrix.One*
      | Client | Free | Open Source | Link |
      |:---------|:------------------:|:------------------:|------------------------------------------------ ---------------------------:|
      |**Monal**| :fontawesome-solid-check: | :fontawesome-solid-check: | [App Store for Mac](https://apps.apple.com/us/app/monal-xmpp-chatting/id1637078500?mt=12) |
-     |**Gajim** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Gajim.org](https://dev.gajim.org/gajim/gajim/-/wikis/help/Gajim-on-macOS) |
+     |**Gajim** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Gajim.org](https://gajim.org/download) |
      |**Beagle IM** | :fontawesome-solid-check: | :fontawesome-solid-check: | [App Store for Mac](https://apps.apple.com/us/app/beagleim-by-tigase-inc/id1445349494) |
 
 === ":fontawesome-brands-google-play: Android"
