@@ -134,7 +134,7 @@
 
 --8<-- "includes/plans-en.md"
 
-Labels marked *soon* are being prepared and are not active yet.
+> Labels marked *soon* are being prepared and are not active yet.
 
 ### Backup server
 

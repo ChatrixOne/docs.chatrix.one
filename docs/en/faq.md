@@ -572,7 +572,7 @@ Of course! Sponsors get more room and a longer history. There is no fixed price:
 
 --8<-- "includes/plans-en.md"
 
-Labels marked *soon* are being prepared and are not active yet.
+> Labels marked *soon* are being prepared and are not active yet.
 
 
 ## Will my name be listed on this website if I am a sponsor?
