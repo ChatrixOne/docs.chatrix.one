@@ -135,8 +135,8 @@
 | Limit                     | Value    |
 |:--------------------------|:--------:|
 | Single file upload        | 100 MB   |
-| Total volume - soft limit | 900 MB   |
-| Total volume - hard limit | 1000 MB  |
+| Total volume - soft limit | 90 MB    |
+| Total volume - hard limit | 100 MB   |
 | Storage period            | 28 days  |
 
 #### Offline message limits
