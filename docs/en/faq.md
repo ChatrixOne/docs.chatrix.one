@@ -189,7 +189,7 @@ Detailed information about the clients available for working with **Chatrix.One*
      |:---------|:------------------:|:------------------:|------------------------------------------------ ---------------------------:|
      |**Monal**| :fontawesome-solid-check: | :fontawesome-solid-check: | [App Store for Mac](https://apps.apple.com/us/app/monal-xmpp-chatting/id1637078500?mt=12) |
      |**Gajim** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Gajim.org](https://gajim.org/download) |
-     |**Beagle IM** | :fontawesome-solid-check: | :fontawesome-solid-check: | [App Store for Mac](https://apps.apple.com/us/app/beagleim-by-tigase-inc/id1445349494) |
+     |**Beagle IM** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Website](https://beagle.im/) |
 
 === ":fontawesome-brands-google-play: Android"
 
@@ -260,7 +260,7 @@ You can also use **OpenPGP**, but I recommend that you familiarize yourself with
 
 ## Can I use **OTR** encryption?
 
-Support for the **OTR** encryption method has been discontinued due to its vulnerability to [Man-In-The-Middle](https://en.wikipedia.org/wiki/Man-in- the-middle_attack). For more information see the module page - [XEP-0364: Current Off-the-Record Messaging Usage](https://xmpp.org/extensions/xep-0364.html) and specifically the part [Security Considerations](https://xmpp.org/extensions/xep-0364.html#security).
+Support for the **OTR** encryption method has been discontinued due to its vulnerability to [Man-In-The-Middle](https://en.wikipedia.org/wiki/Man-in-the-middle_attack). For more information see the module page - [XEP-0364: Current Off-the-Record Messaging Usage](https://xmpp.org/extensions/xep-0364.html) and specifically the part [Security Considerations](https://xmpp.org/extensions/xep-0364.html#security).
 
 
 ## Is the voice communication encrypted?
@@ -336,7 +336,7 @@ You have virtually no limits. Just keep in mind that adding each new device lead
 
 ## What does **Blind Trust** mean?
 
-In short, it's a way to trust a device owned by the person you're communicating with, without being 100% sure that it's really them on the other end. The most secure way to trust is by scanning the **QR** code from the screen of a device owned by your correspondent. It is enough to scan only one of the devices. You'll notice that the more devices you own, the more complex the **QR** code becomes. This is because it contains the IDs of all the devices on your account. Detailed information can be found in the publication [Blind Trust Before Verification](https://gultsch.de/trust.html) by **Daniel Gultsch**.
+In short, it's a way to trust a device owned by the person you're communicating with, without being 100% sure that it's really them on the other end. The most secure way to trust is by scanning the **QR** code from the screen of a device owned by your correspondent. It is enough to scan only one of the devices. You'll notice that the more devices you own, the more complex the **QR** code becomes. This is because it contains the IDs of all the devices on your account. Detailed information can be found in the publication **Blind Trust Before Verification** by **Daniel Gultsch**.
 
 
 ## Will I know if the other side got the message?
@@ -514,7 +514,7 @@ Detailed information can be found in the [Privacy](/en/privacy#view-stored-data)
 
 ## What data is transferred to enable **Push Notifications**?
 
-You can read a detailed description on the **Github** application page [Conversations](https://github.com/iNPUTmice/p2/blob/master/README.md#conversations-push-proxy).
+You can read a detailed description on the **Github** application page [Conversations](https://codeberg.org/iNPUTmice/p2).
 
 
 ## Are the photos I upload encrypted?
@@ -600,7 +600,7 @@ Because at the moment I can afford it.
 
 ## How secure is the service?
 
-The current **XMPP** standards allow very secure messaging - you just have to use them! I constantly monitor and implement the latest encryption methods. I also block connections over insecure channels. In order to reduce the scope for hackers, I have disabled **SSH** access as well as web-based server administration. The firewall is set as restrictive as possible. Communication is secured by **TLS** certificate from [ZeroSSL](https://zerossl.com/) and [Let's Encrypt](https://letsencrypt.org/). Key exchange is via [Diffie-Hellman](https://en.wikipedia.org/wiki/Diffie-Hellman).
+The current **XMPP** standards allow very secure messaging - you just have to use them! I constantly monitor and implement the latest encryption methods. I also block connections over insecure channels. In order to reduce the scope for hackers, **SSH** access and web-based server administration are open only to trusted addresses. The firewall is set as restrictive as possible. Communication is secured by **TLS** certificate from [Let's Encrypt](https://letsencrypt.org/). Key exchange is via [Diffie-Hellman](https://en.wikipedia.org/wiki/Diffie-Hellman).
 
 
 ## How stable is the service?

@@ -2,17 +2,17 @@
 
 ???- bug "Scheduled maintenance"
 
-     | Date        | Time interval    | Note                                        |
-     |:------------|:----------------:|:-------------------------------------------:|
-     | 26.09.2026  |05:30 - 6:30 EET  | **XMPP** service interruptions are possible |
+     There is no scheduled maintenance at the moment.
 
 ## Account Registrations
 
-| Тype              |Rate Limit              |Status                           |
+| Type              |Rate Limit              |Status                           |
 |:------------------|:----------------------:|-------------------------:|
 | Invitation            |One per hour            |![Registration Status](https://uptime.tinyserver.eu/api/badge/125/status?label=&upLabel=OPEN&downLabel=CLOSED) |
 | Online            |One per hour            |![Registration Status](https://uptime.tinyserver.eu/api/badge/141/status?label=&upLabel=OPEN&downLabel=CLOSED) |
-| Installed Client  |One per hour from an IP |![Registration Status](https://uptime.tinyserver.eu/api/badge/141/status?label=&upLabel=OPEN&downLabel=CLOSED) |## Availability - **XMPP**
+| Installed Client  |One per hour from an IP |![Registration Status](https://uptime.tinyserver.eu/api/badge/141/status?label=&upLabel=OPEN&downLabel=CLOSED) |
+
+## Availability - **XMPP**
 
 | Indicator                          | Value                                                                          |
 |:-----------------------------------|:------------------------------------------------------------------------------:|
@@ -84,13 +84,11 @@
 | RAM              | 8GB                            |
 | Disk Space       | 64GB (Encrypted)               |
 | File System      | ext4                           |
-| Operating System | Ubuntu 22.04 (Jammy Jellyfish) |
-| Ejabberd version | 26.04                          |
+| Operating System | Ubuntu 24.04 (Noble Numbat)    |
+| Ejabberd version | 26.09                          |
 | Backup           | Daily                          |
 | Location         | Switzerland                    |
 | Powered with     | 100% Renewable energy          |
-
-<!-- [<img src="https://app.greenweb.org/api/v3/greencheckimage/chatrix.one?nocache=true" alt="This website runs on green hosting - verified by thegreenwebfoundation.org" width="200px" height="95px">](https://www.thegreenwebfoundation.org/green-web-check/?url=chatrix.one) -->
 
 #### Information about XEPs
 
@@ -137,7 +135,7 @@
 | Limit                     | Value    |
 |:--------------------------|:--------:|
 | Single file upload        | 100 MB   |
-| Total volume - soft limit | 950 MB   |
+| Total volume - soft limit | 900 MB   |
 | Total volume - hard limit | 1000 MB  |
 | Storage period            | 28 days  |
 
@@ -166,6 +164,21 @@
      There are currently no documented incidents.
 
 ## Update history
+
+### 24.10.2026
+
+#### Server Moved to Ubuntu 24.04 LTS
+
+- The server was reinstalled on **Ubuntu 24.04 LTS** with an automated, tested setup;
+- All accounts, contacts, message history, group chats and files were carried over.
+
+### 04.10.2026
+
+#### Update Ejabberd to version [26.09](https://github.com/processone/ejabberd/releases/tag/26.09)
+
+- Fixes for several security issues, including remote code execution and a DoS attack through **BOSH**;
+- Fixed the order of some XML child elements;
+- New option for a proof-of-work **CAPTCHA** challenge.
 
 ### 30.07.2026
 
@@ -375,7 +388,7 @@ The theme has been completely redesigned to visually align with the updated main
 
 ### 16.08.2022
 
-#### Service migration from Prosody [0.12.1](https://prosody.im/doc/release/0.12.1) to EJabberd [22.05](https://github.com/processone/ejabberd/ releases/tag/22.05)
+#### Service migration from Prosody [0.12.1](https://prosody.im/doc/release/0.12.1) to EJabberd [22.05](https://github.com/processone/ejabberd/releases/tag/22.05)
 
 - New virtual server in the Swiss data center of **ORACLE Cloud**;
 - New domain.
