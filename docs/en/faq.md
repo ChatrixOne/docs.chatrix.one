@@ -427,7 +427,7 @@ No, but if you contact me I can create one. This way, there will be no need to i
 
 ## Why can't I send messages?
 
-In case you cannot send messages to a particular user (subscriber, contact), it is likely that he has been offline for a long time and has reached the server's offline message storage limit. In the **Conversations** app, you'll see a rose-red :fontawesome-solid-circle-exclamation:{ .rose } symbol below the messages. You will also notice a change in the color of the message encryption indicator from gray to a rose-red color :material-shield-check:{ .gray } :octicons-arrow-right-24: :material-shield-check:{ .rose }. You can get up-to-date information about offline message limits in the [Status](/en/status) section and more specifically in the [Offline Message Limits](/en/status#offline-message-limits).
+In case you cannot send messages to a particular user (subscriber, contact), it is likely that he has been offline for a long time and has reached the server's offline message storage limit. In the **Conversations** app, you'll see a rose-red :fontawesome-solid-circle-exclamation:{ .rose } symbol below the messages. You will also notice a change in the color of the message encryption indicator from gray to a rose-red color :material-shield-check:{ .gray } :octicons-arrow-right-24: :material-shield-check:{ .rose }. You can get up-to-date information about offline message limits in the [Status](/en/status) section and more specifically in the [Account Options](/en/status#account-options).
 
 In the event that you cannot send any messages, the reasons may be as follows:
 
@@ -568,12 +568,11 @@ Yes. Any kind of help is always welcome.
 
 ## Are there perks for sponsors?
 
-Of course! Each sponsor receives:
+Of course! Sponsors get more room and a longer history. There is no fixed price: any help with the server's costs counts.
 
-- Ability to register more than one account;
-- Ten times more offline messages;
-- Larger file storage volume;
-- Advantage over other users if they need customer support.
+--8<-- "includes/plans-en.md"
+
+Labels marked *soon* are being prepared and are not active yet.
 
 
 ## Will my name be listed on this website if I am a sponsor?

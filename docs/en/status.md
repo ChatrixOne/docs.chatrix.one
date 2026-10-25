@@ -130,21 +130,11 @@
 | XEP-0484: Fast Authentication Streamlining Tokens | :material-check-bold:{ .green} |
 | XEP-0485: PubSub Server Information        | :material-check-bold:{ .green} |
 
-#### File upload limits
+#### Account options { #account-options }
 
-| Limit                     | Value    |
-|:--------------------------|:--------:|
-| Single file upload        | 100 MB   |
-| Total volume - soft limit | 90 MB    |
-| Total volume - hard limit | 100 MB   |
-| Storage period            | 28 days  |
+--8<-- "includes/plans-en.md"
 
-#### Offline message limits
-
-| User           | Total |
-|:---------------|:-----:|
-| Standard       | 100   |
-| Sponsor :star: | 1000  |
+Labels marked *soon* are being prepared and are not active yet.
 
 ### Backup server
 
