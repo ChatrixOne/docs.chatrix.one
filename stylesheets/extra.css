@@ -1280,3 +1280,49 @@ code, kbd, pre, .md-typeset code, .md-typeset pre {
   border-color: #00a87a !important;
   color: #ffffff !important;
 }
+
+/* ── Account options (includes/plans-*.md) ───────────────────── */
+.md-typeset .plans table:not([class]) {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+.md-typeset .plans th:first-child,
+.md-typeset .plans td:first-child { width: 34%; }
+.md-typeset .plans td:first-child {
+  font-weight: 600;
+  color: var(--md-default-fg-color--light);
+}
+.md-typeset .plans td:first-child .twemoji { color: var(--md-primary-fg-color); }
+/* The sponsor column stands out in both themes. */
+.md-typeset .plans th:last-child {
+  color: var(--md-primary-fg-color);
+  border-top: 3px solid var(--md-primary-fg-color);
+}
+.md-typeset .plans td:last-child {
+  background-color: color-mix(in srgb, var(--md-primary-fg-color) 7%, transparent);
+}
+.md-typeset .plans td:last-child strong { color: var(--md-primary-fg-color); }
+.md-typeset .plans .soon {
+  display: inline-block;
+  margin-left: 0.4em;
+  padding: 0.05em 0.55em;
+  border-radius: 999px;
+  font-size: 0.65em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: var(--md-primary-fg-color);
+  border: 1px solid var(--md-primary-fg-color);
+}
+@media screen and (max-width: 600px) {
+  /* Use the card's side padding: the table needs every pixel on a phone. */
+  .md-typeset .plans { margin-left: -0.8rem; margin-right: -0.8rem; }
+  .md-typeset .plans table:not([class]) { font-size: 0.62rem; }
+  .md-typeset .plans th,
+  .md-typeset .plans td { padding: 0.6em 0.4em; }
+  .md-typeset .plans td:first-child .twemoji { display: none; }
+  .md-typeset .plans th:first-child,
+  .md-typeset .plans td:first-child { width: 32%; }
+}
