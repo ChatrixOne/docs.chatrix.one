@@ -1326,3 +1326,48 @@ code, kbd, pre, .md-typeset code, .md-typeset pre {
   .md-typeset .plans th:first-child,
   .md-typeset .plans td:first-child { width: 32%; }
 }
+
+/* ==========================================================================
+   404 PAGE (overrides/404.html), in the style of the website's 404
+   ========================================================================== */
+.cx-404 { max-width: 40rem; padding: 1.5rem 0 2rem; }
+.cx-404-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+}
+.cx-404-dot { width: 8px; height: 8px; border-radius: 50%; background: #e5484d; flex-shrink: 0; }
+.md-typeset .cx-404 h1 { margin: 0.6rem 0 1rem; font-weight: 400; letter-spacing: -0.02em; }
+.cx-404-lede { font-size: 0.95rem; color: var(--md-default-fg-color--light); }
+.cx-404-chat { display: flex; flex-direction: column; gap: 0.7rem; margin: 1.6rem 0; }
+.cx-404-msg {
+  max-width: 90%;
+  padding: 0.7rem 0.9rem;
+  border-radius: 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  background: var(--md-code-bg-color);
+}
+.cx-404-out {
+  align-self: flex-end;
+  border-bottom-right-radius: 0.3rem;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 14%, transparent);
+}
+.cx-404-in { align-self: flex-start; border-bottom-left-radius: 0.3rem; }
+.cx-404-who {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+}
+.md-typeset .cx-404-msg p { margin: 0; }
+.md-typeset .cx-404-msg code { background: none; padding: 0; word-break: break-all; }
+.cx-404-cta { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1.6rem; }
+.md-typeset .cx-404-cta .md-button { margin: 0; }

@@ -132,6 +132,10 @@ nav:
   - Статус: bg/status.md
   - За нас: bg/about.md
 
+# Hooks
+hooks:
+  - hooks/keep_bg_404.py
+
 # Plugins
 plugins:
   - search

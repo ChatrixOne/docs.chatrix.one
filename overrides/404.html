@@ -1,18 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <script>
-    // If the visitor hit the bare root (/), send them to /en/.
-    // For any other 404 (e.g. /en/nonexistent), stay on the 404 page
-    // so they can see it rather than being silently swallowed by a redirect.
-    if (window.location.pathname === '/' || window.location.pathname === '') {
-      window.location.replace('/en/');
-    }
-  </script>
-  <title>404 – Page not found</title>
-</head>
-<body>
-  <p>Page not found. Go to <a href="/en/">English documentation</a> or <a href="/">home</a>.</p>
-</body>
-</html>
+{#- Page not found. GitHub Pages serves this one file (from the BG build)
+    for every missing address, so it carries both languages: Bulgarian,
+    or English for addresses under /en/. -#}
+{% extends "main.html" %}
+
+{% block content %}
+<div class="cx-404">
+  <div class="cx-404-text" data-lang="bg">
+    <p class="cx-404-eyebrow"><span class="cx-404-dot"></span>Грешка 404 · item-not-found</p>
+    <h1>Тази страница не съществува.</h1>
+    <p class="cx-404-lede">Връзката може да е стара или да има печатна грешка. Някои страници от документацията сменят адреса си с времето.</p>
+    <div class="cx-404-chat" aria-hidden="true">
+      <div class="cx-404-msg cx-404-out"><span class="cx-404-who">Вие</span><code>docs.chatrix.one<span class="cx-404-path"></span></code></div>
+      <div class="cx-404-msg cx-404-in"><span class="cx-404-who">docs.chatrix.one</span><p>Няма такава страница. Опитайте с търсачката горе или започнете от началото.</p></div>
+    </div>
+    <p class="cx-404-cta">
+      <a href="/" class="md-button md-button--primary">Към началото</a>
+      <a href="/status/" class="md-button">Статус на сървъра</a>
+      <a href="https://chatrix.one/bg/" class="md-button">Сайтът chatrix.one</a>
+    </p>
+  </div>
+
+  <div class="cx-404-text" data-lang="en" lang="en" hidden>
+    <p class="cx-404-eyebrow"><span class="cx-404-dot"></span>Error 404 · item-not-found</p>
+    <h1>This page doesn't exist.</h1>
+    <p class="cx-404-lede">The link may be old or have a typo in it. Some pages of the documentation have moved over time.</p>
+    <div class="cx-404-chat" aria-hidden="true">
+      <div class="cx-404-msg cx-404-out"><span class="cx-404-who">You</span><code>docs.chatrix.one<span class="cx-404-path"></span></code></div>
+      <div class="cx-404-msg cx-404-in"><span class="cx-404-who">docs.chatrix.one</span><p>No such page here. Try the search at the top, or start from the beginning.</p></div>
+    </div>
+    <p class="cx-404-cta">
+      <a href="/en/" class="md-button md-button--primary">Go to the start</a>
+      <a href="/en/status/" class="md-button">Server status</a>
+      <a href="https://chatrix.one/" class="md-button">The chatrix.one website</a>
+    </p>
+  </div>
+</div>
+<script>
+  (function () {
+    var path = location.pathname;
+    var lang = /^\/en(\/|$)/.test(path) ? 'en' : 'bg';
+    // Removed, not hidden: Material's header shows the page title instead of
+    // the site name once the first h1 counts as scrolled away.
+    document.querySelectorAll('.cx-404-text').forEach(function (el) {
+      if (el.getAttribute('data-lang') === lang) el.hidden = false; else el.remove();
+    });
+    var shown = path;
+    try { shown = decodeURIComponent(path); } catch (e) {}
+    document.querySelectorAll('.cx-404-path').forEach(function (el) {
+      el.textContent = shown.slice(0, 120);
+    });
+  })();
+</script>
+{% endblock %}
