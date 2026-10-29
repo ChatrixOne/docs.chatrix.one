@@ -54,7 +54,7 @@ Using an **XMPP** service-compatible client, after logging into your profile, yo
 - Offline messages;
 - Message archives.
 
-You can delete your personal profile at any time from the [**Delete Profile**](https://chatrix.one/user/delete/) page. Instructions for filling in the fields are available in the [**Unregister Account**](/en/account/delete-account) section.
+You can delete your personal profile at any time from the [**Delete Profile**](https://chatrix.one/account/delete/) page. Instructions for filling in the fields are available in the [**Unregister Account**](/en/account/delete-account) section.
 
 !!! danger "Warning!"
 

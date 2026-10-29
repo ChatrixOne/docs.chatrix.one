@@ -44,7 +44,7 @@ This field is filled in automatically. Check that it shows: `chatrix.one`
 
 By default, the server does not allow weak passwords such as `123456` or `abc123`. Use a **Password Manager** to generate a strong password.
 
-Do not share your password with anyone, including the server administrators. You can change your password later using your XMPP client or from the [change password page](https://chatrix.one/user/change_password/).
+Do not share your password with anyone, including the server administrators. You can change your password later using your XMPP client or from the [change password page](https://chatrix.one/account/password/).
 
 !!! warning "Save your credentials"
 

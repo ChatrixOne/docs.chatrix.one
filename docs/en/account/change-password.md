@@ -10,22 +10,20 @@ This page allows you to change the password of an existing account. Please read 
 
 ## Username
 
-Only the username is entered, without the server part. For example: If the user is `john@chatrix.one` you enter just `john`.
+Enter your username, for example `john`. The full address works too: `john@chatrix.one`.
 
-## Server
+## Current password
 
-This field should be automatically filled in. Check if it says: `chatrix.one`
-
-## Old password
-
-Enter the old password here.
+Enter the password you use now.
 
 ## New password
 
-Enter the new password.
+Enter the new password. Use a **Password Manager** to generate a strong one: this page does not refuse weak passwords.
 
-## Password verification
+## New password again
 
-Here you will need to re-enter your chosen new password. It must match what you entered in the **New Password** field.
+Here you will need to re-enter your chosen new password. It must match what you entered in the **New password** field.
 
-[Change Password](https://chatrix.one/user/change_password/){ .md-button }
+Tick **Show passwords** to check what you typed. After the change, enter the new password in your apps when they ask for it.
+
+[Change Password](https://chatrix.one/account/password/){ .md-button }
