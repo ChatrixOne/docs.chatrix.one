@@ -1371,3 +1371,6 @@ code, kbd, pre, .md-typeset code, .md-typeset pre {
 .md-typeset .cx-404-msg code { background: none; padding: 0; word-break: break-all; }
 .cx-404-cta { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1.6rem; }
 .md-typeset .cx-404-cta .md-button { margin: 0; }
+
+/* A level-4 heading right after a note: the same space as before a level-3 heading */
+.md-typeset blockquote + h4 { margin-top: 2em; }
