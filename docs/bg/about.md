@@ -23,4 +23,6 @@
 :simple-xmpp: XMPP: `admin@chatrix.one`[^1]  
 :simple-github: GitHub: [ChatrixOne](https://github.com/ChatrixOne)
 
+Нещо не работи? Първо проверете [тук](https://status.chatrix.one), където е показано текущото състояние на всички услуги.
+
 [^1]: При контакт чрез XMPP, изпратете директно съобщение, а не само заявка за абонамент. Заявки от непознати контакти не се приемат.

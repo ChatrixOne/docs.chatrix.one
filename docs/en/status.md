@@ -1,5 +1,7 @@
 # Status Of Services
 
+:material-pulse: Current status of all services: [status.chatrix.one](https://status.chatrix.one)
+
 ???- bug "Scheduled maintenance"
 
      There is no scheduled maintenance at the moment.

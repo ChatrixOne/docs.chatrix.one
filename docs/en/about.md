@@ -26,4 +26,6 @@ You can contact me using:
 :simple-xmpp: XMPP: admin:simple-maildotru:chatrix.one[^1]<br>
 :simple-github: GitHub: [ChatrixOne](https://github.com/ChatrixOne)
 
+Something not working? First check [here](https://status.chatrix.one), where the current status of all services is shown.
+
 [^1]: When contacting me on XMPP please don't just send a subscription request but start messaging me directly. I won't blindly accept subscription requests from strangers.
