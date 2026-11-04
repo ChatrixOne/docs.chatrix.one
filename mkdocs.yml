@@ -125,7 +125,9 @@ nav:
     - Онлайн форма: bg/account/registration-form.md
     - Смяна на парола: bg/account/change-password.md
     - Изтриване на профил: bg/account/delete-account.md
-  - Клиенти: bg/clients.md
+  - Клиенти:
+    - Всички клиенти: bg/clients.md
+    - Chatrix.One с Obtainium: bg/clients/obtainium.md
   - ЧЗВ: bg/faq.md
   - Условия: bg/terms.md
   - Поверителност: bg/privacy.md
@@ -162,6 +164,8 @@ plugins:
             Смяна на парола: Change Password
             Изтриване на профил: Delete Account
             Клиенти: Clients
+            Всички клиенти: All Clients
+            Chatrix.One с Obtainium: Chatrix.One with Obtainium
             ЧЗВ: FAQ
             Условия: Terms
             Поверителност: Privacy
