@@ -69,7 +69,7 @@ https://github.com/ChatrixOne/Chatrix.One-android
 
 ## Обновяване
 
-Obtainium проверява GitHub releases във фонов режим, по подразбиране на всеки 6 часа (може да се промени в настройките на Obtainium), и известява при наличие на нова версия. Страницата на приложението показва часа на последната проверка (**Last update check**). При наличие на нова версия отворете Chatrix.One в Obtainium и натиснете **Update**.
+Obtainium проверява GitHub releases във фонов режим, по подразбиране на всеки 6 часа (може да се промени от **Settings → Updates → Background update checking interval**), и известява при наличие на нова версия. Страницата на приложението показва часа на последната проверка (**Last update check**). При наличие на нова версия отворете Chatrix.One в Obtainium и натиснете **Update**.
 
 ## Вече сте инсталирали APK ръчно?
 

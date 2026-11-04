@@ -69,7 +69,7 @@ All Chatrix.One releases are signed with this key. **Chatrix.One** now appears i
 
 ## Updates
 
-Obtainium checks the GitHub releases in the background, every 6 hours by default (you can change this in Obtainium's settings), and tells you when a new version is out. The app page shows the time of the **Last update check**. When a new version is available, open Chatrix.One in Obtainium and press **Update**.
+Obtainium checks the GitHub releases in the background, every 6 hours by default (**Settings → Updates → Background update checking interval**), and tells you when a new version is out. The app page shows the time of the **Last update check**. When a new version is available, open Chatrix.One in Obtainium and press **Update**.
 
 ## Already installed the APK by hand?
 
