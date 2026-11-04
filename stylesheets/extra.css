@@ -1374,3 +1374,13 @@ code, kbd, pre, .md-typeset code, .md-typeset pre {
 
 /* A level-4 heading right after a note: the same space as before a level-3 heading */
 .md-typeset blockquote + h4 { margin-top: 2em; }
+
+/* ── Phone screenshots (Obtainium page) ──────────────────────── */
+.phone-shot {
+  display: block;
+  width: 240px;
+  max-width: 100%;
+  margin: 0.8em 0 1.2em;
+  border-radius: 14px;
+  border: 1px solid rgba(149,157,165,0.35);
+}
