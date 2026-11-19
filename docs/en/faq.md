@@ -174,6 +174,7 @@ Detailed information about the clients available for working with **Chatrix.One*
 
      | Client | Free | Open Source | Link |
      |:-----------------|:------------------:|:------------------:|:-------------------------------------- ------------------------------:|
+     |**Chatrix.One** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Chatrix.One for Android](clients/chatrix-one.md) |
      |**Conversations** | :fontawesome-solid-check: | :fontawesome-solid-check: | [F-droid](https://f-droid.org/packages/eu.siacs.conversations/) |
      |**Conversations** | **€ 3.59** | :fontawesome-solid-check: | [Google Play](https://play.google.com/store/apps/details?id=eu.siacs.conversations) |
 
@@ -226,6 +227,7 @@ You can have as many accounts as you want, both on one and on different servers.
 
 Clients with 100% OMEMO compatibility:
 
+- **Chatrix.One**;
 - **Conversations**;
 - **Converse.js**;
 - **Dino**;
