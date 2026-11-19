@@ -34,7 +34,7 @@
 
 | Клиент           | Безплатен          |  Отворен код       | Линк                                                                |
 |:-----------------|:------------------:|:------------------:|:-------------------------------------------------------------------:|
-|Chatrix.One | :fontawesome-solid-check: | :fontawesome-solid-check: | [**Obtainium**](clients/obtainium.md) |
+|Chatrix.One | :fontawesome-solid-check: | :fontawesome-solid-check: | [**Chatrix.One за Android**](clients/chatrix-one.md) |
 |Conversations | :fontawesome-solid-check: | :fontawesome-solid-check: | [**F-droid**](https://f-droid.org/packages/eu.siacs.conversations/) |
 |Conversations | **€ 3.59**         | :fontawesome-solid-check: | [**Google Play**](https://play.google.com/store/apps/details?id=eu.siacs.conversations) |
 

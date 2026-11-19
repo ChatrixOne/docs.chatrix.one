@@ -122,11 +122,11 @@ nav:
   - Начало: bg/index.md
   - Профил:
     - Регистрация: bg/account/registration.md
-    - Онлайн форма: bg/account/registration-form.md
     - Смяна на парола: bg/account/change-password.md
     - Изтриване на профил: bg/account/delete-account.md
   - Клиенти:
     - Всички клиенти: bg/clients.md
+    - Chatrix.One за Android: bg/clients/chatrix-one.md
     - Chatrix.One с Obtainium: bg/clients/obtainium.md
   - ЧЗВ: bg/faq.md
   - Условия: bg/terms.md
@@ -160,11 +160,11 @@ plugins:
             Начало: Home
             Профил: Account
             Регистрация: Registration
-            Онлайн форма: Online Form
             Смяна на парола: Change Password
             Изтриване на профил: Delete Account
             Клиенти: Clients
             Всички клиенти: All Clients
+            Chatrix.One за Android: Chatrix.One for Android
             Chatrix.One с Obtainium: Chatrix.One with Obtainium
             ЧЗВ: FAQ
             Условия: Terms

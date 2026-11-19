@@ -11,7 +11,6 @@
 | Type              |Rate Limit              |Status                           |
 |:------------------|:----------------------:|-------------------------:|
 | Invitation            |One per hour            |![Registration Status](https://uptime.tinyserver.eu/api/badge/125/status?label=&upLabel=OPEN&downLabel=CLOSED) |
-| Online            |One per hour            |![Registration Status](https://uptime.tinyserver.eu/api/badge/141/status?label=&upLabel=OPEN&downLabel=CLOSED) |
 | Installed Client  |Only with an invite, one per hour from an IP |![Registration Status](https://uptime.tinyserver.eu/api/badge/125/status?label=&upLabel=OPEN&downLabel=CLOSED) |
 
 ## Availability - **XMPP**
