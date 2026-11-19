@@ -170,6 +170,19 @@ OMEMO представлява метод за двойно криптиране
 
 Подробна информация относно наличните клиенти за работа с **Chatrix.One**, в зависимост от операционната система която използвате, можете да намерите в раздел [Клиенти](/clients). За Ваше удобство връзките за сваляне са публикувани и в редовете по-долу.
 
+=== ":fontawesome-brands-google-play: Android"
+
+    | Клиент           | Безплатен          |  Отворен код       | Линк                                                                |
+    |:-----------------|:------------------:|:------------------:|:-------------------------------------------------------------------:|
+    |Conversations | :fontawesome-solid-check: | :fontawesome-solid-check: | [**F-droid**](https://f-droid.org/packages/eu.siacs.conversations/) |
+    |Conversations | **€ 3.59**         | :fontawesome-solid-check: | [**Google Play**](https://play.google.com/store/apps/details?id=eu.siacs.conversations) |
+
+=== ":fontawesome-brands-apple: iOS"
+
+    | Клиент   | Безплатен          |  Отворен код       | Линк                                                                       |
+    |:---------|:------------------:|:------------------:|:--------------------------------------------------------------------------:|
+    |Monal | :fontawesome-solid-check: | :fontawesome-solid-check: | [**App Store**](https://apps.apple.com/us/app/monal-xmpp-chat/id317711500) |
+
 === ":fontawesome-brands-windows: Windows"
 
     | Клиент   |Безплатен           |  Отворен код       | Линк                                        |
@@ -191,24 +204,11 @@ OMEMO представлява метод за двойно криптиране
     |Gajim | :fontawesome-solid-check: | :fontawesome-solid-check: | [**Gajim.org**](https://gajim.org/download) |
     |**Beagle IM** | :fontawesome-solid-check: | :fontawesome-solid-check: | [**Уебсайт**](https://beagle.im/) |
 
-=== ":fontawesome-brands-google-play: Android"
-
-    | Клиент           | Безплатен          |  Отворен код       | Линк                                                                |
-    |:-----------------|:------------------:|:------------------:|:-------------------------------------------------------------------:|
-    |Conversations | :fontawesome-solid-check: | :fontawesome-solid-check: | [**F-droid**](https://f-droid.org/packages/eu.siacs.conversations/) |
-    |Conversations | **€ 3.59**         | :fontawesome-solid-check: | [**Google Play**](https://play.google.com/store/apps/details?id=eu.siacs.conversations) |
-
-=== ":fontawesome-brands-apple: iOS"
-
-    | Клиент   | Безплатен          |  Отворен код       | Линк                                                                       |
-    |:---------|:------------------:|:------------------:|:--------------------------------------------------------------------------:|
-    |Monal | :fontawesome-solid-check: | :fontawesome-solid-check: | [**App Store**](https://apps.apple.com/us/app/monal-xmpp-chat/id317711500) |
-
 === ":fontawesome-brands-firefox: Web"
 
     | Клиент         | Безплатен          |  Отворен код       | Линк                                                         |
     |:---------------|:------------------:|:------------------:|:------------------------------------------------------------:|
-    |**Converse.js** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Уеб чат](https://webchat.chatrix.one) |
+    |**Converse.js** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Уеб чат](https://chatrix.one/webchat) |
 
 === ":fontawesome-solid-terminal: CLI"
 
@@ -684,7 +684,7 @@ Ejabberd има някои предимства пред **Prosody**:
 Към момента на този домейн функционират услугите:
 
 - [x] XMPP - `chatrix.one`
-- [x] Уеб базиран чат - `https://webchat.chatrix.one`
+- [x] Уеб базиран чат - `https://chatrix.one/webchat`
 - [x] **NTP Server** - `time.chatrix.one`
 - [x] Уебсайт - `https://chatrix.one`
 - [x] Онлайн документация - `https://docs.chatrix.one`

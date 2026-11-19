@@ -66,7 +66,7 @@
 | Uptime for the last 7 days         | ![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/124/uptime/168?label=) |
 | Uptime for the last 7 days         | ![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/124/uptime/720?label=) |
 
-### [Web Chat](https://webchat.chatrix.one)
+### [Web Chat](https://chatrix.one/webchat)
 
 | Indicator                          | Value                               |
 |:-----------------------------------|:-----------------------------------:|
@@ -215,7 +215,7 @@ The theme has been completely redesigned to visually align with the updated main
 
 #### Introduced Self-Hosted Web Chat Client
 
-- Integrated Converse.js version 12.0.0. A web-based chat client, accessible at [https://webchat.chatrix.one](https://webchat.chatrix.one).
+- Integrated Converse.js version 12.0.0. A web-based chat client, accessible at [https://chatrix.one/webchat](https://chatrix.one/webchat).
 
 ### 30.10.2025
 

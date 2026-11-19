@@ -9,6 +9,24 @@ Client is the application (software) through which we use the service. It is imp
 
 ## Installation
 
+### :fontawesome-brands-android: Android
+
+| Client | Free | Open Source | Link |
+|:-----------------|:------------------:|:-------- ----------:|:-------------------------------------- ------------------------------:|
+|**Chatrix.One** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Chatrix.One for Android](clients/chatrix-one.md) |
+|**Conversations** | :fontawesome-solid-check: | :fontawesome-solid-check: | [F-droid](https://f-droid.org/packages/eu.siacs.conversations/) |
+|**Conversations** | **€ 3.59** | :fontawesome-solid-check: | [Google Play](https://play.google.com/store/apps/details?id=eu.siacs.conversations) |
+
+!!! tip "Tip"
+
+     In case you decide to install **Conversations** from the free store [F-droid](https://f-droid.org), you can first install the free open source app of the same name from the [official page](https://f-droid.org/F-Droid.apk). That way, you'll not only be able to install and uninstall apps more easily, but you'll also get a notification whenever new version is available.
+
+### :fontawesome-brands-apple: iOS
+
+| Client | Free | Open Source | Link |
+|:---------|:------------------:|:---------------- --:|:------------------------------------------------ -----------------------------:|
+|**Monal** | :fontawesome-solid-check: | :fontawesome-solid-check: | [App Store](https://apps.apple.com/us/app/monal-xmpp-chat/id317711500) |
+
 ### :fontawesome-brands-windows: Windows
 
 | Client |Free | Open Source | Link |
@@ -30,29 +48,11 @@ Client is the application (software) through which we use the service. It is imp
 |**Gajim** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Gajim.org](https://gajim.org/download) |
 |**Beagle IM** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Website](https://beagle.im/)|
 
-### :fontawesome-brands-android: Android
-
-| Client | Free | Open Source | Link |
-|:-----------------|:------------------:|:-------- ----------:|:-------------------------------------- ------------------------------:|
-|**Chatrix.One** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Chatrix.One for Android](clients/chatrix-one.md) |
-|**Conversations** | :fontawesome-solid-check: | :fontawesome-solid-check: | [F-droid](https://f-droid.org/packages/eu.siacs.conversations/) |
-|**Conversations** | **€ 3.59** | :fontawesome-solid-check: | [Google Play](https://play.google.com/store/apps/details?id=eu.siacs.conversations) |
-
-!!! tip "Tip"
-
-     In case you decide to install **Conversations** from the free store [F-droid](https://f-droid.org), you can first install the free open source app of the same name from the [official page](https://f-droid.org/F-Droid.apk). That way, you'll not only be able to install and uninstall apps more easily, but you'll also get a notification whenever new version is available.
-
-### :fontawesome-brands-apple: iOS
-
-| Client | Free | Open Source | Link |
-|:---------|:------------------:|:---------------- --:|:------------------------------------------------ -----------------------------:|
-|**Monal** | :fontawesome-solid-check: | :fontawesome-solid-check: | [App Store](https://apps.apple.com/us/app/monal-xmpp-chat/id317711500) |
-
 ### :fontawesome-brands-firefox: Web based
 
 | Client | Free | Open Source | Link |
 |:--------------|:------------------:|:------------------:|:-------------------------------------------------------------:|
-|**Converse.js** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Web Chat](https://webchat.chatrix.one) |
+|**Converse.js** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Web Chat](https://chatrix.one/webchat) |
 
 !!! info "Information"
 

@@ -9,6 +9,24 @@
 
 ## Инсталиране
 
+### :fontawesome-brands-android: Android
+
+| Клиент           | Безплатен          |  Отворен код       | Линк                                                                |
+|:-----------------|:------------------:|:------------------:|:-------------------------------------------------------------------:|
+|Chatrix.One | :fontawesome-solid-check: | :fontawesome-solid-check: | [**Chatrix.One за Android**](clients/chatrix-one.md) |
+|Conversations | :fontawesome-solid-check: | :fontawesome-solid-check: | [**F-droid**](https://f-droid.org/packages/eu.siacs.conversations/) |
+|Conversations | **€ 3.59**         | :fontawesome-solid-check: | [**Google Play**](https://play.google.com/store/apps/details?id=eu.siacs.conversations) |
+
+!!! tip "Съвет"
+
+    В случай, че решите да инсталирате Conversations от свободния магазин [**F-droid**](https://f-droid.org), можете преди това да инсталирате едноименното  безплатно приложение с отворен код от [официалната страница](https://f-droid.org/F-Droid.apk). По този начин, не само ще можете по-лесно да инсталирате и деинсталирате приложенията, но и ще получавате известие винаги, когато е налична нова версия.
+
+### :fontawesome-brands-apple: iOS
+
+| Клиент   | Безплатен          |  Отворен код       | Линк                                                                       |
+|:---------|:------------------:|:------------------:|:--------------------------------------------------------------------------:|
+|Monal | :fontawesome-solid-check: | :fontawesome-solid-check: | [**App Store**](https://apps.apple.com/us/app/monal-xmpp-chat/id317711500) |
+
 ### :fontawesome-brands-windows: Windows
 
 | Клиент   |Безплатен           |  Отворен код       | Линк                                        |
@@ -30,29 +48,11 @@
 |Gajim | :fontawesome-solid-check: | :fontawesome-solid-check: | [**Gajim.org**](https://gajim.org/download) |
 |**Beagle IM** | :fontawesome-solid-check: | :fontawesome-solid-check: | [**Уебсайт**](https://beagle.im/)|
 
-### :fontawesome-brands-android: Android
-
-| Клиент           | Безплатен          |  Отворен код       | Линк                                                                |
-|:-----------------|:------------------:|:------------------:|:-------------------------------------------------------------------:|
-|Chatrix.One | :fontawesome-solid-check: | :fontawesome-solid-check: | [**Chatrix.One за Android**](clients/chatrix-one.md) |
-|Conversations | :fontawesome-solid-check: | :fontawesome-solid-check: | [**F-droid**](https://f-droid.org/packages/eu.siacs.conversations/) |
-|Conversations | **€ 3.59**         | :fontawesome-solid-check: | [**Google Play**](https://play.google.com/store/apps/details?id=eu.siacs.conversations) |
-
-!!! tip "Съвет"
-
-    В случай, че решите да инсталирате Conversations от свободния магазин [**F-droid**](https://f-droid.org), можете преди това да инсталирате едноименното  безплатно приложение с отворен код от [официалната страница](https://f-droid.org/F-Droid.apk). По този начин, не само ще можете по-лесно да инсталирате и деинсталирате приложенията, но и ще получавате известие винаги, когато е налична нова версия.
-
-### :fontawesome-brands-apple: iOS
-
-| Клиент   | Безплатен          |  Отворен код       | Линк                                                                       |
-|:---------|:------------------:|:------------------:|:--------------------------------------------------------------------------:|
-|Monal | :fontawesome-solid-check: | :fontawesome-solid-check: | [**App Store**](https://apps.apple.com/us/app/monal-xmpp-chat/id317711500) |
-
 ### :fontawesome-brands-firefox: Уеб базиран
 
 | Клиент         | Безплатен          |  Отворен код       | Линк                                                         |
 |:---------------|:------------------:|:------------------:|:------------------------------------------------------------:|
-|**Converse.js** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Уеб чат](https://webchat.chatrix.one) |
+|**Converse.js** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Уеб чат](https://chatrix.one/webchat) |
 
 !!! info "Информация"
 

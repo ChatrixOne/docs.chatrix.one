@@ -66,7 +66,7 @@
 | Достъпност за последните 7 дни  |![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/124/uptime/168?label=)|
 | Достъпност за последните 30 дни  |![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/124/uptime/720?label=)|
 
-### [Уеб чат](https://webchat.chatrix.one)
+### [Уеб чат](https://chatrix.one/webchat)
 
 | Показател                  |Стойност                                             |
 |:---------------------------|:---------------------------------------------------:|
@@ -215,7 +215,7 @@
 
 #### Внедрен уеб чат клиент, хостван на място
 
-- Интегриран **Converse.js** версия 12.0.0. Уеб базиран чат клиент, достъпен на адрес [https://webchat.chatrix.one](https://webchat.chatrix.one).
+- Интегриран **Converse.js** версия 12.0.0. Уеб базиран чат клиент, достъпен на адрес [https://chatrix.one/webchat](https://chatrix.one/webchat).
 
 ### 30.10.2025
 
