@@ -1,79 +1,59 @@
-# Status Of Services
+# Service Status
 
-:material-pulse: Current status of all services: [status.chatrix.one](https://status.chatrix.one)
+<div class="cx-status" markdown>
+<div markdown>
 
-???- bug "Scheduled maintenance"
+:material-pulse: Live status
+{ .cx-status__eyebrow }
 
-     There is no scheduled maintenance at the moment.
+Uptime, ping and incidents of every **Chatrix.One** service, shown live on **status.chatrix.one**.
+
+:material-calendar-check: Planned maintenance: none at the moment.
+{ .cx-status__note }
+
+</div>
+
+[View status :octicons-arrow-right-24:](https://status.chatrix.one){ .md-button .md-button--primary }
+
+</div>
+
+## Services right now { #availability }
+
+<div class="cx-services" markdown>
+
+| Service | Status | Ping | 24 hours | 7 days | 30 days |
+|:--------|:------:|:----:|:--------:|:------:|:-------:|
+| **XMPP** server | ![Status](https://status.chatrix.one/api/badge/121/status?label=&upLabel=Up&downLabel=Down&maintenanceLabel=Maintenance) | ![Ping](https://status.chatrix.one/api/badge/137/ping?label=) | ![Uptime 24 hours](https://status.chatrix.one/api/badge/121/uptime/24?label=) | ![Uptime 7 days](https://status.chatrix.one/api/badge/121/uptime/168?label=) | ![Uptime 30 days](https://status.chatrix.one/api/badge/121/uptime/720?label=) |
+| Connections to other servers (federation) | ![Status](https://status.chatrix.one/api/badge/123/status?label=&upLabel=Up&downLabel=Down&maintenanceLabel=Maintenance) | ![Ping](https://status.chatrix.one/api/badge/123/ping?label=) | ![Uptime 24 hours](https://status.chatrix.one/api/badge/123/uptime/24?label=) | ![Uptime 7 days](https://status.chatrix.one/api/badge/123/uptime/168?label=) | ![Uptime 30 days](https://status.chatrix.one/api/badge/123/uptime/720?label=) |
+| [Website](https://chatrix.one) | ![Status](https://status.chatrix.one/api/badge/227/status?label=&upLabel=Up&downLabel=Down&maintenanceLabel=Maintenance) | ![Ping](https://status.chatrix.one/api/badge/227/ping?label=) | ![Uptime 24 hours](https://status.chatrix.one/api/badge/227/uptime/24?label=) | ![Uptime 7 days](https://status.chatrix.one/api/badge/227/uptime/168?label=) | ![Uptime 30 days](https://status.chatrix.one/api/badge/227/uptime/720?label=) |
+| [Web chat](https://chatrix.one/webchat) | ![Status](https://status.chatrix.one/api/badge/226/status?label=&upLabel=Up&downLabel=Down&maintenanceLabel=Maintenance) | ![Ping](https://status.chatrix.one/api/badge/226/ping?label=) | ![Uptime 24 hours](https://status.chatrix.one/api/badge/226/uptime/24?label=) | ![Uptime 7 days](https://status.chatrix.one/api/badge/226/uptime/168?label=) | ![Uptime 30 days](https://status.chatrix.one/api/badge/226/uptime/720?label=) |
+| [Documentation](/en/) | ![Status](https://status.chatrix.one/api/badge/135/status?label=&upLabel=Up&downLabel=Down&maintenanceLabel=Maintenance) | ![Ping](https://status.chatrix.one/api/badge/135/ping?label=) | ![Uptime 24 hours](https://status.chatrix.one/api/badge/135/uptime/24?label=) | ![Uptime 7 days](https://status.chatrix.one/api/badge/135/uptime/168?label=) | ![Uptime 30 days](https://status.chatrix.one/api/badge/135/uptime/720?label=) |
+| [Blog](https://blog.chatrix.one) | ![Status](https://status.chatrix.one/api/badge/124/status?label=&upLabel=Up&downLabel=Down&maintenanceLabel=Maintenance) | ![Ping](https://status.chatrix.one/api/badge/124/ping?label=) | ![Uptime 24 hours](https://status.chatrix.one/api/badge/124/uptime/24?label=) | ![Uptime 7 days](https://status.chatrix.one/api/badge/124/uptime/168?label=) | ![Uptime 30 days](https://status.chatrix.one/api/badge/124/uptime/720?label=) |
+
+</div>
+
+Ping is the average of the last 24 hours. Charts and the incident history are on [status.chatrix.one](https://status.chatrix.one).
 
 ## Account Registrations
 
 | Type              |Rate Limit              |Status                           |
 |:------------------|:----------------------:|-------------------------:|
-| Invitation            |One per hour            |![Registration Status](https://uptime.tinyserver.eu/api/badge/125/status?label=&upLabel=OPEN&downLabel=CLOSED) |
-| Installed Client  |Only with an invite, one per hour from an IP |![Registration Status](https://uptime.tinyserver.eu/api/badge/125/status?label=&upLabel=OPEN&downLabel=CLOSED) |
-
-## Availability - **XMPP**
-
-| Indicator                          | Value                                                                          |
-|:-----------------------------------|:------------------------------------------------------------------------------:|
-| Average ping for the last 24 hours | ![Ping Average](https://uptime.tinyserver.eu/api/badge/137/ping?label=)        |
-| Uptime for the last 24 hours       | ![Uptime 24h](https://uptime.tinyserver.eu/api/badge/121/uptime/24?label=)     |
-| Uptime for the last 7 days         | ![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/121/uptime/168?label=) |
-| Uptime for the last 30 days        | ![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/121/uptime/720?label=) |
+| Invitation            |One per hour            |![Registration Status](https://status.chatrix.one/api/badge/125/status?label=&upLabel=OPEN&downLabel=CLOSED) |
+| Installed Client  |Only with an invite, one per hour from an IP |![Registration Status](https://status.chatrix.one/api/badge/125/status?label=&upLabel=OPEN&downLabel=CLOSED) |
 
 ## Compliance and Compatibility - **XMPP**
 
 | Test                    |Result                                                                     |
 |:------------------------|--------------------------------------------------------------------------:|
-| **XMPP** Compliance     | <a href='https://compliance.conversations.im/server/chatrix.one'><img src='https://compliance.conversations.im/badge/chatrix.one'></a> |
-| **XMPP Providers**      | <a href="https://providers.xmpp.net/provider/chatrix.one/"><img alt="chatrix.one badge" src="https://data.xmpp.net/providers/v2/badges/chatrix.one.svg"></a> |
-|**XMPP Network Graph** | <a href="https://xmppnetwork.goodbytes.im/?focus=chatrix.one"><img alt="chatrix.one badge" src="https://xmppnetwork.goodbytes.im/badge/chatrix.one.svg"></a> |
+| **XMPP Providers**      | [![XMPP Providers](../assets/badges/xmpp-providers.svg)](https://providers.xmpp.net/provider/chatrix.one/) |
+|**XMPP Network Graph** | [![XMPP Network Graph](../assets/badges/xmpp-network.svg)](https://xmppnetwork.goodbytes.im/?focus=chatrix.one) |
 
 ## Security and Cryptography
 
 | Test            | Result    |
 |:----------------|:---------:|
-| DNSSEC and DANE | <a href='https://www.huque.com/bin/danecheck?domain=chatrix.one&port=5223&starttls=None&namecheck=on'><img src='https://img.shields.io/badge/DNSSEC%2BDANE_Check-A-00c896?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIHdpZHRoPSIyNHB4IiBmaWxsPSIjZThlYWVkIj48cGF0aCBkPSJNNDIwLTM0MGgxMjB2LTEwMGgxMDB2LTEyMEg1NDB2LTEwMEg0MjB2MTAwSDMyMHYxMjBoMTAwdjEwMFptNjAgMjYwcS0xMzktMzUtMjI5LjUtMTU5LjVUMTYwLTUxNnYtMjQ0bDMyMC0xMjAgMzIwIDEyMHYyNDRxMCAxNTItOTAuNSAyNzYuNVQ0ODAtODBabTAtODRxMTA0LTMzIDE3Mi0xMzJ0NjgtMjIwdi0xODlsLTI0MC05MC0yNDAgOTB2MTg5cTAgMTIxIDY4IDIyMHQxNzIgMTMyWm0wLTMxNloiLz48L3N2Zz4='></a> |
-| CryptCheck | <a href='https://cryptcheck.fr/xmpp/chatrix.one'><img src='https://img.shields.io/badge/CryptCheck-A%2B-00c896?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIHdpZHRoPSIyNHB4IiBmaWxsPSIjZThlYWVkIj48cGF0aCBkPSJNNDIwLTM2MGgxMjBsLTIzLTEyOXEyMC0xMCAzMS41LTI5dDExLjUtNDJxMC0zMy0yMy41LTU2LjVUNDgwLTY0MHEtMzMgMC01Ni41IDIzLjVUNDAwLTU2MHEwIDIzIDExLjUgNDJ0MzEuNSAyOWwtMjMgMTI5Wm02MCAyODBxLTEzOS0zNS0yMjkuNS0xNTkuNVQxNjAtNTE2di0yNDRsMzIwLTEyMCAzMjAgMTIwdjI0NHEwIDE1Mi05MC41IDI3Ni41VDQ4MC04MFptMC04NHExMDQtMzMgMTcyLTEzMnQ2OC0yMjB2LTE4OWwtMjQwLTkwLTI0MCA5MHYxODlxMCAxMjEgNjggMjIwdDE3MiAxMzJabTAtMzE2WiIvPjwvc3ZnPg=='></a> |
-
-## Availability - Websites
-
-### [Website](https://chatrix.one)
-
-| Indicator                          | Value                               |
-|:-----------------------------------|:-----------------------------------:|
-| Average ping for the last 24 hours |![Ping Average](https://uptime.tinyserver.eu/api/badge/227/ping)              |
-| Uptime for the last 24 hours       |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/227/uptime/24?label=)  |
-| Uptime for the last 7 days         |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/227/uptime/168?label=) |
-| Uptime for the last 30 days        |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/227/uptime/720?label=) |
-
-### [Documentation](/)
-
-| Indicator                          | Value                               |
-|:-----------------------------------|:-----------------------------------:|
-| Average ping for the last 24 hours |![Ping Average](https://uptime.tinyserver.eu/api/badge/135/ping)            |
-| Uptime for the last 24 hours       |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/135/uptime/24?label=)  |
-| Uptime for the last 7 days         |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/135/uptime/168?label=) |
-| Uptime for the last 30 days        |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/135/uptime/720?label=) |
-
-### [Blog](https://blog.chatrix.one)
-
-| Indicator                          | Value                                    |
-|:-----------------------------------|:----------------------------------------:|
-| Average ping for the last 24 hours | ![Ping Average](https://uptime.tinyserver.eu/api/badge/124/ping?label=)        |
-| Uptime for the last 24 hours       | ![Uptime 24h](https://uptime.tinyserver.eu/api/badge/124/uptime/24?label=)     |
-| Uptime for the last 7 days         | ![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/124/uptime/168?label=) |
-| Uptime for the last 7 days         | ![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/124/uptime/720?label=) |
-
-### [Web Chat](https://chatrix.one/webchat)
-
-| Indicator                          | Value                               |
-|:-----------------------------------|:-----------------------------------:|
-| Average ping for the last 24  hours |![Ping Average](https://uptime.tinyserver.eu/api/badge/226/ping)              |
-| Uptime for the last 24 hours       |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/226/uptime/24?label=)  |
-| Uptime for the last 7 days         |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/226/uptime/168?label=) |
-| Uptime for the last 30 days        |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/226/uptime/720?label=) |
+| DNSSEC and DANE | [![DNSSEC and DANE: A](../assets/badges/dnssec-dane.svg)](https://www.huque.com/bin/danecheck?domain=chatrix.one&port=5223&starttls=None&namecheck=on) |
+| CryptCheck | [![CryptCheck: A+](../assets/badges/cryptcheck.svg)](https://cryptcheck.fr/xmpp/chatrix.one) |
 
 ## Technical data
 
@@ -124,6 +104,21 @@
 
 ## Update history
 
+### 19.11.2026
+
+#### Chatrix.One for Android 2.21.3-cx1.2
+
+- The whole app is now translated into Bulgarian (Settings, chats, calls, menus);
+- The main Settings sections are now translated in 20 more languages.
+
+### 03.11.2026
+
+#### Chatrix.One for Android
+
+- First release of our own Android app, based on [Conversations](https://codeberg.org/iNPUTmice/Conversations) and open source;
+- Quick gestures, a long-press menu with reactions and the full emoji picker, Chatrix.One colours and icons, a welcome screen with a Chatrix.One sign-up link;
+- Installed with [Obtainium](/en/clients/obtainium) from the GitHub releases, next to Conversations. More on the page [Chatrix.One for Android](/en/clients/chatrix-one).
+
 ### 24.10.2026
 
 #### Server Moved to Ubuntu 24.04 LTS
@@ -151,7 +146,7 @@
 
 #### Server Downgrade
 
-Due to the drastic increase in hosting costs (thanks to the AI ​​rampocalypse), the available RAM has been reduced from 12GB to 8GB.
+Due to the drastic increase in hosting costs (thanks to the AI rampocalypse), the available RAM has been reduced from 12GB to 8GB.
 
 ### 14.05.2026
 
@@ -194,14 +189,14 @@ The theme has been completely redesigned to visually align with the updated main
 
 - Fixes issue with adding `hats` data in presences send by group chats;
 - Removes `mod_muc_occupantid` modules, and integrates its functionality directly into `mod_muc`;
-- Fixes issue with reset `occupant-id` values after restart of Eejabberd;
+- Fixes issue with reset `occupant-id` values after restart of Ejabberd;
 - Improves handling of mediated group chat invitations in `mod_block_stranger`;
 - Properly install `mod_invites` templates in `make install` call;
 - Better errors in `mod_invites`;
 - Accessibility improvements in `mod_invites`;
 - Improves handling of request with invalid URL encoded values in request handled by `ejabberd_http`;
 - Improves handling of invalid responses to disco queries in `mod_pubsub_serverinfo`;
-- Fixes conversion of MUC room configs from EJabberd older than 21.12;
+- Fixes conversion of MUC room configs from Ejabberd older than 21.12;
 - Fixes to autologin in WebAdmin.
 
 ### 23.01.2026
@@ -256,7 +251,7 @@ The theme has been completely redesigned to visually align with the updated main
 
 #### Update Ejabberd to version [25.04](https://github.com/processone/ejabberd/releases/tag/25.04)
 
-- Аn important security fix and several bug fixes;
+- An important security fix and several bug fixes;
 - Fix handling multiple occupant-id;
 - New API command.
 
@@ -347,7 +342,7 @@ The theme has been completely redesigned to visually align with the updated main
 
 ### 16.08.2022
 
-#### Service migration from Prosody [0.12.1](https://prosody.im/doc/release/0.12.1) to EJabberd [22.05](https://github.com/processone/ejabberd/releases/tag/22.05)
+#### Service migration from Prosody [0.12.1](https://prosody.im/doc/release/0.12.1) to Ejabberd [22.05](https://github.com/processone/ejabberd/releases/tag/22.05)
 
 - New virtual server in the Swiss data center of **ORACLE Cloud**;
 - New domain.

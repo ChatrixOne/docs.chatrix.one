@@ -10,6 +10,8 @@ As an operator of service representing an alternative to the available methods o
 ## Things to keep in mind
 
 - **IP** addresses of users are **not** recorded by default. Exceptions are cases when an attempt to illegally access the system is detected. In such situations, the **IP** address is recorded to prevent attacks against the respective profile or profiles;
+- The page [chatrix.one/join](https://chatrix.one/join) uses **hCaptcha** to tell people from bots. For this check, hCaptcha (Intuition Machines, Inc.) receives your **IP** address and data about your browser; see the [hCaptcha privacy policy](https://www.hcaptcha.com/privacy);
+- The **IP** address of a new registration is checked in [AbuseIPDB](https://www.abuseipdb.com/), to stop registrations from abusive addresses and data centers;
 - Personal data is **not** required for registration. This unfortunately complicates proving account ownership in cases where the password needs to be reset or changed by an administrator;
 
 !!! tip "Tip"
@@ -58,7 +60,7 @@ You can delete your personal profile at any time from the [**Delete Profile**](h
 
 !!! danger "Warning!"
 
-     The action of deleting a profile is **irreversible**! There is no built-in undo mechanism. After pressing the ++"Unregister"++ button, the action is performed instantly, without the need for additional confirmation.
+     The action of deleting a profile is **irreversible**! There is no built-in undo mechanism. Once you tick **I understand that my account is deleted for good** and press the ++"Delete my account"++ button, the action is performed instantly.
 
 For all other types of personal data stored by **Chatrix.One** please contact the representative posted in the [**Contacts**](/en/about#contacts) section.
 

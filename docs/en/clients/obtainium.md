@@ -39,7 +39,7 @@ Each release has two APK files, so Obtainium shows **Pick an APK**. Choose the f
 
 ![Obtainium: Pick an APK](../../assets/obtainium/obtainium-4.webp){ .phone-shot loading=lazy }
 
-| File | Size (2.21.0-cx1-4) | For |
+| File | Size (2.21.3-cx1.2) | For |
 |:-----|:-------------------:|:----|
 | `…-arm64.apk` | ~31 MB | Phones with a 64-bit ARM processor (`arm64-v8a`), which is almost every phone today |
 | `…-universal.apk` | ~64 MB | All other devices: `armeabi-v7a` (older 32-bit phones), `x86`, `x86_64` |

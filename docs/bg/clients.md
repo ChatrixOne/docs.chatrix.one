@@ -15,11 +15,11 @@
 |:-----------------|:------------------:|:------------------:|:-------------------------------------------------------------------:|
 |Chatrix.One | :fontawesome-solid-check: | :fontawesome-solid-check: | [**Chatrix.One за Android**](clients/chatrix-one.md) |
 |Conversations | :fontawesome-solid-check: | :fontawesome-solid-check: | [**F-droid**](https://f-droid.org/packages/eu.siacs.conversations/) |
-|Conversations | **€ 3.59**         | :fontawesome-solid-check: | [**Google Play**](https://play.google.com/store/apps/details?id=eu.siacs.conversations) |
+|Conversations | :fontawesome-solid-check:         | :fontawesome-solid-check: | [**Google Play**](https://play.google.com/store/apps/details?id=eu.siacs.conversations) |
 
 !!! tip "Съвет"
 
-    В случай, че решите да инсталирате Conversations от свободния магазин [**F-droid**](https://f-droid.org), можете преди това да инсталирате едноименното  безплатно приложение с отворен код от [официалната страница](https://f-droid.org/F-Droid.apk). По този начин, не само ще можете по-лесно да инсталирате и деинсталирате приложенията, но и ще получавате известие винаги, когато е налична нова версия.
+    В случай, че решите да инсталирате Conversations от свободния магазин [**F-droid**](https://f-droid.org), можете преди това да инсталирате едноименното безплатно приложение с отворен код от [официалната страница](https://f-droid.org/F-Droid.apk). По този начин, не само ще можете по-лесно да инсталирате и деинсталирате приложенията, но и ще получавате известие винаги, когато е налична нова версия.
 
 ### :fontawesome-brands-apple: iOS
 
@@ -70,6 +70,6 @@
 
 [^1]: Под **Android** това става чрез приложението [**Termux**](https://play.google.com/store/apps/details?id=com.termux).
 
-Списък с клиенти, за различни операционни системи, е наличен на официалната страница на [XMPP](https://xmpp.org/software/). Имайте предвид, че не всички клиенти са напълно съвместими с последните стандарти на протокола. Актуална информация относно съвместимостта на клиентите, с метода на криптиране **ОМЕМО**, е достъпна на страницата [**Are we OMEMO yet?**](https://omemo.top/)
+Списък с клиенти, за различни операционни системи, е наличен на официалната страница на [XMPP](https://xmpp.org/software/). Имайте предвид, че не всички клиенти са напълно съвместими с последните стандарти на протокола. Актуална информация относно съвместимостта на клиентите, с метода на криптиране **OMEMO**, е достъпна на страницата [**Are we OMEMO yet?**](https://omemo.top/)
 
 Статията [Често задавани въпроси](/faq) е допълнителен ресурс, за потребителите желаещи да се запознаят с повече подробности, относно предлаганата XMPP услуга на **Chatrix.One**.

@@ -1,3 +1,8 @@
+<div class="cx-home-logo" markdown>
+![Chatrix.One](../assets/logo-dark.svg#only-dark){ width="120" height="120" }
+![Chatrix.One](../assets/logo-light.svg#only-light){ width="120" height="120" }
+</div>
+
 # Добре дошли
 
 
@@ -33,11 +38,11 @@
 - [x] Сървър локализиран в **Швейцария** - достъпен от цял свят;
 - [x] Захранва се **100%** с възобновяема енергия!
 
-[^1]: За криптиране от край до край е необходимо да активирате [OMEMO](/faq#omemo) или [OpenPGP](https://bg.wikipedia.org/wiki/Достатъчно_добра_поверителност) във вашия XMPP клиент.
+[^1]: За криптиране от край до край е необходимо да активирате [OMEMO](/faq#какво-представлява-omemo) или [OpenPGP](https://bg.wikipedia.org/wiki/Достатъчно_добра_поверителност) във вашия XMPP клиент.
 
 [^2]: **Chatrix.One** **НЕ** анализира вашите съобщения, снимки и файлове и **НЕ** търгува с вашата комуникация и лични данни.
 
-[^3]: *"Съгласен съм с правилата и условията за ползване"* е [**най-голямата лъжа в Интернет**](https://www.biggestlieonline.com/)!
+[^3]: *"Съгласен съм с правилата и условията за ползване"* е **най-голямата лъжа в Интернет**!
 
 [^4]: [**Сорс кодът**](https://bg.wikipedia.org/wiki/Изходен_код) е публично достъпен в [**Github**](https://github.com/processone/ejabberd).
 
@@ -97,4 +102,4 @@
 
 </div>
 
-Сървърът притежава оценка **A+** в [Crypt-check](https://crypt.fyi), **A** в [XMPP Compliance Checker](https://compliance.conversations.im/) и е **100% XMPP съвместим**. DNSSEC е активиран.
+Сървърът притежава оценка **A+** в [CryptCheck](https://cryptcheck.fr/xmpp/chatrix.one) и **100%** съвместимост в [XMPP Providers](https://providers.xmpp.net/provider/chatrix.one/). DNSSEC и DANE са активирани.

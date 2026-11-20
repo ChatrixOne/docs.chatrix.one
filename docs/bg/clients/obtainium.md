@@ -39,7 +39,7 @@ https://github.com/ChatrixOne/Chatrix.One-android
 
 ![Obtainium: Pick an APK](../../assets/obtainium/obtainium-4.webp){ .phone-shot loading=lazy }
 
-| Файл | Размер (2.21.0-cx1-4) | За |
+| Файл | Размер (2.21.3-cx1.2) | За |
 |:-----|:---------------------:|:---|
 | `…-arm64.apk` | ~31 MB | Телефони с 64-битов ARM процесор (`arm64-v8a`), т.е. почти всички съвременни телефони |
 | `…-universal.apk` | ~64 MB | Всички останали устройства: `armeabi-v7a` (по-стари 32-битови телефони), `x86`, `x86_64` |

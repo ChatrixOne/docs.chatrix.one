@@ -8,6 +8,11 @@ on:
   # Allow manual trigger from GitHub Actions tab
   workflow_dispatch:
 
+  # Daily rebuild, so the XMPP Providers and Network Graph badges that the
+  # Status page serves from this site stay current.
+  schedule:
+    - cron: '23 3 * * *'
+
 # Minimal permissions — only what gh-deploy actually needs.
 # contents:write lets mkdocs push the built site to the gh-pages branch.
 # Everything else is explicitly denied by omission.
@@ -39,6 +44,9 @@ jobs:
         run: |
           chmod +x ./fetch-mermaid.sh
           bash ./fetch-mermaid.sh
+
+      - name: Refresh XMPP Providers and Network Graph badges
+        run: sh ./tools/fetch-badges.sh
 
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force

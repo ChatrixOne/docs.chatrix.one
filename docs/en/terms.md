@@ -2,7 +2,7 @@
 
 Please, familiarize yourself with the rules that **every** user, moderator or administrator must follow.
 
-## [TL;DR](https://bg.wikipedia.org/wiki/TL;DR)
+## [TL;DR](https://en.wikipedia.org/wiki/TL;DR)
 
 - Do not exercise unauthorized access;
 - Respect other users and be tolerant;
@@ -38,12 +38,12 @@ Your account will be marked for deletion if any of the following events occur:
 
 - Only registered and not used for more than 7 days;
 - After registration, you have not answered the **Bot or Not** test;
-- It was last used more than 90 days ago;
+- It was last used more than 180 days ago (sponsor accounts are never deleted for this reason);
 - Violation warning received.
 
 !!! info "Information"
 
-     In the event that your profile is marked for deletion, you will receive a system message warning you of the upcoming event. You will be given an opportunity to take action within 24 hours, if you wish to have the deletion canceled.
+     In the event that your profile is marked for deletion, you will receive a system message warning you of the upcoming event. For an account that has not been used for 180 days, the warning comes 30 days before the deletion, and logging in is enough to keep the account. In the other cases, you will be given an opportunity to take action within 24 hours, if you wish to have the deletion canceled.
 
 !!! danger "Warning!"
 
@@ -51,7 +51,7 @@ Your account will be marked for deletion if any of the following events occur:
 
 ## Automatic Profile Deletion
 
-Profiles registered from IP addresses that, according to [Scamalytics](https://scamalytics.com/), have a high Fraud Risk or are associated with data centers will be deleted automatically without prior notice.
+Profiles registered from IP addresses that, according to [AbuseIPDB](https://www.abuseipdb.com/), have a high abuse score (Abuse Confidence Score) or belong to data centers will be deleted automatically without prior notice.
 
 ## Reporting a violation
 

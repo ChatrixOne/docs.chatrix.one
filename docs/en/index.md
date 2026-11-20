@@ -1,3 +1,8 @@
+<div class="cx-home-logo" markdown>
+![Chatrix.One](../assets/logo-dark.svg#only-dark){ width="120" height="120" }
+![Chatrix.One](../assets/logo-light.svg#only-light){ width="120" height="120" }
+</div>
+
 # Welcome
 
 
@@ -37,7 +42,7 @@ Hello and welcome to **Chatrix.One**! A Bulgarian **XMPP** server for free, end-
 
 [^2]: Chatrix.One does **NOT** analyze your messages, photos and files and does **NOT** trade with your communication and personal data.
 
-[^3]: *"I agree to the terms and conditions of use"* is [the biggest lie on the Internet](https://www.biggestlieonline.com/)!
+[^3]: *"I agree to the terms and conditions of use"* is the biggest lie on the Internet!
 
 [^4]: [The Source Code](https://en.wikipedia.org/wiki/Source_code) is publicly available on [Github](https://github.com/processone/ejabberd).
 
@@ -97,4 +102,4 @@ Hello and welcome to **Chatrix.One**! A Bulgarian **XMPP** server for free, end-
 
 </div>
 
-The server holds an **A+** rating on [Crypt-check](https://crypt.fyi), an **A** on [XMPP Compliance Checker](https://compliance.conversations.im/), and is **100% XMPP compliant**. DNSSEC is enabled.
+The server holds an **A+** rating on [CryptCheck](https://cryptcheck.fr/xmpp/chatrix.one) and **100%** compatibility on [XMPP Providers](https://providers.xmpp.net/provider/chatrix.one/). DNSSEC and DANE are enabled.

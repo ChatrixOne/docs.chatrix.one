@@ -1,79 +1,59 @@
 # Статус на услугите
 
-:material-pulse: Текущо състояние на всички услуги: [status.chatrix.one](https://status.chatrix.one)
+<div class="cx-status" markdown>
+<div markdown>
 
-???- bug "Планирани профилактики"
+:material-pulse: На живо
+{ .cx-status__eyebrow }
 
-    В момента няма планирани профилактики.
+Достъпност, пинг и инциденти за всяка услуга на **Chatrix.One**, показвани в реално време на **status.chatrix.one**.
+
+:material-calendar-check: Планирани профилактики: в момента няма.
+{ .cx-status__note }
+
+</div>
+
+[Вижте статуса :octicons-arrow-right-24:](https://status.chatrix.one){ .md-button .md-button--primary }
+
+</div>
+
+## Услугите в момента { #availability }
+
+<div class="cx-services" markdown>
+
+| Услуга | Статус | Пинг | 24 часа | 7 дни | 30 дни |
+|:--------|:------:|:----:|:--------:|:------:|:-------:|
+| **XMPP** сървър | ![Статус](https://status.chatrix.one/api/badge/121/status?label=&upLabel=%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B8&downLabel=%D0%9D%D0%B5%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B8&maintenanceLabel=%D0%9F%D1%80%D0%BE%D1%84%D0%B8%D0%BB%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0) | ![Пинг](https://status.chatrix.one/api/badge/137/ping?label=) | ![Достъпност 24 часа](https://status.chatrix.one/api/badge/121/uptime/24?label=) | ![Достъпност 7 дни](https://status.chatrix.one/api/badge/121/uptime/168?label=) | ![Достъпност 30 дни](https://status.chatrix.one/api/badge/121/uptime/720?label=) |
+| Връзка с други сървъри (федерация) | ![Статус](https://status.chatrix.one/api/badge/123/status?label=&upLabel=%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B8&downLabel=%D0%9D%D0%B5%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B8&maintenanceLabel=%D0%9F%D1%80%D0%BE%D1%84%D0%B8%D0%BB%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0) | ![Пинг](https://status.chatrix.one/api/badge/123/ping?label=) | ![Достъпност 24 часа](https://status.chatrix.one/api/badge/123/uptime/24?label=) | ![Достъпност 7 дни](https://status.chatrix.one/api/badge/123/uptime/168?label=) | ![Достъпност 30 дни](https://status.chatrix.one/api/badge/123/uptime/720?label=) |
+| [Уебсайт](https://chatrix.one) | ![Статус](https://status.chatrix.one/api/badge/227/status?label=&upLabel=%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B8&downLabel=%D0%9D%D0%B5%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B8&maintenanceLabel=%D0%9F%D1%80%D0%BE%D1%84%D0%B8%D0%BB%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0) | ![Пинг](https://status.chatrix.one/api/badge/227/ping?label=) | ![Достъпност 24 часа](https://status.chatrix.one/api/badge/227/uptime/24?label=) | ![Достъпност 7 дни](https://status.chatrix.one/api/badge/227/uptime/168?label=) | ![Достъпност 30 дни](https://status.chatrix.one/api/badge/227/uptime/720?label=) |
+| [Уеб чат](https://chatrix.one/webchat) | ![Статус](https://status.chatrix.one/api/badge/226/status?label=&upLabel=%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B8&downLabel=%D0%9D%D0%B5%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B8&maintenanceLabel=%D0%9F%D1%80%D0%BE%D1%84%D0%B8%D0%BB%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0) | ![Пинг](https://status.chatrix.one/api/badge/226/ping?label=) | ![Достъпност 24 часа](https://status.chatrix.one/api/badge/226/uptime/24?label=) | ![Достъпност 7 дни](https://status.chatrix.one/api/badge/226/uptime/168?label=) | ![Достъпност 30 дни](https://status.chatrix.one/api/badge/226/uptime/720?label=) |
+| [Документация](/) | ![Статус](https://status.chatrix.one/api/badge/135/status?label=&upLabel=%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B8&downLabel=%D0%9D%D0%B5%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B8&maintenanceLabel=%D0%9F%D1%80%D0%BE%D1%84%D0%B8%D0%BB%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0) | ![Пинг](https://status.chatrix.one/api/badge/135/ping?label=) | ![Достъпност 24 часа](https://status.chatrix.one/api/badge/135/uptime/24?label=) | ![Достъпност 7 дни](https://status.chatrix.one/api/badge/135/uptime/168?label=) | ![Достъпност 30 дни](https://status.chatrix.one/api/badge/135/uptime/720?label=) |
+| [Блог](https://blog.chatrix.one) | ![Статус](https://status.chatrix.one/api/badge/124/status?label=&upLabel=%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B8&downLabel=%D0%9D%D0%B5%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B8&maintenanceLabel=%D0%9F%D1%80%D0%BE%D1%84%D0%B8%D0%BB%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0) | ![Пинг](https://status.chatrix.one/api/badge/124/ping?label=) | ![Достъпност 24 часа](https://status.chatrix.one/api/badge/124/uptime/24?label=) | ![Достъпност 7 дни](https://status.chatrix.one/api/badge/124/uptime/168?label=) | ![Достъпност 30 дни](https://status.chatrix.one/api/badge/124/uptime/720?label=) |
+
+</div>
+
+Пингът е средният за последните 24 часа. Графики и история на инцидентите има на [status.chatrix.one](https://status.chatrix.one).
 
 ## Регистрация на профил
 
 | Тип               | Ограничения                               |Статус                     |
 |:------------------|:-----------------------------------------:|:-------------------------:|
-| Покана            |До една регистрация на час                 |![Registration Status](https://uptime.tinyserver.eu/api/badge/125/status?label=&upLabel=ОТВОРЕНА&downLabel=ЗАТВОРЕНА) |
-| Инсталиран клиент |Само с покана, до една регистрация на час от IP адрес |![Registration Status](https://uptime.tinyserver.eu/api/badge/125/status?label=&upLabel=ОТВОРЕНА&downLabel=ЗАТВОРЕНА) |
-
-## Достъпност - XMPP
-
-| Показател                  |Стойност                                             |
-|:---------------------------|:---------------------------------------------------:|
-| Среден пинг за последните 24 часа|![Ping Average](https://uptime.tinyserver.eu/api/badge/137/ping?label=) |
-| Достъпност за последните 24 часа |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/121/uptime/24?label=)|
-| Достъпност за последните 7 дни  |![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/121/uptime/168?label=)|
-| Достъпност за последните 30 дни  |![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/121/uptime/720?label=)|
+| Покана            |До една регистрация на час                 |![Registration Status](https://status.chatrix.one/api/badge/125/status?label=&upLabel=%D0%9E%D0%A2%D0%92%D0%9E%D0%A0%D0%95%D0%9D%D0%90&downLabel=%D0%97%D0%90%D0%A2%D0%92%D0%9E%D0%A0%D0%95%D0%9D%D0%90) |
+| Инсталиран клиент |Само с покана, до една регистрация на час от IP адрес |![Registration Status](https://status.chatrix.one/api/badge/125/status?label=&upLabel=%D0%9E%D0%A2%D0%92%D0%9E%D0%A0%D0%95%D0%9D%D0%90&downLabel=%D0%97%D0%90%D0%A2%D0%92%D0%9E%D0%A0%D0%95%D0%9D%D0%90) |
 
 ## Съответствие и съвместимост - XMPP
 
 | Тест                 |Резултат                                                                   |
 |:---------------------|--------------------------------------------------------------------------:|
-| XMPP Съответствие  | <a href='https://compliance.conversations.im/server/chatrix.one'><img src='https://compliance.conversations.im/badge/chatrix.one'></a> |
-|**XMPP Providers**      | <a href="https://providers.xmpp.net/provider/chatrix.one/"><img alt="chatrix.one badge" src="https://data.xmpp.net/providers/v2/badges/chatrix.one.svg"></a> |
-|**XMPP Network Graph** | <a href="https://xmppnetwork.goodbytes.im/?focus=chatrix.one"><img alt="chatrix.one badge" src="https://xmppnetwork.goodbytes.im/badge/chatrix.one.svg"></a> |
+|**XMPP Providers**      | [![XMPP Providers](../assets/badges/xmpp-providers.svg)](https://providers.xmpp.net/provider/chatrix.one/) |
+|**XMPP Network Graph** | [![XMPP Network Graph](../assets/badges/xmpp-network.svg)](https://xmppnetwork.goodbytes.im/?focus=chatrix.one) |
 
-## Сигутност и криптография
+## Сигурност и криптография
 
 | Тест          | Резултат  |
 |:--------------|:---------:|
-| DNSSEC и DANE | <a href='https://www.huque.com/bin/danecheck?domain=chatrix.one&port=5223&starttls=None&namecheck=on'><img src='https://img.shields.io/badge/DNSSEC%2BDANE_Check-A-00c896?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIHdpZHRoPSIyNHB4IiBmaWxsPSIjZThlYWVkIj48cGF0aCBkPSJNNDIwLTM0MGgxMjB2LTEwMGgxMDB2LTEyMEg1NDB2LTEwMEg0MjB2MTAwSDMyMHYxMjBoMTAwdjEwMFptNjAgMjYwcS0xMzktMzUtMjI5LjUtMTU5LjVUMTYwLTUxNnYtMjQ0bDMyMC0xMjAgMzIwIDEyMHYyNDRxMCAxNTItOTAuNSAyNzYuNVQ0ODAtODBabTAtODRxMTA0LTMzIDE3Mi0xMzJ0NjgtMjIwdi0xODlsLTI0MC05MC0yNDAgOTB2MTg5cTAgMTIxIDY4IDIyMHQxNzIgMTMyWm0wLTMxNloiLz48L3N2Zz4='></a> |
-| CryptCheck | <a href='https://cryptcheck.fr/xmpp/chatrix.one'><img src='https://img.shields.io/badge/CryptCheck-A%2B-00c896?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIHdpZHRoPSIyNHB4IiBmaWxsPSIjZThlYWVkIj48cGF0aCBkPSJNNDIwLTM2MGgxMjBsLTIzLTEyOXEyMC0xMCAzMS41LTI5dDExLjUtNDJxMC0zMy0yMy41LTU2LjVUNDgwLTY0MHEtMzMgMC01Ni41IDIzLjVUNDAwLTU2MHEwIDIzIDExLjUgNDJ0MzEuNSAyOWwtMjMgMTI5Wm02MCAyODBxLTEzOS0zNS0yMjkuNS0xNTkuNVQxNjAtNTE2di0yNDRsMzIwLTEyMCAzMjAgMTIwdjI0NHEwIDE1Mi05MC41IDI3Ni41VDQ4MC04MFptMC04NHExMDQtMzMgMTcyLTEzMnQ2OC0yMjB2LTE4OWwtMjQwLTkwLTI0MCA5MHYxODlxMCAxMjEgNjggMjIwdDE3MiAxMzJabTAtMzE2WiIvPjwvc3ZnPg=='></a> |
-
-## Достъпност - Интернет страници
-
-### [Уебсайт](https://chatrix.one)
-
-| Показател                  |Стойност                                             |
-|:---------------------------|:---------------------------------------------------:|
-| Среден пинг за последните 24 часа|![Ping Average](https://uptime.tinyserver.eu/api/badge/227/ping?label=) |
-| Достъпност за последните 24 часа |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/227/uptime/24?label=)|
-| Достъпност за последните 7 дни  |![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/227/uptime/168?label=)|
-| Достъпност за последните 30 дни  |![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/227/uptime/720?label=)|
-
-### [Документация](/)
-
-| Показател                  |Стойност                                             |
-|:---------------------------|:---------------------------------------------------:|
-| Среден пинг за последните 24 часа|![Ping Average](https://uptime.tinyserver.eu/api/badge/135/ping?label=) |
-| Достъпност за последните 24 часа |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/135/uptime/24?label=)|
-| Достъпност за последните 7 дни  |![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/135/uptime/168?label=)|
-| Достъпност за последните 30 дни  |![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/135/uptime/720?label=)|
-
-### [Блог](https://blog.chatrix.one)
-
-| Показател                  |Стойност                                             |
-|:---------------------------|:---------------------------------------------------:|
-| Среден пинг за последните 24 часа|![Ping Average](https://uptime.tinyserver.eu/api/badge/124/ping?label=) |
-| Достъпност за последните 24 часа |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/124/uptime/24?label=)|
-| Достъпност за последните 7 дни  |![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/124/uptime/168?label=)|
-| Достъпност за последните 30 дни  |![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/124/uptime/720?label=)|
-
-### [Уеб чат](https://chatrix.one/webchat)
-
-| Показател                  |Стойност                                             |
-|:---------------------------|:---------------------------------------------------:|
-| Среден пинг за последните 24 часа|![Ping Average](https://uptime.tinyserver.eu/api/badge/226/ping?label=) |
-| Достъпност за последните 24 часа |![Uptime 24h](https://uptime.tinyserver.eu/api/badge/226/uptime/24?label=)|
-| Достъпност за последните 7 дни  |![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/226/uptime/168?label=)|
-| Достъпност за последните 30 дни  |![Uptime 7 days](https://uptime.tinyserver.eu/api/badge/226/uptime/720?label=)|
+| DNSSEC и DANE | [![DNSSEC and DANE: A](../assets/badges/dnssec-dane.svg)](https://www.huque.com/bin/danecheck?domain=chatrix.one&port=5223&starttls=None&namecheck=on) |
+| CryptCheck | [![CryptCheck: A+](../assets/badges/cryptcheck.svg)](https://cryptcheck.fr/xmpp/chatrix.one) |
 
 ## Технически данни
 
@@ -123,6 +103,21 @@
     Към момента няма документирани инциденти.
 
 ## История на актуализациите
+
+### 19.11.2026
+
+#### Chatrix.One за Android 2.21.3-cx1.2
+
+- Цялото приложение вече е преведено на български (настройки, чатове, разговори, менюта);
+- Основните раздели в настройките са преведени на още 20 езика.
+
+### 03.11.2026
+
+#### Chatrix.One за Android
+
+- Първо издание на нашето приложение за Android, базирано на [Conversations](https://codeberg.org/iNPUTmice/Conversations) и с отворен код;
+- Бързи жестове, меню с реакции и пълния избор на емоджита при продължително натискане, цветове и икони на Chatrix.One, начален екран с връзка за регистрация в Chatrix.One;
+- Инсталира се с [Obtainium](/clients/obtainium) от GitHub releases, до Conversations. Повече на страницата [Chatrix.One за Android](/clients/chatrix-one).
 
 ### 24.10.2026
 
@@ -194,14 +189,14 @@
 
 - Коригиран проблем с добавянето на данни за `hats` в присъствия, изпратени от групови чатове;
 - Премахнат модул `mod_muc_occupantid` и интегриране директно в `mod_muc`;
-- Коригиран проблем с нулирането на стойностите на `occupantid` след рестартиране на **EJabberd**;
+- Коригиран проблем с нулирането на стойностите на `occupantid` след рестартиране на **Ejabberd**;
 - Подобрена обработка на медиирани покани за групов чат в `mod_block_stranger`;
 - Правилно инсталиране на шаблоните от `mod_invites` по време на извикването на `make install`;
 - Подобрения в грешките на `mod_invites`;
 - Подобрения в достъпността на `mod_invites`;
 - Подобрена обработката на заявки с невалидни URL, обработени от `ejabberd_http`;
 - Подобрена обработката на невалидни отговори на `disco` заявки в `mod_pubsub_serverinfo`;
-- Коригирано конвертиране на MUC конфигурации на стаи от **EJabberd**, по-стари от версия 21.12;
+- Коригирано конвертиране на MUC конфигурации на стаи от **Ejabberd**, по-стари от версия 21.12;
 - Корекция на автоматичното влизане в **WebAdmin** портала.
 
 ### 23.01.2026
@@ -347,7 +342,7 @@
 
 ### 16.08.2022
 
-#### Мигриране на услугата от Prosody [0.12.1](https://prosody.im/doc/release/0.12.1) към EJabberd [22.05](https://github.com/processone/ejabberd/releases/tag/22.05)
+#### Мигриране на услугата от Prosody [0.12.1](https://prosody.im/doc/release/0.12.1) към Ejabberd [22.05](https://github.com/processone/ejabberd/releases/tag/22.05)
 
 - Нов виртуален сървър в швейцарския център за данни на **ORACLE Cloud**;
 - Нов домейн.

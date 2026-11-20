@@ -89,7 +89,6 @@ flowchart RL
 
 ### Lists of free **XMPP** servers
 
-- [**XMPP Compliance Tester**](https://compliance.conversations.im/)
 - [**Jabber.at**](https://list.jabber.at/)
 - [**XMPP Providers**](https://providers.xmpp.net/#category-a)
 
@@ -107,11 +106,11 @@ The protocol was born in 1998, but it actually started functioning as a platform
 ## Who uses **XMPP**?
 
 The protocol appeared in the world back in 1999. For a quarter of a century of history, it can safely be said that it has stood the test of time. Today, **XMPP** is used by a large number of corporations, which is due to its stability and reliability.
-More prominent organizations using **XMPP** on a daily basis are:
+More prominent organizations that use **XMPP**, or used it in the past:
 
 | Organization | Daily Active Users | Messages per second | Messages Daily |
 |:----------------------------:|:---------------- ----------:|:-------------------:|:-----------------:|
-| :fontawesome-brands-google: Google | ~ 2,000,000,000 | - | - |
+| :fontawesome-brands-google: Google (in the past) | ~ 2,000,000,000 | - | - |
 | :fontawesome-brands-apple: Apple | ~ 500,000,000 | - | - |
 | :fontawesome-brands-whatsapp: WhatsApp | ~ 2,000,000,000 | - | ~ 100,000,000,000 |
 | Nintendo | ~ 34,000,000 | ~ 600 | ~ 2,000,000,000 |
@@ -119,21 +118,21 @@ More prominent organizations using **XMPP** on a daily basis are:
 | FORTNITE | ~ 300,000,000 | ~ 400,000 | - |
 | ZOOM | ~ 200,000,000 | - | - |
 | :fontawesome-brands-github: GitHub | - | - | - |
-| :fontawesome-brands-facebook: Facebook | - | - | - |
+| :fontawesome-brands-facebook: Facebook (in the past) | - | - | - |
 | GMX | - | - | - |
 | Orange | - | - | - |
 
 For more details, see [RST Software](https://www.rst.software/blog/22-companies-using-xmpp-and-ejabberd-to-build-instant-messaging-services) page.
 
 
-## What does the **XMPP**network look like?
+## What does the **XMPP** network look like?
 
 An example visualization of the **XMPP** network is available on the [XMPP Network Graph](https://xmppnetwork.goodbytes.im/) page.
 
 
 ## What is **OMEMO**?
 
-**OMEMO** is a method of double encryption of end-to-end communication. Encryption keys are automatically generated for each message, making communication even more secure. In other words, even if one message is compromised, the rest of the communication remains unaffected. Additional information about the method can be found on [Wikipedia](https://en.wikipedia.org/wiki/OMEMO) and on the **Conversations** website under the [OMEMO](https://conversations.im/omemo/). The audit results of the protocol, by [**Radically Open Security BV**](https://www.radicallyopensecurity.com/), is available on the page of [**Conversations.im**](https://conversations.im/omemo/audit.pdf).
+**OMEMO** is end-to-end encryption for **XMPP**. It is based on the *Double Ratchet* algorithm, also used by Signal: the keys change with every message, so even if one key is compromised, the rest of the communication stays protected. Messages can be read only on the devices of the people in the chat, not on the server. Additional information about the method can be found on [Wikipedia](https://en.wikipedia.org/wiki/OMEMO) and on the **Conversations** website under [OMEMO](https://conversations.im/omemo/). The protocol was audited by [**Radically Open Security BV**](https://www.radicallyopensecurity.com/); the results are available on [**Conversations.im**](https://conversations.im/omemo/audit.pdf).
 
 
 ## How can I register an account?
@@ -141,29 +140,9 @@ An example visualization of the **XMPP** network is available on the [XMPP Netwo
 Full information about registering a **Chatrix.One** account is available in the [Registration](/en/account/registration) section.
 
 
-## Is there a registration email template posted?
-
-A sample registration email template is available in the [Registration](/en/account/registration#__tabbed_1_1) tab.
-
-
-## Is there a **XMPP** registration message template published?
-
-A sample **XMPP** registration message template is available in the [Registration](/en/account/registration#__tabbed_1_2) tab.
-
-
-## Why haven't I received the registration link email?
-
-Please check your Spam folder.
-
-
 ## Which client do you recommend?
 
-I use **Gajim** under **Windows** and **Linux**. For **Android** I use **Conversations** - paid version. Both clients are 100% **OMEMO** compatible and open source. I can't comment on **iOS** as I've never had a device running this operating system.
-
-
-## Why choose a paid version when there is a free one?
-
-Personally, I have chosen the paid version of **Conversations** because in this way I support the developer of the application [Daniel Gultsch](https://gultsch.de/) who contributed a lot to the development of **XMPP** in recent years. He is also credited with implementing **OMEMO** as a standard in **XMPP** communication. Ultimately, the choice is entirely yours.
+I use **Gajim** under **Windows** and **Linux**. For **Android** I use **Chatrix.One**. Both clients are 100% **OMEMO** compatible and open source. I can't comment on **iOS** as I've never had a device running this operating system.
 
 
 ## Where can I download a client for my operating system?
@@ -176,7 +155,7 @@ Detailed information about the clients available for working with **Chatrix.One*
      |:-----------------|:------------------:|:------------------:|:-------------------------------------- ------------------------------:|
      |**Chatrix.One** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Chatrix.One for Android](clients/chatrix-one.md) |
      |**Conversations** | :fontawesome-solid-check: | :fontawesome-solid-check: | [F-droid](https://f-droid.org/packages/eu.siacs.conversations/) |
-     |**Conversations** | **€ 3.59** | :fontawesome-solid-check: | [Google Play](https://play.google.com/store/apps/details?id=eu.siacs.conversations) |
+     |**Conversations** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Google Play](https://play.google.com/store/apps/details?id=eu.siacs.conversations) |
 
 === ":fontawesome-brands-apple: iOS"
 
@@ -220,7 +199,7 @@ Detailed information about the clients available for working with **Chatrix.One*
 
 ## Can I have multiple accounts registered on different servers?
 
-You can have as many accounts as you want, both on one and on different servers. It is even possible to control them from the same device. You will only have to log in with each individual account separately in the settings of the software you are using. Please note that registration of more than one account per user in **Chatrix.One**is not allowed. For more information, please read the rules in the [Terms](/en/terms#they-are-forbidden) section.
+You can have as many accounts as you want, both on one and on different servers. It is even possible to control them from the same device. You will only have to log in with each individual account separately in the settings of the software you are using. Please note that registration of more than one account per user in **Chatrix.One** is not allowed. For more information, please read the rules in the [Terms](/en/terms#they-are-forbidden) section.
 
 
 ## Which clients support **OMEMO**?
@@ -233,10 +212,9 @@ Clients with 100% OMEMO compatibility:
 - **Dino**;
 - **Gajim**;
 - **Monal**;
-- **Chat Secure**;
 - **Profanity**.
 
-The ones listed above have been tested with the exception of **Monal** and **Chat Secure**. A detailed list of clients and their compatibility is available at [Are We OMEMO Yet?](https://omemo.top/).
+The ones listed above have been tested with the exception of **Monal**. A detailed list of clients and their compatibility is available at [Are We OMEMO Yet?](https://omemo.top/).
 
 
 ## How do I know if I'm using  **OMEMO**?
@@ -267,12 +245,12 @@ Support for the **OTR** encryption method has been discontinued due to its vulne
 
 ## Is the voice communication encrypted?
 
-In case you have enabled an encryption method (**OMEMO** or **OpenPGP**) the audio communication will also be encrypted. In the **Conversations** app, this will be marked with green *shield with a checkmark* :material-shield-check:{ .green} symbol in the upper left corner of the screen.
+Yes, always. Calls are encrypted with **DTLS-SRTP** directly between the devices, even without **OMEMO**, also when they go through the server's relay (**TURN**). If you use **OMEMO** with the contact, the call keys are additionally verified with **OMEMO**, so nobody can get in between, not even a server. **Chatrix.One** and **Conversations** then show a green *shield with a checkmark* :material-shield-check:{ .green} in the upper left corner of the screen. **OpenPGP** is not used for calls.
 
 
 ## Is the video communication encrypted?
 
-In case you have enabled an encryption method (**OMEMO** or **OpenPGP**) the video communication will also be encrypted. In the **Conversations** app, this will be marked with green *shield with a checkmark* :material-shield-check:{ .green} symbol in the upper left corner of the screen.
+Yes, in the same way as voice calls: always with **DTLS-SRTP**, and with **OMEMO** also verified. See [Is the voice communication encrypted?](#is-the-voice-communication-encrypted)
 
 
 ## Can I communicate with contacts outside of **Chatrix.One**?
@@ -297,9 +275,9 @@ Check in the profile settings section of the app you are using. For example:
 
 `Avatar Picture` → `General` → `Login` → `Change Password`
 
-- **Conversations**
+- **Chatrix.One** and **Conversations**
 
-`Home screen` → `Menu with three dots` → `Manage accounts` → `Select account` → `Three dots` → `Change password`
+`Home screen` → `⋮` → `Manage accounts` → `Select the account` → `⋮` → `Change password`
 
 For other customers, the procedure is similar.
 
@@ -318,7 +296,7 @@ You can also delete your account using the online form [here](/en/account/delete
 
 !!! warning "Warning"
 
-     Not all applications delete the profile from the server! For some, like **Conversations**, the profile is only removed from the app, but remains on the server. I advise you to check the instructions of the software itself.
+     Not all applications delete the profile from the server! In **Chatrix.One** and **Conversations**, tick **Remove account from server** when you delete the account. Without it, the account is only removed from the app and stays on the server. For other apps, check their instructions.
 
 
 ## Are there any rules I need to follow?
@@ -333,7 +311,7 @@ You can write in any language you want, as long as you follow the [Terms](/en/te
 
 ## On how many devices can I use the service?
 
-You have virtually no limits. Just keep in mind that adding each new device leads to a loss of trust in your correspondents. In other words, they will have to trust you again, either by "blind trust" or by scanning a [QR](https://en.wikipedia.org/wiki/QR_code) code from the screen of one of your active devices.
+Up to 10 at the same time (see [Account options](/en/status#account-options)). Keep in mind that adding each new device leads to a loss of trust in your correspondents. In other words, they will have to trust you again, either by "blind trust" or by scanning a [QR](https://en.wikipedia.org/wiki/QR_code) code from the screen of one of your active devices.
 
 
 ## What does **Blind Trust** mean?
@@ -406,7 +384,7 @@ No, but if you contact me I can create one. This way, there will be no need to i
 
 === ":fontawesome-brands-android: Android"
 
-    You are probably using a phone without **Google Play Services** or **Google Cloud Messaging**.
+    You are probably using a phone without **Google Play Services**.
 
     !!! success "Solution"
 
@@ -414,11 +392,11 @@ No, but if you contact me I can create one. This way, there will be no need to i
 
 === ":fontawesome-brands-apple: iOS"
 
-     - You are probably using the **ChatSecure** application and have not enabled the "**Push**" option in the settings.
+     - Notifications for the app are turned off.
 
     !!! success "Solution"
 
-        Check the app settings. Also, see the operating system settings, specifically the background notification status part. If still no result try **Monal** app.
+        Check the notification settings of the app and of iOS (**Settings → Notifications**). If there is still no result, try the **Monal** app.
 
      - The battery is dead or you have activated battery saver mode.
 
@@ -454,30 +432,18 @@ In the event that you cannot send any messages, the reasons may be as follows:
 
     !!! success "Solution"
 
-         Wait for the problem to be fixed. You can monitor the availability of the service in the [Status](/status/) section and more precisely in the [Availability - XMPP](/en/status#accessibility-xmpp).
+         Wait for the problem to be fixed. You can follow the availability of the service live on [status.chatrix.one](https://status.chatrix.one) and on the [Status](/en/status#availability) page.
 
 
 ## Why do I get an error message when trying to register?
 
-In order to protect the service from bots and abuse, the following restrictions have been introduced:
+Registration on **Chatrix.One** works only with an invite. To get one, open [chatrix.one/join](https://chatrix.one/join), pass the human check and follow the invite page. You can also register with an invite link or QR code that you received. To protect the service from bots and abuse, there are limits:
 
-- It is possible that the registration is temporarily prohibited at the moment. Please check the [Status](/en/status) section and specifically the [Account Registration](/en/status#account-registrations). It must be marked as ++"OPEN"++;
-- Only one registration per hour is allowed through the online registration form regardless of the **IP** address;
-- Only one registration is allowed through the installed applications within one hour from the same **IP** address;
-- With a large number of requests to generate **CAPTCHA** codes, the page blocks access for about a minute. This protects the service from a **CAPTCHA DoS** attack;
-- With multiple attempts to illegally access the service, the **IP** address is blocked for six hours.
+- At most one registration per hour through the invite page;
+- In an app, registration works only with an invite, at most one per hour from the same **IP** address;
+- After many attempts to illegally access the service, the **IP** address is blocked for six hours.
 
-If the status of the registrations is marked as ++"CLOSED"++, you will need to use one of the other possible methods of registering an account described in the section "Registration" and precisely the part [Ways to register an account](/en/account/registration#ways-to-register-an-account). For all other cases, the solution is to try again later.
-
-
-## Why **CAPTCHA** is only partially rendered?
-
-The server has detected attempts for **Bot** registrations. Please try again later or contact an administrator for assistance.
-
-
-## Why is the **CAPTCHA** displayed barely visible?
-
-The more accounts are registered within 24 hours, the fainter the code becomes. This is done to limit the number of **SPAM** registrations. Please try again later or contact the administrator for assistance.
+Also check that registration is open: [Account Registrations](/en/status#account-registrations) on the Status page must show ++"OPEN"++. In all other cases, try again later. All ways to register are described in [Registration](/en/account/registration#ways-to-register-an-account).
 
 
 ## Why do I get an invalid **SSL/TLS** certificate message?
@@ -489,18 +455,18 @@ You are probably using a device with an outdated operating system (**Android** 6
      Before manually accepting a certificate, you **must** pay attention and make sure it is registered for the following domains: `chatrix.one`, `conference.chatrix.one`, `pubsub.chatrix.one`, `proxy.chatrix.one` and `upload.chatrix.one`. Otherwise, you may become a victim of the so-called [Man-In-The-Middle](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) hacking attack.
 
 
-## Why can't I have audio and video communication with **Gadjim**?
+## Why can't I have audio and video communication with **Gajim**?
 
-You are probably using **Windows** as your operating system. Currently, **Gajim** supports audio and video communication only under **Linux**.
+**Gajim** removed audio and video calls in version 2.0, on all operating systems. For calls on a computer, use **Dino** on **Linux**. On phones, **Chatrix.One**, **Conversations** and **Monal** support calls.
 
 
 ## How do I turn off message archiving?
 
 If you do not want the messages to be stored for the specified period, you have the option to turn off archiving.
 
-- **Conversations**
+- **Chatrix.One** and **Conversations**
 
-`Manage Accounts` → `Choose an Account` → `The Three Dots` → `Backup Options` → `Never`
+`Manage accounts` → `Choose the account` → `⋮` → `Archiving preferences` → `Never`
 
 - **Gajim**
 
@@ -611,7 +577,7 @@ My observations on **XMPP** based service since 2018 to date show that the servi
 
 ## Are you up to date with the latest developments in **XMPP**?
 
-As soon as it is technically possible and reasonable, new **XMPP** extensions and best practices will be implemented on this server. For me, full compatibility with the flagship **Conversations** project, which has undoubtedly helped **XMPP** reach new heights in recent years, is important. **Chatrix.One** test result can be seen online [XMPP Compliance Report](https://compliance.conversations.im/server/chatrix.one/).
+As soon as it is technically possible and reasonable, new **XMPP** extensions and best practices will be implemented on this server. For me, full compatibility with the flagship **Conversations** project, which has undoubtedly helped **XMPP** reach new heights in recent years, is important. The current result for **Chatrix.One** is on [XMPP Providers](https://providers.xmpp.net/provider/chatrix.one/). In **Chatrix.One** or **Conversations** you can check the server yourself: `Manage accounts` → the account → `⋮` → `Server info`.
 
 
 ## What database are you using?
@@ -654,7 +620,7 @@ The good news is that the **XMPP** network is not owned by a single person or co
 
 ## How much electricity does it use?
 
-In order to minimize electricity consumption, I use a processor based on the **ARM** architecture. At 100% load on all four cores, consumption reaches 10.4W. Most of the time the server is under 10% load.
+In order to minimize electricity consumption, the server runs on a processor based on the **ARM** architecture (Ampere Altra) in Oracle's data center. The processor itself uses more, but it is shared by hundreds of virtual machines, so the share of **Chatrix.One** is below 10 W. Most of the time the server is under 10% load.
 
 
 ## Why **Ejabberd** and not **Prosody**?
@@ -676,7 +642,7 @@ There are many reasons for my decision to choose **Ejabberd**. Most of them are 
 - Can be integrated into a cluster;
 - It has been used for many years by large [corporations](https://www.rst.software/blog/22-companies-using-xmpp-and-ejabberd-to-build-instant-messaging-services), which confirms its stability;
 - Supported by the company [ProcessOne](https://www.process-one.net/) which has a clear funding mechanism;
-- **Conversation.im** uses **Ejabberd** and in development the vendor refers to it instead of **Prosody**.
+- **Conversations.im** uses **Ejabberd** and in development the vendor refers to it instead of **Prosody**.
 
 Do not get me wrong. I still see in **Prosody** a wonderful opportunity to create an **XMPP** server. I even still maintain and use one. It is an indisputable fact that it is extremely easy to work with.
 
@@ -704,7 +670,7 @@ At the moment, the following services are functioning on this domain:
 
      Please do not send emails or messages inquiring about dates and deadlines for public access to services other than **XMPP**. Inquiries of this nature **will not** be answered.
 
-## Are you planning to have a a free **Matrix** server with public access?
+## Are you planning to have a free **Matrix** server with public access?
 
 Currently [Matrix](https://en.wikipedia.org/wiki/Matrix_(protocol)) is functional but not publicly accessible. The maintenance of this platform is much more complex and time-consuming, and therefore costs more personal time. It also requires more hardware and financial resources. In any case, I will need at least one more volunteer, experienced in **Linux** system administration, willing to invest **for free** some of their free time and a lot of :octicons-heart-fill-24:{ .heart .red } in the name of the cause.
 
@@ -736,7 +702,7 @@ Read the [Terms](/en/terms) section and more specifically the [Additional](/en/t
 
 ## How to restore a deleted profile?
 
-No such option exists. Once deleted, the profile cannot be recovered. Read the [Terms](/terms/) section and more specifically the [Additional](/en/terms#additional).
+No such option exists. Once deleted, the profile cannot be recovered. Read the [Terms](/en/terms) section and more specifically the [Additional](/en/terms#additional).
 
 
 ## Will you know if the service becomes unavailable?
@@ -755,7 +721,7 @@ You can use **Chatrix.One** from anywhere in the world. There are currently no [
 
 ## Where can I track incidents?
 
-Information about incidents, service interruptions and upcoming maintenance will be published in the [Status](/en/status) page and more specifically in the [Information about occurred incidents](/en/status#information-about-occurred-incidents) section.
+The live status, incidents and service interruptions are on [status.chatrix.one](https://status.chatrix.one). Planned maintenance and past incidents are also listed on the [Status](/en/status) page.
 
 ## What technology stack powers Chatrix.One?
 
@@ -781,7 +747,7 @@ Check in the [Status](/en/status) and more specifically in the [Technical data](
 
 ## Why is the category **B** in **XMPP Providers**, and not **A** as before?
 
-Because registration via an installed application is now prohibited. This is done to protect the service from bot registrations. All other functionalities remain unchanged.
+Because registration in an app works only with an invite. **XMPP Providers** gives category **A** only to servers where anyone can register in an app at any time. The invite protects the service from bot registrations. All other functions remain unchanged.
 
 
 ## How can I contact you?

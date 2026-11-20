@@ -15,7 +15,7 @@ Client is the application (software) through which we use the service. It is imp
 |:-----------------|:------------------:|:-------- ----------:|:-------------------------------------- ------------------------------:|
 |**Chatrix.One** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Chatrix.One for Android](clients/chatrix-one.md) |
 |**Conversations** | :fontawesome-solid-check: | :fontawesome-solid-check: | [F-droid](https://f-droid.org/packages/eu.siacs.conversations/) |
-|**Conversations** | **€ 3.59** | :fontawesome-solid-check: | [Google Play](https://play.google.com/store/apps/details?id=eu.siacs.conversations) |
+|**Conversations** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Google Play](https://play.google.com/store/apps/details?id=eu.siacs.conversations) |
 
 !!! tip "Tip"
 
@@ -74,4 +74,4 @@ A list of clients, for various operating systems, is available on the official p
 
 * * *
 
-The article [Frequently Asked Questions](/en/faq) is an additional resource for users wishing to learn more about the **XMPP** service offered by **Chatrix .One**.
+The article [Frequently Asked Questions](/en/faq) is an additional resource for users wishing to learn more about the **XMPP** service offered by **Chatrix.One**.

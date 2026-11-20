@@ -32,7 +32,7 @@ After a successful initial login to the system, I recommend that you change the 
      Avoid using one password for everything! Use a password managing software (Password Manager). This way, you will be able to easily generate different passwords for each account or application. The most important thing is that you will not need to remember them. I would recommend [**Bitwarden**](https://bitwarden.com/).
      Create easy to remember, but hard to crack passwords. For example: `1Favorite-Phrase-From-A-Favorite-Poem` or `Keep-Expectations-2Low`. Avoid hard to remember, but easy to crack passwords! For example: `Sq@-!@#!`. Such a password is cracked in **minutes** or **hours**!
 
-To test the security of your password, online tools such as [**How ​​Secure Is My Password?**](https://www.security.org/how-secure-is-my-password/) and [**Have i been pwned?**](https://haveibeenpwned.com/) are available. They are useful in case you want to find out how long it will take for your chosen password to be cracked, as well as to check whether it has already been compromised in a previous hacker attack.
+To test the security of your password, online tools such as [**How Secure Is My Password?**](https://www.security.org/how-secure-is-my-password/) and [**Have I Been Pwned?**](https://haveibeenpwned.com/) are available. They are useful in case you want to find out how long it will take for your chosen password to be cracked, as well as to check whether it has already been compromised in a previous hacker attack.
 
 !!! info "Information"
 

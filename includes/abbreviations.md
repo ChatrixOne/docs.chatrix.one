@@ -29,7 +29,7 @@
 *[Mix]: A build automation tool for working with applications written in the Elixir programming language
 *[MUC]: XEP-0045: Multi-User Chat
 *[NTP]: Network Time Protocol for clock synchronization between computer systems
-*[OAuth]: Оpen standard for access delegation
+*[OAuth]: Open standard for access delegation
 *[OMEMO]: Multi-End Message and Object Encryption
 *[OpenPGP]: Open Pretty Good Privacy
 *[OTR]: Off-the-record
@@ -64,7 +64,8 @@
 *[ZFS]: File system with volume management capabilities
 *[ОРЗД]: Общ регламент относно защитата на данните
 *[Спонсор]: Всеки потребител направил поне едно дарение
-*[ЧЗВ]: Често Задавни Въпроси*[DoH]: DNS over HTTPS — encrypts DNS queries to prevent snooping
+*[ЧЗВ]: Често задавани въпроси
+*[DoH]: DNS over HTTPS — encrypts DNS queries to prevent snooping
 *[DoT]: DNS over TLS — encrypts DNS queries using TLS
 *[TOFU]: Trust On First Use — automatically trusting a new key on first contact
 *[E2EE]: End-to-End Encryption
