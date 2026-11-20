@@ -168,12 +168,14 @@ OMEMO е криптиране от край до край за XMPP. Основ�
     | Клиент   |Безплатен           |  Отворен код       | Линк                                        |
     |:---------|:------------------:|:------------------:|:-------------------------------------------:|
     |Gajim | :fontawesome-solid-check: | :fontawesome-solid-check: | [**Gajim.org**](https://gajim.org/download) |
+    |**Fluux Messenger**[^fluux] | :fontawesome-solid-check: | :fontawesome-solid-check: | [**GitHub**](https://github.com/processone/fluux-messenger/releases/latest) |
 
 === ":fontawesome-brands-linux: Linux"
 
     | Клиент   | Безплатен          |  Отворен код       | Линк                                         |
     |:---------|:------------------:|:------------------:|:--------------------------------------------:|
     |Gajim | :fontawesome-solid-check: |  :fontawesome-solid-check: | [**Gajim.org**](https://gajim.org/download) |
+    |**Fluux Messenger**[^fluux] | :fontawesome-solid-check: | :fontawesome-solid-check: | [**GitHub**](https://github.com/processone/fluux-messenger/releases/latest) |
     |Dino  | :fontawesome-solid-check: |  :fontawesome-solid-check: | [**Dino.im**](https://dino.im/#download)    |
 
 === ":fontawesome-brands-apple: macOS"
@@ -182,6 +184,7 @@ OMEMO е криптиране от край до край за XMPP. Основ�
     |:---------|:------------------:|:------------------:|-------------------------------------------------------------------------:|
     |Monal| :fontawesome-solid-check: | :fontawesome-solid-check: | [**App Store for Mac**](https://apps.apple.com/us/app/monal-xmpp-chatting/id1637078500?mt=12) |
     |Gajim | :fontawesome-solid-check: | :fontawesome-solid-check: | [**Gajim.org**](https://gajim.org/download) |
+    |**Fluux Messenger**[^fluux] | :fontawesome-solid-check: | :fontawesome-solid-check: | [**GitHub**](https://github.com/processone/fluux-messenger/releases/latest) |
     |**Beagle IM** | :fontawesome-solid-check: | :fontawesome-solid-check: | [**Уебсайт**](https://beagle.im/) |
 
 === ":fontawesome-brands-firefox: Web"
@@ -757,3 +760,5 @@ Chatrix.One е изграден изцяло на базата на софтуе
 ## Защо не отговаряте на въпроса ми?
 
 Вероятно вече съм отговорил на въпроса Ви в редовете по-горе.
+
+[^fluux]: Ново приложение от ProcessOne, създателите на Ejabberd, софтуера зад **Chatrix.One**. **Fluux Messenger** криптира с **OpenPGP** (OX). Все още няма **OMEMO**, затова не може да чете съобщения, криптирани с **OMEMO**.

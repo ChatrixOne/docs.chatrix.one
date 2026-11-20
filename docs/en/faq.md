@@ -168,12 +168,14 @@ Detailed information about the clients available for working with **Chatrix.One*
      | Client |Free | Open Source | Link |
      |:---------|:------------------:|:------------------:|:-------------------------------------------:|
      |**Gajim** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Gajim.org](https://gajim.org/download) |
+     |**Fluux Messenger**[^fluux] | :fontawesome-solid-check: | :fontawesome-solid-check: | [GitHub](https://github.com/processone/fluux-messenger/releases/latest) |
 
 === ":fontawesome-brands-linux: Linux"
 
      | Client | Free | Open Source | Link |
      |:---------|:------------------:|:------------------:|:---------------------------------------------------------: |
      |**Gajim** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Gajim.org](https://gajim.org/download) |
+     |**Fluux Messenger**[^fluux] | :fontawesome-solid-check: | :fontawesome-solid-check: | [GitHub](https://github.com/processone/fluux-messenger/releases/latest) |
      |**Dino** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Dino.im](https://dino.im/#download) |
 
 === ":fontawesome-brands-apple: macOS"
@@ -182,6 +184,7 @@ Detailed information about the clients available for working with **Chatrix.One*
      |:---------|:------------------:|:------------------:|------------------------------------------------ ---------------------------:|
      |**Monal**| :fontawesome-solid-check: | :fontawesome-solid-check: | [App Store for Mac](https://apps.apple.com/us/app/monal-xmpp-chatting/id1637078500?mt=12) |
      |**Gajim** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Gajim.org](https://gajim.org/download) |
+     |**Fluux Messenger**[^fluux] | :fontawesome-solid-check: | :fontawesome-solid-check: | [GitHub](https://github.com/processone/fluux-messenger/releases/latest) |
      |**Beagle IM** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Website](https://beagle.im/) |
 
 === ":fontawesome-brands-firefox: Web"
@@ -758,3 +761,5 @@ Contacts are available at the bottom of the page, as well as in the [About](/en/
 ## Why don't you answer my question?
 
 I've probably already answered your question in the lines above.
+
+[^fluux]: New, from ProcessOne, the makers of Ejabberd, the software behind **Chatrix.One**. **Fluux Messenger** encrypts with **OpenPGP** (OX). It has no **OMEMO** yet, so it cannot read messages encrypted with **OMEMO**.

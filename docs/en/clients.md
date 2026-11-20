@@ -32,12 +32,14 @@ Client is the application (software) through which we use the service. It is imp
 | Client |Free | Open Source | Link |
 |:---------|:------------------:|:---------------- --:|:-------------------------------------------:|
 |**Gajim** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Gajim.org](https://gajim.org/download) |
+|**Fluux Messenger**[^fluux] | :fontawesome-solid-check: | :fontawesome-solid-check: | [GitHub](https://github.com/processone/fluux-messenger/releases/latest) |
 
 ### :fontawesome-brands-linux: Linux
 
 | Client | Free | Open Source | Link |
 |:---------|:------------------:|:---------------- --:|:---------------------------------------------------------: |
 |**Gajim** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Gajim.org](https://gajim.org/download) |
+|**Fluux Messenger**[^fluux] | :fontawesome-solid-check: | :fontawesome-solid-check: | [GitHub](https://github.com/processone/fluux-messenger/releases/latest) |
 |**Dino** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Dino.im](https://dino.im/#download) |
 
 ### :fontawesome-brands-apple: macOS
@@ -46,6 +48,7 @@ Client is the application (software) through which we use the service. It is imp
 |:---------|:------------------:|:------------------:|:----------------------------------------------------------------------------------:|
 |**Monal**| :fontawesome-solid-check: | :fontawesome-solid-check: | [App Store for Mac](https://apps.apple.com/us/app/monal-xmpp-chatting/id1637078500?mt=12) |
 |**Gajim** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Gajim.org](https://gajim.org/download) |
+|**Fluux Messenger**[^fluux] | :fontawesome-solid-check: | :fontawesome-solid-check: | [GitHub](https://github.com/processone/fluux-messenger/releases/latest) |
 |**Beagle IM** | :fontawesome-solid-check: | :fontawesome-solid-check: | [Website](https://beagle.im/)|
 
 ### :fontawesome-brands-firefox: Web based
@@ -69,6 +72,8 @@ Client is the application (software) through which we use the service. It is imp
      The **Profanity** terminal client is available for: **Linux, FreeBSD, OpenBSD, OSX, Windows, and Android**[^1].
 
 [^1]: On **Android** this is done via the [Termux](https://play.google.com/store/apps/details?id=com.termux) app.
+
+[^fluux]: New, from ProcessOne, the makers of Ejabberd, the software behind **Chatrix.One**. **Fluux Messenger** encrypts with **OpenPGP** (OX). It has no **OMEMO** yet, so it cannot read messages encrypted with **OMEMO**.
 
 A list of clients, for various operating systems, is available on the official page of [XMPP](https://xmpp.org/software/). Note that not all clients are fully compliant with the latest protocol standards. Up-to-date information on client compatibility with the **OMEMO** encryption method is available on the page [Are we OMEMO yet?](https://omemo.top/)
 

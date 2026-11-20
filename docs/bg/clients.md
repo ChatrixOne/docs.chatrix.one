@@ -32,12 +32,14 @@
 | Клиент   |Безплатен           |  Отворен код       | Линк                                        |
 |:---------|:------------------:|:------------------:|:-------------------------------------------:|
 |Gajim | :fontawesome-solid-check: | :fontawesome-solid-check: | [**Gajim.org**](https://gajim.org/download) |
+|**Fluux Messenger**[^fluux] | :fontawesome-solid-check: | :fontawesome-solid-check: | [**GitHub**](https://github.com/processone/fluux-messenger/releases/latest) |
 
 ### :fontawesome-brands-linux: Linux
 
 | Клиент   | Безплатен          |  Отворен код       | Линк                                         |
 |:---------|:------------------:|:------------------:|:--------------------------------------------:|
 |Gajim | :fontawesome-solid-check: |  :fontawesome-solid-check: | [**Gajim.org**](https://gajim.org/download) |
+|**Fluux Messenger**[^fluux] | :fontawesome-solid-check: | :fontawesome-solid-check: | [**GitHub**](https://github.com/processone/fluux-messenger/releases/latest) |
 |Dino  | :fontawesome-solid-check: |  :fontawesome-solid-check: | [**Dino.im**](https://dino.im/#download)    |
 
 ### :fontawesome-brands-apple: macOS
@@ -46,6 +48,7 @@
 |:---------|:------------------:|:------------------:|:------------------------------------------------------------------------------:|
 |Monal| :fontawesome-solid-check: | :fontawesome-solid-check: | [**App Store for Mac**](https://apps.apple.com/us/app/monal-xmpp-chatting/id1637078500?mt=12) |
 |Gajim | :fontawesome-solid-check: | :fontawesome-solid-check: | [**Gajim.org**](https://gajim.org/download) |
+|**Fluux Messenger**[^fluux] | :fontawesome-solid-check: | :fontawesome-solid-check: | [**GitHub**](https://github.com/processone/fluux-messenger/releases/latest) |
 |**Beagle IM** | :fontawesome-solid-check: | :fontawesome-solid-check: | [**Уебсайт**](https://beagle.im/)|
 
 ### :fontawesome-brands-firefox: Уеб базиран
@@ -69,6 +72,8 @@
     Терминалният клиент **Profanity** е наличен за: **Linux, FreeBSD, OpenBSD, OSX, Windows и Android**[^1].
 
 [^1]: Под **Android** това става чрез приложението [**Termux**](https://play.google.com/store/apps/details?id=com.termux).
+
+[^fluux]: Ново приложение от ProcessOne, създателите на Ejabberd, софтуера зад **Chatrix.One**. **Fluux Messenger** криптира с **OpenPGP** (OX). Все още няма **OMEMO**, затова не може да чете съобщения, криптирани с **OMEMO**.
 
 Списък с клиенти, за различни операционни системи, е наличен на официалната страница на [XMPP](https://xmpp.org/software/). Имайте предвид, че не всички клиенти са напълно съвместими с последните стандарти на протокола. Актуална информация относно съвместимостта на клиентите, с метода на криптиране **OMEMO**, е достъпна на страницата [**Are we OMEMO yet?**](https://omemo.top/)
 
