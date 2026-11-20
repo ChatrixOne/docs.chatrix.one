@@ -1281,6 +1281,24 @@ code, kbd, pre, .md-typeset code, .md-typeset pre {
   color: #ffffff !important;
 }
 
+/* A clicked button keeps the focus, also after going back to the page.
+   The theme fills a focused button with green, and the forced green text
+   above then disappeared until hover. Mouse focus keeps the normal look,
+   keyboard focus gets the hover look. */
+.md-typeset .md-button:not(.md-button--primary):focus:not(:focus-visible):not(:hover) {
+  background-color: transparent !important;
+}
+.md-typeset .md-button:not(.md-button--primary):focus-visible {
+  background-color: #00c896 !important;
+  border-color: #00c896 !important;
+  color: #0a0e14 !important;
+}
+[data-md-color-scheme="default"] .md-typeset .md-button:not(.md-button--primary):focus-visible {
+  background-color: #00a87a !important;
+  border-color: #00a87a !important;
+  color: #ffffff !important;
+}
+
 /* ── Account options (includes/plans-*.md) ───────────────────── */
 .md-typeset .plans table:not([class]) {
   display: table;
@@ -1383,4 +1401,62 @@ code, kbd, pre, .md-typeset code, .md-typeset pre {
   margin: 0.8em 0 1.2em;
   border-radius: 14px;
   border: 1px solid rgba(149,157,165,0.35);
+}
+
+/* ── Status page: live status card and services table ────────── */
+.md-typeset .cx-status {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem 1.5rem;
+  margin: 0 0 1.5rem;
+  padding: 1rem 1.25rem;
+  border-radius: 10px;
+  border: 1px solid color-mix(in srgb, var(--md-primary-fg-color) 30%, transparent);
+  border-left: 4px solid var(--md-primary-fg-color);
+  background: color-mix(in srgb, var(--md-primary-fg-color) 6%, transparent);
+}
+.md-typeset .cx-status > div { flex: 1 1 20rem; }
+.md-typeset .cx-status p { margin: 0.35rem 0; }
+.md-typeset .cx-status .cx-status__eyebrow {
+  margin: 0 0 0.4rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--md-primary-fg-color);
+}
+.md-typeset .cx-status .cx-status__note {
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light);
+}
+.md-typeset .cx-status .cx-status__note .twemoji { color: var(--md-primary-fg-color); }
+.md-typeset .cx-status .md-button { margin: 0; white-space: nowrap; }
+
+.md-typeset .cx-services .md-typeset__table { width: 100%; }
+.md-typeset .cx-services table:not([class]) { display: table; width: 100%; }
+.md-typeset .cx-services td { vertical-align: middle; }
+.md-typeset .cx-services td:first-child { font-weight: 600; }
+.md-typeset .cx-services img { display: inline-block; vertical-align: middle; }
+@media screen and (max-width: 600px) {
+  .md-typeset .cx-status { padding: 0.9rem 1rem; }
+  .md-typeset .cx-status > p { flex: 1 1 100%; }
+  .md-typeset .cx-status .md-button { display: block; padding: 0.6em 1em; text-align: center; white-space: normal; }
+  .md-typeset .cx-services { margin-left: -0.8rem; margin-right: -0.8rem; }
+  .md-typeset .cx-services table:not([class]) th,
+  .md-typeset .cx-services table:not([class]) td { padding: 0.6em 0.4em; }
+  /* Phones: status and 24 hours only; the rest is on status.chatrix.one */
+  .md-typeset .cx-services th:nth-child(3),
+  .md-typeset .cx-services td:nth-child(3),
+  .md-typeset .cx-services th:nth-child(n+5),
+  .md-typeset .cx-services td:nth-child(n+5) { display: none; }
+}
+
+/* ── Home page logo ──────────────────────────────────────────── */
+.md-typeset .cx-home-logo { text-align: center; margin: 0 0 0.5rem; }
+.md-typeset .cx-home-logo p { margin: 0; }
+@media screen and (max-width: 600px) {
+  .md-typeset .cx-home-logo img { width: 88px; height: 88px; }
 }
