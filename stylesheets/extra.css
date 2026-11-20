@@ -1460,3 +1460,4 @@ code, kbd, pre, .md-typeset code, .md-typeset pre {
 @media screen and (max-width: 600px) {
   .md-typeset .cx-home-logo img { width: 88px; height: 88px; }
 }
+.md-typeset h1.cx-home-title { text-align: center; }
